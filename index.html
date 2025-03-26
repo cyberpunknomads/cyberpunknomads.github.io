@@ -1,13 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>SOS Kamera</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberPunkNomads</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            color: #00ff00;
+            font-family: "Courier New", monospace;
+            text-align: center;
+            flex-direction: column;
+        }
+        .container {
+            max-width: 640px;
+            border: 2px solid #00ff00;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 10px #00ff00;
+        }
+        h1 {
+            font-size: 3rem;
+            text-shadow: 0 0 5px #00ff00;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .links a {
+            display: block;
+            color: #00ff00;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        .links a:hover {
+            text-decoration: underline;
+            color: #33ff33;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const text = "CyberPunkNomads";
+            const hexArray = text.split('').map(char => char.charCodeAt(0).toString(16).toUpperCase());
+            const countdownElement = document.getElementById("countdown");
+            let index = 0;
+            
+            function getRandomColor() {
+                const r = Math.floor(Math.random() * 256);
+                const g = Math.floor(Math.random() * 256);
+                const b = Math.floor(Math.random() * 256);
+                return `rgb(${r}, ${g}, ${b})`;
+            }
+            
+            function showNextHex() {
+                countdownElement.textContent = hexArray[index];
+                countdownElement.style.color = getRandomColor();
+                index = (index + 1) % hexArray.length;
+                setTimeout(showNextHex, 1000);
+            }
+            
+            showNextHex();
+        });
+    </script>
 </head>
 <body>
-    <h2>SOS Kamera Live Visas</h2>
-    <video id="video" width="640" height="480" autoplay playsinline></video>
-    <p id="location"></p>
-    <script src="script.js"></script>
+    <div class="container">
+        <h1>CyberPunkNomads</h1>
+        <p id="countdown"></p>
+        <div class="links">
+            <a href="#">Twitter</a>
+            <a href="https://github.com/cyberpunknomads">GitHub</a>
+            <a href="#">Discord</a>
+            <a href="#">Docs</a>
+        </div>
+    </div>
 </body>
 </html>
-
