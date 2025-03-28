@@ -10,50 +10,139 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: black;
+            background-color: black; /* Black background for the entire body */
             color: #00ff00;
-            font-family: "Courier New", monospace;
+            font-family: 'Courier New', monospace;
             text-align: center;
             flex-direction: column;
+            position: relative;
         }
+
         .container {
             max-width: 640px;
             border: 2px solid #00ff00;
             padding: 20px;
             background: rgba(0, 0, 0, 0.8);
             box-shadow: 0 0 10px #00ff00;
+            backdrop-filter: blur(5px);
         }
+
         h1 {
             font-size: 3rem;
-            text-shadow: 0 0 5px #00ff00;
+            text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
+            animation: neonGlow 1.5s ease-in-out infinite alternate;
         }
+
+        @keyframes neonGlow {
+            0% {
+                text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
+            }
+            100% {
+                text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
+            }
+        }
+
         p {
             font-size: 1.2rem;
             margin-top: 10px;
+            color: #00ff00;
+            text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
         }
+
         .links {
             margin-top: 20px;
         }
+
         .links a {
             display: block;
             color: #00ff00;
             text-decoration: none;
             font-size: 1.2rem;
             margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #00ff00;
+            border-radius: 5px;
             transition: 0.3s;
+            letter-spacing: 1px;
         }
+
         .links a:hover {
             text-decoration: underline;
             color: #33ff33;
+            background-color: rgba(0, 255, 0, 0.2);
+            box-shadow: 0 0 10px #00ff00;
+            transform: scale(1.1);
+        }
+
+        /* Hamster Animation */
+        .hamster {
+            position: absolute;
+            bottom: 0;
+            width: 100px;
+            height: 100px;
+            background: url('images/hamster-dance.gif') no-repeat center center;
+            background-size: contain;
+            animation: dance 1s infinite, moveLeftRight 2s infinite;
+            cursor: pointer; /* Makes the hamster clickable */
+        }
+
+        @keyframes dance {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-20px) rotate(10deg);
+            }
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+        }
+
+        @keyframes moveLeftRight {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(20px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        /* Gizmo Image */
+        .gizmo {
+            position: absolute;
+            bottom: 0;
+            left: 1100px; /* Position it to the right of the hamster */
+            width: 100px;
+            height: 100px;
+            background: url('images/Gizmo.png') no-repeat center center;
+            background-size: contain;
         }
     </style>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
+            const hamster = document.querySelector('.hamster');
+            const audio = new Audio('sounds/internet.mp3');
+
+            // Play sound when hovering over or clicking on the hamster
+            hamster.addEventListener('mouseover', function () {
+                audio.currentTime = 0; // Rewind to the start of the audio
+                audio.play();
+            });
+
+            hamster.addEventListener('click', function () {
+                audio.currentTime = 0; // Rewind to the start of the audio
+                audio.play();
+            });
+
             const text = "CyberPunkNomads";
             const hexArray = text.split('').map(char => char.charCodeAt(0).toString(16).toUpperCase());
             const countdownElement = document.getElementById("countdown");
@@ -82,11 +171,18 @@
         <h1>CyberPunkNomads</h1>
         <p id="countdown"></p>
         <div class="links">
-            <a href="#">Twitter</a>
+            <a href="#">restricted</a>
             <a href="https://github.com/cyberpunknomads">GitHub</a>
-            <a href="#">Discord</a>
-            <a href="#">Docs</a>
+            <a href="#">restricted</a>
+            <a href="#">restricted</a>
         </div>
     </div>
+
+    <!-- Hamster Dance -->
+    <div class="hamster"></div>
+
+    <!-- Gizmo Image -->
+    <div class="gizmo"></div>
+
 </body>
 </html>
