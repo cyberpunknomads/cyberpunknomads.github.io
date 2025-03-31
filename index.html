@@ -16,7 +16,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: black; /* Black background for the entire body */
+            background-color: black;
             color: #00ff00;
             font-family: 'Courier New', monospace;
             text-align: center;
@@ -25,31 +25,24 @@
         }
 
         .container {
+            width: 60vw;
             max-width: 640px;
             border: 2px solid #00ff00;
             padding: 20px;
             background: rgba(0, 0, 0, 0.8);
             box-shadow: 0 0 10px #00ff00;
             backdrop-filter: blur(5px);
+            position: relative;
         }
 
         h1 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
             animation: neonGlow 1.5s ease-in-out infinite alternate;
         }
 
-        @keyframes neonGlow {
-            0% {
-                text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
-            }
-            100% {
-                text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
-            }
-        }
-
         p {
-            font-size: 1.2rem;
+            font-size: 1rem;
             margin-top: 10px;
             color: #00ff00;
             text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
@@ -63,7 +56,7 @@
             display: block;
             color: #00ff00;
             text-decoration: none;
-            font-size: 1.2rem;
+            font-size: 1rem;
             margin-top: 10px;
             padding: 10px;
             border: 1px solid #00ff00;
@@ -80,51 +73,45 @@
             transform: scale(1.1);
         }
 
-        /* Hamster Animation */
         .hamster {
             position: absolute;
-            bottom: 0;
-            width: 100px;
-            height: 100px;
-            background: url('images/hamster-dance.gif') no-repeat center center;
+            top: -55px;
+            right: 10px;
+            width: 60px;
+            height: 60px;
+            background-image: url('images/hamster-dance.gif');
             background-size: contain;
-            animation: dance 1s infinite, moveLeftRight 2s infinite;
-            cursor: pointer; /* Makes the hamster clickable */
+            background-repeat: no-repeat;
+            cursor: pointer;
         }
 
-        @keyframes dance {
-            0% {
-                transform: translateY(0) rotate(0deg);
-            }
-            50% {
-                transform: translateY(-20px) rotate(10deg);
-            }
-            100% {
-                transform: translateY(0) rotate(0deg);
-            }
-        }
-
-        @keyframes moveLeftRight {
-            0% {
-                transform: translateX(0);
-            }
-            50% {
-                transform: translateX(20px);
-            }
-            100% {
-                transform: translateX(0);
-            }
-        }
-
-        /* Gizmo Image */
         .gizmo {
             position: absolute;
-            bottom: 0;
-            left: 1100px; /* Position it to the right of the hamster */
-            width: 100px;
-            height: 100px;
-            background: url('images/Gizmo.png') no-repeat center center;
+            top: -58px;
+            left: 10px;
+            width: 60px;
+            height: 60px;
+            background-image: url('images/Gizmo.png');
             background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .binary-counter {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 1.2rem;
+            color: #00ff00;
+            text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+        }
+
+        @keyframes neonGlow {
+            0% {
+                text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
+            }
+            100% {
+                text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
+            }
         }
     </style>
     <script>
@@ -132,42 +119,36 @@
             const hamster = document.querySelector('.hamster');
             const audio = new Audio('sounds/internet.mp3');
 
-            // Play sound when hovering over or clicking on the hamster
             hamster.addEventListener('mouseover', function () {
-                audio.currentTime = 0; // Rewind to the start of the audio
+                audio.currentTime = 0;
                 audio.play();
             });
 
             hamster.addEventListener('click', function () {
-                audio.currentTime = 0; // Rewind to the start of the audio
+                audio.currentTime = 0;
                 audio.play();
             });
 
-            const text = "CyberPunkNomads";
-            const hexArray = text.split('').map(char => char.charCodeAt(0).toString(16).toUpperCase());
-            const countdownElement = document.getElementById("countdown");
+            const binaryCounter = document.getElementById("binary-counter");
+            const text = "CyberPunkNomads Was Here!";
+            const binaryArray = text.split('').map(char => char.charCodeAt(0).toString(2).padStart(8, '0'));
             let index = 0;
-            
-            function getRandomColor() {
-                const r = Math.floor(Math.random() * 256);
-                const g = Math.floor(Math.random() * 256);
-                const b = Math.floor(Math.random() * 256);
-                return `rgb(${r}, ${g}, ${b})`;
+
+            function updateBinaryCounter() {
+                binaryCounter.textContent = binaryArray[index];
+                index = (index + 1) % binaryArray.length;
+                setTimeout(updateBinaryCounter, 1000);
             }
-            
-            function showNextHex() {
-                countdownElement.textContent = hexArray[index];
-                countdownElement.style.color = getRandomColor();
-                index = (index + 1) % hexArray.length;
-                setTimeout(showNextHex, 1000);
-            }
-            
-            showNextHex();
+
+            updateBinaryCounter();
         });
     </script>
 </head>
 <body>
+    <div class="binary-counter" id="binary-counter"></div>
     <div class="container">
+        <div class="hamster"></div>
+        <div class="gizmo"></div>
         <h1>CyberPunkNomads</h1>
         <p id="countdown"></p>
         <div class="links">
@@ -177,12 +158,5 @@
             <a href="#">restricted</a>
         </div>
     </div>
-
-    <!-- Hamster Dance -->
-    <div class="hamster"></div>
-
-    <!-- Gizmo Image -->
-    <div class="gizmo"></div>
-
 </body>
 </html>
