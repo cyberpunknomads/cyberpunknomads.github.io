@@ -22,6 +22,7 @@
             text-align: center;
             flex-direction: column;
             position: relative;
+            overflow: hidden;
         }
 
         .container {
@@ -111,6 +112,65 @@
             }
             100% {
                 text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
+            }
+        }
+
+        /* Media Queries for Smaller Screens */
+        @media (max-width: 768px) {
+            .container {
+                width: 80vw;
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .links a {
+                font-size: 0.9rem;
+                padding: 8px;
+            }
+
+            .binary-counter {
+                font-size: 1rem;
+            }
+
+            .hamster, .gizmo {
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                width: 90vw;
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+
+            .links a {
+                font-size: 0.8rem;
+                padding: 6px;
+            }
+
+            .binary-counter {
+                font-size: 0.9rem;
+            }
+
+            .hamster, .gizmo {
+                width: 40px;
+                height: 40px;
             }
         }
     </style>
