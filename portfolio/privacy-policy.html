@@ -17,58 +17,82 @@
     h1 { color: #ffffff; font-size: 28px; margin-bottom: 4px; }
     h2 { color: #ffffff; font-size: 17px; margin-top: 32px; margin-bottom: 8px; }
     p  { margin: 0 0 16px; font-size: 14px; }
-    .meta { font-size: 12px; color: #888; margin-bottom: 32px; }
+    .meta { font-size: 12px; color: #888; margin-bottom: 8px; }
     a  { color: #a78bfa; }
+    .contact-block { background: #1a1a2e; border-radius: 8px; padding: 16px 20px; margin-top: 32px; }
   </style>
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="meta">Last updated: May 2026</p>
+  <p class="meta">Effective Date: 21 May 2026 &nbsp;|&nbsp; Last Updated: 21 May 2026</p>
+  <p class="meta">Controller: Portfolio Keeper (individual developer) &nbsp;|&nbsp; Contact: <a href="mailto:privacy.portfoliokeeper@gmail.com">privacy.portfoliokeeper@gmail.com</a></p>
 
-  <p>Portfolio Keeper is built on a straightforward principle: we collect only what is strictly necessary to operate the app, and nothing more. We do not sell your data, display advertising, or share your information with third parties for marketing or commercial purposes. This policy explains what we collect, why, and what rights you have. By using Portfolio Keeper you acknowledge that you have read and understood this Privacy Policy. Nothing in this policy limits or excludes any rights you have under applicable mandatory law, including the EU General Data Protection Regulation (GDPR).</p>
+  <p>Portfolio Keeper is built on a straightforward principle: we collect only what is strictly necessary to operate the app, and nothing more. We do not sell your data, display advertising, or share your information with third parties for marketing or commercial purposes. We do not track you across other apps or websites, and we do not use any advertising identifiers or cross-app tracking technologies. This policy explains what we collect, why, how it is protected, and what rights you have. By using Portfolio Keeper you acknowledge that you have read and understood this Privacy Policy. Nothing in this policy limits or excludes any rights you have under applicable mandatory law, including the EU General Data Protection Regulation (GDPR). This Privacy Policy is governed by Swedish law. The developer has not appointed a Data Protection Officer; all privacy-related queries should be directed to <a href="mailto:privacy.portfoliokeeper@gmail.com">privacy.portfoliokeeper@gmail.com</a>.</p>
 
   <h2>Age Requirement</h2>
-  <p>Portfolio Keeper is intended exclusively for users who are 18 years of age or older. By creating an account or otherwise using the app you confirm that you are at least 18 years old. We do not knowingly collect personal data from anyone under 18. If we become aware, or have reason to believe, that a user is under 18, we will suspend the account and delete the associated data as promptly as reasonably practicable. If you believe a minor has created an account, please contact us at <a href="mailto:privacy.portfoliokeeper@gmail.com">privacy.portfoliokeeper@gmail.com</a>.</p>
+  <p>Portfolio Keeper is intended exclusively for users who are 18 years of age or older. By creating an account or otherwise using the app you confirm that you are at least 18 years old. We do not knowingly collect personal data from anyone under 18. If we become aware, or have reason to believe, that a user is under 18, we will suspend the account and delete the associated personal data as promptly as reasonably practicable, and in any event within 30 days of becoming aware. If you believe a minor has created an account, please contact us immediately at <a href="mailto:privacy.portfoliokeeper@gmail.com">privacy.portfoliokeeper@gmail.com</a>.</p>
 
   <h2>What We Collect</h2>
-  <p>We collect and process only the minimum personal data required to provide the service:</p>
-  <p>• <strong>Email address</strong> — used solely for account authentication and, if you choose to enable them, optional summary notifications.<br>
-  • <strong>Portfolio data</strong> (ticker symbols, quantities, and purchase prices that you enter manually) — stored solely to display that data back to you within the app.</p>
-  <p>We do not collect your name, phone number, physical address, precise or approximate location, device identifiers, advertising IDs, biometric data, browsing history, or any other category of personal data beyond those listed above. All data you enter is data you have chosen to provide. We make no attempt to infer, derive, or enrich your profile.</p>
+  <p>We collect the minimum data necessary to provide the service. Specifically:</p>
+  <p>
+    • <strong>Email address</strong> — collected when you register an account. Used solely for authentication, password reset, and optional service-related notifications you have consented to receive.<br><br>
+    • <strong>Portfolio data you enter manually</strong> — this includes stock ticker symbols, share quantities, purchase prices, purchase dates, and any notes or labels you choose to enter. This data is created entirely by you and is used only to display it back to you within the app.<br><br>
+    • <strong>Authentication tokens</strong> — short-lived session tokens stored in your device's secure local storage (iOS Keychain / Android Keystore) by the Supabase authentication library, used to keep you logged in between sessions.
+  </p>
+  <p>We do not collect your name, phone number, physical address, location, device identifiers, advertising IDs (IDFA, GAID), biometric data, contacts, photos, browsing history, or any financial account credentials. We do not use advertising networks, third-party analytics SDKs, or crash-reporting services that collect personal data.</p>
 
   <h2>How We Use Your Data</h2>
-  <p>We use your data for the following purposes and no others:</p>
-  <p>• <strong>Authentication and account security</strong> — your email address enables you to log in and to receive password-reset messages.<br>
-  • <strong>Service delivery</strong> — your portfolio data is stored and retrieved solely so the app can display it back to you. We do not analyse, aggregate, or derive insights from your portfolio for any purpose other than displaying it to you.<br>
-  • <strong>Optional communications</strong> — if you opt in, we may send periodic summary emails to your registered address. You may withdraw this consent at any time through the app settings or by contacting us.</p>
-  <p>We do not use your data for profiling, advertising, sale to third parties, or any purpose not listed above. The legal bases for processing under GDPR are: performance of the contract between you and us (authentication, service delivery) and, where applicable, your consent (optional communications).</p>
+  <p>We use the data we collect for the following purposes and on the following legal bases under GDPR:</p>
+  <p>
+    • <strong>Authentication and account management</strong> (email) — necessary for the performance of our contract with you (GDPR Art. 6(1)(b)).<br>
+    • <strong>Password reset and security communications</strong> (email) — necessary for the performance of our contract with you (GDPR Art. 6(1)(b)).<br>
+    • <strong>Optional summary or notification emails</strong> (email) — only if you have explicitly opted in; based on your consent (GDPR Art. 6(1)(a)). You may withdraw consent at any time via Settings or by contacting <a href="mailto:privacy.portfoliokeeper@gmail.com">privacy.portfoliokeeper@gmail.com</a>.<br>
+    • <strong>Displaying your portfolio data to you</strong> — necessary for the performance of our contract with you (GDPR Art. 6(1)(b)).<br>
+    • <strong>Closing inactive accounts</strong> — based on our legitimate interests in storage minimisation under GDPR Art. 5(1)(e).
+  </p>
+  <p>We do not use your data for profiling, advertising, or any purpose not listed above. We do not make automated decisions about you that produce legal or similarly significant effects.</p>
 
   <h2>Data Storage &amp; Security</h2>
-  <p>Your data is stored on infrastructure provided by Supabase, Inc., operating within the European Union. We use row-level security (RLS) policies so that each user can access only their own data. All data in transit is encrypted using HTTPS/TLS. We review and update our security practices on a best-effort basis.</p>
-  <p>While we take reasonable and industry-standard steps to protect your data, no method of transmission over the internet and no method of electronic storage is completely secure. We cannot guarantee absolute security, and we expressly disclaim liability for unauthorised access to, alteration of, disclosure of, or destruction of your data that results from circumstances beyond our reasonable control, including but not limited to third-party infrastructure failures, zero-day vulnerabilities, or force majeure events. You are responsible for maintaining the confidentiality of your account credentials.</p>
+  <p>Your data is stored on servers operated by Supabase, Inc., located within the European Union, under a GDPR-compliant Data Processing Agreement. All data in transit is encrypted using HTTPS/TLS. All data stored on Supabase infrastructure is <strong>encrypted at rest</strong>. We implement Row Level Security (RLS) so that your data is accessible only to your authenticated account.</p>
+  <p>We take reasonable and appropriate technical and organisational measures to protect your personal data. However, no method of electronic transmission or storage is 100% secure. To the maximum extent permitted by applicable law, we are not liable for security breaches that are beyond our reasonable control, provided that we have implemented the measures described in this policy.</p>
 
   <h2>Data Retention &amp; Deletion</h2>
-  <p>We retain your personal data only for as long as your account remains active or as otherwise required by law. You may permanently delete your account and all associated data at any time through the Settings screen within the app. Following a deletion request, we will remove your data from our active systems within 30 days, subject to any shorter or longer period required by applicable law.</p>
-  <p>Accounts that have shown no sign-in activity for a continuous period of three (3) years or more are considered inactive. We will send a notice to your registered email address at least 30 days before closing an inactive account. If no response or activity is recorded within that 30-day period, the account and all associated data will be deleted.</p>
+  <p>Your personal data is retained for as long as your account is active. You may delete your account at any time via Settings. Upon deletion, your email address and portfolio data will be permanently removed from our systems within 30 days. Authentication tokens stored locally on your device are cleared immediately upon sign-out or deletion.</p>
+  <p><strong>To request deletion:</strong> use the Delete Account function in Settings, or email <a href="mailto:privacy.portfoliokeeper@gmail.com">privacy.portfoliokeeper@gmail.com</a> with the subject <em>"Data Deletion Request"</em> from your registered email address. We will confirm deletion within 30 days.</p>
+  <p>Accounts inactive for 36 or more consecutive months are considered dormant. We will email you at least 30 days before closing a dormant account. This processing is based on our legitimate interests in storage minimisation (GDPR Art. 5(1)(e)).</p>
 
   <h2>Third-Party Services</h2>
-  <p>We use a limited number of third-party services that are necessary to operate the app:</p>
-  <p>• <strong>Yahoo Finance (public API)</strong> — the app retrieves publicly available market price data using only ticker symbols. No personal data, account information, or any data that identifies you is transmitted to Yahoo Finance. Price data obtained from Yahoo Finance may be delayed, incomplete, or inaccurate. We have no affiliation with Yahoo Finance and are not responsible for the availability, accuracy, or continuity of their data.<br><br>
-  • <strong>Supabase, Inc.</strong> — acts as our data processor under a data processing agreement consistent with GDPR requirements, storing your email address and portfolio data on EU infrastructure. Their privacy policy is available at <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</p>
-  <p>We do not use analytics SDKs, advertising networks, crash-reporting services that collect personal data, or any other third-party service that processes your personal data, beyond those listed above.</p>
+  <p>We use the following third-party services:</p>
+  <p>
+    • <strong>Supabase, Inc.</strong> — cloud database and authentication. Acts as our data processor under a GDPR-compliant DPA. EU infrastructure. Privacy policy: <a href="https://supabase.com/privacy">supabase.com/privacy</a><br><br>
+    • <strong>Yahoo Finance public API</strong> — used to retrieve publicly available stock price data. Only stock ticker symbols are transmitted; no personal data is ever sent to Yahoo Finance. Yahoo Finance data may be delayed, inaccurate, incomplete, or unavailable. Yahoo Finance is an independent third-party data source, not a data processor under this policy.
+  </p>
+  <p>We do not use analytics SDKs, advertising networks, social media SDKs, or crash-reporting services that collect or transmit personal data.</p>
+
+  <h2>No Tracking</h2>
+  <p>Portfolio Keeper does not track you across third-party apps or websites. We do not use advertising identifiers, cross-site tracking cookies, fingerprinting, or any similar technology to identify or follow you outside of the app. This disclosure is made in accordance with Apple's App Tracking Transparency framework and Google Play's data safety requirements.</p>
 
   <h2>Your Rights (GDPR)</h2>
-  <p>If you are located in the European Economic Area, you have the following rights in relation to your personal data:</p>
-  <p>• <strong>Right of access</strong> — you may request a copy of the personal data we hold about you.<br>
-  • <strong>Right to rectification</strong> — you may ask us to correct inaccurate data. (Most of your data can be corrected directly within the app.)<br>
-  • <strong>Right to erasure</strong> — you may request deletion of your personal data. You can exercise this right directly via the Settings screen; you may also contact us.<br>
-  • <strong>Right to data portability</strong> — you may request your data in a structured, commonly used, machine-readable format.<br>
-  • <strong>Right to restrict processing</strong> — you may ask us to limit how we use your data in certain circumstances.<br>
-  • <strong>Right to object</strong> — you may object to processing carried out on the basis of our legitimate interests.<br>
-  • <strong>Right to withdraw consent</strong> — where processing is based on your consent, you may withdraw it at any time without affecting the lawfulness of processing before withdrawal.</p>
-  <p>To exercise any of these rights, contact us at <a href="mailto:privacy.portfoliokeeper@gmail.com">privacy.portfoliokeeper@gmail.com</a>. We will respond within 30 days. If you believe we have not handled your data in accordance with applicable law, you have the right to lodge a complaint with the Swedish Authority for Privacy Protection (Integritetsskyddsmyndigheten, <a href="https://www.imy.se">imy.se</a>), or with the supervisory authority in your country of residence.</p>
+  <p>If you are in the European Economic Area, you have the following rights:</p>
+  <p>
+    • <strong>Right of access</strong> — request a copy of your personal data.<br>
+    • <strong>Right to rectification</strong> — correct inaccurate data (most can be corrected directly in the app).<br>
+    • <strong>Right to erasure</strong> — request deletion of your personal data.<br>
+    • <strong>Right to data portability</strong> — receive your data in a machine-readable format.<br>
+    • <strong>Right to restrict processing</strong> — limit how we use your data in certain circumstances.<br>
+    • <strong>Right to object</strong> — object to processing based on our legitimate interests.<br>
+    • <strong>Right to withdraw consent</strong> — withdraw consent at any time without affecting prior processing.
+  </p>
+  <p>Contact: <a href="mailto:privacy.portfoliokeeper@gmail.com">privacy.portfoliokeeper@gmail.com</a>. We will respond within one month as required by GDPR Art. 12. You also have the right to lodge a complaint with the Swedish Authority for Privacy Protection (Integritetsskyddsmyndigheten, <a href="https://www.imy.se">imy.se</a>) or the supervisory authority in your country of residence.</p>
+  <p>Nothing in this Privacy Policy overrides, limits, or waives any rights you have under GDPR or other applicable mandatory law.</p>
 
   <h2>Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. If we make a material change — meaning a change that meaningfully alters your rights or our obligations — we will notify you within the app before the change takes effect. Continued use of the app after the effective date of a material change constitutes your acceptance of the updated policy.</p>
+  <p>We may update this Privacy Policy from time to time. We will notify you of material changes by displaying a notice within the app before the changes take effect. Continued use of the app after the effective date of a revised policy constitutes your acceptance of the revised policy. If you do not agree to a material change, you may delete your account before it takes effect.</p>
+
+  <div class="contact-block">
+    <strong style="color:#fff">Contact</strong><br>
+    For any questions, concerns, or requests relating to this Privacy Policy or your personal data:<br>
+    <a href="mailto:privacy.portfoliokeeper@gmail.com">privacy.portfoliokeeper@gmail.com</a>
+  </div>
 </body>
 </html>
