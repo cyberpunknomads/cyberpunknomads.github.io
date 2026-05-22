@@ -111486,79 +111486,78 @@ return A.dz(u.h,0,null).mQ(s)},
 ane(a,b){return A.dz(u.h,0,null).mQ(A.R(["path","google-finance","symbol",a,"exchange",b],t.N,t.z))},
 n2(a,b){return this.a9o(a,b)},
 SW(a){return this.n2(a,B.tp)},
-a9o(d1,d2){var s=0,r=A.w(t.nA),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0
-var $async$n2=A.r(function(d4,d5){if(d4===1){o.push(d5)
-s=p}while(true)switch(s){case 0:c7=d2.c
-c8=d1+"_"+c7
-c9=n.a
-if(c9.ar(c8)&&n.c.ar(c8)){c0=Date.now()
-c1=n.c.h(0,c8)
-c1.toString
-if(new A.aE(c0,0,!1).dw(c1).a<12e7){q=c9.h(0,c8)
+a9o(d0,d1){var s=0,r=A.w(t.nA),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9
+var $async$n2=A.r(function(d3,d4){if(d3===1){o.push(d4)
+s=p}while(true)switch(s){case 0:c6=d1.c
+c7=d0+"_"+c6
+c8=n.a
+if(c8.ar(c7)&&n.c.ar(c7)){b9=Date.now()
+c0=n.c.h(0,c7)
+c0.toString
+if(new A.aE(b9,0,!1).dw(c0).a<12e7){q=c8.h(0,c7)
 s=1
 break}}p=4
-c0=t.N
-m=n.yq("v8/finance/chart/"+d1,A.R(["interval",d2.d,"range",c7],c0,c0))
+b9=t.N
+m=n.yq("v8/finance/chart/"+d0,A.R(["interval",d1.d,"range",c6],b9,b9))
 s=7
 return A.p(A.wb(m,n.gy0()).ix(B.eD,new A.ayJ()),$async$n2)
-case 7:l=d5
-if(l.b===200){c7=l
-k=B.aE.bC(A.fJ(A.fI(c7.e)).bC(c7.w))
+case 7:l=d4
+if(l.b===200){c6=l
+k=B.aE.bC(A.fJ(A.fI(c6.e)).bC(c6.w))
 if(J.ak(J.ak(k,"chart"),"result")==null||J.dI(J.ak(J.ak(k,"chart"),"result"))){q=null
 s=1
 break}j=J.ak(J.ak(J.ak(k,"chart"),"result"),0)
 i=J.ak(j,"meta")
 h=J.ak(J.ak(J.ak(j,"indicators"),"quote"),0)
-c7=J.ak(i,"regularMarketPrice")
-c2=c7==null?null:J.f1(c7)
-g=c2==null?0:c2
-c7=J.ak(i,"chartPreviousClose")
-c3=c7==null?null:J.f1(c7)
-f=c3==null?g:c3
-e=!J.f(f,0)?(g-f)/f*100:0
-d=A.c([],t.n)
-c7=t.Y
-c=A.c([],c7)
-b=A.c([],c7)
-c7=t.kc
-a=c7.a(J.ak(h,"close"))
-a0=c7.a(J.ak(h,"volume"))
-a1=c7.a(J.ak(j,"timestamp"))
-if(a!=null)for(a2=0;a2<J.aP(a);++a2)if(J.ak(a,a2)!=null){J.eA(d,J.f1(J.ak(a,a2)))
-if(a0!=null&&a2<J.aP(a0)&&J.ak(a0,a2)!=null)J.eA(c,J.ak(a0,a2))
-else J.eA(c,0)
-if(a1!=null&&a2<J.aP(a1))J.eA(b,J.ak(a1,a2))}if(J.aP(d)===0){J.eA(d,g)
-J.eA(c,0)}c7=J.ak(i,"regularMarketOpen")
-a3=c7==null?null:J.f1(c7)
-c7=J.ak(i,"regularMarketDayHigh")
-a4=c7==null?null:J.f1(c7)
-c7=J.ak(i,"regularMarketDayLow")
-a5=c7==null?null:J.f1(c7)
-c7=J.ak(i,"fiftyTwoWeekHigh")
-a6=c7==null?null:J.f1(c7)
-c7=J.ak(i,"fiftyTwoWeekLow")
-a7=c7==null?null:J.f1(c7)
-a8=J.ak(i,"regularMarketVolume")
-a9=J.ak(i,"averageDailyVolume10Day")
-c4=A.bi(J.ak(i,"currency"))
-b0=c4==null?"USD":c4
+c6=J.ak(i,"regularMarketPrice")
+c1=c6==null?null:J.f1(c6)
+g=c1==null?0:c1
+c6=J.ak(i,"regularMarketChangePercent")
+c2=c6==null?null:J.f1(c6)
+f=c2==null?0:c2
+e=A.c([],t.n)
+c6=t.Y
+d=A.c([],c6)
+c=A.c([],c6)
+c6=t.kc
+b=c6.a(J.ak(h,"close"))
+a=c6.a(J.ak(h,"volume"))
+a0=c6.a(J.ak(j,"timestamp"))
+if(b!=null)for(a1=0;a1<J.aP(b);++a1)if(J.ak(b,a1)!=null){J.eA(e,J.f1(J.ak(b,a1)))
+if(a!=null&&a1<J.aP(a)&&J.ak(a,a1)!=null)J.eA(d,J.ak(a,a1))
+else J.eA(d,0)
+if(a0!=null&&a1<J.aP(a0))J.eA(c,J.ak(a0,a1))}if(J.aP(e)===0){J.eA(e,g)
+J.eA(d,0)}c6=J.ak(i,"regularMarketOpen")
+a2=c6==null?null:J.f1(c6)
+c6=J.ak(i,"regularMarketDayHigh")
+a3=c6==null?null:J.f1(c6)
+c6=J.ak(i,"regularMarketDayLow")
+a4=c6==null?null:J.f1(c6)
+c6=J.ak(i,"fiftyTwoWeekHigh")
+a5=c6==null?null:J.f1(c6)
+c6=J.ak(i,"fiftyTwoWeekLow")
+a6=c6==null?null:J.f1(c6)
+a7=J.ak(i,"regularMarketVolume")
+a8=J.ak(i,"averageDailyVolume10Day")
+c3=A.bi(J.ak(i,"currency"))
+a9=c3==null?"USD":c3
+b0=null
 b1=null
 b2=null
-b3=null
-try{b4=J.ak(i,"exDividendDate")
-b5=J.ak(i,"dividendDate")
-c5=J.ak(i,"earningsTimestamp")
-b6=c5==null?J.ak(i,"earningsTimestampStart"):c5
+try{b3=J.ak(i,"exDividendDate")
+b4=J.ak(i,"dividendDate")
+c4=J.ak(i,"earningsTimestamp")
+b5=c4==null?J.ak(i,"earningsTimestampStart"):c4
+if(b3!=null)b0=new A.aE(A.ir(B.c.d4(A.ca(b3))*1000,0,!1),0,!1)
 if(b4!=null)b1=new A.aE(A.ir(B.c.d4(A.ca(b4))*1000,0,!1),0,!1)
-if(b5!=null)b2=new A.aE(A.ir(B.c.d4(A.ca(b5))*1000,0,!1),0,!1)
-if(b6!=null)b3=new A.aE(A.ir(B.c.d4(A.ca(b6))*1000,0,!1),0,!1)}catch(d3){b7=A.a8(d3)
-A.m(b7)}c7=J.ak(i,"longName")
-if(c7==null)c7=J.ak(i,"shortName")
-if(c7==null)c7=d1
-b8=A.R(["currentPrice",g,"changePercent",e,"chartData",d,"volumeData",c,"timestamps",b,"name",c7,"currency",b0,"open",a3,"dayHigh",a4,"dayLow",a5,"fiftyTwoWeekHigh",a6,"fiftyTwoWeekLow",a7,"volume",a8,"averageVolume",a9,"exDividendDate",b1,"dividendDate",b2,"earningsDate",b3],c0,t.z)
-c9.n(0,c8,b8)
-n.c.n(0,c8,new A.aE(Date.now(),0,!1))
-q=b8
+if(b5!=null)b2=new A.aE(A.ir(B.c.d4(A.ca(b5))*1000,0,!1),0,!1)}catch(d2){b6=A.a8(d2)
+A.m(b6)}c6=J.ak(i,"longName")
+if(c6==null)c6=J.ak(i,"shortName")
+if(c6==null)c6=d0
+b7=A.R(["currentPrice",g,"changePercent",f,"chartData",e,"volumeData",d,"timestamps",c,"name",c6,"currency",a9,"open",a2,"dayHigh",a3,"dayLow",a4,"fiftyTwoWeekHigh",a5,"fiftyTwoWeekLow",a6,"volume",a7,"averageVolume",a8,"exDividendDate",b0,"dividendDate",b1,"earningsDate",b2],b9,t.z)
+c8.n(0,c7,b7)
+n.c.n(0,c7,new A.aE(Date.now(),0,!1))
+q=b7
 s=1
 break}q=null
 s=1
@@ -111567,9 +111566,9 @@ p=2
 s=6
 break
 case 4:p=3
-d0=o.pop()
-b9=A.a8(d0)
-A.m(b9)
+c9=o.pop()
+b8=A.a8(c9)
+A.m(b8)
 q=null
 s=1
 break
