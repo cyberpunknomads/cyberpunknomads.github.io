@@ -1,6 +1,6 @@
 {
-    "name": "trading_diary",
-    "short_name": "trading_diary",
+    "name": "Portfolio Keeper",
+    "short_name": "Portfolio Keeper",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
