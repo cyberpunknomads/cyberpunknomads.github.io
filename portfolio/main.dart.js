@@ -111613,7 +111613,7 @@ s.H(0,b)
 return A.dz(u.h,0,null).mO(s)},
 anf(a,b){return A.dz(u.h,0,null).mO(A.S(["path","google-finance","symbol",a,"exchange",b],t.N,t.z))},
 n0(a,b){return this.a9p(a,b)},
-SW(a){return this.n0(a,B.ts)},
+SW(a){return this.n0(a,B.N8)},
 a9p(d8,d9){var s=0,r=A.w(t.nA),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7
 var $async$n0=A.r(function(e1,e2){if(e1===1){o.push(e2)
 s=p}while(true)switch(s){case 0:d4=d9.c
@@ -112976,7 +112976,7 @@ j=n.ajT(m.a,m.c)
 a5.a=null
 p=9
 i=B.j.bL(new A.aK(Date.now(),0,!1).dz(l).a,864e8)
-h=i>1460?B.tt:B.N8
+h=i>1460?B.tt:B.N7
 s=12
 return A.p(n.d.n0("SPY",h),$async$tO)
 case 12:g=b4
@@ -113421,7 +113421,7 @@ gbe(){return[this.a,this.b]}}
 A.lE.prototype={}
 A.CW.prototype={
 a7(){var s=t.N,r=A.cp(["portfolio"],s),q=A.c([],t.s)
-return new A.JC(B.N7,r,q,A.z(s,t.ux),new A.d0(B.aK,$.aj()),A.nJ(!0,null,!0,!0,null,null,!1),A.c([],t.SN),A.kx())}}
+return new A.JC(B.ts,r,q,A.z(s,t.ux),new A.d0(B.aK,$.aj()),A.nJ(!0,null,!0,!0,null,null,!1),A.c([],t.SN),A.kx())}}
 A.JC.prototype={
 al(){this.aB()
 this.u_()},
@@ -120847,15 +120847,15 @@ B.xQ=s([B.i7,B.i8,B.i9,B.ia,B.rc,B.rd,B.re,B.rf,B.GT],A.ap("E<jm>"))
 B.a0K=s(["uU","bB","lL","iI","cC"],t.s)
 B.a0L=s([11,65534,65535,131070,131071,196606,196607,262142,262143,327678,327679,393214,393215,458750,458751,524286,524287,589822,589823,655358,655359,720894,720895,786430,786431,851966,851967,917502,917503,983038,983039,1048574,1048575,1114110,1114111],t.Y)
 B.aLV=new A.ey("1d","1d",0,"oneDay")
-B.ts=new A.ey("5d","1d",1,"fiveDays")
+B.N8=new A.ey("5d","1d",1,"fiveDays")
 B.aLT=new A.ey("1mo","1d",2,"oneMonth")
 B.aLW=new A.ey("3mo","1d",3,"threeMonths")
 B.aLS=new A.ey("6mo","1d",4,"sixMonths")
-B.N7=new A.ey("1y","1d",5,"oneYear")
-B.N8=new A.ey("3y","1wk",6,"threeYears")
+B.ts=new A.ey("1y","1d",5,"oneYear")
+B.N7=new A.ey("3y","1wk",6,"threeYears")
 B.tt=new A.ey("5y","1wk",7,"fiveYears")
 B.aLU=new A.ey("10y","1mo",8,"tenYears")
-B.xR=s([B.aLV,B.ts,B.aLT,B.aLW,B.aLS,B.N7,B.N8,B.tt,B.aLU],A.ap("E<ey>"))
+B.xR=s([B.aLV,B.N8,B.aLT,B.aLW,B.aLS,B.ts,B.N7,B.tt,B.aLU],A.ap("E<ey>"))
 B.a0M=s(["tbody","tfoot","thead","html"],t.s)
 B.SR=new A.y(1,1,0.6039215686274509,0,B.i)
 B.Sc=new A.y(1,0.6784313725490196,1,0.1843137254901961,B.i)
