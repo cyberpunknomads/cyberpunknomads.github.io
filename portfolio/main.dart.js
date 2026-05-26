@@ -115053,7 +115053,7 @@ e=a.aml(e)}else e="N/A"
 d=a.a
 if(d.e)d="Cost-weighted average holding time across closed positions \u2014 larger positions have more influence.\n\nMeasured from first buy date to last sell date for each stock."
 else d=d.f?"Average time you have been watching these stocks since the date each was added to your watchlist.":"Cost-weighted average time held per position \u2014 larger positions have more influence.\n\nMeasured from your earliest buy date to today. Multiple tranches count from the first purchase."
-return A.aE(a0,A.aE(a0,new A.ks(l,new A.DO(k,A.c([i,B.aQ,h,B.aQ,g,B.aQ,A.ao(A.c([A.aO(a.xf(a4,f,e,B.Wq,B.J,d),1)],j),B.l,B.e,B.h,0)],j),!1,B.V8,B.V6,a0),a0),B.n,a0,a0,new A.aB(n,a0,a0,m,a0,a0,B.v),a0,a0,a0,a0,a0,a0,a0,a0),B.n,a0,a0,new A.aB(a0,a0,a0,o,a0,B.pM,B.v),a0,a0,a0,new A.a3(2,6,16,6),a0,a0,a0,a0)},
+return A.aE(a0,A.aE(a0,new A.ks(l,new A.DO(k,A.c([i,B.aQ,h,B.aQ,g,B.aQ,A.ao(A.c([A.aO(a.xf(a4,f,e,B.Wq,B.J,d),1)],j),B.l,B.e,B.h,0)],j),!1,B.V8,B.V6,a0),a0),B.n,a0,a0,new A.aB(n,a0,a0,m,a0,a0,B.v),a0,a0,a0,a0,a0,a0,a0,a0),B.n,a0,a0,new A.aB(a0,a0,a0,o,a0,B.pM,B.v),a0,a0,a0,new A.a3(0,6,8,6),a0,a0,a0,a0)},
 CG(a,b,c,d,e,f,g){var s=null,r=A.a5(B.c.a3(127.5),B.a8.p()>>>16&255,B.a8.p()>>>8&255,B.a8.p()&255),q=A.as(12),p=A.c7(A.a5(51,e.p()>>>16&255,e.p()>>>8&255,e.p()&255),1),o=A.cy(d,e,s,16),n=A.K(a).ok.Q,m=t.p
 n=A.c([o,B.bj,A.aO(A.C(b,s,B.aq,s,s,n==null?s:n.po(B.q,11),s,s,s),1)],m)
 B.b.H(n,A.c([B.dQ,new A.a1o(f,s)],m))
@@ -115177,8 +115177,8 @@ m=A.K(a).ok.Q
 if(m==null)m=g
 else{k=f.giF()
 k.toString
-m=m.by(k>=0?B.z:B.u)}l.push(A.C("Change: "+e+p+"%",g,g,g,g,m,g,g,g))}B.b.H(o,l)}e=A.aO(A.af(o,B.w,B.e,B.h),3)
-p=A.aO(A.de(new A.TW(f.e,s,160,50,g),g,g),4)
+m=m.by(k>=0?B.z:B.u)}l.push(A.C("Change: "+e+p+"%",g,g,g,g,m,g,g,g))}B.b.H(o,l)}e=A.aO(A.af(o,B.w,B.e,B.h),2)
+p=A.aO(A.de(new A.TW(f.e,s,300,55,g),g,g),6)
 o=A.c9(f.c,f.y,2)
 m=A.K(a).ok.as
 o=A.C(o,g,g,g,g,m==null?g:m.v_(r,B.y),g,g,g)
