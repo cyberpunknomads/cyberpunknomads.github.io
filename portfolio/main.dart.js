@@ -113012,7 +113012,7 @@ for(a=1;a<J.aN(e);++a){a0=Math.abs(J.ad(e,a)-d)
 if(a0<b){b=a0
 c=a}}a1=J.ad(f,c)
 a2=J.n8(f)
-if(a1>0)a5.a=(a2-a1)/a1*100}else if(J.aN(f)>=2){a3=J.lL(f)
+if(a1>0&&J.aN(f)-c>5)a5.a=(a2-a1)/a1*100}else if(J.aN(f)>=2){a3=J.lL(f)
 a4=J.n8(f)
 if(a3>0)a5.a=(a4-a3)/a3*100}}p=4
 s=11
