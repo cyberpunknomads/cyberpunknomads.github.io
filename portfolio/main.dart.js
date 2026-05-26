@@ -110913,6 +110913,7 @@ break}p=4
 l=n.a.cV("journal_entries")
 k=a.dH()
 k.G(0,"user_id")
+k.G(0,"id")
 s=7
 return A.p(l.mz(0,k).qd().Jj(0),$async$nE)
 case 7:m=c
