@@ -119614,7 +119614,7 @@ g.push(A.aO(a.xM(a4,"Avg P/E Ratio",f,B.WV,B.a0,a.a.f?"Value-weighted average P/
 B.b.H(h,g)}h=A.ah(h,B.l,B.e,B.f,0)
 g=A.c([],j)
 if(!a.a.f){f=a.f?"\u2026":A.c7(q,p,2)
-B.b.H(g,A.c([A.aO(a.xM(a4,"Total Invested",f,B.WF,B.aA,a.a.e?"The total amount you originally paid to acquire the shares you subsequently sold (shares sold \xd7 avg buy price).":"Cost basis of your current open positions: avg buy price \xd7 shares still held.\n\nShares you have already sold are excluded \u2014 only what you currently hold counts."),1),B.c2],j))}f=a2.h(0,"stockCount")
+B.b.H(g,A.c([A.aO(a.xM(a4,"Total Invested",f,B.WF,B.aA,a.a.e?"The total amount you originally paid to acquire the shares you subsequently sold (shares sold \xd7 avg buy price).":"Cost basis of your current open positions: avg buy price \xd7 shares still held.\n\nShares you have already sold are excluded \u2014 only what you currently hold counts.\n\nThe forex rate is locked at the time you bought each stock, so this number stays stable and only changes if you buy or sell shares \u2014 not because of currency movements."),1),B.c2],j))}f=a2.h(0,"stockCount")
 f=B.c.cI(f==null?0:f)
 e=a.a
 if(e.e)e="Number of different stocks you have sold."
