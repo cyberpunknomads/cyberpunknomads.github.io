@@ -1,0 +1,7 @@
+# macOS Finder metadata — never belongs in a public repo
+.DS_Store
+**/.DS_Store
+
+# Editor / OS noise
+Thumbs.db
+*.swp
