@@ -136714,7 +136714,7 @@ return new A.Dc(J.F(s.b,b),null)},
 $S:35}
 A.LY.prototype={
 u(a){var s=this,r=null,q=s.c
-return A.J(r,A.dm(A.G(A.a([A.ic(B.p,"Recent",r,r,new A.bKx(s),q===B.p8,r),B.F,A.ic(B.p,"Best P/L",r,r,new A.bKy(s),q===B.Co,r),B.F,A.ic(B.p,"Worst P/L",r,r,new A.bKz(s),q===B.Cp,r),B.F,A.ic(B.p,"Longest held",r,r,new A.bKA(s),q===B.Cq,r)],t.p),B.h,B.c,B.f,0,r,r),r,B.x,r,r,r,B.a6),B.i,B.Z,r,r,r,r,r,r,B.n1,r,r,r)}}
+return A.J(r,A.dm(A.G(A.a([A.ic(B.p,"Recent",r,r,new A.bKx(s),q===B.p8,r),B.F,A.ic(B.p,"Best P/L",r,r,new A.bKy(s),q===B.Co,r),B.F,A.ic(B.p,"Worst P/L",r,r,new A.bKz(s),q===B.Cp,r),B.F,A.ic(B.p,"Longest held",r,r,new A.bKA(s),q===B.Cq,r)],t.p),B.h,B.c,B.f,0,r,r),r,B.x,r,r,r,B.a6),B.i,B.Z,r,r,r,r,r,r,B.n1,r,r,1/0)}}
 A.bKx.prototype={
 $0(){return this.a.d.$1(B.p8)},
 $S:0}
@@ -136820,7 +136820,7 @@ u(a){var s=null,r=A.i(this.c,s,s,s,s,s,B.a0,s,s,s),q=this.e
 return A.a0(A.I(A.a([r,B.aO,A.i(this.d,s,s,s,s,s,A.V(s,s,q==null?B.J:q,s,s,s,s,s,s,s,s,13,s,s,B.K,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.n,B.c,B.f),1)}}
 A.Kg.prototype={
 u(a){var s=this,r=null,q=s.c,p=s.d,o=t.p
-return A.J(r,A.I(A.a([A.dm(A.G(A.a([A.ic(B.p,"All",r,r,new A.bfV(s),q===B.pn,r),B.N,A.ic(B.t,"Winners",B.ei,B.t,new A.bfW(s),q===B.Dg,r),B.N,A.ic(B.o,"Losers",B.G7,B.o,new A.bfX(s),q===B.Dh,r),B.fV,A.J(r,r,B.i,B.q,r,r,r,18,r,r,r,r,r,1),B.fV,A.ic(B.p,"Recent",r,r,new A.bfY(s),p===B.po,r),B.N,A.ic(B.p,"Biggest Win",r,r,new A.bfZ(s),p===B.Di,r),B.N,A.ic(B.p,"Biggest Loss",r,r,new A.bg_(s),p===B.Dj,r)],o),B.h,B.c,B.f,0,r,r),r,B.x,r,r,r,B.a6)],o),B.n,B.c,B.f),B.i,B.Z,r,r,r,r,r,r,B.n1,r,r,r)}}
+return A.J(r,A.I(A.a([A.dm(A.G(A.a([A.ic(B.p,"All",r,r,new A.bfV(s),q===B.pn,r),B.N,A.ic(B.t,"Winners",B.ei,B.t,new A.bfW(s),q===B.Dg,r),B.N,A.ic(B.o,"Losers",B.G7,B.o,new A.bfX(s),q===B.Dh,r),B.fV,A.J(r,r,B.i,B.q,r,r,r,18,r,r,r,r,r,1),B.fV,A.ic(B.p,"Recent",r,r,new A.bfY(s),p===B.po,r),B.N,A.ic(B.p,"Biggest Win",r,r,new A.bfZ(s),p===B.Di,r),B.N,A.ic(B.p,"Biggest Loss",r,r,new A.bg_(s),p===B.Dj,r)],o),B.h,B.c,B.f,0,r,r),r,B.x,r,r,r,B.a6)],o),B.n,B.c,B.f),B.i,B.Z,r,r,r,r,r,r,B.n1,r,r,1/0)}}
 A.bfV.prototype={
 $0(){return this.a.e.$1(B.pn)},
 $S:0}
@@ -136857,7 +136857,7 @@ for(s=[B.aZ8,B.aZ9,B.aZa,B.aZb],p=0;p<4;++p){o=s[p]
 B.b.t(k,A.a([new A.K9(o.b,b.x===o.a,new A.bx8(b,o),B.m,n,n,n,n),B.N],q))}k.push(A.J(n,n,B.i,B.q,n,n,n,18,n,n,n,n,n,1))
 k.push(B.N)
 for(s=[B.aYK,B.aYO,B.aYV],p=0;p<3;++p){o=s[p]
-B.b.t(k,A.a([new A.K9(o.b,b.y===o.a,new A.bx9(b,o),B.L,n,n,n,n),B.N],q))}return A.J(n,A.I(A.a([l,B.ar,A.dm(A.G(k,B.h,B.c,B.f,0,n,n),n,B.x,n,n,n,B.a6)],q),B.n,B.c,B.f),B.i,B.Z,n,n,n,n,n,n,B.n1,n,n,n)},
+B.b.t(k,A.a([new A.K9(o.b,b.y===o.a,new A.bx9(b,o),B.L,n,n,n,n),B.N],q))}return A.J(n,A.I(A.a([l,B.ar,A.dm(A.G(k,B.h,B.c,B.f,0,n,n),n,B.x,n,n,n,B.a6)],q),B.n,B.c,B.f),B.i,B.Z,n,n,n,n,n,n,B.n1,n,n,1/0)},
 $C:"$3",
 $R:3,
 $S:843}
@@ -136940,7 +136940,7 @@ L(){return"_CommunityItemType."+this.b}}
 A.yr.prototype={}
 A.Md.prototype={
 u(a){var s=this,r=null,q=s.c
-return A.J(r,A.dm(A.G(A.a([A.ic(B.p,"Top Accuracy",r,r,new A.bPn(s),q===B.tX,r),B.F,A.ic(B.p,"Most Active",r,r,new A.bPo(s),q===B.YQ,r),B.F,A.ic(B.p,"Most Resolved",r,r,new A.bPp(s),q===B.YR,r),B.F,A.ic(B.p,"Newest",r,r,new A.bPq(s),q===B.YS,r)],t.p),B.h,B.c,B.f,0,r,r),r,B.x,r,r,r,B.a6),B.i,B.Z,r,r,r,r,r,r,B.n1,r,r,r)}}
+return A.J(r,A.dm(A.G(A.a([A.ic(B.p,"Top Accuracy",r,r,new A.bPn(s),q===B.tX,r),B.F,A.ic(B.p,"Most Active",r,r,new A.bPo(s),q===B.YQ,r),B.F,A.ic(B.p,"Most Resolved",r,r,new A.bPp(s),q===B.YR,r),B.F,A.ic(B.p,"Newest",r,r,new A.bPq(s),q===B.YS,r)],t.p),B.h,B.c,B.f,0,r,r),r,B.x,r,r,r,B.a6),B.i,B.Z,r,r,r,r,r,r,B.n1,r,r,1/0)}}
 A.bPn.prototype={
 $0(){return this.a.d.$1(B.tX)},
 $S:0}
