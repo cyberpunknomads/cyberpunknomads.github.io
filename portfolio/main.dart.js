@@ -1234,7 +1234,7 @@ s.aCF()
 return s},
 cqC(a){return new A.aIy($.aR,a)},
 c2Z(){var s,r,q,p,o,n=A.cq9(v.G.window.navigator)
-if(n==null||n.length===0)return B.HW
+if(n==null||n.length===0)return B.HV
 s=A.a([],t.ss)
 for(r=n.length,q=0;q<n.length;n.length===r||(0,A.R)(n),++q){p=n[q]
 o=p.split("-")
@@ -8513,8 +8513,8 @@ s=B.e.bn((a-2)/1,0,13)
 r=B.l.bn(B.e.fb(s),0,12)
 q=s-r
 p=1-q
-o=B.I4[r]
-n=B.I4[r+1]
+o=B.I3[r]
+n=B.I3[r+1]
 return new A.af(p*o.a+q*n.a,p*o.b+q*n.b)},
 czb(a){var s,r,q,p,o,n,m
 if(a>5){s=a-5
@@ -9506,9 +9506,9 @@ _.c=_.a=null},
 bhn:function bhn(a,b){this.a=a
 this.b=b},
 bho:function bho(a){this.a=a},
-a68(a,b,c,d,e,f,g,h,i,j,k,a0,a1){var s=c==null?B.anf:c,r=i==null?16:i,q=a0==null?B.eY:a0,p=g==null?B.jp:g,o=j==null?0/0:j,n=k==null?0/0:k,m=e==null?0:e,l=b==null?B.M:b
+a68(a,b,c,d,e,f,g,h,i,j,k,a0,a1){var s=c==null?B.ane:c,r=i==null?16:i,q=a0==null?B.eY:a0,p=g==null?B.jp:g,o=j==null?0/0:j,n=k==null?0/0:k,m=e==null?0:e,l=b==null?B.M:b
 return new A.pw(s,r,a,d,h,a1,q,0,1,0,n,o,m,B.fN,l,p,f,d)},
-a69(a,b,c,d,e){var s=a==null?B.ane:a,r=b==null?2:b,q=d==null?B.cw:d
+a69(a,b,c,d,e){var s=a==null?B.and:a,r=b==null?2:b,q=d==null?B.cw:d
 return new A.hL(e,c===!0,s,r,q)},
 cof(a,b,c){var s=a.a
 s=B.e.Z(s+(b.a-s)*c)
@@ -9522,7 +9522,7 @@ p=$.ia()
 o=p.bg5(c,r?8:j)
 p=p.bg6(d,r?8:j)
 r=a==null?A.c8Y(n,n,n,n,n):a
-return new A.jN(m,i,s,g,q,o,b,p,r,h==null?B.anc:h)},
+return new A.jN(m,i,s,g,q,o,b,p,r,h==null?B.anb:h)},
 cog(a,b,c){var s,r,q,p,o=A.ak(a.c,b.c,c),n=A.as(a.e,b.e,c),m=A.ob(a.f,b.f,c),l=A.lf(a.r,b.r,c,A.a4z(),t.S),k=A.c4(a.w,b.w,c),j=A.as(a.a,b.a,c),i=A.as(a.b,b.b,c)
 i.toString
 s=a.x
@@ -10318,7 +10318,7 @@ bEZ:function bEZ(a){this.a=a},
 IU(a,b,c,d,e,f,g){var s,r,q,p,o,n
 if(e==null)s=null
 else{s=A.J(e).i("Z<1>")
-s=A.v(new A.Z(e,new A.aW_(),s),s.i("w.E"))}if(s==null)s=B.an7
+s=A.v(new A.Z(e,new A.aW_(),s),s.i("w.E"))}if(s==null)s=B.an6
 r=b==null?B.M:b
 q=f==null?2:f
 p=g==null?0:g
@@ -15798,7 +15798,7 @@ caf(a,b,c){if(b!=null&&!b.l(0,B.M))return A.aEP(b.b8(A.cqx(c)),a)
 return a},
 cqx(a){var s,r,q,p,o,n
 if(a<0)return 0
-for(s=0;r=B.HY[s],q=r.a,a>=q;){if(a===q||s+1===6)return r.b;++s}p=B.HY[s-1]
+for(s=0;r=B.HX[s],q=r.a,a>=q;){if(a===q||s+1===6)return r.b;++s}p=B.HX[s-1]
 o=p.a
 n=p.b
 return n+(a-o)/(q-o)*(r.b-n)},
@@ -25390,7 +25390,7 @@ r.toString
 A.bm(r)
 q=a.h(0,"swipeEdge")
 q.toString
-return new A.adX(s,r,B.alT[A.ch(q)])},
+return new A.adX(s,r,B.alS[A.ch(q)])},
 Wd:function Wd(a,b){this.a=a
 this.b=b},
 adX:function adX(a,b,c){this.a=a
@@ -27890,7 +27890,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 cqu(a,b){var s=A.J(b).i("A<1,ie>")
 s=A.v(new A.A(b,new A.aI3(),s),s.i("a_.E"))
-return A.cpS(!0,s,a,B.an0,!0,B.a8g,null)},
+return A.cpS(!0,s,a,B.an_,!0,B.a8g,null)},
 cqs(a){a.c_()
 a.bK(A.chR())},
 QJ(a){var s=a.a,r=s instanceof A.xi?s:null
@@ -28541,7 +28541,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 C3(a,b){var s
-if(a.l(0,b))return new A.a6N(B.ank)
+if(a.l(0,b))return new A.a6N(B.anj)
 s=A.a([],t.fJ)
 A.cO()
 a.ks(new A.aOi(b,A.aP(t.Ev),s))
@@ -32163,7 +32163,7 @@ c_i:function c_i(a){this.a=a},
 c_h:function c_h(a,b){this.a=a
 this.b=b},
 co_(a){var s,r
-for(s=0;s<8;++s){r=B.HT[s]
+for(s=0;s<8;++s){r=B.HS[s]
 if(r.b===a)return r}return null},
 n3:function n3(a,b,c){this.c=a
 this.a=b
@@ -32290,7 +32290,7 @@ aLT:function aLT(){},
 aPd:function aPd(a,b){this.d=a
 this.w=b},
 cqL(a){var s=new A.aJ0(a),r=J.a1(a)
-return new A.ul(A.aa(r.h(a,"id")),A.at(r.h(a,"friendly_name")),B.b.f_(B.apf,new A.aIX(a),new A.aIY()),B.b.f_(B.alZ,new A.aIZ(a),new A.aJ_()),s.$1("created_at"),s.$1("updated_at"))},
+return new A.ul(A.aa(r.h(a,"id")),A.at(r.h(a,"friendly_name")),B.b.f_(B.apf,new A.aIX(a),new A.aIY()),B.b.f_(B.alY,new A.aIZ(a),new A.aJ_()),s.$1("created_at"),s.$1("updated_at"))},
 rp:function rp(a,b){this.a=a
 this.b=b},
 pM:function pM(a,b){this.a=a
@@ -35280,7 +35280,7 @@ r=c5.h(c7,"stock_symbol")
 if(r==null)r=""
 q=c5.h(c7,"stock_id")
 p=c5.h(c7,"transaction_id")
-o=B.b.f_(B.aln,new A.aOV(c7),new A.aOW())
+o=B.b.f_(B.alm,new A.aOV(c7),new A.aOW())
 n=c5.h(c7,"investment_timeline")
 m=c5.h(c7,"decision_type")
 l=c5.h(c7,"decision_reason")
@@ -35848,18 +35848,18 @@ _.r=g
 _.w=h
 _.x=i
 _.y=j},
-cd_(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9){return new A.jz(a4,q,f,g,d,a8,a9,a7,b,p,a5,n,k,i,a1,h,a0,s,j,a2,c,r,a3,o,e,a,a6)},
-afG(b1){var s,r,q,p,o,n="updated_at",m=new A.b22(b1),l=new A.b23(b1),k=J.a1(b1),j=A.aa(k.h(b1,"symbol")),i=A.at(k.h(b1,"name")),h=A.at(k.h(b1,"currency")),g=A.at(k.h(b1,"exchange_suffix")),f=m.$1("current_price"),e=m.$1("change_pct_1d"),d=m.$1("week_52_high"),c=m.$1("week_52_low"),b=l.$1("volume"),a=l.$1("avg_volume_10d"),a0=m.$1("market_cap"),a1=m.$1("trailing_pe"),a2=m.$1("forward_pe"),a3=m.$1("eps"),a4=m.$1("dividend_yield"),a5=m.$1("return_on_equity"),a6=m.$1("debt_to_equity"),a7=m.$1("profit_margin"),a8=m.$1("payout_ratio"),a9=m.$1("earnings_growth"),b0=m.$1("revenue_growth")
+cd_(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0){return new A.jz(a5,r,f,g,d,a9,b0,a8,b,p,q,a6,n,k,i,a2,h,a1,a0,j,a3,c,s,a4,o,e,a,a7)},
+afG(b2){var s,r,q,p,o,n="updated_at",m=new A.b22(b2),l=new A.b23(b2),k=J.a1(b2),j=A.aa(k.h(b2,"symbol")),i=A.at(k.h(b2,"name")),h=A.at(k.h(b2,"currency")),g=A.at(k.h(b2,"exchange_suffix")),f=m.$1("current_price"),e=m.$1("change_pct_1d"),d=m.$1("week_52_high"),c=m.$1("week_52_low"),b=l.$1("volume"),a=l.$1("avg_volume_10d"),a0=m.$1("market_cap"),a1=m.$1("market_cap_usd"),a2=m.$1("trailing_pe"),a3=m.$1("forward_pe"),a4=m.$1("eps"),a5=m.$1("dividend_yield"),a6=m.$1("return_on_equity"),a7=m.$1("debt_to_equity"),a8=m.$1("profit_margin"),a9=m.$1("payout_ratio"),b0=m.$1("earnings_growth"),b1=m.$1("revenue_growth")
 m=m.$1("beta")
 l=l.$1("overall_risk")
-s=A.at(k.h(b1,"sector"))
-r=A.at(k.h(b1,"industry"))
-q=A.at(k.h(b1,"country"))
-p=A.at(k.h(b1,"asset_class"))
-o=A.hG(k.h(b1,"fetch_error"))
-k=k.h(b1,n)!=null?A.eK(A.aa(k.h(b1,n))):null
-return A.cd_(p,a,m,e,q,h,f,a6,a4,a9,a3,g,o===!0,a2,r,a0,i,l,a8,a7,a5,b0,s,j,a1,k,b,d,c)},
-jz:function jz(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7){var _=this
+s=A.at(k.h(b2,"sector"))
+r=A.at(k.h(b2,"industry"))
+q=A.at(k.h(b2,"country"))
+p=A.at(k.h(b2,"asset_class"))
+o=A.hG(k.h(b2,"fetch_error"))
+k=k.h(b2,n)!=null?A.eK(A.aa(k.h(b2,n))):null
+return A.cd_(p,a,m,e,q,h,f,a7,a5,b0,a4,g,o===!0,a3,r,a0,a1,i,l,a9,a8,a6,b1,s,j,a2,k,b,d,c)},
+jz:function jz(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8){var _=this
 _.a=a
 _.b=b
 _.c=c
@@ -35886,7 +35886,8 @@ _.fr=a3
 _.fx=a4
 _.fy=a5
 _.go=a6
-_.k1=a7},
+_.id=a7
+_.k2=a8},
 b22:function b22(a){this.a=a},
 b23:function b23(a){this.a=a},
 c4F(a,b){var s,r,q,p,o,n,m=null,l="revoked_at",k="latest_value_date",j=J.a1(a),i=A.aa(j.h(a,"id")),h=A.aa(j.h(a,"user_id")),g=A.at(j.h(a,"tag"))
@@ -36869,7 +36870,7 @@ m=A.v(new A.Z(r,new A.bYF(a),q),q.i("w.E"))
 B.b.dB(m)
 for(r=m.length,l=0,k=1;k<r;++k){q=m[k]
 p=m[k-1]
-l=Math.max(l,B.l.aJ(q.b-p.b+1000*(q.a-p.a),d))}for(r=A.J(c),q=r.c,r=r.i("kw<1>"),j=B.I9,k=0;p=c.length,k<p;++k){i=c[k].b.hb(7776e9)
+l=Math.max(l,B.l.aJ(q.b-p.b+1000*(q.a-p.a),d))}for(r=A.J(c),q=r.c,r=r.i("kw<1>"),j=B.I8,k=0;p=c.length,k<p;++k){i=c[k].b.hb(7776e9)
 p=new A.kw(c,k,e,r)
 p.z3(c,k,e,q)
 p=p.ayq(0,new A.bYG(i))
@@ -36886,7 +36887,7 @@ if(a.e&&k.length!==0){s=A.v(k,t.k9)
 B.b.bc(s,new A.bYk())
 r=A.dN(s,0,A.hg(3,"count",t.S),A.J(s).c).cn(0)
 q=new A.Z(k,new A.bYl(),j).bO(0,0,new A.bYm())
-p=B.b.bO(k,0,new A.bYn())}else{r=B.I9
+p=B.b.bO(k,0,new A.bYn())}else{r=B.I8
 q=null
 p=null}o=A.ij(r,A.J(r).c)
 j=k.length
@@ -36942,7 +36943,7 @@ d=typeof e=="number"?e:d4
 if(g==null||f==null||d==null)continue
 c=i.h(0,"journal_notes")
 if(l.b(c)){b=J.a58(c,m)
-a=A.v(b,b.$ti.i("w.E"))}else a=B.ang
+a=A.v(b,b.$ti.i("w.E"))}else a=B.anf
 if(a.length!==0)++j
 a0=d9.h(0,h+"|"+A.t(i.h(0,"opened")))
 b=A.b2(i.h(0,"holding_days"))
@@ -36981,7 +36982,7 @@ b8=new A.bZl(5,e3,e2)
 b9=A.x(d7,d8)
 m=t.s
 c0=A.V(["helps",A.a([],m),"costs",A.a([],m),"unclear",A.a([],m),"not_measurable",A.a([],m)],d7,t.yp)
-for(m=t.nA,l=t.S,s=0;s<9;++s){c1=B.anC[s]
+for(m=t.nA,l=t.S,s=0;s<9;++s){c1=B.anB[s]
 c2=b7.h(0,c1).$1(b4)
 c3=c2.a
 c4=c2.b
@@ -41307,21 +41308,21 @@ m.k(0,o,n+1)}}}return new A.UY(q,m)},
 cvn(a,b){switch(b){case"currentPrice":return a.e
 case"changePct1d":return a.f
 case"marketCap":return a.z
-case"trailingPe":return a.Q
-case"eps":return a.at
-case"dividendYield":return a.ax
-case"returnOnEquity":return a.ay
-case"debtToEquity":return a.ch
-case"profitMargin":return a.CW
-case"revenueGrowth":return a.db
-case"earningsGrowth":return a.cy
-case"beta":return a.dx
-case"updatedAt":return a.k1
+case"trailingPe":return a.as
+case"eps":return a.ax
+case"dividendYield":return a.ay
+case"returnOnEquity":return a.ch
+case"debtToEquity":return a.CW
+case"profitMargin":return a.cx
+case"revenueGrowth":return a.dx
+case"earningsGrowth":return a.db
+case"beta":return a.dy
+case"updatedAt":return a.k2
 default:return null}},
 cvp(a){var s,r,q,p,o,n,m,l=t.N,k=A.x(l,t.c8)
 for(s=J.aN(a);s.A();){r=s.gM(s)
-q=r.fr
-p=r.fx
+q=r.fx
+p=r.fy
 if(q==null||q.length===0)continue
 o=k.c0(0,q,new A.b28())
 if(p!=null&&p.length!==0)o.E(0,p)}l=A.x(l,t.yp)
@@ -41788,7 +41789,7 @@ return B.aHd.h(0,a)},
 ctQ(a,b){var s
 if(B.c.aW(a,"^"))return!1
 if(B.c.aW(a.toUpperCase(),"0P"))return!1
-if(b!=null)s=b.Q==null&&b.z==null
+if(b!=null)s=b.as==null&&b.z==null
 else s=!0
 return s},
 ctR(a){var s,r
@@ -41973,7 +41974,7 @@ this.b=b
 this.c=c},
 cGQ(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g=a.cl()
 for(s=J.aN(b),r=null,q=0,p=0;s.A();){++q
-o=s.gM(s).k1
+o=s.gM(s).k2
 if(o==null){++p
 continue}n=o.cl()
 m=!0
@@ -44711,7 +44712,7 @@ else p=m>=0?B.mk:B.kg
 return A.a([new A.iw("Symbols bought again",B.ud,j),new A.iw("Second rounds \xb7 median",p,s)],t.kB)
 case"money_vs_hit_rate":return A.a([new A.iw("Hit rate",B.Zz,A.i9(j.$1("hit_rate_pct"))),new A.iw("Money from your 3 biggest rounds",B.Zz,A.i9(j.$1("top3_money_share_pct")))],t.kB)
 case"written_reason":return A.a([new A.iw("Rounds with a written reason",B.ud,A.i9(j.$1("noted_share_pct"))),new A.iw("Sales with a written reason",B.ud,A.i9(j.$1("sales_noted_share_pct")))],t.kB)
-default:return B.alM}},
+default:return B.alL}},
 cHI(c6,c7,c8,c9,d0,d1,d2,d3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3="Under the floor of ",b4="; the trait needs ",b5=" before it says anything.",b6="round",b7="\u2014",b8="No difference to read yet.",b9="rounds",c0="One side is under the floor of ",c1="Leans neither way.",c2=" A year on, the sold shares had moved a median ",c3="median_after_12m_pct",c4="Becomes measurable at ",c5=" of realized gains."
 if(c7.ga4(c7)){s=A.c6s(d0)
 r=" in the "+d3
@@ -51951,7 +51952,7 @@ gI(a){var s=this,r=s.b,q=r!=null?A.bY(r):null
 return A.av(s.a,q,s.c,s.d,s.e,s.x,s.f,s.r,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.aEi.prototype={
 a5L(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.and
+if(a<0||b<0)return B.anc
 s=this.a
 s===$&&A.c()
 s=s.a
@@ -52213,7 +52214,7 @@ break
 default:s=null}return s}}
 A.aJp.prototype={
 gAy(){var s=this.b,r=s==null?null:s.canvasKitVariant
-return A.cqE(B.amf,r==null?"auto":r)},
+return A.cqE(B.ame,r==null?"auto":r)},
 galp(){var s=this.b
 s=s==null?null:s.canvasKitForceCpuOnly
 return s==null?!1:s},
@@ -55974,7 +55975,7 @@ if(r.f!==B.Gh){r.f=B.Gh
 r.aeZ()}}return r.d.a.aw9(a)},
 aeZ(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-aw6(a){if(B.b.n(B.amP,a))return this.f===B.qT
+aw6(a){if(B.b.n(B.amO,a))return this.f===B.qT
 return!1}}
 A.aII.prototype={
 $0(){return new A.ae(Date.now(),0,!1)},
@@ -68226,7 +68227,7 @@ k.zN()
 k.RO()
 o=k.b
 n=k.r
-m=A.c54(B.amn,"type",o,n,k.f-n)
+m=A.c54(B.amm,"type",o,n,k.f-n)
 if(m===-1){n=k.r
 m=A.c54(B.al7,"type",o,n,k.f-n)}if(m!==-1)return new A.da(m,k.a.cQ(0,k.r,k.f))
 else{k.r=p
@@ -71480,7 +71481,7 @@ q=i.b.x
 q===$&&A.c()
 p=B.e.fb(8*q)
 for(q=i.e,o=8*q,n=i.f,q=q<1,m=i.c,l=0;l<o;++l){k=B.l.b_(l-p,8)
-s.r=m.hr(q?147:B.ao5[k]).gB(0)
+s.r=m.hr(q?147:B.ao4[k]).gB(0)
 j=s.dl()
 r.drawRRect(A.mW(n),j)
 j.delete()
@@ -72182,7 +72183,7 @@ r=A.mu(B.aX8,B.B,r==null?1:r)
 r.toString
 q=p.az(0,q.gB(q))
 if(q==null)q=1
-return A.c59(A.ccD(null,B.i,new A.Il(q,B.alI,new A.bO(B.a0Q,this.e)),s,1,B.b60),r)}}
+return A.c59(A.ccD(null,B.i,new A.Il(q,B.alH,new A.bO(B.a0Q,this.e)),s,1,B.b60),r)}}
 A.a3Q.prototype={
 m(){var s=this,r=s.bH$
 if(r!=null)r.U(0,s.gi_())
@@ -75697,7 +75698,7 @@ n=o.e
 o=o.cx
 r=q.gaT_()
 q.a.toString
-return new A.Xm(p,p,p,new A.bCM(),p,p,p,p,p,n,B.aJB,p,p,p,B.anq,q.gaTe(),o,p,B.b8R,s,p,r,p,p,B.HW,!1,!1,p,p,p,new A.kT(q,t.jv))},
+return new A.Xm(p,p,p,new A.bCM(),p,p,p,p,p,n,B.aJB,p,p,p,B.anp,q.gaTe(),o,p,B.b8R,s,p,r,p,p,B.HV,!1,!1,p,p,p,new A.kT(q,t.jv))},
 u(a){var s,r=null,q=A.oo(!1,!1,this.aGv(a),r,r,r,r,!0,r,r,r,new A.bCN(),r,r)
 this.a.toString
 s=this.d
@@ -76020,7 +76021,7 @@ A.LG.prototype={
 L(){return"_CornerId."+this.b}}
 A.w2.prototype={}
 A.Io.prototype={
-qV(){var s,r,q,p=this,o=A.cC0(B.amv,new A.aTa(p,p.b.gbz().an(0,p.a.gbz()))),n=p.a
+qV(){var s,r,q,p=this,o=A.cC0(B.amu,new A.aTa(p,p.b.gbz().an(0,p.a.gbz()))),n=p.a
 n.toString
 s=o.a
 r=p.zj(n,s)
@@ -79651,7 +79652,7 @@ if((f?A.F(k).i("cg.T").a(g):g)==null)k=""
 else{a.a.toString
 k=f?A.F(k).i("cg.T").a(g):g
 k.toString
-k=B.I2[A.q5(k)-1]+", "+B.bF[A.aF(k)-1]+" "+A.aV(k)}g=A.cl(a3,B.bl)
+k=B.I1[A.q5(k)-1]+", "+B.bF[A.aF(k)-1]+" "+A.aV(k)}g=A.cl(a3,B.bl)
 g=g==null?a0:g.gbQ()
 g=(g==null?B.aK:g).o5(0,3).b3(0,14)
 e=a.aJJ(a3).ap(0,g/14)
@@ -79749,14 +79750,14 @@ A.atr.prototype={
 uS(){return this.cy},
 AX(a){this.J()},
 pO(a){a.toString
-return B.ami[A.ch(a)]},
+return B.amh[A.ch(a)]},
 qe(){var s=this.y
 return(s==null?A.F(this).i("cg.T").a(s):s).a}}
 A.atq.prototype={
 uS(){return this.cy},
 AX(a){this.J()},
 pO(a){a.toString
-return B.anN[A.ch(a)]},
+return B.anM[A.ch(a)]},
 qe(){var s=this.y
 return(s==null?A.F(this).i("cg.T").a(s):s).a}}
 A.am8.prototype={
@@ -84194,7 +84195,7 @@ return s.b}}
 A.qM.prototype={
 L(){return"_ListTileSlot."+this.b}}
 A.apB.prototype={
-gVr(){return B.amc},
+gVr(){return B.amb},
 a0D(a){var s,r=this
 switch(a.a){case 0:s=r.d
 break
@@ -84525,7 +84526,7 @@ r.e=s.a.a
 r.f=s.d},
 $S:0}
 A.ac0.prototype={
-u(a){return A.ccD(new A.ln(B.a6I,null,null),B.E,new A.Il(1,B.anQ,new A.bO(B.a0N,B.D)),this.c.a7(0,new A.y(0,40.95)),1.25,B.b63)}}
+u(a){return A.ccD(new A.ln(B.a6I,null,null),B.E,new A.Il(1,B.anP,new A.bO(B.a0N,B.D)),this.c.a7(0,new A.y(0,40.95)),1.25,B.b63)}}
 A.CH.prototype={
 L(){return"MaterialType."+this.b}}
 A.pV.prototype={
@@ -85037,7 +85038,7 @@ goe(){return A.cGJ()},
 ale(a,b,c,d,e,f){return A.cpl(a,b,c,d,e,f)}}
 A.add.prototype={
 aDX(a){var s=t.Tr
-s=A.v(new A.A(B.amr,new A.aVI(a),s),s.i("a_.E"))
+s=A.v(new A.A(B.amq,new A.aVI(a),s),s.i("a_.E"))
 return s},
 l(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -85222,7 +85223,7 @@ q=this.a
 n=A.Af(new A.dD(new A.aJ(0,1/0,48,1/0),new A.B(B.e3,new A.eR(B.dq,m,m,q.Q,m),m),m),B.a9,B.ad,!0,o)
 return new A.uL(A.bP(!0,m,A.cP(!1,m,!0,A.cbx(n,B.an,m,m,m,o),m,!0,m,m,m,m,m,new A.an7(m,s.y),m,m,m,m,m,this.ga2w(),m,m,m,m,m,m,m),!1,m,m,!0,!1,m,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.tH,m,m,m,m,m,m,m,B.a2,m),m)}}
 A.MM.prototype={
-T(){return new A.a0n(B.an1,this.$ti.i("a0n<1>"))}}
+T(){return new A.a0n(B.an0,this.$ti.i("a0n<1>"))}}
 A.a0n.prototype={
 a9(){this.al()
 this.ahm()},
@@ -93748,10 +93749,10 @@ ht(a){var s,r,q=this.b,p=q.a.c,o=a.an(0,q.gmt())
 p=p.a
 p===$&&A.c()
 s=p.a.getGlyphPositionAtCoordinate(o.a,o.b)
-r=B.alY[J.ba(s.affinity.value)]
+r=B.alX[J.ba(s.affinity.value)]
 return new A.bA(J.ba(s.pos),r)},
 GT(){var s,r,q=this.b,p=q.gmt()
-if(!isFinite(p.a)||!isFinite(p.b))return B.an_
+if(!isFinite(p.a)||!isFinite(p.b))return B.amZ
 s=q.f
 if(s==null){s=q.a.c.GT()
 q.f=s}if(p.l(0,B.B))r=s
@@ -94737,8 +94738,8 @@ s=r.ah
 r.dG=s==null?null:s.gKf()
 a.a=!1},
 x6(a,b,c){var s,r,q,p,o=this
-o.ir=A.ccK(o.ir,B.I7)
-o.dH=A.ccK(o.dH,B.I7)
+o.ir=A.ccK(o.ir,B.I6)
+o.dH=A.ccK(o.dH,B.I6)
 s=o.ir
 r=s!=null&&!s.ga4(s)
 s=o.dH
@@ -104440,7 +104441,7 @@ break
 case 1:return A.m(q,r)}})
 return A.n($async$Yg,r)},
 aM5(a,b){var s,r,q,p
-if(a===b)return B.an8
+if(a===b)return B.an7
 s=A.a([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.cV(B.nX,a)
@@ -106507,7 +106508,7 @@ A.v5.prototype={}
 A.ae1.prototype={
 rW(a,b,c){var s,r,q,p,o,n=$.aH.k4$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.vz,r=0;r<2;++r){q=B.amS[r]
+for(s=t.vz,r=0;r<2;++r){q=B.amR[r]
 p=n.e
 p.toString
 o=A.c2a(p,q,s)
@@ -109429,7 +109430,7 @@ h.a_H()
 r=h.gaNp()
 q=q.mi
 h.e!==$&&A.bz()
-h.e=new A.afV(s,new A.df(B.arE,l,t.kr),new A.Cz(),p,B.hM,0,j,h.gaQo(),h.gaQq(),r,B.hM,0,i,h.gaQi(),h.gaQk(),r,k,B.anp,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.a7A(),new A.a7A())
+h.e=new A.afV(s,new A.df(B.arE,l,t.kr),new A.Cz(),p,B.hM,0,j,h.gaQo(),h.gaQq(),r,B.hM,0,i,h.gaQi(),h.gaQk(),r,k,B.ano,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.a7A(),new A.a7A())
 return h},
 MV(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -113082,7 +113083,7 @@ l(a,b){var s=this
 if(b==null)return!1
 if(J.aE(b)!==A.T(s))return!1
 return b instanceof A.ao&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.dK(null,null)},
-gI(a){return A.av(this.a,this.b,null,this.d,A.bY(B.amY),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gI(a){return A.av(this.a,this.b,null,this.d,A.bY(B.amX),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){return"IconData(U+"+B.c.bP(B.l.mA(this.a,16).toUpperCase(),5,"0")+")"}}
 A.C0.prototype={
 dW(a){return!this.w.l(0,a.w)},
@@ -114204,7 +114205,7 @@ h=r&&e
 c=r?e:c.CW
 if(c==null)c=B.lM
 r=r&&e
-g=new A.SA(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.Hj(e),B.ani,r===!0)
+g=new A.SA(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.Hj(e),B.anh,r===!0)
 if(!g.l(0,f.e))f.t(new A.bD7(f,g))},
 QG(){if(this.d==null)this.Ad()},
 QH(){this.Ad()},
@@ -114594,7 +114595,7 @@ k.a.toString
 q=t.tl
 p=r.a
 o=0
-for(;!1;++o){n=B.anr[o]
+for(;!1;++o){n=B.anq[o]
 m=k.c
 m.toString
 l=new A.nY(n.a1j(m),null,!0,B.Cr,B.hi,new A.zQ(new ($.aAk())(B.hi),q),B.hi)
@@ -114953,7 +114954,7 @@ u(a){var s,r,q=this,p=null,o=q.gaPN(),n=A.rs(a),m=q.cE$,l=q.d
 l===$&&A.c()
 s=q.a.ay
 if(l.gaa()==null){r=q.ga8x()
-r=J.pO(r.slice(0),A.J(r).c)}else r=B.amX
+r=J.pO(r.slice(0),A.J(r).c)}else r=B.amW
 return new A.BX(p,new A.fh(new A.aUN(q,a),A.Cv(B.fe,new A.a5a(!1,A.c3c(A.oo(!0,p,A.X2(m,new A.II(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),o,q.gaPE(),p,p,o),p,t.w3),p)}}
 A.aUM.prototype={
 $1(a){var s=this.a.c
@@ -121243,7 +121244,7 @@ r.P8()
 return s.bb()},
 m(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gYi(),p=0;p<s.length;s.length===r||(0,A.R)(s),++p)s[p].U(0,q)
-o.b=B.amZ
+o.b=B.amY
 o.y=!1
 o.eu()},
 hQ(a,b){return a.v0(b)},
@@ -122368,7 +122369,7 @@ r=(s.length===0?r+"no children":r+A.t(s))+")"
 return r.charCodeAt(0)==0?r:r}}
 A.mQ.prototype={}
 A.Wo.prototype={
-cN(a){return new A.avB(B.an3,A.fG(t.lU),this,B.bv)},
+cN(a){return new A.avB(B.an2,A.fG(t.lU),this,B.bv)},
 b5(a){var s,r,q,p,o,n,m,l=this,k=null,j=l.c,i=j.length
 j=i!==0?j[0].c.length:0
 s=l.d
@@ -122379,7 +122380,7 @@ o=t.rZ
 n=t.bu
 m=A.a([],t.n)
 if(s==null)s=A.kj(k,k,k,p,t.PA)
-m=new A.yj(B.an2,j,i,s,l.e,r,l.r,q,l.w,k,A.x(p,o),A.x(p,n),A.x(o,n),m,new A.bB(),A.aY(t.T))
+m=new A.yj(B.an1,j,i,s,l.e,r,l.r,q,l.w,k,A.x(p,o),A.x(p,n),A.x(o,n),m,new A.bB(),A.aY(t.T))
 m.b4()
 n=A.a([],t.iG)
 B.b.sv(n,m.Y*m.X)
@@ -122440,7 +122441,7 @@ g=h==null
 if(!g&&r.ak(0,h)){g=r.h(0,h)
 g.toString
 j.E(0,g)
-f=g}else f=g&&l.A()?p.gM(0).b:B.an4
+f=g}else f=g&&l.A()?p.gM(0).b:B.an3
 g=n.c
 e=g.length
 d=A.a(new Array(e),m)
@@ -125186,7 +125187,7 @@ $1(a){return a instanceof A.f_?a.a:this.a.anw(a)},
 $S:483}
 A.aQJ.prototype={
 $1(a){var s=A.aC("^ *",!0,!1,!1,!1),r=A.aC(" ?\\n *",!0,!1,!1,!1)
-if(B.b.n(B.anE,this.a.dx))a=A.b0(a,s,"")
+if(B.b.n(B.anD,this.a.dx))a=A.b0(a,s,"")
 return A.b0(a,r," ")},
 $S:24}
 A.aQI.prototype={
@@ -126190,7 +126191,7 @@ break $label0$0}if("SIGNED_OUT"===r){s=B.hZ
 break $label0$0}if("TOKEN_REFRESHED"===r){s=B.j1
 break $label0$0}if("USER_UPDATED"===r){s=B.CM
 break $label0$0}if("MFA_CHALLENGE_VERIFIED"===r){s=B.CL
-break $label0$0}s=A.abf(B.HT,new A.aLl(m))
+break $label0$0}s=A.abf(B.HS,new A.aLl(m))
 break $label0$0}q=s
 if(q!=null){p=null
 if(n.h(a,"session")!=null)p=A.VA(n.h(a,"session"))
@@ -126741,9 +126742,9 @@ o===$&&A.c()
 o.ge9(0).E(0,s)
 o=!0
 if(l)if(a.d==="html"){r=B.c.ga6S(n)
-if(!B.b.cv(B.ak7,r))if(!B.b.n(B.ape,n))if(!(B.b.cv(B.HX,r)&&m==null))o=m!=null&&m.toLowerCase()==="http://www.ibm.com/data/dtd/v11/ibmxhtml1-transitional.dtd"}if(o)q.a.r="quirks"
+if(!B.b.cv(B.ak7,r))if(!B.b.n(B.ape,n))if(!(B.b.cv(B.HW,r)&&m==null))o=m!=null&&m.toLowerCase()==="http://www.ibm.com/data/dtd/v11/ibmxhtml1-transitional.dtd"}if(o)q.a.r="quirks"
 else{o=B.c.ga6S(n)
-if(!B.b.cv(B.aod,o))o=B.b.cv(B.HX,o)&&m!=null
+if(!B.b.cv(B.aoc,o))o=B.b.cv(B.HW,o)&&m!=null
 else o=!0
 if(o)q.a.r="limited quirks"}o=q.a
 o.x=o.ga8U()
@@ -127183,7 +127184,7 @@ if(B.b.n(s,n)){m=k.x
 if(m===$)m=k.x=k.gqU()
 m.dt(new A.cY(n,!1))
 break}l=o.w
-if(B.AK.n(0,new A.af(l==null?"http://www.w3.org/1999/xhtml":l,n))&&!B.b.n(B.amz,n))break}if(r.ex("p","button"))k.gjC().dt(new A.cY("p",!1))
+if(B.AK.n(0,new A.af(l==null?"http://www.w3.org/1999/xhtml":l,n))&&!B.b.n(B.amy,n))break}if(r.ex("p","button"))k.gjC().dt(new A.cY("p",!1))
 r.dj(a)},
 awZ(a){var s=this.b,r=this.a
 if(s.n3("button")){r.c4(a.a,"unexpected-start-tag-implies-end-tag",A.V(["startName","button","endName","button"],t.N,t.X))
@@ -127246,14 +127247,14 @@ l.x=n===$?l.k1=new A.a5l(l,l.d):n},
 a22(a){if(this.b.n3("body")){this.ano(new A.cY("body",!1))
 return a}return null},
 bb1(a){var s,r,q,p,o,n,m
-for(s=this.b,r=0;r<6;++r)if(s.n3(B.I6[r])){q=s.c
+for(s=this.b,r=0;r<6;++r)if(s.n3(B.I5[r])){q=s.c
 p=B.b.gP(q).x
 if(p!=null&&B.b.n(B.yo,p)){q.pop()
 s.vR(null)}break}q=s.c
 o=B.b.gP(q)
 n=a.b
 if(o.x!=n)this.a.c4(a.a,"end-tag-too-early",A.V(["name",n],t.N,t.X))
-for(r=0;r<6;++r)if(s.n3(B.I6[r])){m=q.pop()
+for(r=0;r<6;++r)if(s.n3(B.I5[r])){m=q.pop()
 for(;!B.Xc.n(0,m.x);)m=q.pop()
 break}},
 anp(b1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0=null
@@ -127795,7 +127796,7 @@ if(a.gd5(0)==="\x00"){a.c="\ufffd"
 a.b=null}else{s=this.a
 if(s.z&&!A.c6t(a.gd5(0)))s.z=!1}return this.ayZ(a)},
 cX(a){var s,r,q,p=this,o=p.b,n=o.c,m=B.b.gP(n)
-if(!B.b.n(B.amN,a.b))if(a.b==="font")s=a.e.ak(0,"color")||a.e.ak(0,"face")||a.e.ak(0,"size")
+if(!B.b.n(B.amM,a.b))if(a.b==="font")s=a.e.ak(0,"color")||a.e.ak(0,"face")||a.e.ak(0,"size")
 else s=!1
 else s=!0
 if(s){s=p.a
@@ -128052,7 +128053,7 @@ bt(){var s,r,q,p=this,o=p.y,n=p.x,m=n.length
 if(o>=m)return null
 s=p.y=o+1
 r=n[o]
-if(r<256)return B.amF[r]
+if(r<256)return B.amE[r]
 o=s-1
 q=o+1
 if(q<m&&(n[o]&64512)===55296&&(n[q]&64512)===56320){p.y=s+1
@@ -128708,7 +128709,7 @@ if(B.b.gP(k)==="-"){m.w=new A.H_(new A.cD(""),null)
 m.x=m.gb5H()
 return!0}}else if(B.b.gP(k)==="d"||B.b.gP(k)==="D"){r=0
 while(!0){if(!(r<6)){s=!0
-break}q=B.amh[r]
+break}q=B.amg[r]
 p=l.bt()
 k.push(p)
 if(p!=null)o=!A.fA(q,p,0)
@@ -128721,7 +128722,7 @@ if(B.b.gP(k)==="["){n=m.f
 if(n!=null){o=n.d.c
 o=o.length!==0&&B.b.gP(o).w!=m.f.d.a}}if(o){r=0
 while(!0){if(!(r<6)){s=!0
-break}q=B.alE[r]
+break}q=B.alD[r]
 k.push(l.bt())
 if(B.b.gP(k)!==q){s=!1
 break}++r}if(s){m.x=m.gb4Y()
@@ -128878,7 +128879,7 @@ if(p){s=!1
 break}++r}if(s){o.x=o.gb3p()
 return!0}}else if(m==="s"||m==="S"){r=0
 while(!0){if(!(r<5)){s=!0
-break}q=B.alt[r]
+break}q=B.als[r]
 m=n.bt()
 if(m!=null)p=!A.fA(q,m,0)
 else p=!0
@@ -129940,11 +129941,11 @@ return s==null?c:B.ajW[s]
 case 132:s=A.db(d.cz(0,b))
 return s==null?c:B.akS[s]
 case 133:s=A.db(d.cz(0,b))
-return s==null?c:B.ant[s]
+return s==null?c:B.ans[s]
 case 134:s=A.db(d.cz(0,b))
 return s==null?c:B.akR[s]
 case 135:s=A.db(d.cz(0,b))
-return s==null?c:B.anP[s]
+return s==null?c:B.anO[s]
 case 136:r=d.cz(0,b)
 r.toString
 t.L.a(r)
@@ -130506,7 +130507,7 @@ ns(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null
 switch(a){case 129:s=A.db(f.cz(0,b))
 return s==null?e:B.aow[s]
 case 130:s=A.db(f.cz(0,b))
-return s==null?e:B.amd[s]
+return s==null?e:B.amc[s]
 case 131:s=A.db(f.cz(0,b))
 return s==null?e:B.aoz[s]
 case 132:s=A.db(f.cz(0,b))
@@ -131743,7 +131744,7 @@ a6=b8.aXS(c5)
 for(c2=c5.length,o=t.N,j=c7.b,a7=!1,a8=!1,a9=0;a9<c5.length;c5.length===c2||(0,A.R)(c5),++a9){b0=c5[a9]
 i=b0.b
 if(i!=null){h=A.x(o,o)
-b1=new A.d8("input",B.anb,h)
+b1=new A.d8("input",B.ana,h)
 h.k(0,"type","checkbox")
 if(i===B.Yg)h.k(0,"checked","true")
 a8=!0}else b1=b9
@@ -132187,7 +132188,7 @@ mr(a,b){var s=this,r=b.b[0].length,q=a.d,p=q+r,o=a.a,n=new A.f_(B.c.V(o,q,p))
 if(!s.c){a.f.push(new A.VL(n,o.charCodeAt(q),r,!0,!1,s,p))
 a.r.push(n)
 return!0}o=s.e
-if(o==null)o=B.ana
+if(o==null)o=B.an9
 a.f.push(A.cpQ(a,q,p,s.d,n,s,o))
 a.r.push(n)
 return!0},
@@ -133775,7 +133776,7 @@ $if4:1}
 A.bt.prototype={
 cg(a,b){var s=this.cc(new A.AT(a,b))
 return s instanceof A.d1?-1:s.b},
-gea(a){return B.an6},
+gea(a){return B.an5},
 nx(a,b,c){},
 j(a){return A.T(this).j(0)}}
 A.af9.prototype={}
@@ -134635,7 +134636,7 @@ A.aLB.prototype={
 $1(a){return J.b7(a)},
 $S:23}
 A.aLC.prototype={
-$1(a){return B.b.f_(B.I1,new A.aLz(a),new A.aLA())},
+$1(a){return B.b.f_(B.I0,new A.aLz(a),new A.aLA())},
 $S:769}
 A.aLz.prototype={
 $1(a){return B.b.gP(a.L().split("."))===this.a},
@@ -134801,7 +134802,8 @@ r.toString
 q=s-r
 if(q<=0)return null
 return B.e.bn((o-r)/q,0,1)},
-gapG(){var s=this.z
+gapG(){var s=this.Q
+if(s==null)s=this.z
 if(s==null)return"Unknown"
 if(s>=2e11)return"Mega"
 if(s>=1e10)return"Large"
@@ -138600,7 +138602,7 @@ return A.n($async$Nx,r)},
 Jk(){var s=0,r=A.o(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h
 var $async$Jk=A.k(function(a,b){if(a===1){o.push(b)
 s=p}while(true)switch(s){case 0:s=3
-return A.i(n.D4(B.alP),$async$Jk)
+return A.i(n.D4(B.alO),$async$Jk)
 case 3:k=n.e
 if(k==null){s=1
 break}m=k
@@ -138965,12 +138967,12 @@ s=6
 break
 case 3:s=2
 break
-case 6:n.un(B.Ib)
+case 6:n.un(B.Ia)
 case 1:return A.m(q,r)
 case 2:return A.l(o.at(-1),r)}})
 return A.n($async$Kl,r)},
 Dc(a,b,c){return this.avL(a,b,c)},
-avK(a,b){return this.Dc(a,b,B.Ib)},
+avK(a,b){return this.Dc(a,b,B.Ia)},
 avL(a,b,c){var s=0,r=A.o(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g
 var $async$Dc=A.k(function(d,e){if(d===1){o.push(e)
 s=p}while(true)switch(s){case 0:h=n.e
@@ -140348,7 +140350,7 @@ k.bE(A.eb(null,null,null,null,null,B.E,null,A.h("Failed: "+(a8==null?"unknown er
 case 2:return A.l(o.at(-1),r)}})
 return A.n($async$wQ,r)},
 u(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=t.p,g=A.K(i,A.t1(!1,A.G(A.a([new A.B(B.aaS,A.E(A.a([A.cx(i,i,i,B.agg,i,i,new A.bdj(a),i,i,i,"Back",i),A.a0(A.G(A.a([B.blf,B.a_,A.h(j.a.c.b,i,i,i,i,i,B.bbw,i,i,i)],h),B.n,i,B.d,B.f),1)],h),B.h,B.d,B.f,0,i,i),i)],h),B.n,i,B.d,B.f),!0,B.an,!0,!0),B.i,i,i,B.a1z,i,i,i,i,i,i,i,i),f=t.Mo,e=t.b,d=t.bZ
-f=A.a([new A.B(B.ck,A.h("Entry Type",i,i,i,i,i,B.p3,i,i,i),i),A.aQ(A.JU(new A.bdk(j),B.anM,A.dc([j.w],f),!1,A.n6(i,i,i,new A.bo(new A.bdl(),e),i,i,i,i,new A.bo(new A.bdo(),e),i,i,i,i,i,i,i,i,i,i,new A.bo(new A.bdp(),d),i,i,i,i,i),f),i,1/0),B.bN],h)
+f=A.a([new A.B(B.ck,A.h("Entry Type",i,i,i,i,i,B.p3,i,i,i),i),A.aQ(A.JU(new A.bdk(j),B.anL,A.dc([j.w],f),!1,A.n6(i,i,i,new A.bo(new A.bdl(),e),i,i,i,i,new A.bo(new A.bdo(),e),i,i,i,i,i,i,i,i,i,i,new A.bo(new A.bdp(),d),i,i,i,i,i),f),i,1/0),B.bN],h)
 if(j.w===B.hx){s=j.x==="buy"
 r=A.h("Why are you "+(s?"buying":"selling")+"?",i,i,i,i,i,B.p3,i,i,i)
 q=A.z(12)
@@ -140368,7 +140370,7 @@ l=p?B.mK:B.q
 l=A.ag(l,p?0:1)
 p=p?A.a([new A.co(0,B.aE,A.ai(B.e.Z(76.5),B.mK.p()>>>16&255,B.mK.p()>>>8&255,B.mK.p()&255),B.ou,12)],t.G):i
 k=t.Sh
-B.b.q(f,A.a([new A.B(B.ck,r,i),A.E(A.a([s,B.ft,A.a0(A.cP(!1,q,!0,A.K(i,A.bv(A.h("Sell",i,i,i,i,i,A.U(i,i,j.x==="sell"?B.z:B.j,i,i,i,i,i,i,i,i,16,i,i,B.K,i,i,!0,i,0.5,i,i,i,i,i,i),i,i,i),i,i),B.i,i,i,new A.M(n,i,l,m,p,o,B.k),i,i,i,i,B.Fl,i,i,i),i,!0,i,i,i,i,i,i,i,i,i,i,i,new A.bdr(j),i,i,i,i,i,i,i),1)],h),B.h,B.d,B.f,0,i,i),B.A,j.Wq(j.y,"Why are you making this decision?","Your Reasoning",2000,5),B.A,new A.B(B.ck,A.h("Decision Based On",i,i,i,i,i,B.p3,i,i,i),i),A.aQ(A.JU(new A.bds(j),B.amD,A.dc([j.Q],k),!1,A.n6(i,i,i,new A.bo(new A.bdt(),e),i,i,i,i,new A.bo(new A.bdu(),e),i,i,i,i,i,i,i,i,i,i,new A.bo(new A.bdv(),d),i,i,i,i,i),k),i,1/0),B.A,j.aGl(j.z,"What price do you expect?",B.iP,"Price Expectation (Optional)")],h))}if(j.w===B.lb)B.b.q(f,A.a([new A.B(B.ck,A.h("Follow-up Check",i,i,i,i,i,B.p3,i,i,i),i),j.Wq(j.y,"Current status, observations, changes...","What's happening?",2000,5),B.A,j.a96("Are you following your plan?",new A.bdm(j),j.as)],h))
+B.b.q(f,A.a([new A.B(B.ck,r,i),A.E(A.a([s,B.ft,A.a0(A.cP(!1,q,!0,A.K(i,A.bv(A.h("Sell",i,i,i,i,i,A.U(i,i,j.x==="sell"?B.z:B.j,i,i,i,i,i,i,i,i,16,i,i,B.K,i,i,!0,i,0.5,i,i,i,i,i,i),i,i,i),i,i),B.i,i,i,new A.M(n,i,l,m,p,o,B.k),i,i,i,i,B.Fl,i,i,i),i,!0,i,i,i,i,i,i,i,i,i,i,i,new A.bdr(j),i,i,i,i,i,i,i),1)],h),B.h,B.d,B.f,0,i,i),B.A,j.Wq(j.y,"Why are you making this decision?","Your Reasoning",2000,5),B.A,new A.B(B.ck,A.h("Decision Based On",i,i,i,i,i,B.p3,i,i,i),i),A.aQ(A.JU(new A.bds(j),B.amC,A.dc([j.Q],k),!1,A.n6(i,i,i,new A.bo(new A.bdt(),e),i,i,i,i,new A.bo(new A.bdu(),e),i,i,i,i,i,i,i,i,i,i,new A.bo(new A.bdv(),d),i,i,i,i,i),k),i,1/0),B.A,j.aGl(j.z,"What price do you expect?",B.iP,"Price Expectation (Optional)")],h))}if(j.w===B.lb)B.b.q(f,A.a([new A.B(B.ck,A.h("Follow-up Check",i,i,i,i,i,B.p3,i,i,i),i),j.Wq(j.y,"Current status, observations, changes...","What's happening?",2000,5),B.A,j.a96("Are you following your plan?",new A.bdm(j),j.as)],h))
 if(j.w===B.lc)B.b.q(f,A.a([new A.B(B.ck,A.h("Final Reflection",i,i,i,i,i,B.p3,i,i,i),i),j.Wq(j.y,"Final outcome, results, learnings...","What happened?",2000,5),B.A,j.a96("Was your thesis correct?",new A.bdn(j),j.at)],h))
 f.push(B.k6)
 e=j.r
@@ -140857,7 +140859,7 @@ $0(){return this.a.Lk(0,this.b,this.c)},
 $S:0}
 A.aqW.prototype={
 u(a){var s=null,r=A.z(8),q=A.ag(B.q,1)
-return A.K(s,A.G(A.a([A.E(B.amx,B.h,B.d,B.f,0,s,s),B.G,A.aEd(B.y0,A.ai(B.e.Z(76.5),B.q.p()>>>16&255,B.q.p()>>>8&255,B.q.p()&255),s,B.bk6,B.cK,s,B.d7,new A.b1(B.q,1,B.Q,-1),s),B.ac,B.beM],t.p),B.n,s,B.d,B.f),B.i,s,s,new A.M(B.v,s,q,r,s,s,B.k),s,s,s,s,B.bm,s,s,s)}}
+return A.K(s,A.G(A.a([A.E(B.amw,B.h,B.d,B.f,0,s,s),B.G,A.aEd(B.y0,A.ai(B.e.Z(76.5),B.q.p()>>>16&255,B.q.p()>>>8&255,B.q.p()&255),s,B.bk6,B.cK,s,B.d7,new A.b1(B.q,1,B.Q,-1),s),B.ac,B.beM],t.p),B.n,s,B.d,B.f),B.i,s,s,new A.M(B.v,s,q,r,s,s,B.k),s,s,s,s,B.bm,s,s,s)}}
 A.o6.prototype={
 T(){var s=$.au()
 return new A.XK(new A.bZ(null,t.am),new A.bU(B.ar,s),new A.bU(B.ar,s),new A.bU(B.ar,s),new A.bU(B.ar,s),new A.bU(B.ar,s),B.aL,A.a([],t.s))}}
@@ -141108,7 +141110,7 @@ p=n.ch
 p.toString
 B.b.q(r,A.a([B.G,A.E(A.a([q,new A.EI(p,m)],s),B.h,B.d,B.f,0,m,m)],s))}r.push(B.A)
 q=n.ay?"paper":"owned"
-r.push(A.ca8(B.ahi,B.v,q,B.aoa,new A.beo(n),m,t.N))
+r.push(A.ca8(B.ahi,B.v,q,B.ao9,new A.beo(n),m,t.N))
 r.push(B.A)
 if(n.ax!==B.bt){q=A.h("Purchase Date",m,m,m,m,m,A.a2(a).ok.z,m,m,m)
 p=n.CW
@@ -143146,7 +143148,7 @@ u(a){var s,r,q,p,o=this,n=null,m=A.h7(n,n,n,n,A.h("Edit Entry - "+o.a.c.c,n,n,n,
 k===$&&A.c()
 s=t.Mo
 r=t.p
-s=A.a([new A.B(B.ck,l,n),A.JU(new A.bpD(o),B.anU,A.dc([k],s),!0,n,s),B.bN],r)
+s=A.a([new A.B(B.ck,l,n),A.JU(new A.bpD(o),B.anT,A.dc([k],s),!0,n,s),B.bN],r)
 if(o.e===B.hx){l=A.h("Investment Details",n,n,n,n,n,B.bo,n,n,n)
 k=o.f
 q=t.s
@@ -144615,9 +144617,9 @@ m(){var s=this.d
 s.W$=$.au()
 s.R$=0
 this.am()},
-gaRw(){if(this.e.length===0)return B.HP
+gaRw(){if(this.e.length===0)return B.Id
 var s=t.P5
-s=A.v(new A.cK(new A.A(B.HP,new A.buu(this),t.ZO),s),s.i("w.E"))
+s=A.v(new A.cK(new A.A(B.Id,new A.buu(this),t.ZO),s),s.i("w.E"))
 return s},
 u(a){var s,r=this,q=null,p=r.gaRw(),o=A.h7(q,B.W,q,B.H,B.bib),n=r.e.length!==0?A.cx(q,q,q,B.afV,q,q,new A.buy(r),q,q,q,"Clear search",q):q
 n=A.K(q,A.dO(q,B.af,!1,q,!0,B.E,q,A.dW(),r.d,q,q,q,q,q,2,A.dm(q,new A.bJ(4,A.z(12),B.D),q,B.qs,q,q,q,q,!0,q,q,q,q,q,q,B.v,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,B.cB,'Search \u2014 try "P/E", "VaR", "Beta", "IRR"\u2026',q,q,q,q,q,q,q,q,q,!0,!0,q,B.agf,q,q,q,q,q,q,n,q,q,q,q,q),B.x,!0,q,!0,q,!1,q,B.aN,q,q,q,q,q,q,q,q,1,q,q,!1,"\u2022",q,new A.buz(r),q,q,q,!1,q,q,!1,q,!0,q,B.aJ,q,q,q,q,q,q,q,q,q,q,q,B.bu,!0,B.a7,q,B.b3,q,q,q,q),B.i,B.W,q,q,q,q,q,q,B.wN,q,q,q)
@@ -146205,12 +146207,12 @@ p.push(new A.B(B.bm,A.aQ(A.rl(B.nO,r,B.BR,this.gZh(),A.hi(r,r,B.T,r,r,r,r,r,r,B.
 p.push(B.a_)
 p.push(new A.B(B.a9v,A.E(B.ajo,B.h,B.d,B.f,0,r,r),r))
 return A.K(r,A.G(p,B.h,r,B.d,B.f),B.i,B.W,r,r,r,r,r,r,r,r,r,180)},
-aFK(a){var s,r,q=null,p=this.d===a,o=A.z(10),n=p?B.T.D(0.15):B.M,m=A.z(10),l=p?B.amg[a]:B.ajh[a],k=t.p
+aFK(a){var s,r,q=null,p=this.d===a,o=A.z(10),n=p?B.T.D(0.15):B.M,m=A.z(10),l=p?B.amf[a]:B.ajh[a],k=t.p
 l=A.a([A.aD(l,p?B.T:B.j,q,q,20),B.aD],k)
-if(a===6){s=B.HQ[a]
+if(a===6){s=B.HP[a]
 r=p?B.H:B.j
 s=A.h(s,q,q,q,q,q,A.U(q,q,r,q,q,q,q,q,q,q,q,14,q,q,p?B.K:B.S,q,q,!0,q,q,q,q,q,q,q,q),q,q,q)
-l.push(A.G(A.a([s,A.h("Community",q,q,q,q,q,A.U(q,q,p?B.T.D(0.7):B.j.D(0.5),q,q,q,q,q,q,q,q,10,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q)],k),B.n,q,B.d,B.C))}else{k=B.HQ[a]
+l.push(A.G(A.a([s,A.h("Community",q,q,q,q,q,A.U(q,q,p?B.T.D(0.7):B.j.D(0.5),q,q,q,q,q,q,q,q,10,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q)],k),B.n,q,B.d,B.C))}else{k=B.HP[a]
 s=p?B.H:B.j
 l.push(A.h(k,q,q,q,q,q,A.U(q,q,s,q,q,q,q,q,q,q,q,14,q,q,p?B.K:B.S,q,q,!0,q,q,q,q,q,q,q,q),q,q,q))}return A.cP(!1,o,!0,A.K(q,A.E(l,B.h,B.d,B.f,0,q,q),B.i,q,q,new A.M(n,q,q,m,q,q,B.k),q,q,q,B.nj,B.ch,q,q,q),q,!0,q,q,q,q,q,q,q,q,q,q,q,new A.bxo(this,a),q,q,q,q,q,q,q)},
 aEX(){var s=this.d
@@ -147871,7 +147873,7 @@ A.bTq.prototype={
 $2(a,b){return B.b6a},
 $S:139}
 A.bTp.prototype={
-$2(a,b){var s,r,q,p,o,n,m=null,l=B.HU[b],k=this.a,j=k.y
+$2(a,b){var s,r,q,p,o,n,m=null,l=B.HT[b],k=this.a,j=k.y
 j=j==null?m:j.a
 s=l.a
 r=j===s
@@ -147896,7 +147898,7 @@ $2(a,b){var s,r,q,p,o,n,m=null,l=J.I(this.b,b),k=J.a1(l),j=A.aa(k.h(l,"symbol"))
 k=A.at(k.h(l,"quoteType"))
 if(k==null)k=""
 s=this.a.b1_(k.toUpperCase())
-k=new A.hM(B.HU,t.p9)
+k=new A.hM(B.HT,t.p9)
 r=k.f_(k,new A.bTj(j,h),new A.bTk())
 k=s.D(0.18)
 q=A.z(8)
@@ -148447,7 +148449,7 @@ s=p.aZJ(n.b)
 r=p.a.d
 r=A.a([new A.aoS("We couldn't recognise your broker's format. Tell us which column contains which data.",o),B.as,new A.tz("File settings",o),new A.aum("Separator",s,p.gaWF(),o),new A.awg("First row is header",n.c,new A.bCb(p),o),B.as,new A.tz("Preview (first rows)",o),new A.alI(r,n,o),B.as,new A.tz("Required columns",o),A.LB(!1,n.d,r.a,B.il,"Date",o,new A.bCc(p),!0)],t.p)
 n=p.d
-if(n.d!=null)r.push(new A.Zq("Date format",B.add,n.e,B.ams,new A.bCd(p),o,t.F0))
+if(n.d!=null)r.push(new A.Zq("Date format",B.add,n.e,B.amr,new A.bCd(p),o,t.F0))
 r.push(A.LB(!1,p.d.z,p.a.d.a,B.ae1,"Quantity / Shares",o,new A.bCl(p),!0))
 r.push(B.as)
 r.push(new A.tz("Transaction type",o))
@@ -149045,7 +149047,7 @@ s=o.d
 s===$&&A.c()
 s=s.h(0,a)
 r=t.fo
-r=A.v(new A.A(B.amJ,new A.bUD(),r),r.i("a_.E"))
+r=A.v(new A.A(B.amI,new A.bUD(),r),r.i("a_.E"))
 return new A.B(B.dv,A.E(A.a([p,B.aD,B.aeu,B.aD,A.Bm(B.v,B.biD,q,q,!1,r,new A.bUE(o,a),B.mf,B.fu,s,t.N)],t.p),B.h,B.d,B.f,0,q,q),q)},
 $S:149}
 A.bUD.prototype={
@@ -150659,7 +150661,7 @@ A.bMH.prototype={
 $0(){return this.a.e=B.Ax},
 $S:0}
 A.bML.prototype={
-$1(a){var s,r,q,p,o=null,n=this.a,m=n.go,l=m==="etf"?B.hd:B.fC
+$1(a){var s,r,q,p,o=null,n=this.a,m=n.id,l=m==="etf"?B.hd:B.fC
 if(m==="fund")l=B.hc
 m=n.a
 s=n.b
@@ -150670,7 +150672,7 @@ q=n.f
 if(q==null)q=0
 p=n.c
 if(p==null)p="USD"
-return A.W8(!0,A.W7(o,o,o,o,o,l,n.y,n.dx,o,q,B.jA,o,o,n.fy,p,r,o,o,n.ch,o,n.ax,o,n.cy,n.at,o,o,n.r,n.w,n.as,o,o,n.fx,o,n.z,s,o,n.dy,n.cx,o,n.CW,o,n.ay,n.db,n.fr,o,B.bt,m,o,o,n.Q,o,n.x,o,o,o,o))},
+return A.W8(!0,A.W7(o,o,o,o,o,l,n.y,n.dy,o,q,B.jA,o,o,n.go,p,r,o,o,n.CW,o,n.ay,o,n.db,n.ax,o,o,n.r,n.w,n.at,o,o,n.fy,o,n.z,s,o,n.fr,n.cy,o,n.cx,o,n.ch,n.dx,n.fx,o,B.bt,m,o,o,n.as,o,n.x,o,o,o,o))},
 $S:92}
 A.bMe.prototype={
 $1(a){return new A.o6(this.a.a,!1,null)},
@@ -150823,7 +150825,7 @@ r=A.a([A.E(A.a([A.h(this.c,s,s,s,s,s,A.U(s,s,B.j,s,s,s,s,s,s,s,s,11,s,s,s,s,s,!0
 if(o.a.length!==0){q=o.ga4O()
 r.push(new A.B(B.qu,A.fj(A.h(o.geR(0),s,2,B.a0,s,s,A.U(s,s,B.j.D(0.75),s,s,s,s,s,s,s,s,11,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),s,q,s,s,s,s),s))}return A.K(s,A.G(r,B.n,s,B.d,B.C),B.i,B.Y,s,s,s,s,s,s,B.aac,s,s,s)}}
 A.N9.prototype={
-u(a){var s,r=this,q=null,p=r.c,o=p.f,n=o==null,m=(n?0:o)>=0?B.r:B.o,l=(n?0:o)>=0?"+":"",k=A.z(10),j=A.ag(B.q,1),i=p.a,h=t.p,g=A.a([A.h(i,q,q,q,q,q,B.eB,q,q,q)],h),f=p.fy
+u(a){var s,r=this,q=null,p=r.c,o=p.f,n=o==null,m=(n?0:o)>=0?B.r:B.o,l=(n?0:o)>=0?"+":"",k=A.z(10),j=A.ag(B.q,1),i=p.a,h=t.p,g=A.a([A.h(i,q,q,q,q,q,B.eB,q,q,q)],h),f=p.go
 if(f!=null){f=B.arG.h(0,f)
 g.push(A.h(f==null?"\ud83c\udf0d":f,q,q,q,q,q,B.p5,q,q,q))}g.push(new A.afC(r.f,q))
 g=A.dT(B.aj,g,B.Cb,q,2,6)
@@ -150831,21 +150833,21 @@ f=p.b
 i=f==null?i:f
 i=A.h(i,q,1,B.a0,q,q,A.U(q,q,B.j,q,q,q,q,q,q,q,q,11,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q)
 f=A.a([],h)
-s=p.fr
+s=p.fx
 if(s!=null)f.push(new A.e7(1,B.bi,r.ai6(s,B.m,!0),q))
 s=p.z!=null
 if(s)B.b.q(f,A.a([B.ah,r.b0k(p.gapG(),B.p)],h))
 i=A.a0(A.G(A.a([g,B.aQ,i,B.a_,A.E(f,B.h,B.d,B.f,0,q,q)],h),B.n,q,B.d,B.f),3)
 g=A.a([],h)
-f=p.Q
+f=p.as
 if(f!=null)g.push(r.zZ("P/E",B.e.G(f,1)))
-f=p.ax
-if(f!=null&&f>0)g.push(r.zZ("Div",B.e.G(f,1)+"%"))
 f=p.ay
+if(f!=null&&f>0)g.push(r.zZ("Div",B.e.G(f,1)+"%"))
+f=p.ch
 if(f!=null)g.push(r.zZ("ROE",B.e.G(f*100,0)+"%"))
-f=p.db
-if(f!=null)g.push(r.zZ("RevG",B.e.G(f*100,0)+"%"))
 f=p.dx
+if(f!=null)g.push(r.zZ("RevG",B.e.G(f*100,0)+"%"))
+f=p.dy
 if(f!=null)g.push(r.zZ("\u03b2",B.e.G(f,2)))
 if(s)g.push(r.zZ("Cap",p.gbcz()))
 g=A.a0(A.dT(B.aj,g,B.b0,q,4,6),3)
@@ -150913,7 +150915,7 @@ aEP(){var s=t.Ua
 s=A.v(new A.A(B.aoO,new A.bLx(this),s),s.i("a_.E"))
 return A.dT(B.aj,s,B.b0,null,8,8)},
 aG8(){var s=t.Ua
-s=A.v(new A.A(B.am4,new A.bLW(this),s),s.i("a_.E"))
+s=A.v(new A.A(B.am3,new A.bLW(this),s),s.i("a_.E"))
 return A.dT(B.aj,s,B.b0,null,8,8)},
 a9n(a,b,c,d){var s=null,r=J.a1(a)
 if(r.ga4(a))return A.h(b,s,s,s,s,s,A.U(s,s,B.j,s,s,s,s,s,s,s,s,12,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)
@@ -151010,13 +151012,13 @@ r=h.Q!=null?1:0
 q=h.as!=null?1:0
 p=h.at!=null?1:0
 h=h.ax!=null?1:0
-o=i.ZR(B.am2)
+o=i.ZR(B.am1)
 n.push(new A.qK("Quality",s+r+q+p+h,i.aZ8(),o,l))
 h=i.d
 s=h.ay!=null||h.ch!=null?1:0
 r=h.CW!=null?1:0
 h=h.cx!=null?1:0
-q=i.ZR(B.amG)
+q=i.ZR(B.amF)
 n.push(new A.qK("Risk & Momentum",s+r+h,i.aG1(),q,l))
 n.push(B.G)
 n=A.a0(A.f6(n,b,B.aS,l,l,B.X,!1),1)
@@ -153418,7 +153420,7 @@ s===$&&A.c()
 s=B.e.bn(s,0,1)
 r=r.d.x
 r===$&&A.c()
-return new A.eE(B.d3,B.cj,B.bq,B.amu,A.a([q,s,B.e.bn(r+0.3,0,1)],t.n),null).hh(0,a)},
+return new A.eE(B.d3,B.cj,B.bq,B.amt,A.a([q,s,B.e.bn(r+0.3,0,1)],t.n),null).hh(0,a)},
 $S:99}
 A.alf.prototype={
 aT2(){var s,r=this.c.RG
@@ -158430,60 +158432,60 @@ break
 case 1:return A.m(q,r)}})
 return A.n($async$Hq,r)},
 aTd(a,b){var s,r=b.a
-if(r.length!==0&&!B.b.n(r,a.fy))return!1
-r=b.b
-if(r.length!==0&&!B.b.n(r,a.fr))return!1
-r=b.c
-if(r.length!==0&&!B.b.n(r,a.fx))return!1
-r=b.d
 if(r.length!==0&&!B.b.n(r,a.go))return!1
+r=b.b
+if(r.length!==0&&!B.b.n(r,a.fx))return!1
+r=b.c
+if(r.length!==0&&!B.b.n(r,a.fy))return!1
+r=b.d
+if(r.length!==0&&!B.b.n(r,a.id))return!1
 r=b.e
 if(r.length!==0&&!B.b.n(r,a.gapG()))return!1
 r=b.f
-if(r!=null){s=a.Q
+if(r!=null){s=a.as
 r=s!=null&&s<r}else r=!1
 if(r)return!1
 r=b.r
-if(r!=null){s=a.Q
+if(r!=null){s=a.as
 r=s!=null&&s>r}else r=!1
 if(r)return!1
 r=b.w
-if(r!=null){s=a.ax
+if(r!=null){s=a.ay
 r=s!=null&&s<r}else r=!1
 if(r)return!1
 r=b.x
-if(r!=null){s=a.ax
+if(r!=null){s=a.ay
 r=s!=null&&s>r}else r=!1
 if(r)return!1
-if(b.y){r=a.at
+if(b.y){r=a.ax
 r=r!=null&&r<=0}else r=!1
 if(r)return!1
 r=b.z
-if(r!=null){s=a.ay
+if(r!=null){s=a.ch
 r=s!=null&&s*100<r}else r=!1
 if(r)return!1
 r=b.Q
-if(r!=null){s=a.ch
+if(r!=null){s=a.CW
 r=s!=null&&s>r}else r=!1
 if(r)return!1
 r=b.as
-if(r!=null){s=a.CW
+if(r!=null){s=a.cx
 r=s!=null&&s*100<r}else r=!1
 if(r)return!1
 r=b.at
-if(r!=null){s=a.db
+if(r!=null){s=a.dx
 r=s!=null&&s*100<r}else r=!1
 if(r)return!1
 r=b.ax
-if(r!=null){s=a.cy
+if(r!=null){s=a.db
 r=s!=null&&s*100<r}else r=!1
 if(r)return!1
 r=b.ay
-if(r!=null){s=a.dx
+if(r!=null){s=a.dy
 r=s!=null&&s<r}else r=!1
 if(r)return!1
 r=b.ch
-if(r!=null){s=a.dx
+if(r!=null){s=a.dy
 r=s!=null&&s>r}else r=!1
 if(r)return!1
 r=b.CW
@@ -158503,10 +158505,10 @@ r=r==null||r>=0}else r=!1
 if(r)return!1
 return!0},
 b_P(a,b,c){B.b.bc(a,new A.b26(b,c))},
-aLj(a,b){switch(b){case"country":return a.fy
-case"sector":return a.fr
-case"industry":return a.fx
-case"asset_class":return a.go
+aLj(a,b){switch(b){case"country":return a.go
+case"sector":return a.fx
+case"industry":return a.fy
+case"asset_class":return a.id
 default:return null}},
 Qo(){var s=0,r=A.o(t.hr),q,p=this,o
 var $async$Qo=A.k(function(a,b){if(a===1)return A.l(b,r)
@@ -158536,26 +158538,28 @@ $1(a){return this.a.aTd(a,this.b)},
 $S:1116}
 A.b26.prototype={
 $2(a,b){var s,r,q,p,o
-switch(this.a.a){case 0:s=a.z
-r=b.z
+switch(this.a.a){case 0:s=a.Q
+if(s==null)s=a.z
+r=b.Q
+if(r==null)r=b.z
 break
 case 1:s=a.f
 r=b.f
 break
-case 2:s=a.Q
-r=b.Q
+case 2:s=a.as
+r=b.as
 break
-case 3:s=a.ax
-r=b.ax
-break
-case 4:s=a.ay
+case 3:s=a.ay
 r=b.ay
 break
-case 5:s=a.db
-r=b.db
+case 4:s=a.ch
+r=b.ch
 break
-case 6:s=a.dx
+case 5:s=a.dx
 r=b.dx
+break
+case 6:s=a.dy
+r=b.dy
 break
 case 7:q=a.b
 if(q==null)q=a.a
@@ -161166,9 +161170,11 @@ $S:8}
 A.aVV.prototype={
 $2(a,b){var s,r=this.a,q=A.c43(a.a)===r?0:1,p=A.c43(b.a)===r?0:1
 if(q!==p)return q-p
-r=b.z
+r=b.Q
+if(r==null)r=b.z
 if(r==null)r=0
-s=a.z
+s=a.Q
+if(s==null)s=a.z
 return B.e.aD(r,s==null?0:s)},
 $S:516}
 A.aVU.prototype={
@@ -161310,55 +161316,55 @@ A.c0h.prototype={
 $1(a){return a.f!=null||a.r!=null},
 $S:71}
 A.c0i.prototype={
-$1(a){return a.Q},
+$1(a){return a.as},
 $S:72}
 A.c0j.prototype={
 $1(a){return a.w!=null||a.x!=null},
 $S:71}
 A.c0t.prototype={
-$1(a){return a.ax},
+$1(a){return a.ay},
 $S:72}
 A.c0u.prototype={
 $1(a){return a.y},
 $S:71}
 A.c0v.prototype={
-$1(a){return a.at},
+$1(a){return a.ax},
 $S:72}
 A.c0w.prototype={
 $1(a){return a.z!=null},
 $S:71}
 A.c0x.prototype={
-$1(a){return a.ay},
+$1(a){return a.ch},
 $S:72}
 A.c0y.prototype={
 $1(a){return a.Q!=null},
 $S:71}
 A.c0z.prototype={
-$1(a){return a.ch},
+$1(a){return a.CW},
 $S:72}
 A.c0A.prototype={
 $1(a){return a.as!=null},
 $S:71}
 A.c0k.prototype={
-$1(a){return a.CW},
+$1(a){return a.cx},
 $S:72}
 A.c0l.prototype={
 $1(a){return a.at!=null},
 $S:71}
 A.c0m.prototype={
-$1(a){return a.db},
+$1(a){return a.dx},
 $S:72}
 A.c0n.prototype={
 $1(a){return a.ax!=null},
 $S:71}
 A.c0o.prototype={
-$1(a){return a.cy},
+$1(a){return a.db},
 $S:72}
 A.c0p.prototype={
 $1(a){return a.ay!=null||a.ch!=null},
 $S:71}
 A.c0q.prototype={
-$1(a){return a.dx},
+$1(a){return a.dy},
 $S:72}
 A.c0r.prototype={
 $1(a){return a.CW!=null},
@@ -161551,7 +161557,7 @@ o=o.a===1?o.gS(0):m
 s.push(A.a0(A.cdM(A.a([new A.dP(new A.bfP(n,j,k),m),new A.Rr(q,m),new A.Rp(p,o,m)],l),r),1))
 return A.G(s,B.h,m,B.d,B.f)},
 aFb(a,b){var s=A.bq(a,null,t.w).w,r=t.u,q=A.al(a,!1,r),p=this.f,o=p.a===0?q.lM(null):p.bO(0,0,new A.bfo(q))
-return new A.Zf(this.gdk(),o,s.a.a>=700,B.amI,B.az5,B.f5,this.e,A.al(a,!1,r).geP(),null)},
+return new A.Zf(this.gdk(),o,s.a.a>=700,B.amH,B.az5,B.f5,this.e,A.al(a,!1,r).geP(),null)},
 aF9(a1,a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=null,a0=A.v(this.gdk(),t.ni)
 B.b.q(a0,this.gqC())
 s=t.N
@@ -162844,7 +162850,7 @@ return s.x=!s.x},
 $S:0}
 A.a_n.prototype={
 T(){var s=A.i2(),r=A.a([],t.Q6)
-return new A.a_o(s,B.anh,r,new A.bU(B.ar,$.au()),B.li,A.x(t.N,t.R2))}}
+return new A.a_o(s,B.ang,r,new A.bU(B.ar,$.au()),B.li,A.x(t.N,t.R2))}}
 A.vW.prototype={}
 A.wa.prototype={}
 A.a_o.prototype={
@@ -164505,7 +164511,7 @@ i=i.a
 i.toString
 j.clipPath(i,$.o4(),!0)
 i=A.b3()
-i.sdO(new A.eE(B.d3,B.cj,B.bq,l,B.amt,h).hh(0,k))
+i.sdO(new A.eE(B.d3,B.cj,B.bq,l,B.ams,h).hh(0,k))
 o.im(k,i)
 j.restore()
 s=A.a([B.kC,B.kF,B.pO],s)
@@ -164897,7 +164903,7 @@ l=k.a.c.c
 if(l.length!==0)m.push(A.h(l,j,j,B.a0,j,j,B.P,j,j,j))
 if(A.cfD(k.a.c)!=null)B.b.q(m,A.a([B.a_,A.h("Held "+A.t(A.cfD(k.a.c))+" days",j,j,j,j,j,B.P,j,j,j)],n))
 s=A.a([s,B.A,r,B.a_,q,B.A,A.K(j,A.E(A.a([A.a0(A.G(m,B.n,j,B.d,B.f),1),A.h(d+B.e.G(c,2)+"%",j,j,j,j,j,A.U(j,j,e,j,j,j,j,j,j,j,j,18,j,j,B.u,j,j,!0,j,j,j,j,j,j,j,j),j,j,j)],n),B.h,B.d,B.f,0,j,j),B.i,j,j,new A.M(B.v,j,o,p,j,j,B.k),j,j,j,j,B.c0,j,j,j),B.A],n)
-if(!g)B.b.q(s,A.a([new A.a1H("What will be visible on the Board",B.amq,B.r,j),B.O,new A.a1H("What will NEVER be shared",B.any,B.o,j),B.as],n))
+if(!g)B.b.q(s,A.a([new A.a1H("What will be visible on the Board",B.amp,B.r,j),B.O,new A.a1H("What will NEVER be shared",B.anx,B.o,j),B.as],n))
 else{r=B.r.D(0.08)
 q=A.z(10)
 p=A.ag(B.r.D(0.25),1)
@@ -166061,7 +166067,7 @@ break
 default:r=null}q=r.a
 p=new A.ae(s,0,!1).hb(0-q).hb(A.dz(0,0,0,B.e.Z(a/(b-1)*B.l.aJ(q,1000)),0).a)
 switch(this.d.a){case 0:return B.c.bP(B.l.j(A.hy(p)),2,"0")+":"+B.c.bP(B.l.j(A.TJ(p)),2,"0")
-case 1:return B.I2[B.l.b_(A.q5(p)-1,7)]
+case 1:return B.I1[B.l.b_(A.q5(p)-1,7)]
 case 2:return""+A.aV(p)
 case 3:case 4:case 5:return B.bF[A.aF(p)-1]
 case 6:case 7:case 8:case 9:case 10:return""+A.az(p)}},
@@ -166380,8 +166386,8 @@ case 9:i=b7
 a7=t.N
 h=A.x(a7,a7)
 for(a8=J.n0(i),a8=a8.ga5(a8);a8.A();){g=a8.gM(a8)
-if(g.b.fx!=null){a9=g.a
-b0=g.b.fx
+if(g.b.fy!=null){a9=g.a
+b0=g.b.fy
 b0.toString
 J.c_(h,a9.toUpperCase(),b0)}}f=h
 h=J.c1(k,new A.bmc(f))
@@ -167134,7 +167140,7 @@ u(a){var s,r,q,p,o,n=this,m=null,l=A.bq(a,m,t.w).w
 if(n.f){s=n.a.c
 r=A.h9(n.d.c,t.N,t.i)
 q=n.e
-p=A.cho(n.a.d,q,s,r)}else p=B.Ia
+p=A.cho(n.a.d,q,s,r)}else p=B.I9
 s=A.bv(A.K(m,m,B.i,m,m,new A.M(B.q,m,m,A.z(2),m,m,B.k),m,4,m,B.wA,m,m,m,36),m,m)
 r=t.p
 q=A.a([B.aep,B.ai,B.abj],r)
@@ -167209,7 +167215,7 @@ u(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=f.a.c
 if(d.length===0)return B.V
 if(f.f){s=A.h9(f.d.c,t.N,t.i)
 r=f.e
-q=A.cho(f.a.d,r,d,s)}else q=B.Ia
+q=A.cho(f.a.d,r,d,s)}else q=B.I9
 p=q.length!==0?B.b.gS(q).d:e
 d=A.z(16)
 s=A.ag(B.q,1)
@@ -167522,7 +167528,7 @@ q=A.K(b,A.G(A.a([g,B.al,f,B.O,d,B.ac,A.h(e,b,b,b,b,b,A.U(b,b,l?B.r:B.m,b,b,b,b,b
 a0=A.k1(!1,b,a0,B.ahd,b,b,b,b,b,1,b,!1,b,b,b,b,!1,B.bu,new A.bu9())
 r=A.k1(!1,b,r,A.dm(b,b,b,b,b,b,b,b,!0,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,B.bd,"e.g. 1000000",b,b,b,b,b,b,b,B.bd,"Target amount ("+c.a.c+")",!0,!0,b,b,b,b,b,b,b,b,b,b,b,b,b,b),b,b,b,B.iP,b,1,b,!1,b,b,b,b,!1,B.bu,new A.bua())
 j=t.qV
-j=A.v(new A.A(B.I1,new A.bub(c),j),j.i("a_.E"))
+j=A.v(new A.A(B.I0,new A.bub(c),j),j.i("a_.E"))
 a0=A.a([q,B.b6t,a0,B.aP,r,B.as,B.bjH,B.G,A.dT(B.aj,j,B.b0,b,0,8)],h)
 r=c.w
 r===$&&A.c()
@@ -168139,7 +168145,7 @@ if(d==null)return A.c5R(a.db,a.as,a.at,a.Q,a.fy,a.cx,a.dy,a.cy,a.d,a.c,!1,a.dx,a
 s=a.fr.h(0,d)
 if(s==null){r=t.N
 q=t.i
-return A.c5R(A.x(r,q),e,e,e,0,A.x(r,q),a.dy,A.x(r,q),a.d,a.c,!0,e,0,0,B.an9,e,A.x(r,q),a.b,0,e,e,e)}r=s.a
+return A.c5R(A.x(r,q),e,e,e,0,A.x(r,q),a.dy,A.x(r,q),a.d,a.c,!0,e,0,0,B.an8,e,A.x(r,q),a.b,0,e,e,e)}r=s.a
 q=s.b
 p=s.c
 o=s.d
@@ -168414,7 +168420,7 @@ return A.E(A.a([A.aQ(A.h(a,s,s,s,s,s,B.a1,s,s,s),s,120),B.F,A.h(A.Mg(b),s,s,s,s,
 aGg(a){var s,r,q,p,o,n,m,l,k,j={},i=A.x(t.S,t.Ly)
 for(s=t.n,r=0;r<6;++r)i.k(0,r,A.a([],s))
 for(s=a.length,q=0;q<a.length;a.length===s||(0,A.R)(a),++q){p=a[q]
-for(o=p.c,r=0;r<6;++r){n=B.I_[r]
+for(o=p.c,r=0;r<6;++r){n=B.HZ[r]
 if(o>=n.b&&o<n.c){i.h(0,r).push(p.d)
 break}}}m=A.a([],t.Y)
 for(r=0;r<6;++r)if(i.h(0,r).length!==0)m.push(r)
@@ -168433,7 +168439,7 @@ aYy(a){var s=B.e.bn(a,-100,100)
 return A.oB(new A.bve(s>=0,Math.abs(s)/100))},
 aFR(a){var s,r=null,q=A.ce(a,!0,t.yT)
 B.b.bc(q,new A.buZ())
-s=A.a([new A.B(B.kW,A.E(B.alq,B.h,B.d,B.f,0,r,r),r),B.bE],t.p)
+s=A.a([new A.B(B.kW,A.E(B.alp,B.h,B.d,B.f,0,r,r),r),B.bE],t.p)
 B.b.q(s,new A.A(q,new A.bv_(this),A.J(q).i("A<1,e>")))
 return this.LE(new A.B(B.jj,A.G(s,B.h,r,B.d,B.f),r),"Sorted by holding duration","All Sold Positions")},
 b03(a){var s,r,q=null,p=a.f?B.r:B.o,o=a.e,n=o>=0?B.r:B.o,m=a.a,l=this.d===m,k=t.p
@@ -168502,7 +168508,7 @@ m.toString
 s=B.b.bO(m,0,new A.bv7())/m.length
 r=a===this.a.a
 q=s>=0?B.r:B.o
-p=B.I_[a]
+p=B.HZ[a]
 o=r?B.m:B.j
 m=A.a([A.aQ(A.h(p.a,n,n,n,n,n,A.U(n,n,o,n,n,n,n,n,n,n,n,12,n,n,r?B.u:B.S,n,n,!0,n,n,n,n,n,n,n,n),n,n,n),n,90),A.a0(this.b.aYy(s),1),B.F,A.aQ(A.h(A.a_6(s),n,n,n,n,n,A.U(n,n,q,n,n,n,n,n,n,n,n,12,n,n,B.u,n,n,!0,n,n,n,n,n,n,n,n),B.bP,n,n),n,52),A.aQ(A.h(" \xd7"+m.length,n,n,n,n,n,B.aU,n,n,n),n,30)],t.p)
 if(r){p=B.m.D(0.15)
@@ -169136,7 +169142,7 @@ case 2:p=q.c
 if(p!=null)A.ax(p,!1).dE()
 return A.m(null,r)}})
 return A.n($async$El,r)},
-u(a){var s,r,q,p,o,n=this,m=null,l=n.d,k=B.aob[l],j=l===7
+u(a){var s,r,q,p,o,n=this,m=null,l=n.d,k=B.aoa[l],j=l===7
 l=A.bq(a,m,t.w).w
 s=A.z(24)
 r=k.b
@@ -169187,7 +169193,7 @@ m=A.ag(B.q,1)
 s=t.p
 r=A.E(A.a([B.ab8,new A.asf(A.cyV(p.d),o)],s),B.h,B.d,B.f,0,o,o)
 q=t.Eb
-q=A.v(new A.A(B.alG,new A.bFt(p),q),q.i("a_.E"))
+q=A.v(new A.A(B.alF,new A.bFt(p),q),q.i("a_.E"))
 s=A.a([new A.B(B.eK,r,o),A.aQ(A.f6(q,o,B.b4,B.pI,o,B.a5,!1),34,o),B.O],s)
 if(l.length<2)s.push(new A.B(B.aab,A.h("Add at least 2 owned stocks to see rankings.",o,o,o,o,o,A.U(o,o,B.j,o,o,o,o,o,o,o,o,13,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),o))
 else s.push(new A.a0t(l,p.d,o))
@@ -169906,7 +169912,7 @@ u(a){var s,r,q,p=this,o=null,n=A.bq(a,o,t.w).w
 if(p.w)s=A.G(A.a([B.y4,B.aP,B.BL,B.as,A.aQ(A.cf(!1,B.BN,o,o,o,o,o,o,new A.bJK(a),o,o),o,1/0)],t.p),B.h,o,B.d,B.C)
 else{s=A.bv(A.K(o,o,B.i,o,o,new A.M(B.q,o,o,A.z(2),o,o,B.k),o,4,o,o,o,o,o,40),o,o)
 r=t.vZ
-r=A.v(new A.A(B.HV,new A.bJL(p),r),r.i("a_.E"))
+r=A.v(new A.A(B.HU,new A.bJL(p),r),r.i("a_.E"))
 q=t.p
 r=A.a([s,B.A,B.b2I,B.O,B.BQ,B.G,A.dT(B.aj,r,B.b0,o,8,8),B.O,A.dO(o,B.af,!1,o,!0,B.E,o,A.dW(),p.e,o,o,o,o,o,2,A.dm(o,new A.bJ(4,A.z(8),B.aF),o,B.ch,o,B.aU,o,o,!0,new A.bJ(4,A.z(8),B.aF),o,o,o,o,o,B.v,!0,o,o,o,o,new A.bJ(4,A.z(8),B.i_),o,o,o,o,o,o,o,o,B.ak,"Additional details (optional)",o,o,o,o,o,!0,o,o,o,!0,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,o),B.x,!0,o,!0,o,!1,o,B.aN,o,o,o,o,o,o,200,o,2,o,o,!1,"\u2022",o,o,o,o,o,!1,o,o,!1,o,!0,o,B.aJ,o,o,o,o,o,o,o,o,o,o,o,B.cC,!0,B.a7,o,B.b3,o,o,o,o)],q)
 s=p.x
@@ -170612,7 +170618,7 @@ s.ax=s.at=!1},
 u(a){var s,r=null,q=this.a.c,p=A.J(q).i("Z<1>"),o=A.v(new A.Z(q,new A.bNL(),p),p.i("w.E"))
 q=A.z(12)
 p=A.ag(B.q,1)
-s=A.a([new A.B(B.eK,A.E(B.anz,B.h,B.d,B.f,0,r,r),r)],t.p)
+s=A.a([new A.B(B.eK,A.E(B.any,B.h,B.d,B.f,0,r,r),r)],t.p)
 if(o.length===0)s.push(B.aYw)
 else B.b.q(s,new A.A(o,this.gaFs(),A.J(o).i("A<1,e>")))
 s.push(B.G)
@@ -170693,7 +170699,7 @@ return A.i(p.Ep(b0),$async$nS)
 case 5:o=b5.n0(b9),o=o.ga5(o)
 case 6:if(!o.A()){s=7
 break}n=o.gM(o)
-m=n.b.fx
+m=n.b.fy
 if(m!=null)b4.k(0,n.a.toUpperCase(),m)
 s=6
 break
@@ -170808,7 +170814,7 @@ if(j==null)j=null
 i=A.b2(J.I(l,"marketCap"))
 if(i==null)i=null
 h=A.b2(J.I(l,"eps"))
-m=A.cd_(null,null,null,null,null,null,null,null,j,null,h==null?null:h,null,!1,null,null,i,null,null,null,null,null,null,null,a,k,null,null,null,null)}p=2
+m=A.cd_(null,null,null,null,null,null,null,null,j,null,h==null?null:h,null,!1,null,null,i,null,null,null,null,null,null,null,null,a,k,null,null,null,null)}p=2
 s=6
 break
 case 4:p=3
@@ -170999,7 +171005,7 @@ aFo(a,b){var s,r=null,q=A.a([a.b],t.s)
 B.b.q(q,b.a)
 s=t.A7
 q=A.v(new A.A(q,new A.bN9(b,a,new A.bNa(),new A.bNb()),s),s.i("a_.E"))
-return A.d6(new A.a7S(B.Ic,30,34,30,0,18,q,A.cpz(B.Ic),r),r,B.x,r,B.b4,r,B.a5)}}
+return A.d6(new A.a7S(B.Ib,30,34,30,0,18,q,A.cpz(B.Ib),r),r,B.x,r,B.b4,r,B.a5)}}
 A.bNL.prototype={
 $1(a){return a.x===B.aL&&a.gc6()>0},
 $S:3}
@@ -171220,10 +171226,10 @@ $1(a){var s,r,q,p,o,n=this,m=null,l=n.a.b.h(0,a),k=a===n.b.b,j=k?B.m:B.H
 j=A.Q7(A.h(a,m,m,m,m,m,A.U(m,m,j,m,m,m,m,m,m,m,m,12,m,m,k?B.u:B.S,m,m,!0,m,m,m,m,m,m,m,m),m,m,m))
 s=n.c
 r=l==null
-q=A.Q7(A.h(s.$1(r?m:l.Q),m,m,m,m,m,B.cR,m,m,m))
-p=A.Q7(A.h(s.$1(r?m:l.as),m,m,m,m,m,B.cR,m,m,m))
-o=A.Q7(A.h(s.$2$decimals(r?m:l.dx,2),m,m,m,m,m,B.cR,m,m,m))
-s=A.Q7(A.h(s.$1(r?m:l.ax),m,m,m,m,m,B.cR,m,m,m))
+q=A.Q7(A.h(s.$1(r?m:l.as),m,m,m,m,m,B.cR,m,m,m))
+p=A.Q7(A.h(s.$1(r?m:l.at),m,m,m,m,m,B.cR,m,m,m))
+o=A.Q7(A.h(s.$2$decimals(r?m:l.dy,2),m,m,m,m,m,B.cR,m,m,m))
+s=A.Q7(A.h(s.$1(r?m:l.ay),m,m,m,m,m,B.cR,m,m,m))
 r=r?m:l.z
 return new A.u9(A.a([j,q,p,o,s,A.Q7(A.h(n.d.$1(r),m,m,m,m,m,B.cR,m,m,m))],t.sa))},
 $S:1297}
@@ -171776,7 +171782,7 @@ if(l!=="money_vs_hit_rate"&&p.ak(0,l))r.push(l)}return r},
 $S:203}
 A.TL.prototype={
 u(a){var s,r,q,p,o,n=this.c,m=A.cin(n.e,-5,10).a,l=A.a([],t.nO)
-for(s=t.c,r=n.r,n=n.f,q=this.d,p=0;p<9;++p){o=B.I3[p]
+for(s=t.c,r=n.r,n=n.f,q=this.d,p=0;p<9;++p){o=B.I2[p]
 l.push(new A.a2U(o,r.h(0,o),n,q,m,new A.ca("trait-"+o,s)))}return A.oB(new A.aYv(l))}}
 A.aYv.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l=null
@@ -172033,7 +172039,7 @@ return A.G(A.a([B.G,B.y4,B.aP,B.BL,B.G,B.Zh,B.as,A.aQ(A.cf(!1,B.BN,s,s,s,s,s,s,n
 aFm(){var s,r=this,q=null,p=A.bv(A.K(q,q,B.i,q,q,new A.M(B.q,q,q,A.z(2),q,q,B.k),q,4,q,q,q,q,q,40),q,q),o=A.z(8),n=A.ag(B.q,1)
 o=A.K(q,A.h('"'+r.a.c.d+'"',q,4,B.a0,q,q,B.p0,q,q,q),B.i,q,q,new A.M(B.W,q,n,o,q,q,B.k),q,q,q,q,B.du,q,q,1/0)
 n=t.vZ
-n=A.v(new A.A(B.HV,new A.bJw(r),n),n.i("a_.E"))
+n=A.v(new A.A(B.HU,new A.bJw(r),n),n.i("a_.E"))
 s=t.p
 n=A.a([p,B.A,B.b2R,B.O,o,B.aP,B.BQ,B.G,A.dT(B.aj,n,B.b0,q,8,8),B.O,A.dO(q,B.af,!1,q,!0,B.E,q,A.dW(),r.e,q,q,q,q,q,2,A.dm(q,new A.bJ(4,A.z(8),B.aF),q,B.ch,q,B.aU,q,q,!0,new A.bJ(4,A.z(8),B.aF),q,q,q,q,q,B.v,!0,q,q,q,q,new A.bJ(4,A.z(8),B.i_),q,q,q,q,q,q,q,q,B.ak,"Additional details (optional)",q,q,q,q,q,!0,q,q,q,!0,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q),B.x,!0,q,!0,q,!1,q,B.aN,q,q,q,q,q,q,200,q,2,q,q,!1,"\u2022",q,q,q,q,q,!1,q,q,!1,q,!0,q,B.aJ,q,q,q,q,q,q,q,q,q,q,q,B.cC,!0,B.a7,q,B.b3,q,q,q,q),B.ac],s)
 p=r.x
@@ -172672,7 +172678,7 @@ return new A.B(B.ib,A.G(m,B.n,l,B.d,B.f),l)},
 $S:1317}
 A.as0.prototype={
 u(a){var s,r,q,p,o,n,m=A.a([],t.p)
-for(s=this.c.r,r=0;r<9;++r){q=B.I3[r]
+for(s=this.c.r,r=0;r<9;++r){q=B.I2[r]
 p=s.h(0,q)
 if(p!=null){if(q==="money_vs_hit_rate")o="reading"
 else{o=p.e
@@ -172776,12 +172782,12 @@ A.bvl.prototype={
 $1(a){return a.r},
 $S:1319}
 A.a6J.prototype={
-u(a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=null,b="\u2014",a=this.c,a0=t.S,a1=A.dN(a,0,A.hg(10,"count",a0),A.J(a).c).cn(0),a2=A.cgI(new A.A(a1,new A.aDp(),A.J(a1).i("A<1,C?>"))),a3=B.b.bO(B.HR,0,new A.aDq()),a4=new A.aDo(),a5=new A.aDr()
+u(a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=null,b="\u2014",a=this.c,a0=t.S,a1=A.dN(a,0,A.hg(10,"count",a0),A.J(a).c).cn(0),a2=A.cgI(new A.A(a1,new A.aDp(),A.J(a1).i("A<1,C?>"))),a3=B.b.bO(B.HQ,0,new A.aDq()),a4=new A.aDo(),a5=new A.aDr()
 a0=A.x(a0,t.PA)
-for(s=0;s<7;++s)a0.k(0,s,new A.HA(B.HR[s]))
+for(s=0;s<7;++s)a0.k(0,s,new A.HA(B.HQ[s]))
 a=t.p
 r=A.a([],a)
-for(s=0;s<7;++s)r.push(a4.$2$last(new A.B(B.ib,A.h(B.amL[s].toUpperCase(),c,c,c,c,c,B.hN,c,c,c),c),s===6))
+for(s=0;s<7;++s)r.push(a4.$2$last(new A.B(B.ib,A.h(B.amK[s].toUpperCase(),c,c,c,c,c,B.hN,c,c,c),c),s===6))
 r=A.a([new A.iR(c,B.vq,r)],t.nk)
 for(q=a1.length,p=t.c,o=0;o<a1.length;a1.length===q||(0,A.R)(a1),++o){n=a1[o]
 m=n.a
@@ -177934,7 +177940,7 @@ asz(a,b){var s=0,r=A.o(t.H),q=1,p=[],o=this,n,m,l,k,j,i
 var $async$$2=A.k(function(c,d){if(c===1){p.push(d)
 s=q}while(true)switch(s){case 0:o.c=b
 q=3
-n=B.HZ
+n=B.HY
 s=6
 return A.i(o.b.SJ(n),$async$$2)
 case 6:k=A.fm(o.a.a2Q(a),t.H)
@@ -178593,7 +178599,7 @@ case 2:return A.l(o.at(-1),r)}})
 return A.n($async$SJ,r)},
 au(a){var s=0,r=A.o(t.H),q,p,o
 var $async$au=A.k(function(b,c){if(b===1)return A.l(c,r)
-while(true)switch(s){case 0:o=A.cF4(new A.A(B.HZ,new A.b55(),t._c).aY(0,", "))
+while(true)switch(s){case 0:o=A.cF4(new A.A(B.HY,new A.b55(),t._c).aY(0,", "))
 for(q=o.length,p=0;p<o.length;o.length===q||(0,A.R)(o),++p)o[p].a.remove()
 return A.m(null,r)}})
 return A.n($async$au,r)}}
@@ -181385,11 +181391,11 @@ A.bc2.prototype={
 $1(a){return a.gB(a)},
 $S:1436}
 A.bbw.prototype={
-go3(a){return B.an5}}
+go3(a){return B.an4}}
 A.aj9.prototype={
 go3(a){return this.Bh$}}
 A.bbx.prototype={
-gea(a){return B.I8}}
+gea(a){return B.I7}}
 A.Li.prototype={
 gea(a){return this.kJ$}}
 A.za.prototype={}
@@ -181793,7 +181799,7 @@ s=A.cyb(o)
 this.b=s
 if(s==null)this.uO(0,o,a.oo$)},
 a5p(a){return this.uO(0,new A.XA(a.e,a.f,null),a)},
-a5s(a){var s,r=this,q=A.ceL(a.e,r.a0W(a.f),B.I8,!0)
+a5s(a){var s,r=this,q=A.ceL(a.e,r.a0W(a.f),B.I7,!0)
 if(a.r)r.uO(0,q,a)
 else{s=r.b
 if(s!=null)s.kJ$.E(0,q)
@@ -186050,9 +186056,9 @@ B.bq=new A.WO(0,"clamp")
 B.a6S=new A.W(1,0.17647058823529413,0.2901960784313726,0.43529411764705883,B.t)
 B.a5G=new A.W(1,0.2901960784313726,0.23137254901960785,0.43529411764705883,B.t)
 B.a6G=new A.W(1,0.3607843137254902,0.2901960784313726,0.4980392156862745,B.t)
-B.anA=s([B.a6S,B.a5G,B.a6G],t.E)
-B.alC=s([0,0.5,1],t.n)
-B.ai4=new A.eE(B.cu,B.fB,B.bq,B.anA,B.alC,null)
+B.anz=s([B.a6S,B.a5G,B.a6G],t.E)
+B.alB=s([0,0.5,1],t.n)
+B.ai4=new A.eE(B.cu,B.fB,B.bq,B.anz,B.alB,null)
 B.a1z=new A.M(null,null,null,null,null,B.ai4,B.k)
 B.b1=new A.a6x(1,"circle")
 B.a1A=new A.M(B.q,null,null,null,null,null,B.b1)
@@ -186361,7 +186367,7 @@ B.aG=new A.aiv()
 B.cf=new A.aiw()
 B.ds=new A.Xa()
 B.mn=new A.aiD(0,0,0,0)
-B.ani=s([],A.aB("N<aGK>"))
+B.anh=s([],A.aB("N<aGK>"))
 B.buG=new A.baN()
 B.bS={}
 B.hC=new A.aL(B.bS,[],t.o)
@@ -186472,8 +186478,8 @@ B.bkq=new A.D("No notifications yet",null,B.Yv,null,null,null,null,null,null,nul
 B.G=new A.bI(null,8,null,null)
 B.p2=new A.H(!0,B.j,null,null,null,null,12,null,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.biR=new A.D("Replies to your posts and new posts\nfrom traders you follow appear here.",null,B.p2,null,B.a6,null,null,null,null,null,null,null)
-B.anX=s([B.agP,B.A,B.bkq,B.G,B.biR],t.p)
-B.a78=new A.et(B.X,B.d,B.C,B.h,null,B.aA,null,0,B.anX,null)
+B.anW=s([B.agP,B.A,B.bkq,B.G,B.biR],t.p)
+B.a78=new A.et(B.X,B.d,B.C,B.h,null,B.aA,null,0,B.anW,null)
 B.aYM=new A.B(B.wS,B.a78,null)
 B.a4H=new A.es(B.aa,null,null,B.aYM,null)
 B.pE=new A.kK(0,"close")
@@ -186650,8 +186656,8 @@ B.Z9=new A.H(!0,B.H,null,null,null,null,null,B.K,null,null,null,null,null,null,n
 B.bgl=new A.D("Nothing recorded yet",null,B.Z9,null,null,null,null,null,null,null,null,null)
 B.ac=new A.bI(null,6,null,null)
 B.bhr=new A.D("Add where your money went this month \u2014 name them whatever you like.",null,B.P,null,B.a6,null,null,null,null,null,null,null)
-B.alS=s([B.bgl,B.ac,B.bhr],t.p)
-B.a72=new A.et(B.X,B.d,B.f,B.h,null,B.aA,null,0,B.alS,null)
+B.alR=s([B.bgl,B.ac,B.bhr],t.p)
+B.a72=new A.et(B.X,B.d,B.f,B.h,null,B.aA,null,0,B.alR,null)
 B.n=new A.AX(0,"start")
 B.GS=new A.ao(62588,"MaterialIcons",!1)
 B.afx=new A.aq(B.GS,15,B.p,null,null)
@@ -186662,8 +186668,8 @@ B.apn=s([B.afx,B.N,B.bkh],t.p)
 B.b2C=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.apn,null)
 B.bdx=new A.H(!0,B.j,null,null,null,null,11,null,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bl1=new A.D("Tracking starts the day the portfolio is shared \u2014 nothing before that counts. Every buy and sell is priced by the server at the market price of the day it was observed, dividends come from official exchange data, and new deposits are neutralized in the index. Claimed past performance cannot appear here.",null,B.bdx,null,null,null,null,null,null,null,null,null)
-B.amy=s([B.b2C,B.G,B.bl1],t.p)
-B.a74=new A.et(B.X,B.d,B.f,B.n,null,B.aA,null,0,B.amy,null)
+B.amx=s([B.b2C,B.G,B.bl1],t.p)
+B.a74=new A.et(B.X,B.d,B.f,B.n,null,B.aA,null,0,B.amx,null)
 B.m9=new A.H(!0,null,null,null,null,null,15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bhF=new A.D("There is a security policy issue with the database.",null,B.m9,null,null,null,null,null,null,null,null,null)
 B.baT=new A.H(!0,null,null,null,null,null,13,B.u,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -186674,8 +186680,8 @@ B.bf3=new A.D("Community Investing",null,null,null,null,null,null,null,null,null
 B.S=new A.op(3,400)
 B.u8=new A.H(!0,B.j,null,null,null,null,11,B.S,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bjl=new A.D("Collective portfolio",null,B.u8,null,null,null,null,null,null,null,null,null)
-B.am1=s([B.bf3,B.bjl],t.p)
-B.a7b=new A.et(B.X,B.d,B.C,B.n,null,B.aA,null,0,B.am1,null)
+B.am0=s([B.bf3,B.bjl],t.p)
+B.a7b=new A.et(B.X,B.d,B.C,B.n,null,B.aA,null,0,B.am0,null)
 B.EF=new A.H0(0,"targetHit")
 B.EG=new A.H0(1,"stopHit")
 B.EH=new A.H0(2,"deadline")
@@ -187292,8 +187298,8 @@ B.bkS=new A.D("Select any CSV file and we'll walk you through mapping the column
 B.ay=new A.op(4,500)
 B.bcy=new A.H(!0,B.m,null,null,null,null,12,B.ay,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bhg=new A.D("Your mapping can be saved as a template for next time.",null,B.bcy,null,null,null,null,null,null,null,null,null)
-B.amH=s([B.bij,B.a_,B.bkS,B.G,B.bhg],t.p)
-B.a73=new A.et(B.X,B.d,B.f,B.n,null,B.aA,null,0,B.amH,null)
+B.amG=s([B.bij,B.a_,B.bkS,B.G,B.bhg],t.p)
+B.a73=new A.et(B.X,B.d,B.f,B.n,null,B.aA,null,0,B.amG,null)
 B.abd=new A.cv(1,B.aw,B.a73,null)
 B.bgj=new A.D("Link to my stats if YES passes (skin in the game)",null,B.P,null,null,null,null,null,null,null,null,null)
 B.abe=new A.cv(1,B.aw,B.bgj,null)
@@ -187387,9 +187393,9 @@ B.qM=new A.uk(!1,!1,!1,!1)
 B.qN=new A.uk(!1,!1,!1,!0)
 B.xv=new A.uk(!0,!1,!1,!1)
 B.xw=new A.uk(!0,!1,!1,!0)
-B.anj=s([],t.rx)
+B.ani=s([],t.rx)
 B.nW=s([],t.uM)
-B.jp=new A.ro(B.anj,B.nW,!0)
+B.jp=new A.ro(B.ani,B.nW,!0)
 B.xx=new A.aIU(0,"center")
 B.G7=new A.rp(2,"unknown")
 B.G8=new A.pM(3,"unknown")
@@ -188049,11 +188055,11 @@ B.akx=s([B.mK,B.a5Q],t.E)
 B.ai2=new A.eE(B.cu,B.fB,B.bq,B.akx,null,null)
 B.a5w=new A.W(1,0,0.6,1,B.t)
 B.mU=new A.W(1,1,0.10980392156862745,0.9686274509803922,B.t)
-B.I0=s([B.fH,B.a5w,B.f8,B.mU],t.E)
-B.yl=new A.eE(B.cu,B.fB,B.bq,B.I0,null,null)
+B.I_=s([B.fH,B.a5w,B.f8,B.mU],t.E)
+B.yl=new A.eE(B.cu,B.fB,B.bq,B.I_,null,null)
 B.ajF=s([B.fH,B.f8,B.mU],t.E)
 B.ai3=new A.eE(B.d3,B.cj,B.bq,B.ajF,null,null)
-B.ym=new A.eE(B.d3,B.cj,B.bq,B.I0,null,null)
+B.ym=new A.eE(B.d3,B.cj,B.bq,B.I_,null,null)
 B.a6b=new A.W(1,0.48627450980392156,0.22745098039215686,0.9294117647058824,B.t)
 B.aih=s([B.m,B.a6b],t.E)
 B.ai5=new A.eE(B.d3,B.cj,B.bq,B.aih,null,null)
@@ -188062,8 +188068,8 @@ B.apx=s([B.mO,B.a6D],t.E)
 B.ai6=new A.eE(B.cu,B.fB,B.bq,B.apx,null,null)
 B.apB=s([B.T,B.p],t.E)
 B.HG=new A.eE(B.d3,B.cj,B.bq,B.apB,null,null)
-B.ao3=s([B.fH,B.f8],t.E)
-B.ai7=new A.eE(B.cu,B.fB,B.bq,B.ao3,null,null)
+B.ao2=s([B.fH,B.f8],t.E)
+B.ai7=new A.eE(B.cu,B.fB,B.bq,B.ao2,null,null)
 B.ap6=s([B.br,B.pO],t.E)
 B.HH=new A.eE(B.cu,B.fB,B.bq,B.ap6,null,null)
 B.rq=new A.Cn(B.vs,A.aB("Cn<iU>"))
@@ -188101,14 +188107,14 @@ B.aZI=new A.jU(10,"itemAlreadyOwned")
 B.aZJ=new A.jU(11,"itemNotOwned")
 B.aZK=new A.jU(12,"networkError")
 B.aj8=s([B.aZG,B.aZH,B.aZL,B.aZM,B.aZN,B.aZO,B.aZP,B.aZQ,B.aZR,B.aZS,B.aZI,B.aZJ,B.aZK],A.aB("N<jU>"))
-B.aoe=s([137,80,78,71,13,10,26,10],t.d)
+B.aod=s([137,80,78,71,13,10,26,10],t.d)
 B.agX=new A.xy(0,"png")
 B.ah4=new A.ry(B.agX,!1,0,"png")
-B.agV=new A.uy(B.aoe,B.ah4,0,"png")
+B.agV=new A.uy(B.aod,B.ah4,0,"png")
 B.aom=s([71,73,70,56,55,97],t.d)
 B.agU=new A.uy(B.aom,B.rk,1,"gif87a")
-B.amk=s([71,73,70,56,57,97],t.d)
-B.agT=new A.uy(B.amk,B.rk,2,"gif89a")
+B.amj=s([71,73,70,56,57,97],t.d)
+B.agT=new A.uy(B.amj,B.rk,2,"gif89a")
 B.ait=s([255,216,255],t.d)
 B.agY=new A.xy(2,"jpeg")
 B.ah8=new A.ry(B.agY,!1,3,"jpeg")
@@ -188195,16 +188201,16 @@ B.bpx=new A.LZ(B.GL,"No closed positions yet","Positions that have hit their tar
 B.ajZ=s([B.h4,B.bpx],t.p)
 B.al2=s([2,1.13276676],t.n)
 B.aiL=s([2.18349805,1.20311921],t.n)
-B.anF=s([2.33888662,1.28698796],t.n)
-B.anO=s([2.48660575,1.36351941],t.n)
+B.anE=s([2.33888662,1.28698796],t.n)
+B.anN=s([2.48660575,1.36351941],t.n)
 B.akd=s([2.62226596,1.44717976],t.n)
 B.akA=s([2.7514899,1.53385819],t.n)
-B.ame=s([3.36298265,1.98288283],t.n)
-B.ale=s([4.08649929,2.23811846],t.n)
-B.alX=s([4.85481134,2.47563463],t.n)
+B.amd=s([3.36298265,1.98288283],t.n)
+B.ald=s([4.08649929,2.23811846],t.n)
+B.alW=s([4.85481134,2.47563463],t.n)
 B.aki=s([5.62945551,2.72948597],t.n)
 B.al4=s([6.43023796,2.98020421],t.n)
-B.HN=s([B.al2,B.aiL,B.anF,B.anO,B.akd,B.akA,B.ame,B.ale,B.alX,B.aki,B.al4],t.zg)
+B.HN=s([B.al2,B.aiL,B.anE,B.anN,B.akd,B.akA,B.amd,B.ald,B.alW,B.aki,B.al4],t.zg)
 B.b7D=new A.qt("Portfolio",null,null)
 B.b7E=new A.qt("Sold",null,null)
 B.b7F=new A.qt("Watching",null,null)
@@ -188232,280 +188238,10 @@ B.bk1=new A.D("PK",null,B.bay,null,null,null,null,null,null,null,null,null)
 B.bat=new A.H(!0,B.bh,null,null,null,null,6,B.K,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bio=new A.D("VERIFIED",null,B.bat,null,null,null,null,null,null,null,null,null)
 B.akn=s([B.bk1,B.bio],t.p)
-B.a5g=new A.W(1,1,0.9725490196078431,0.8823529411764706,B.t)
-B.a6e=new A.W(1,1,0.9254901960784314,0.7019607843137254,B.t)
-B.a66=new A.W(1,1,0.8784313725490196,0.5098039215686274,B.t)
-B.a65=new A.W(1,1,0.8352941176470589,0.30980392156862746,B.t)
-B.a6y=new A.W(1,1,0.792156862745098,0.1568627450980392,B.t)
-B.a5m=new A.W(1,1,0.7568627450980392,0.027450980392156862,B.t)
-B.a5A=new A.W(1,1,0.6274509803921569,0,B.t)
-B.a6a=new A.W(1,1,0.5607843137254902,0,B.t)
-B.a5C=new A.W(1,1,0.43529411764705883,0,B.t)
-B.aQx=new A.b([50,B.a5g,100,B.a6e,200,B.a66,300,B.a65,400,B.a6y,500,B.a5m,600,B.n0,700,B.a5A,800,B.a6a,900,B.a5C],t.pl)
-B.or=new A.pW(B.aQx,1,1,0.7568627450980392,0.027450980392156862,B.t)
-B.akc=s(["free","free plan","limits","restrictions","what's included","trial"],t.s)
-B.bro=new A.bh("What's included on the Free plan","Get started at no cost \u2014 track your first stocks, watch the market, and keep a journal.","Portfolio Keeper is free to get started. Here's what the Free plan includes:\n\n\ud83d\udcca Portfolio\n\u2022 Track up to 4 owned stock positions\n\u2022 Watch up to 2 stocks on your watchlist\n\u2022 View your last 3 sold positions\n\n\ud83d\udcd3 Journal\n\u2022 Up to 4 manual journal entries\n\n\ud83c\udff7 Tags\n\u2022 Up to 2 portfolio tags (sub-portfolios)\n\n\ud83d\udcc8 Analysis\n\u2022 Full access to all analysis features \u2014 VaR, Beta, IRR, Equity Curve, Sector & Country breakdown, Holding Period analysis, and more\n\n\ud83c\udfaf Goals\n\u2022 Unlimited goal tracking\n\nThe Free plan is a great way to learn the app and see if it fits how you invest. When your portfolio grows, Premium grows with you.",B.akc)
-B.aop=s(["premium","upgrade","subscription","unlimited","price","cost","annual","monthly","2.99","19.99"],t.s)
-B.bqS=new A.bh("Premium \u2014 no limits, full power","Unlimited stocks, watchlist, history, journal entries, and tags. \u20ac2.99/month or \u20ac19.99/year.",'Premium removes every limit so the app grows alongside your portfolio.\n\n\u2705 Unlimited portfolio stocks\nAdd as many positions as you hold \u2014 5, 20, 50+. No cap.\n\n\u2705 Unlimited watchlist\nTrack as many opportunities as you want without committing capital.\n\n\u2705 Full sold history\nEvery position you\'ve ever closed is preserved. Study your full exit history, run Holding Period analysis across all trades, and learn from the complete picture.\n\n\u2705 Unlimited journal entries\nWrite as much as you want \u2014 before every trade, after every exit, whenever the market surprises you.\n\n\u2705 Unlimited portfolio tags\nBuild as many sub-portfolios as your strategy needs. "Growth", "Dividend", "Sweden", "Pension" \u2014 organise your holdings exactly how you think.\n\n\ud83d\udca1 Everything else stays the same\nAll analysis features \u2014 VaR, Beta, IRR, Equity Curve, Beat Market, Drawdown, Goals, Sector & Country breakdown \u2014 are available on both plans.\n\n\ud83d\udcb6 Pricing\n\u2022 Monthly: \u20ac2.99 / month\n\u2022 Annual: \u20ac19.99 / year (save 44% vs monthly)\n\nSubscribe via the Portfolio Keeper app on iOS or Android.\nYour subscription works across all platforms \u2014 pay once, access everywhere.',B.aop)
-B.aoY=s([B.bro,B.bqS],t.YG)
-B.bqu=new A.fQ("Free vs Premium",B.io,B.or,B.aoY)
-B.adq=new A.ao(61901,"MaterialIcons",!1)
-B.akZ=s(["badge","badges","achievement","award","profile","earned","unlock"],t.s)
-B.bqT=new A.bh("What are Badges?","Badges are earned automatically and displayed on your Trader Profile \u2014 they reflect your history, activity, and skill as an investor.",'Badges are awarded based on things you have genuinely done in Portfolio Keeper \u2014 how long you have been a member, whether you subscribed, how consistently you use the app, how many journal entries you have written, and how accurate your predictions have been.\n\nThey are completely automatic \u2014 you never need to claim or apply for a badge. The app checks your data and awards the right badge every time you open it.\n\nWhere to see them:\nGo to Settings \u2192 "My Trader Profile" (or tap your handle anywhere in the app). Your badges appear below your name in the Badges section.',B.akZ)
-B.ak_=s(["founding member","founder","first 1000","early adopter","original","rare"],t.s)
-B.bs8=new A.bh("Founding Member Badge","Awarded to the first 1,000 people who created an account. Permanent \u2014 never lost.",'The Founding Member badge is the rarest badge in Portfolio Keeper. It is given to the first 1,000 users who signed up.\n\nIf you have it, it means you were one of the people who believed in this app before anyone else did \u2014 when it was nothing but an idea and a blank screen. You took a chance on us, and we will never forget that.\n\n\ud83d\ude4f We are forever grateful to every Founding Member. You are the reason this exists.\n\n\u2728 It is permanent \u2014 it can never be lost, removed, or earned later. If you did not receive it when you signed up, it is no longer available.\n\nThe badge appears as a gold heraldic shield with a five-pointed star inside and a subtle animated gold shimmer sweeping across it. "FOUNDING MEMBER" is displayed in gold text straight below the shield.',B.ak_)
-B.akI=s(["member since","tenure","new member","account age","join date"],t.s)
-B.brx=new A.bh("Member Since Badge","Reflects how long you have been a Portfolio Keeper member \u2014 upgrades automatically over time.","This badge tracks your account age automatically. It upgrades as time passes \u2014 you never need to do anything.\n\nTiers:\n\u2022 New Member \u2014 less than 6 months (grey)\n\u2022 Member 6m+ \u2014 6 months or more (green)\n\u2022 Member 1 yr \u2014 1 year or more (blue)\n\u2022 Member 2 yr+ \u2014 2 years or more (gold)\n\nEach tier is shown as a chip with a calendar icon. The colour of the chip and label changes as your tenure grows. Your exact join date is used, so the upgrade happens on your account anniversary.",B.akI)
-B.ajy=s(["premium","subscription","subscriber","premium badge","premium 1 yr","premium 3m"],t.s)
-B.brj=new A.bh("Premium Badge","Shown when you have an active Premium subscription. Upgrades based on how long you have been subscribed.","The Premium badge appears as soon as you subscribe and reflects how long you have been a Premium member.\n\nTiers:\n\u2022 Premium \u2014 less than 3 months (purple chip)\n\u2022 Premium 3m+ \u2014 3 months or more (purple chip)\n\u2022 Premium 1 yr \u2014 1 year or more (gold chip)\n\u2022 Premium 2 yr+ \u2014 2 years or more (gold chip, thicker border)\n\nEach tier is shown as a chip with a premium rosette icon. The badge disappears automatically if your subscription lapses and reappears if you re-subscribe.",B.ajy)
-B.anH=s(["streak","consecutive","days","daily","login","fire","unstoppable"],t.s)
-B.bs1=new A.bh("Streak Badge","Earned by opening the app on consecutive days. The longer your streak, the higher the badge tier.","Your streak counts how many consecutive days you have opened Portfolio Keeper. It is recorded automatically each time you launch the app.\n\nStreak rules:\n\u2022 Open the app today \u2192 streak continues\n\u2022 Miss a day \u2192 streak resets to 1\n\u2022 Already opened today \u2192 streak stays the same (no double-counting)\n\nTiers:\n\u2022 3 days \u2014 pink fire chip\n\u2022 7 days \u2014 pink fire chip\n\u2022 14 days \u2014 pink fire chip\n\u2022 30 days \u2014 pink fire chip (solid icon)\n\u2022 90 days \u2014 gold fire chip (Unstoppable)\n\nNo badge is shown below 3 days. The chip shows your exact day count.\n\nTip: open the app briefly each day \u2014 even a quick price refresh counts toward your streak.",B.anH)
-B.aot=s(["journal","entries","write","apprentice","journaller","chronicler","sage","master chronicler"],t.s)
-B.brT=new A.bh("Journal Keeper Badge","Awarded for writing manual journal entries. The more you write, the higher the tier.","The Journal Keeper badge rewards disciplined record-keeping. Every manual journal entry you write counts toward this badge.\n\nTiers:\n\u2022 Apprentice \u2014 1 or more entries (grey chip)\n\u2022 Journaller \u2014 10 or more entries (blue chip)\n\u2022 Chronicler \u2014 50 or more entries (purple chip)\n\u2022 Sage \u2014 100 or more entries (gold chip)\n\u2022 Master Chronicler \u2014 200 or more entries (gold chip, thicker border)\n\nHow to write journal entries:\nOpen any stock \u2192 tap the Journal button \u2192 Add Entry. Use it to record why you bought, what you expected, how it turned out, and what you learned. The best investors write down their reasoning.\n\nNote: auto-generated entries (import transactions) do not count \u2014 only entries you write manually.",B.aot)
-B.am0=s(["top predictor","predictor","prediction badge","accuracy","percentile","elite","analyst","oracle","rank"],t.s)
-B.bqZ=new A.bh("Top Predictor Badge","Earned by demonstrating consistent, accurate predictions relative to all other users.","The Top Predictor badge is the hardest badge to earn. It is based on your prediction accuracy compared to everyone else who uses the Predictions feature.\n\nWhat matters is consistency, not lucky streaks. A single correct call does not make you a top predictor \u2014 the app weighs your full track record and penalises small sample sizes. The more predictions you resolve, the more your true accuracy shows through.\n\nYou need at least 5 resolved predictions to qualify for a rank.\n\nTiers (ranked against all qualifying users):\n\u2022 Analyst \u2014 top half of all predictors (grey chip)\n\u2022 Sharp \u2014 top 20% (blue chip)\n\u2022 Expert \u2014 top 10% (purple chip)\n\u2022 Elite Predictor \u2014 top 5% (pink chip)\n\u2022 Oracle \u2014 top 1% (gold chip)\n\nYour rank updates automatically as you and others make more predictions. You can rise \u2014 and fall \u2014 over time.",B.am0)
-B.apA=s(["trading style","style badge","buffett","lynch","graham","oneil","o'neil","templeton","compounder","stockpicker","guardian","momentum trader","contrarian","investor style","trading profile","legendary","warren","peter","benjamin","william","john"],t.s)
-B.bsf=new A.bh("Trading Style Badge","Assigned based on how you actually trade \u2014 matched to one of five legendary investors whose style best fits your behaviour.",'The Trading Style badge looks at your real portfolio history \u2014 how long you hold, how often you sell, whether you cut losses quickly or ride them out, how spread out your investments are, and more. It then matches you to the legendary investor whose approach most closely mirrors your own.\n\nIt only appears once you have at least 3 real stocks (owned or sold). Paper portfolio stocks are never included \u2014 this is about your real trading behaviour.\n\nYour style is recalculated every time you open your Trader Profile. As your portfolio evolves, so can your style.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n\ud83c\udfe6  The Compounder \u2014 Warren Buffett\n\nWarren Buffett is arguably the greatest investor of all time. Born in 1930 in Omaha, Nebraska, he began investing at age 11 and built Berkshire Hathaway into one of the largest companies in the world. His philosophy is simple but demanding: find exceptional businesses run by honest people, buy them at a fair price, and then do almost nothing. His favourite holding period, in his own words, is "forever."\n\nWhat it says about you:\nYou are patient. You buy and hold. You are not rattled by short-term noise and you let your positions compound over years, not months. You tend to concentrate your portfolio in a smaller number of companies you genuinely believe in, and you collect dividend income along the way.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n\ud83d\udd0d  The Stockpicker \u2014 Peter Lynch\n\nPeter Lynch ran the Magellan Fund at Fidelity from 1977 to 1990, averaging returns that beat the market every single year. At his peak he held over 1,400 individual stocks \u2014 an almost unheard-of number. His core belief was that ordinary people have an investing edge that Wall Street misses: you notice great businesses in everyday life before analysts catch on. He called this "invest in what you know." He was not afraid to own many things across many sectors at once.\n\nWhat it says about you:\nYou cast a wide net. You hold a diverse range of stocks across different sectors and you are always on the lookout for the next opportunity. You are comfortable managing a larger portfolio and you trust your own observations about the world as much as any analyst report.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n\ud83d\udee1\ufe0f  The Guardian \u2014 Benjamin Graham\n\nBenjamin Graham was the father of value investing and the teacher who shaped Warren Buffett. Writing in the 1930s and 40s \u2014 in the shadow of the Great Depression \u2014 Graham believed that most investors lost money because they were careless with risk. His answer was the concept of a "margin of safety": only buy when the price is meaningfully below what the business is actually worth, so that even if you are wrong about the company, you are protected. He was disciplined about cutting positions that proved him wrong rather than holding on and hoping.\n\nWhat it says about you:\nYou are cautious and principled. You do not chase momentum or overpay for excitement. When a position turns against you, you are willing to exit and accept the loss rather than let it grow. You tend to run a focused portfolio and you value dividend income as a sign of a real, profitable business.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n\u26a1  The Momentum Trader \u2014 William O\'Neil\n\nWilliam O\'Neil founded Investor\'s Business Daily and developed the CAN SLIM system in the 1960s \u2014 one of the most widely studied momentum strategies in history. Where Graham protected against loss by buying cheap, O\'Neil protected against loss by acting fast. His rule was iron: cut every losing position at exactly 7\u20138%, no exceptions, no arguments. Meanwhile, ride your winners hard. He traded actively and concentrated his bets on the strongest stocks at the right moment.\n\nWhat it says about you:\nYou move quickly and decisively. You do not let losses linger \u2014 you take the pain early and move on. Your portfolio turns over more often than most, and you are comfortable making concentrated bets when you have conviction. You are less interested in dividends and more focused on price movement and timing.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n\ud83c\udf0d  The Contrarian \u2014 John Templeton\n\nJohn Templeton was a pioneer of global investing at a time when most Americans never looked beyond their own borders. Born in Tennessee in 1912, he famously bought shares in every company on the New York Stock Exchange trading under $1 in 1939 \u2014 right at the depths of fear during World War II \u2014 and held them for four years, making extraordinary returns. His guiding principle: the best bargains are found at the point of maximum pessimism, often in countries and sectors that others have given up on entirely. He invested across currencies, continents and market cycles with unusual patience.\n\nWhat it says about you:\nYou think globally. Your portfolio spans different currencies and geographies rather than staying close to home. You are a long-term thinker who is not easily spooked \u2014 you hold through uncertainty and prefer to find value where others are not looking. Your instinct is to go where the crowd is not.',B.apA)
-B.ajl=s([B.bqT,B.bs8,B.brx,B.brj,B.bs1,B.brT,B.bqZ,B.bsf],t.YG)
-B.bqw=new A.fQ("Badges",B.adq,B.m,B.ajl)
-B.apc=s(["add","search","ticker","symbol","new stock","buy"],t.s)
-B.brp=new A.bh("Adding a Stock","Search for any ticker and add it to your portfolio, watchlist, or sold positions.","Tap the + button (bottom right) or the search bar at the top of the Portfolio screen.\n\nType a ticker symbol (e.g. AAPL, TSLA, EVO.ST) or a company name. Select the result that matches your stock.\n\nChoose a status:\n\u2022 Owned \u2014 you currently hold shares\n\u2022 Watching \u2014 you are tracking it but haven't bought\n\u2022 Sold \u2014 you previously held it\n\nAfter adding, go to the stock detail screen to log your transactions (buy/sell dates, quantities, prices) so the app can calculate your P&L, IRR, and position size correctly.",B.apc)
-B.aiF=s(["transaction","buy","sell","dividend","entry","log","record","history"],t.s)
-B.br0=new A.bh("Logging Transactions","Record every buy, sell, and dividend so the app can calculate accurate returns.","Open a stock \u2192 tap the pencil (Edit) icon \u2192 Add Entry.\n\nTransaction types:\n\u2022 Buy \u2014 enter date, quantity, and price per share\n\u2022 Sell \u2014 same fields; reduces your share count\n\u2022 Dividend \u2014 enter the total amount received on that date\n\u2022 Split \u2014 enter the ratio (e.g. 4 for a 4:1 split); adjusts share count and avg cost automatically\n\nThe app uses your transaction history to calculate:\n\u2022 Average purchase price (weighted by quantity)\n\u2022 Total invested amount\n\u2022 Personal IRR (accounts for exact timing of each cash flow)\n\u2022 Realised vs unrealised P&L\n\nTip: log dividends as you receive them \u2014 they are included in Total Return % and in the IRR calculation.",B.aiF)
-B.anG=s(["split","stock split","reverse split","ratio","share count","apple split","AVCO","cost basis"],t.s)
-B.bqN=new A.bh("Stock Splits & Reverse Splits","Record a stock split so your share count and average cost stay correct automatically.",'When a company does a stock split (e.g. Apple\'s 4:1 split in 2020), your share count multiplies and the price per share divides \u2014 but your total investment value does not change.\n\nHow to record a split:\n1. Open the stock \u2192 tap the \uff0b FAB button\n2. Tap "Split" (orange, scissors icon)\n3. Enter the split ratio and the split date\n   \u2022 Forward split (4:1) \u2192 enter 4\n   \u2022 Reverse split (1:4) \u2192 enter 0.25\n\nWhat the app adjusts automatically:\n\u2022 Share count multiplied by the ratio\n\u2022 Average purchase price divided by the ratio\n\u2022 All P&L %, IRR, VaR, and position size figures recalculate correctly\n\u2022 Historical buys before the split are adjusted \u2014 you do not need to edit them\n\nExample \u2014 Apple 4:1 split:\nYou bought 10 shares at $400 avg cost. After recording the 4:1 split:\n\u2192 40 shares at $100 avg cost. Total invested unchanged at $4,000.\n\nReverse splits work the same way in reverse:\nYou have 100 shares at $2. After a 1:10 reverse split (enter 0.1):\n\u2192 10 shares at $20. Total invested unchanged at $200.\n\nNote: splits are not taxable events and have no cash flow \u2014 they do not affect your IRR calculation.',B.anG)
-B.alL=s(["fractional","shares","partial","revolut","trading 212","schwab","0.5","decimal"],t.s)
-B.br3=new A.bh("Fractional Shares","Enter partial share quantities (e.g. 0.5 shares) \u2014 fully supported for brokers like Revolut, Trading 212, and Charles Schwab.","Some brokers let you buy a fraction of a share \u2014 for example 0.5 shares of AAPL instead of needing to buy a full share.\n\nPortfolio Keeper supports fractional quantities everywhere:\n\u2022 Enter decimals in the quantity field when logging a buy or sell (e.g. 0.5, 1.25, 0.001)\n\u2022 The comma key and period key both work as the decimal separator\n\u2022 All calculations \u2014 average cost, P&L, IRR, Total Return \u2014 handle fractions correctly\n\u2022 CSV imports from brokers that export fractional quantities preserve them exactly\n\nBrokers known to offer fractional shares:\nRevolut, Trading 212, Charles Schwab, Freetrade, eToro, Interactive Brokers, and many others.\n\nTip: whole-number quantities still work exactly as before \u2014 you do not need to change anything if your broker does not support fractional shares.",B.alL)
-B.akY=s(["tag","filter","sub-portfolio","category","group","segment"],t.s)
-B.br9=new A.bh("Portfolio Tags (Sub-Portfolios)","A portfolio tag turns a holding into a sub-portfolio you can filter the whole app by.",'Portfolio tags let you split your portfolio into separate views \u2014 for example: "Swedish stocks", "Growth", "Pension", "Broker A", or any label you choose.\n\nHow to use portfolio tags:\n1. Open a stock \u2192 Edit \u2192 set its tag in the Portfolio Tags field\n2. A tag chip appears at the top of the Portfolio and Analysis screens\n3. Tap a tag chip to filter every screen to that sub-portfolio only\n\nWhen a portfolio tag is selected:\n\u2022 Portfolio value, P&L, and all charts show only that tag\'s stocks\n\u2022 Cash balance shows only the cash assigned to that tag\n\u2022 VaR uses daily snapshots for that tag only\n\u2022 Beta shows the weighted Beta for that tag\'s stocks only\n\nEach holding has one portfolio tag, so it acts like a true separate portfolio \u2014 you can even hold the same stock under two different tags (e.g. the same share at two brokers), each tracked on its own.\nTap "All" to return to the full portfolio view.',B.akY)
-B.amj=s(["currency","forex","SEK","USD","EUR","convert","display"],t.s)
-B.bsi=new A.bh("Display Currency","Set a single currency for all portfolio totals and charts.","Go to Settings \u2192 Portfolio Display Currency.\n\nAll portfolio-level totals (total value, P&L, cash, VaR dollar amounts) are converted to this currency using live forex rates.\n\nIndividual stock prices stay in their native currency \u2014 a Swedish stock always shows prices in SEK. The conversion only applies to totals.\n\nSupported currencies: USD, EUR, SEK, NOK, DKK, GBP, CHF, JPY, AUD, CAD, HKD, SGD, INR, KRW, BRL, NZD.\n\nForex rates are fetched live each time you refresh prices. If a rate is unavailable, the app skips the snapshot for that day to avoid mixing currencies.",B.amj)
-B.apv=s(["refresh","update","price","live","fetch","cooldown"],t.s)
-B.brz=new A.bh("Refreshing Prices","Tap the refresh button to fetch live prices for all your stocks.","Tap the circular arrow button (top right of Portfolio screen).\n\nWhat happens on refresh:\n\u2022 Live prices fetched from Yahoo Finance via a secure proxy\n\u2022 Charts updated with latest data\n\u2022 A daily portfolio snapshot is recorded (used for the Equity Curve and VaR)\n\u2022 Per-tag daily snapshots recorded (used for tag-level VaR)\n\u2022 Goal snapshots updated\n\nA cooldown chip appears after refresh \u2014 prevents hammering the API. The cooldown resets after a few minutes.\n\nTip: open the app at least once per trading day to build up snapshot history for the Equity Curve and VaR features.",B.apv)
-B.ajG=s(["watch","watchlist","tracking","monitor","considering"],t.s)
-B.bs2=new A.bh("Watchlist","Track stocks you are considering buying without adding them to your portfolio.",'Add a stock and choose status "Watching".\n\nWatched stocks:\n\u2022 Appear in the Watching tab\n\u2022 Are tracked from the day you start watching (watchedPrice and watchedSince are set automatically)\n\u2022 Show up in the Opportunity Cost analysis \u2014 so you can see what return you missed\n\u2022 Can have Price Alerts set just like owned stocks\n\nWhen you decide to buy, edit the stock and change status to Owned, then log your buy transaction.',B.ajG)
-B.aly=s([B.brp,B.br0,B.bqN,B.br3,B.br9,B.bsi,B.brz,B.bs2],t.YG)
-B.bqv=new A.fQ("Getting Started",B.xZ,B.m,B.aly)
-B.alF=s(["value","market value","worth","position size"],t.s)
-B.brC=new A.bh("Current Value","The total market value of your shares at today's price.","Current Value = Total Shares \xd7 Current Price\n\nThis is shown in the stock's native currency on the stock card and detail screen.\n\nAt portfolio level, all values are converted to your display currency using live forex rates and summed together.\n\nNote: stocks with 0 shares (fully sold) show 0 current value.",B.alF)
-B.alv=s(["cost","invested","cost basis","spent","capital","purchase price"],t.s)
-B.brK=new A.bh("Cost Basis / Total Invested","How much money you have put into a stock across all your buy transactions.","Total Invested = \u03a3 (buyQuantity \xd7 buyPrice) for all buy transactions\n\nThis is your true cost basis \u2014 the total cash you have spent buying shares.\n\nIt does NOT subtract sell proceeds (that would be realised P&L). It represents the original capital deployed.\n\nUsed to calculate P&L % and is the denominator in Total Return %.",B.alv)
-B.ak8=s(["average","avg","purchase price","AVCO","break-even","cost per share"],t.s)
-B.brV=new A.bh("Average Purchase Price","The weighted average price you paid per share across all buy transactions.","Calculated as a weighted average \u2014 larger purchases have more weight.\n\nIf you bought 10 shares at 100 kr and 20 shares at 120 kr:\nAverage = (10\xd7100 + 20\xd7120) / 30 = 113.33 kr\n\nThis is what the app uses as your break-even price. If the current price is above this, you are in profit. Below it, you are at a loss.\n\nSell transactions reduce your share count but do not change the average purchase price of remaining shares (AVCO method).",B.ak8)
-B.ajv=s(["profit","loss","return","gain","performance","P&L","percent"],t.s)
-B.bs0=new A.bh("P&L % (Profit & Loss)","How much you have gained or lost on a stock as a percentage.",'P&L % compares the current price to your average purchase price.\n\nExample: bought at 100 kr, now at 125 kr \u2192 P&L = +25%\n\nThis is the unrealised return \u2014 it does not include dividends. See "Total Return %" for a figure that includes dividends.',B.ajv)
-B.aoC=s(["total return","dividend","yield","performance","complete return"],t.s)
-B.brJ=new A.bh("Total Return %","Your complete return including both price gains and dividends received.","Total Return adds dividends to the P&L calculation.\n\nExample: invested 10,000 kr, current value 11,000 kr, received 500 kr dividends:\nTotal Return = (11,000 + 500 \u2212 10,000) / 10,000 = +15%\n\nThis is the most complete measure of your investment performance for a single stock.",B.aoC)
-B.ap9=s(["dividend","yield","income","payout","cash flow"],t.s)
-B.bry=new A.bh("Dividends","Cash payments from companies you invest in, logged manually as transactions.","Log dividends in a stock's transaction history (Edit \u2192 Add Entry \u2192 Dividend).\n\nEnter the total dividend amount received (not per-share).\n\nDividends are included in:\n\u2022 Total Return %\n\u2022 Personal IRR (as a positive cash flow on that date)\n\u2022 Portfolio Quality \u2192 Income section\n\nThe Dividend Yield shown in Financial Highlights is fetched from Yahoo Finance \u2014 it is the annual yield based on the current price, not your personal yield on cost.",B.ap9)
-B.anS=s(["CAGR","annualised","annual return","p.a.","per year","compound","compound annual growth rate","per stock","holding"],t.s)
-B.bqJ=new A.bh("CAGR per Stock (Annualised Return)","The constant yearly return that would produce the same gain over your holding period.",'CAGR stands for Compound Annual Growth Rate. Unlike a simple P&L %, it adjusts for how long you have held the position \u2014 so you can fairly compare a stock you have held 6 months against one you have held 5 years.\n\nWhere to find it:\n\u2022 On the stock card (portfolio list) \u2014 shown as a small "+X.X% p.a." line below the P&L %\n\u2022 In the stock detail screen \u2192 Owned Position section \u2192 "CAGR (annualised)" row\n\u2022 In the stock detail screen \u2192 Sold Position section (uses sell price as exit)\n\nImportant: this is price return only \u2014 dividends are not included. For a return that includes dividends, see the "Total Return %" row above it.\n\nOnly shown when there is at least 1 day of history and a valid average purchase price. Very new positions may not show it yet.',B.anS)
-B.alm=s(["realised","unrealised","realized","unrealized","locked in","floating","paper gain","partial sell","P&L split"],t.s)
-B.br5=new A.bh("Realised vs Unrealised P&L","Splits your profit/loss into locked-in gains (realised) and floating paper gains (unrealised).",'When you partially sell a position \u2014 selling some shares while keeping others \u2014 your P&L splits into two parts:\n\n\ud83d\udd12 Locked In (Realised)\nProfit or loss already locked in from the shares you have sold out of this position. This number will not change when the stock price moves \u2014 it is real money realised.\n\n\ud83d\udcc8 Floating (Unrealised)\nCurrent paper gain or loss on the shares you still hold. This number moves with the stock price and is only realised when you sell.\n\nWhere to find it:\n\u2022 Portfolio Summary \u2192 expand the "Portfolio Summary" card \u2192 "Locked In (Realised)" and "Floating (Unrealised)" rows appear when you have at least one partial sell in your portfolio.\n\u2022 Also shown in the individual stock detail screen \u2192 Owned Position section.\n\nNote: the split only appears when relevant \u2014 if you have never partially sold any position, the row is hidden to avoid cluttering the summary.',B.alm)
-B.aiJ=s(["average down","averaging down","average up","averaging up","calculator","avg down","new average","break-even","cost basis calculator","buy more"],t.s)
-B.br_=new A.bh("Avg Down / Up Calculator","See instantly how your average cost changes if you buy more shares at a new price.",'The calculator answers: "If I buy X more shares at price Y, what will my new average cost be?"\n\nWhere to find it:\nOpen any owned stock \u2192 Stock Detail screen \u2192 Owned Position section \u2192 "Avg Down / Up Calculator" button.\n\nHow to use:\n1. Enter the price you are considering buying at\n2. Enter how many shares you want to buy\n3. Instantly see your new average cost, how much it changes, total shares after, and total cost basis after\n\nAveraging down = buying below your current average \u2192 lowers your break-even price (shown in green)\nAveraging up = buying above your current average \u2192 raises your break-even price (shown in red)\n\nRead-only: this is a planning tool only \u2014 nothing is saved to your portfolio. Use the + button on the stock to log the actual transaction.',B.aiJ)
-B.apq=s(["cash","liquidity","uninvested","balance","money","set cash"],t.s)
-B.brN=new A.bh("Cash / Liquidity","Track uninvested cash alongside your stock positions.",'Go to Analysis \u2192 Overview \u2192 Position Size & Liquidity \u2192 Set Cash.\n\nYou can assign cash to a specific tag (sub-portfolio) or leave it untagged (shows in the "All" view).\n\nCash is included in:\n\u2022 Total portfolio value (Position Size card)\n\u2022 Portfolio at Risk % calculation (reduces risk since cash has 0 downside)\n\u2022 Goal tracking (if the goal includes the Cash asset class)\n\nCash is stored in your display currency. It does not earn interest in the app.',B.apq)
-B.ajY=s([B.brC,B.brK,B.brV,B.bs0,B.brJ,B.bry,B.bqJ,B.br5,B.br_,B.brN],t.YG)
-B.bqq=new A.fQ("Portfolio & Positions",B.jv,B.p,B.ajY)
-B.ak2=s(["alert","stop loss","stop","target","price alert","notification","trigger"],t.s)
-B.br8=new A.bh("Price Alerts","Set a low (stop) and high (target) price on any stock to see your risk/reward ratio.","Open a stock \u2192 Edit \u2192 set Alert Low Price and/or Alert High Price.\n\nYou can set alerts as:\n\u2022 Fixed price (e.g. stop at 85 kr, target at 140 kr)\n\u2022 Percentage from your average purchase price (e.g. \u221215% stop, +40% target)\n\nThe alerts are used to calculate:\n\u2022 Downside % \u2014 how far the price would fall to hit your stop\n\u2022 Upside % \u2014 how far the price would rise to hit your target\n\u2022 Risk/Reward Ratio \u2014 upside divided by downside\n\u2022 Portfolio at Risk % \u2014 your capital at risk as a fraction of the total portfolio\n\nA banner alert appears on the home screen if a stock's price has crossed above the high alert or below the low alert.",B.ak2)
-B.anK=s(["downside","stop loss","risk","loss","drop"],t.s)
-B.brP=new A.bh("Downside %","How much the current price could fall before hitting your stop/alert price.","Downside % is calculated from the current price to your Alert Low Price (stop loss).\n\nExample: current price 100 kr, stop at 85 kr \u2192 Downside = 15%\n\nInterpretation: if the stock drops 15% from here, it hits your stop.\n\nShown in the Risk/Reward section of the stock detail screen. Requires an Alert Low Price to be set.",B.anK)
-B.ap2=s(["upside","target","potential","gain","reward"],t.s)
-B.brh=new A.bh("Upside %","How much the current price could rise before hitting your target price.","Upside % is calculated from the current price to your Alert High Price (target).\n\nExample: current price 100 kr, target at 140 kr \u2192 Upside = 40%\n\nInterpretation: if the stock rises 40% from here, it hits your target.\n\nRequires an Alert High Price to be set.",B.ap2)
-B.ao_=s(["risk reward","ratio","RR","reward","risk","upside downside"],t.s)
-B.brv=new A.bh("Risk/Reward Ratio","Compares potential upside to potential downside. A ratio above 2 is generally considered good.","The ratio tells you: for every 1 unit of risk you take, how many units of reward do you stand to gain?\n\nExamples:\n\u2022 Ratio 1.0 \u2014 equal upside and downside\n\u2022 Ratio 2.0 \u2014 you could gain twice what you risk\n\u2022 Ratio 3.0 \u2014 you could gain three times what you risk (green in the app)\n\nA ratio below 1.0 means you are risking more than you could gain \u2014 shown in red.\n\nRequires both Alert Low (stop) and Alert High (target) prices to be set.",B.ao_)
-B.alO=s(["portfolio risk","position risk","risk percent","stop loss","trade risk","1%","2%"],t.s)
-B.bsm=new A.bh("Portfolio at Risk %","What percentage of your total portfolio you would lose if this stock hit its stop loss.",'This answers: "If this stock drops to my stop, how much of my total portfolio is affected?"\n\nExample:\n\u2022 Stock is 20% of your portfolio\n\u2022 Downside is 15%\n\u2022 Portfolio at Risk = 20% \xd7 15% = 3%\n\nSo a stop trigger would cost you 3% of your total portfolio.\n\nProfessional traders typically risk no more than 1\u20132% per trade.\n\nTag-aware: if a tag is selected, uses only that sub-portfolio\'s value as the denominator.',B.alO)
-B.aoj=s(["drawdown","max drawdown","peak","trough","worst loss","decline","fall"],t.s)
-B.brA=new A.bh("Max Drawdown (per stock)","The largest peak-to-trough price decline since you first bought the stock.","Max Drawdown measures the worst fall the stock experienced from a high point to a subsequent low point \u2014 starting from your first buy date.\n\nExample: stock peaked at 150 kr then fell to 90 kr \u2192 Drawdown = \u221240%\n\nShown in the stock detail chart section. A flag indicates if the chart data covers your full holding period or only part of it.\n\nUseful for understanding historical volatility and whether you could have held through the worst periods.",B.aoj)
-B.akV=s([B.br8,B.brP,B.brh,B.brv,B.bsm,B.brA],t.YG)
-B.bqr=new A.fQ("Risk & Reward",B.r9,B.eH,B.akV)
-B.alw=s(["VaR","value at risk","risk","loss","percentile","confidence","95%","daily","weekly"],t.s)
-B.br6=new A.bh("Value at Risk (VaR)","On a bad day or week (worst 5% of periods), how much could your portfolio lose?","VaR answers a specific question: based on your portfolio's actual past behaviour, what is the worst loss you would expect to see on 5% of days?\n\nMethod: Historical simulation\n1. Collect your daily portfolio values (recorded each time you refresh prices)\n2. Compute the day-to-day % return for each day\n3. Sort all returns from worst to best\n4. Read the 5th percentile \u2014 the point where 95% of days were better\n\nExample: Daily VaR 2.3% means on your worst 5% of days, you lost at least 2.3%.\n\nWeekly VaR is scaled from Daily using the \u221a5 rule (standard industry approximation).\n\n\u26a0 VaR does NOT predict the maximum possible loss. Actual losses on extreme days can exceed VaR. It is a statistical estimate, not a guarantee.\n\nData builds automatically \u2014 the more days you use the app, the more reliable the estimate. 20+ data points (~1 month) are needed for a meaningful result.",B.alw)
-B.aky=s(["VaR","tag","sub-portfolio","filter","daily","snapshot"],t.s)
-B.brq=new A.bh("VaR \u2014 Tag / Sub-Portfolio","VaR also works per tag, using daily snapshots recorded separately for each sub-portfolio.","When a tag is selected, VaR uses daily snapshots from the tag_daily_snapshots table \u2014 recorded automatically each time you open the app with stocks tagged.\n\nThe math is identical to whole-portfolio VaR:\n\u2022 Daily returns from the tag's value history\n\u2022 5th percentile of those returns\n\u2022 Weekly VaR = Daily \xd7 \u221a5\n\nNew tags start accumulating from the day they are created. You need ~20 daily app-opens (~1 month) for a reliable estimate.\n\nImportant: if you rename a tag, old snapshot history is lost for that tag name. Keep tag names stable.",B.aky)
-B.alN=s(["volatility","sigma","standard deviation","risk","swing","fluctuation","annual"],t.s)
-B.brX=new A.bh("Volatility (\u03c3)","How much your portfolio value swings day-to-day, expressed as an annualised percentage.","Volatility measures the standard deviation of your daily portfolio returns \u2014 how consistently or erratically your portfolio value changes.\n\nA higher number means bigger day-to-day swings:\n\ud83d\udfe2 Low (< 10%) \u2014 very stable, similar to a bond fund\n\ud83d\udfe1 Moderate (10\u201320%) \u2014 typical diversified equity portfolio\n\ud83d\udfe0 High (20\u201335%) \u2014 concentrated or growth-heavy portfolio\n\ud83d\udd34 Very High (> 35%) \u2014 highly concentrated or speculative holdings\n\nThe app uses a sample standard deviation (N\u22121 denominator) and scales it to annual using the standard 252 trading-days convention.\n\nDays when you added new stocks (capital inflows causing jumps > 25%) are automatically excluded \u2014 otherwise a large deposit would look like an extreme return and inflate the number.\n\nData builds automatically. 20+ daily data points (~1 month) are needed for a reliable estimate. The card shows a low-confidence warning below that threshold.",B.alN)
-B.amM=s(["sharpe","sharpe ratio","risk adjusted","risk-free","return per risk","reward"],t.s)
-B.brY=new A.bh("Sharpe Ratio","How much return you earn per unit of risk taken, after subtracting a risk-free baseline.","The Sharpe Ratio answers: is the volatility in your portfolio being rewarded with enough return?\n\nIt subtracts a \"risk-free rate\" (what you could earn risk-free, e.g. a government bond) from your return, then divides by your volatility. A higher Sharpe means better risk-adjusted return.\n\nInterpreting your Sharpe:\n\ud83d\udd34 Below 0 \u2014 your return is below the risk-free rate. You are taking risk without reward.\n\ud83d\udfe0 0\u20131 \u2014 return exceeds risk-free rate but volatility isn't fully justified.\n\ud83d\udfe1 1\u20132 \u2014 good risk/reward, broadly in line with a well-run equity portfolio.\n\ud83d\udfe2 Above 2 \u2014 excellent. Strong return relative to the risk taken.\n\nThe risk-free rate defaults to 4.5% (roughly the US T-bill rate). You can change it in the card to match your country's rate \u2014 e.g. Riksbank repo rate for Sweden, ECB deposit rate for the Eurozone.\n\n\u26a0 The Sharpe Ratio assumes normally distributed returns. Real markets have fat tails \u2014 rare extreme events are more common than a normal distribution predicts. Use Sharpe as a guide, not a guarantee.",B.amM)
-B.amp=s(["beta","market risk","sensitivity","S&P","SPY","systematic risk","weighted"],t.s)
-B.bsh=new A.bh("Beta-Weighted Risk","Measures how much your portfolio is expected to move when the overall market moves.","Beta measures a stock's sensitivity to the market (S&P 500 = 1.0).\n\nExamples:\n\u2022 Beta 0.5 \u2014 moves half as much as the market\n\u2022 Beta 1.0 \u2014 moves exactly with the market\n\u2022 Beta 1.5 \u2014 moves 50% more than the market\n\u2022 Beta \u22120.3 \u2014 tends to move opposite the market\n\nPortfolio Beta = the weighted average of all your stocks' Betas, weighted by their value in your portfolio.\n\nThe Market Scenarios table shows expected portfolio moves for S&P 500 drops of 5%, 10%, 20%, and a rise of 10%.\n\n\u26a0 Beta is backward-looking (computed from 5-year weekly price history). Non-US stocks are compared against SPY which may not be their natural benchmark.",B.amp)
-B.apo=s(["beta","defensive","aggressive","volatile","risk level","market like"],t.s)
-B.bqX=new A.bh("Portfolio Beta \u2014 Risk Levels","How to interpret your portfolio Beta number.","The app colour-codes your Portfolio Beta:\n\n\ud83d\udfe2 Defensive (\u03b2 < 0.8)\nLower volatility than the market. Your portfolio tends to fall less in downturns but also rise less in bull markets.\n\n\ud83d\udfe1 Market-like (\u03b2 0.8\u20131.2)\nMoves approximately in line with the market. Expected to track the S&P 500 closely.\n\n\ud83d\udfe0 Aggressive (\u03b2 1.2\u20131.8)\nMore volatile than the market. Higher potential returns, but larger swings.\n\n\ud83d\udd34 High Volatility (\u03b2 > 1.8)\nSignificantly more volatile than the market. Concentrated or growth-heavy portfolio.",B.apo)
-B.am3=s([B.br6,B.brq,B.brX,B.brY,B.bsh,B.bqX],t.YG)
-B.bqA=new A.fQ("Risk Metrics",B.r3,B.o,B.am3)
-B.aoZ=s(["performance","return","1 month","YTD","year to date","1 year","3 year","5 year","period","history"],t.s)
-B.bs_=new A.bh("Performance Returns","Your portfolio return over standard time periods \u2014 1 month, year-to-date, 1Y, 3Y, and 5Y.","The Performance Returns card shows how much your portfolio has grown (or fallen) over each standard time window, based on your actual recorded daily portfolio values.\n\nPeriods shown:\n\u2022 1M \u2014 last 30 days\n\u2022 YTD \u2014 since January 1st of this year\n\u2022 1Y \u2014 last 12 months\n\u2022 3Y \u2014 last 3 years\n\u2022 5Y \u2014 last 5 years\n\nA period shows \"\u2014\" if you don't have a snapshot that far back yet. As you keep using the app and more daily snapshots accumulate, these periods fill in automatically.\n\nWhen a single tag is selected, returns are calculated from that tag's own daily snapshots, showing how just that sub-portfolio performed.\n\n\u26a0 These are simple total return figures \u2014 (current value \u2212 past value) / past value. They do not account for the timing of deposits or withdrawals. For a time-adjusted return that accounts for when you invested, use the Personal IRR card.",B.aoZ)
-B.aoI=s(["IRR","internal rate of return","XIRR","annualised","return","performance","personal"],t.s)
-B.brB=new A.bh("Personal IRR (Internal Rate of Return)","Your true annualised return, adjusted for the exact timing of every transaction.","IRR is the most accurate measure of your personal investment performance.\n\nUnlike simple P&L %, IRR accounts for:\n\u2022 When you invested (earlier investments have more time to compound)\n\u2022 How much you invested at each point\n\u2022 When you received dividends\n\nExample: a 20% IRR means your money grew at an equivalent rate of 20% per year, compounded annually, taking into account all your cash flows.\n\nThe app uses the XIRR method (Excel-compatible) which solves for the discount rate that makes the net present value of all cash flows equal to zero.\n\nRequires at least 2 transactions to calculate.",B.aoI)
-B.alW=s(["benchmark","beat market","SPY","outperform","compare","index","S&P","market"],t.s)
-B.bsa=new A.bh("Beat Market","Compare your IRR against a market benchmark to see if you are outperforming.","The Beat Market card shows your portfolio's annualised IRR vs a benchmark (default: SPY = S&P 500).\n\nAvailable benchmarks:\n\u2022 SPY \u2014 S&P 500 (US large cap)\n\u2022 QQQ \u2014 Nasdaq 100 (US tech)\n\u2022 ACWI \u2014 MSCI All-World\n\u2022 EXSA.DE \u2014 Euro Stoxx 600\n\u2022 EEM \u2014 Emerging Markets\n\u2022 WSML.L \u2014 MSCI World Small Cap\n\u2022 Or type any ticker symbol\n\nThe chart rebases both your portfolio and the benchmark to 0% at your first buy date, so you can see the comparison on equal terms regardless of price levels.\n\nThe benchmark return shown is its actual price return over your holding period \u2014 not adjusted for your cash-flow timing.",B.alW)
-B.amw=s(["equity curve","portfolio value","ATH","all time high","CAGR","drawdown","history","chart"],t.s)
-B.brs=new A.bh("Equity Curve","A chart of your total portfolio value over time, recorded each time you refresh prices.","The Equity Curve shows how your portfolio's total value has changed over time.\n\nKey metrics shown:\n\u2022 Current \u2014 today's total value\n\u2022 ATH \u2014 All-Time High: the highest value ever recorded\n\u2022 P&L vs Cost \u2014 (value + dividends \u2212 cost) / cost\n\u2022 CAGR \u2014 Compound Annual Growth Rate (requires 90+ days of history)\n\nThe chart also shows a Drawdown panel below the main chart \u2014 how far below the all-time high your portfolio was at each point.\n\nData is recorded automatically each time you refresh prices. The more often you refresh, the more detailed the curve.",B.amw)
-B.aoH=s(["CAGR","compound","annual","growth","rate","annualised"],t.s)
-B.brW=new A.bh("CAGR (Compound Annual Growth Rate)","The annualised growth rate of your portfolio from first to latest snapshot.",'CAGR smooths out volatility to give you a single "per year" growth rate.\n\nExample: portfolio grew from 100,000 to 161,051 over 3 years \u2192 CAGR = 17%\n(100,000 \xd7 1.17 \xd7 1.17 \xd7 1.17 \u2248 161,000)\n\nRequirements:\n\u2022 At least 90 days of snapshot history\n\u2022 A starting value > 0\n\nCAGR does not account for the timing of your cash flows \u2014 use IRR for that. CAGR simply measures start-to-end growth of the total portfolio value.',B.aoH)
-B.al_=s(["comparison","chart","benchmark","vs","versus","overlay","return chart"],t.s)
-B.brI=new A.bh("Comparison Chart","Plot your portfolio return alongside any market benchmark on the same chart.","Found in Analysis \u2192 Overview \u2192 Comparison Chart section.\n\nAll lines start at 0% on the left \u2014 showing percentage return from that point.\n\nHow to use:\n\u2022 Select a time range (1W, 1M, 3M, 6M, 1Y, All)\n\u2022 Your portfolio line uses daily snapshot data\n\u2022 Add a benchmark by searching for a ticker in the search box\n\u2022 Multiple benchmarks can be shown simultaneously\n\u2022 Toggle individual lines on/off with the chips\n\nBecause everything is rebased to 0%, you can directly compare performance regardless of price levels.",B.al_)
-B.anv=s(["opportunity","missed","watchlist","regret","should have bought","watched"],t.s)
-B.brH=new A.bh('Opportunity Cost ("Should I Have Bought?")',"See how watched stocks performed since you started watching them vs your portfolio.","For every stock on your watchlist with a watch date recorded, the app calculates the return it achieved since you started watching.\n\nThen it compares that to what your owned portfolio returned over the same period.\n\nTells you:\n\u2022 Best missed opportunity \u2014 the watched stock that performed best\n\u2022 Worst missed opportunity \u2014 the one that underperformed most\n\u2022 Whether sitting on the sidelines cost you or saved you\n\nWatch dates are set automatically when you add a stock as Watching.",B.anv)
-B.alV=s(["sell","sold","regret","held","exit","should have held","decision"],t.s)
-B.brt=new A.bh('Sell Decision ("Should I Have Held?")',"For each sold stock, see what would have happened if you had kept holding.",'The Sell Decision section compares your actual sell price against the current price of each stock you have sold.\n\nIf the stock is higher now than when you sold:\n\u2192 "You left X% on the table"\n\nIf the stock is lower now than when you sold:\n\u2192 "Good exit \u2014 down X% since you sold"\n\nRequires: the sold stock still exists as a "Sold" status entry and Yahoo Finance can still fetch its current price.',B.alV)
-B.am_=s([B.bs_,B.brB,B.bsa,B.brs,B.brW,B.brI,B.brH,B.brt],t.YG)
-B.bqp=new A.fQ("Performance Analysis",B.fQ,B.r,B.am_)
-B.apt=s(["sector","technology","healthcare","financials","breakdown","distribution","diversification"],t.s)
-B.bqG=new A.bh("Sector Breakdown","How your portfolio is distributed across market sectors.",'Sectors include: Technology, Healthcare, Financials, Consumer Discretionary, Energy, Industrials, Materials, Real Estate, Utilities, Communication Services, Consumer Staples.\n\nEach slice is weighted by current market value in your display currency.\n\nSector data is fetched from Yahoo Finance when you add or refresh a stock. Stocks without sector data appear as "Unknown".\n\nHigh concentration in one sector increases your exposure to that sector\'s risks (regulation changes, economic cycles, etc.).',B.apt)
-B.alU=s(["country","geographic","geography","location","Sweden","US","diversification"],t.s)
-B.brU=new A.bh("Country Breakdown","Geographic distribution \u2014 which countries your companies are headquartered in.","Each slice represents the total value of stocks from that country, as a percentage of your portfolio.\n\nWeighted by current market value in your display currency.\n\nHelps identify geographic concentration risk \u2014 for example, if 80% of your portfolio is in Swedish companies, you are highly exposed to the Swedish economy and the Swedish kronor.",B.alU)
-B.aoQ=s(["currency","forex","exposure","FX","USD","SEK","EUR","risk"],t.s)
-B.bsl=new A.bh("Currency Exposure","How much of your portfolio is held in each currency.","Even if your display currency is SEK, a stock listed in USD is currency-exposed:\nif USD weakens against SEK, the stock's SEK value drops even if the dollar price stays the same.\n\nThe chart shows what fraction of your portfolio is in each currency.\n\nThis is especially important for international investors who hold stocks across multiple currencies.",B.aoQ)
-B.amm=s(["asset class","ETF","bond","fund","stock","type","classification"],t.s)
-B.bs4=new A.bh("Asset Class Breakdown","Split between Stocks, ETFs, Bonds, Funds, and Other.","Each position is classified into an asset class when you add it (or defaults to Stock).\n\nAsset classes available:\n\u2022 Stock \u2014 individual company shares\n\u2022 ETF \u2014 exchange-traded fund\n\u2022 Fund \u2014 mutual fund or similar\n\u2022 Bond \u2014 fixed income\n\u2022 Other \u2014 anything else\n\nWeighted by current market value in display currency.",B.amm)
-B.ako=s(["position size","weight","concentration","allocation","liquidity","diversify"],t.s)
-B.bsn=new A.bh("Position Size & Liquidity","Shows what percentage of your portfolio each stock represents.",'The Position Size card shows:\n\u2022 A donut chart of portfolio weights by stock\n\u2022 Invested amount, Cash balance, Total value\n\u2022 A ranked list of positions with % of portfolio\n\nA "concentrated" badge appears on positions above 30% \u2014 high concentration in a single stock increases single-stock risk.\n\nProfessional portfolio managers often limit individual positions to 5\u201310% of a portfolio.\n\nCash is included in the total \u2014 it lowers the % weight of each stock position but also lowers Beta and VaR.',B.ako)
-B.akz=s(["quality","fundamental","market cap","P/E","dividend","employees","profitability"],t.s)
-B.bse=new A.bh("Portfolio Quality","A snapshot of your portfolio's fundamental characteristics.","The Portfolio Quality card summarises key fundamental metrics across your holdings:\n\n\u2022 Company Size \u2014 Mega Cap (>200B), Large Cap (10B\u2013200B), Mid Cap (2B\u201310B), Small Cap (<2B)\n\u2022 Workforce Scale \u2014 employee headcount per stock\n\u2022 Valuation \u2014 average P/E ratio and whether it is in value, fair, or growth territory\n\u2022 Income \u2014 how many stocks pay dividends and the average yield\n\u2022 Profitability \u2014 average profit margin across holdings\n\nThis is a snapshot view \u2014 not a score or recommendation.",B.akz)
-B.amC=s(["ranking","rank","lens","compare","score","beta","CAGR","income","value","P/E","return vs risk","biggest winners","compounding","total return"],t.s)
-B.br4=new A.bh("Portfolio Ranking","Rank your owned stocks side-by-side using six pre-built lenses.",'Found in Analysis \u2192 Overview \u2192 Portfolio Ranking.\n\nChoose a lens from the chip row at the top. Your owned stocks are ranked best-to-worst by that metric. Each row shows the stock\'s score plus the two raw inputs that produced it, so you can see the logic \u2014 not just a magic number.\n\nStocks missing the required data for a lens show "\u2014" and sort to the bottom.\n\nThe six lenses:\n\n\u2022 Return vs Risk \u2014 P/L% \xf7 Beta. Rewards stocks that earn well relative to their volatility. Stocks with no beta data, or negative beta (inverse ETFs), are excluded.\n\n\u2022 Total Return \u2014 (Unrealized P/L + Dividends received) \xf7 Amount invested \xd7 100. True all-in return including both price gains and income received.\n\n\u2022 Income \u2014 Dividends received \xf7 Amount invested \xd7 100. Which positions have generated the most income relative to what you put in.\n\n\u2022 Value Score \u2014 100 \xf7 P/E ratio. Lower P/E = higher score = potentially cheaper relative to earnings. ETFs and loss-making companies (no P/E) are excluded.\n\n\u2022 Biggest Winners \u2014 P/L% \xd7 position weight. Combines return with size \u2014 a large winning position ranks above a small one with the same return percentage. Weight is relative to the stocks currently shown.\n\n\u2022 Compounding \u2014 Annualised return (CAGR). How fast each position compounds per year. Requires at least 90 days of holding history.\n\n\u26a0 This card ranks your existing holdings for comparison purposes only. It is not investment advice and does not account for taxes, liquidity, or future prospects.',B.amC)
-B.ajn=s([B.bqG,B.brU,B.bsl,B.bs4,B.bsn,B.bse,B.br4],t.YG)
-B.bqE=new A.fQ("Portfolio Breakdown",B.ij,B.T,B.ajn)
-B.apa=s(["holding period","hold time","duration","days","sold","exit"],t.s)
-B.br2=new A.bh("Holding Period Analysis","See how long you typically hold positions and whether that affects your returns.","Found in Analysis \u2192 Holding Period tab.\n\nShows all your sold positions with:\n\u2022 Hold duration in days\n\u2022 Total return achieved during that period\n\u2022 Return per month (normalises for different holding lengths)\n\nThe summary shows your average holding period for winning vs losing positions.",B.apa)
-B.ao2=s(["disposition effect","bias","behaviour","psychology","winner","loser","hold"],t.s)
-B.bqK=new A.bh("Disposition Effect / Win-Loss Bias","Detects if you sell winners too early and hold losers too long.",'The Disposition Effect is a well-documented behavioural bias in investing:\ninvestors tend to sell winning positions too early (to "lock in profits") and hold losing positions too long (hoping for a recovery).\n\nThe app detects this by comparing:\n\u2022 Average holding period of your sold winners\n\u2022 Average holding period of your sold losers\n\nIf you held losers more than 14 days longer than winners on average, the app flags a potential bias.\n\nThis is based on your actual history \u2014 only sold positions are analysed.',B.ao2)
-B.als=s(["sweet spot","best duration","holding","optimal","time"],t.s)
-B.brb=new A.bh("Sweet Spot","Which holding duration tends to produce the best returns for you.","The Sweet Spot chart groups your sold positions by how long you held them:\n\u2022 < 1 month\n\u2022 1\u20133 months\n\u2022 3\u20136 months\n\u2022 6\u201312 months\n\u2022 1\u20133 years\n\u2022 3+ years\n\nFor each bucket, it shows the average return achieved.\n\nThis reveals your personal sweet spot \u2014 the holding duration at which you tend to make the most money. Based only on completed (sold) positions.",B.als)
-B.aio=s([B.br2,B.bqK,B.brb],t.YG)
-B.bqD=new A.fQ("Holding Period & Behaviour",B.GO,B.L,B.aio)
-B.akK=s(["P/E","price earnings","valuation","multiple","trailing PE","forward PE","cheap","expensive"],t.s)
-B.bqM=new A.bh("P/E Ratio (Price-to-Earnings)","How much you pay per \xa3/$ of earnings. Lower = cheaper, higher = growth expectations.","The P/E ratio compares the stock's price to its annual earnings per share.\n\n\u2022 Trailing P/E \u2014 uses actual earnings from the last 12 months\n\u2022 Forward P/E \u2014 uses analyst forecasts for the next 12 months\n\nInterpretation:\n\u2022 P/E < 15 \u2014 value territory (cheap relative to earnings)\n\u2022 P/E 15\u201325 \u2014 fair value for most established companies\n\u2022 P/E > 25 \u2014 growth premium (market expects strong future earnings)\n\u2022 P/E > 40 \u2014 speculative / very high growth expectations\n\nP/E only makes sense for profitable companies. Loss-making companies have no meaningful P/E ratio.",B.akK)
-B.amU=s(["EPS","earnings per share","profit","earnings","income"],t.s)
-B.bqI=new A.bh("EPS (Earnings Per Share)","How much profit a company makes for each share outstanding.","EPS is the company's net profit divided by the number of shares.\n\nHigher EPS = more profit per share = generally better.\n\nEPS growth over time indicates the company is becoming more profitable.\n\nNegative EPS means the company is losing money.\n\nFetched from Yahoo Finance (trailing 12 months).",B.amU)
-B.ans=s(["market cap","capitalisation","size","large cap","small cap","mega cap","mid cap"],t.s)
-B.bs9=new A.bh("Market Capitalisation","The total market value of a company's outstanding shares.","Market Cap = Current Price \xd7 Total Shares Outstanding\n\nSize categories:\n\u2022 Mega Cap \u2014 > $200 billion (Apple, Microsoft, etc.)\n\u2022 Large Cap \u2014 $10B\u2013$200B\n\u2022 Mid Cap \u2014 $2B\u2013$10B\n\u2022 Small Cap \u2014 < $2B\n\nSmaller companies generally have higher growth potential but also higher risk. Large caps tend to be more stable but grow more slowly.",B.ans)
-B.alu=s(["dividend","yield","income","payout","yield on cost"],t.s)
-B.brr=new A.bh("Dividend Yield","Annual dividend payment as a percentage of the current stock price.",'Dividend Yield tells you what income you receive relative to what you pay for the stock.\n\nExample: stock price 100 kr, annual dividend 4 kr \u2192 Yield = 4%\n\nNote: the yield shown is based on the CURRENT price (not your purchase price). Your personal "yield on cost" would be: annual dividend / your avg purchase price.\n\nA high yield can signal:\n\u2022 A genuinely generous dividend payer, OR\n\u2022 A falling stock price (yield rises as price falls)\n\nAlways check if the dividend is sustainable (see Payout Ratio).',B.alu)
-B.ain=s(["profit margin","net margin","profitability","margin"],t.s)
-B.bqL=new A.bh("Profit Margin","What percentage of revenue becomes profit.","Profit Margin = Net Income / Revenue\n\nExample: revenue $1B, profit $150M \u2192 Profit Margin = 15%\n\nInterpretation:\n\u2022 > 20% \u2014 high margin (software, pharmaceuticals)\n\u2022 10\u201320% \u2014 solid margin\n\u2022 > 0% \u2014 profitable\n\u2022 Negative \u2014 loss-making\n\nHigh-margin businesses are generally more durable \u2014 a revenue decline is less likely to turn them loss-making.",B.ain)
-B.aim=s(["debt","equity","leverage","D/E","balance sheet","debt ratio"],t.s)
-B.bqR=new A.bh("Debt/Equity (D/E Ratio)","How much debt a company has relative to its equity. Lower is generally safer.","D/E Ratio compares a company's total debt to shareholder equity.\n\n\u2022 D/E < 1 \u2014 more equity than debt (conservative)\n\u2022 D/E 1\u20132 \u2014 moderate leverage\n\u2022 D/E > 2 \u2014 high leverage (more risk, especially if interest rates rise)\n\nSome industries (banks, utilities) naturally carry high D/E. Compare within the same sector for a fair assessment.",B.aim)
-B.apz=s(["ROE","return on equity","efficiency","profitability","Buffett"],t.s)
-B.bsb=new A.bh("Return on Equity (ROE)","How efficiently a company uses shareholders' money to generate profit.","ROE measures the return generated on the money shareholders have invested in the company.\n\n\u2022 ROE > 15% \u2014 generally strong\n\u2022 ROE > 20% \u2014 excellent (Warren Buffett looks for this)\n\u2022 ROE < 0% \u2014 losing money on equity\n\nCaveat: a company can inflate ROE by taking on debt (which reduces equity). Always check D/E alongside ROE.",B.apz)
-B.apj=s(["revenue","earnings","growth","sales","year over year","YoY"],t.s)
-B.bqQ=new A.bh("Revenue Growth & Earnings Growth","Year-over-year growth in sales and profits.","Revenue Growth: how fast the company's sales are growing year-over-year.\nEarnings Growth: how fast the company's profits are growing year-over-year.\n\nHealthy growth signs:\n\u2022 Both revenue and earnings growing \u2192 expanding profitable business\n\u2022 Revenue growing but earnings flat \u2192 margins being squeezed\n\u2022 Earnings growing faster than revenue \u2192 improving efficiency\n\nValues are shown as decimals in data (0.15 = 15% growth).\nFetched from Yahoo Finance (trailing 12 months vs prior year).",B.apj)
-B.alA=s(["risk","risk score","overall risk","ESG","rating"],t.s)
-B.br7=new A.bh("Overall Risk Score","Yahoo Finance's risk rating for a stock on a scale of 1\u201310.","Overall Risk is sourced from Yahoo Finance's ESG/Risk rating system.\n\n\u2022 1\u20133 \u2014 Low risk\n\u2022 4\u20137 \u2014 Medium risk\n\u2022 8\u201310 \u2014 High risk\n\nThis score reflects Yahoo's assessment of governance, accounting, and financial risk \u2014 not market price risk. It is one data point among many.",B.alA)
-B.aoU=s(["company","profile","sector","industry","country","employees","website","summary","description"],t.s)
-B.bs6=new A.bh("Company Profile","Sector, industry, country, headquarters, employees, website, and business summary.","The Company Profile section appears on each stock's detail screen.\n\nData is fetched once from Yahoo Finance when you add a stock and stored locally.\n\nFields shown:\n\u2022 Sector \u2014 broad market sector (e.g. Technology)\n\u2022 Industry \u2014 specific industry (e.g. Software\u2014Application)\n\u2022 Country \u2014 country of incorporation/headquarters\n\u2022 City \u2014 headquarters city\n\u2022 Employees \u2014 full-time employee count\n\u2022 Website \u2014 company website\n\u2022 Business Summary \u2014 plain-English description of what the company does\n\nUsed for Sector and Country breakdown charts.",B.aoU)
-B.alQ=s([B.bqM,B.bqI,B.bs9,B.brr,B.bqL,B.bqR,B.bsb,B.bqQ,B.br7,B.bs6],t.YG)
-B.bqo=new A.fQ("Company Fundamentals",B.GH,B.m,B.alQ)
-B.anL=s(["screener","scan","find stocks","discover","ideas","search market","browse","stale","old data","age","updated","how fresh","last updated"],t.s)
-B.bqW=new A.bh("What the Screener is","A browsable list of well-known listed companies, so you can find candidates without knowing the ticker first.",'On phone: tap the Extra tab, then Screener.\nOn web: open the Screener tab.\n\nEach row shows the symbol, company name, country flag, sector, size band, the latest price and day change, and whichever figures are known for that company.\n\nTap a row to open a read-only view of the stock. Tap Add to put it on your watchlist or into your portfolio \u2014 that opens the normal Add screen with the symbol filled in.\n\nOne thing worth knowing: the Screener reads a stored copy of the market, not a live quote. The line just above the list says how old that copy is \u2014 "Updated 6h ago", for instance \u2014 and resting on it gives the exact time of the oldest company on screen. Read that line rather than assuming the data is recent: it is measured from the data itself, so it is always the honest answer.\n\nThe refresh button at the top re-reads that stored copy \u2014 it does not go and fetch fresh prices. For an up-to-the-minute price, open the stock or add it to your watchlist.',B.anL)
-B.alR=s(["filter","filters","narrow","refine","sector","country","industry","size","market cap","p/e","dividend","beta","mega","large","mid","small","micro","currency","yen","krona","too big","unclassified"],t.s)
-B.bsg=new A.bh("Filtering the list","Filters stack \u2014 each one you add narrows the list further. The number on the filter icon tells you how many are on.",'Tap the filter icon (top right) to open the Filters sheet.\n\nFilters are grouped:\n\u2022 Asset Class \u2014 shares, ETFs, funds\n\u2022 Company Size \u2014 Micro through Mega\n\u2022 Country and Sector \u2014 pick as many as you like\n\u2022 Industry \u2014 appears once you have picked a sector\n\u2022 Valuation \u2014 P/E, dividend yield, profitable only\n\u2022 Quality \u2014 return on equity, debt, margins, growth\n\u2022 Risk & Momentum \u2014 beta, 52-week position, today\'s change\n\nEvery filter you switch on is combined with the others, so the list only keeps companies that pass all of them. The count above the list reads "how many of how many", so you can see how much you cut away.\n\nImportant: a company with a blank figure is never removed. If you ask for a P/E under 15 and a company has no P/E on record, it stays in the list rather than being silently dropped. Blank means unknown, not disqualified. Filters on sector, industry, country and asset class work the other way round \u2014 "When a figure is missing", below, explains which does which.\n\nTwo figure filters are exceptions to that. Today\'s change is one: Gainers and Losers both need a change to compare against, so a company with none recorded is left out. Company Size is the other, and it is worth a paragraph of its own.\n\nOne caveat on Company Size, and it is a real one. Micro, Small, Mid, Large and Mega are worked out from each company\'s value exactly as its own market reports it, in its own currency, with nothing converted to a common one. A company priced in yen or krona is measured against the same numbers as one priced in dollars, so it can sit a band or two higher than its real size deserves. The order the list arrives in is by that same value, so the companies at the top are not necessarily the biggest. Read the bands as a rough grouping rather than a ranking.\n\nAnd a company with no size figure at all is not Micro \u2014 it is unclassified, and it matches no band. Switch on any Company Size filter and those companies leave the list altogether.\n\nReset clears every filter at once.',B.alR)
-B.akG=s(["missing","blank","no data","unknown","empty","not reported","gaps","why is this here","still in the list","dropped","excluded","how many"],t.s)
-B.bqU=new A.bh("When a figure is missing","A filter on a figure a company does not report keeps that company in the list. A filter on its sector or country drops it. The line under the results says how many.",'Not every company reports every figure, and the two kinds of filter treat a gap in opposite ways. This is the one thing worth understanding before you trust a filtered list.\n\nFilters on a reported figure \u2014 P/E, dividend, beta, return on equity, debt, margins, growth, the 52-week position, profitable only \u2014 KEEP a company that has no such figure on record. Ask for a P/E under 15 and a company with no P/E stays in your list. The Screener will not throw a company out over something it does not know about it.\n\nFilters on a detail every company has \u2014 sector, industry, country, asset class, company size \u2014 DROP a company that is missing it. There is nothing for it to match, so it never reaches the list. Gainers and Losers behave the same way, since both need a change for the day to compare against.\n\nYou do not have to guess how much of the first kind is in front of you. When it applies, a line appears under the result count and says so \u2014 "283 of these have no Dividend figure" \u2014 and resting on it spells out the rest. It is silent when every company on screen has the figure you filtered on, and silent when you have no such filter on, so if you see it, it is telling you something.\n\nOne limit on that number, worth saying plainly: it counts the companies in the list. Companies dropped for a missing sector or country are not in the list, so they are not in the count, and nothing on screen counts those.\n\nWhen the number is large, read the list as "companies that passed, plus companies we could not judge" rather than as a clean answer \u2014 and open the ones you like to see what is actually on record for them.',B.akG)
-B.all=s(["no data","not working","empty","roe","return on equity","debt","profit margin","revenue growth","earnings growth","beta","profitable","missing"],t.s)
-B.brZ=new A.bh("Which filters have data right now",'A filter with no figures behind it is greyed out, marked "No data", and cannot be switched on. You never have to guess.','The Screener can only filter on figures it actually holds, and it does not hold all of them.\n\nYou do not have to work out which ones. Open the Filters sheet: any control with nothing behind it is greyed out and carries a small "No data" tag, and it cannot be switched on. The sort chips above the list behave the same way. Rest on the tag and it tells you why that one is off \u2014 for most filters, that switching it on would leave the list exactly as it is; for Gainers and Losers, that it would empty the list, since those two need a recorded change to compare.\n\nThis is worked out from the data every time the Screener loads, never from a fixed list, so a control switches itself back on the moment that figure starts arriving. Nothing is broken and nothing is being hidden \u2014 those figures are simply not there yet.\n\nTwo things follow:\n\u2022 You can never arm a filter that would do nothing, because you cannot switch a greyed one on in the first place.\n\u2022 Anything you had already set stays yours to remove. A control holding a value keeps its "No data" tag but stays editable, and it also shows up as a removable chip on the row above the list.\n\nWhen a company looks interesting, open it or add it to your watchlist and judge it there.',B.all)
-B.ajX=s(["sort","order","ranking","market cap","rank","ascending","descending","largest"],t.s)
-B.bsk=new A.bh("Sorting the results","Tap a sort chip to order the list; tap the same chip again to flip between high-to-low and low-to-high.","The row of chips under the title sets the order: Market Cap, Day Change, P/E, Dividend, ROE, Rev Growth, Beta, Name.\n\nTap a chip to sort by it. Tap the same chip again to reverse the direction \u2014 the little arrow on the chip shows which way you are going.\n\nCompanies with no figure for the chosen sort always sit at the bottom, whichever direction you pick, so an empty value never masquerades as a very low one.\n\nTwo caveats:\n\u2022 A sort chip with no figures behind it is greyed out and cannot be picked \u2014 there would be nothing for it to order by. It comes back on its own once that figure starts arriving.\n\u2022 Market Cap is compared as reported, in each company's own currency, with nothing converted to a common one. A Japanese or Swedish company can therefore sort above a larger American one purely because yen and krona are smaller units than dollars. This is also the order you get before you pick anything, so the companies at the top when you open the Screener are not necessarily the biggest. Treat the size ordering as a rough grouping rather than a ranking.",B.ajX)
-B.al9=s([B.bqW,B.bsg,B.bqU,B.brZ,B.bsk],t.YG)
-B.bqC=new A.fQ("Screener",B.nF,B.m,B.al9)
-B.aiB=s(["history","snapshot","weekly","past","historical","archive"],t.s)
-B.brm=new A.bh("History Tab","Browse weekly snapshots of your portfolio going back as far as your history allows.","Found in Analysis \u2192 History tab.\n\nEach weekly snapshot shows:\n\u2022 Portfolio total value and P&L\n\u2022 IRR at that point in time\n\u2022 Best and worst performer that week\n\u2022 Position Size card (what % each stock was)\n\u2022 Sector, Country, Currency, and Asset Class breakdown charts\n\u2022 Portfolio Quality score\n\nUse the arrows to navigate between weeks.\n\nSnapshots are recorded once per ISO week (Monday\u2013Sunday) the first time you open the app that week. They update if you open again in the same week.",B.aiB)
-B.aoT=s(["snapshot","recorded","automatic","daily","weekly","history","data"],t.s)
-B.brk=new A.bh("How Snapshots Are Recorded","Snapshots are saved automatically \u2014 no action needed from you.","The app records several types of snapshots automatically:\n\n1. Daily portfolio snapshot (portfolio_snapshots)\n   \u2192 Recorded each time you refresh prices\n   \u2192 Used for: Equity Curve, VaR (whole portfolio)\n\n2. Daily tag snapshots (tag_daily_snapshots)\n   \u2192 Recorded per tag, same time as portfolio snapshot\n   \u2192 Used for: VaR per tag/sub-portfolio\n\n3. Weekly analysis snapshot (analysis_snapshots)\n   \u2192 Recorded once per week on app open\n   \u2192 Used for: History tab, per-tag breakdowns\n\nThe more consistently you use the app, the richer your historical data becomes.",B.aoT)
-B.ajA=s([B.brm,B.brk],t.YG)
-B.bqx=new A.fQ("History & Snapshots",B.xI,B.f5,B.ajA)
-B.apm=s(["goal","target","retirement","savings","progress","milestone"],t.s)
-B.brD=new A.bh("Setting a Goal","Define a target portfolio value and track your progress over time.",'Go to the Goals tab \u2192 tap the + button.\n\nConfigure:\n\u2022 Goal name (e.g. "Retirement fund")\n\u2022 Target amount and currency\n\u2022 Target date\n\u2022 Asset classes to include (Stocks, Cash, Property)\n\nThe goal tracks your progress each time you refresh prices or update your cash balance.',B.apm)
-B.alc=s(["goal","asset class","property","stocks","cash","net worth"],t.s)
-B.bqP=new A.bh("Goal Asset Classes","Choose which types of assets count toward a goal.",'When creating a goal you select which asset classes to include:\n\n\u2022 Stocks \u2014 all your owned stock positions (in the goal\'s currency)\n\u2022 Cash \u2014 your logged cash/liquidity balance\n\u2022 Property \u2014 a manual property value you enter on the goal\n\nThis lets you create specific goals:\n\u2022 "Investment portfolio" \u2192 Stocks only\n\u2022 "Total net worth" \u2192 Stocks + Cash + Property\n\u2022 "Emergency fund" \u2192 Cash only',B.alc)
-B.ao9=s([B.brD,B.bqP],t.YG)
-B.bqs=new A.fQ("Goals",B.dO,B.p,B.ao9)
-B.EC=new A.W(1,0,0.7372549019607844,0.8313725490196079,B.t)
-B.apk=s(["import","CSV","OFX","QFX","upload","broker","file","transactions","Fidelity","Schwab"],t.s)
-B.brd=new A.bh("How to Import Transactions","Upload a CSV, OFX or QFX file from your broker to import all transactions at once.",'Go to the Portfolio tab \u2192 tap the Import button (upload icon, top right).\n\nSupported file formats:\n\u2022 CSV (.csv, .txt) \u2014 most brokers worldwide\n\u2022 OFX / QFX (.ofx, .qfx) \u2014 US brokers (Fidelity, Schwab, Vanguard, E*Trade, etc.)\n\nSteps:\n1. Tap "Select File" and pick a file from your device\n2. The app detects your broker and file format automatically\n3. A list of found transactions is shown \u2014 review them\n4. Select which transactions to import (all are ticked by default)\n5. Tap "Import All" or "Import Selected (N)"\n\nSupported platforms:\n\u2022 Web browser \u2014 pick a file from your computer\n\u2022 Android / iOS \u2014 pick from Files, Google Drive, iCloud, etc.\n\nFile size limit: 5 MB.',B.apk)
-B.akQ=s(["Avanza","Nordnet","Fidelity","NetBenefits","ESPP","RSU","stock plan","Schwab","Vanguard","E*Trade","OFX","QFX","broker","supported","auto-detect","US broker"],t.s)
-B.bqY=new A.bh("Supported Brokers & File Formats","Avanza, Nordnet, Fidelity Stock Plan (CSV) and all major US brokers via OFX/QFX are auto-detected.",'The app currently auto-detects the following formats:\n\n\ud83c\uddf8\ud83c\uddea Avanza (CSV)\nGo to Transactions \u2192 Export \u2192 Download as CSV\n\n\ud83c\uddf8\ud83c\uddea Nordnet (CSV)\nGo to Transactions and notes (Transaktioner och notor) \u2192 set date range \u2192 Export\n\n\ud83c\uddfa\ud83c\uddf8 Fidelity Stock Plan / NetBenefits (CSV)\nFor ESPP/RSU accounts. Log in to NetBenefits \u2192 stock plan account \u2192 Transaction history \u2192 Download CSV. Buys, sells, reinvestments and dividends are imported; share deposits without a price (e.g. RSU conversions at $0.00) are skipped \u2014 add those manually with their real cost basis. Dividends import gross (withholding tax rows are not deducted).\n\n\ud83c\uddfa\ud83c\uddf8 US brokers \u2014 OFX / QFX format\nWorks with Fidelity brokerage, Schwab, Vanguard, E*Trade, TD Ameritrade and others.\nGo to your broker \u2192 Transaction History \u2192 Download \u2192 choose OFX or QFX.\n\nWhen a supported format is detected:\n\u2022 No column mapping is needed \u2014 it just works\n\u2022 Tickers are read directly from the file (OFX), resolved via ISIN (Avanza, Nordnet), or matched by name search (Fidelity Stock Plan)\n\nFor any other broker that exports CSV, use the Generic Mapper (see "Using a Different Broker").',B.akQ)
-B.anu=s(["generic","mapper","column mapping","manual","custom broker","unknown broker","CSV"],t.s)
-B.br1=new A.bh("Using a Different Broker (Generic CSV Mapper)","Any broker's CSV can be imported by mapping columns manually \u2014 once.",'If your broker exports CSV but isn\'t auto-detected, tap the blue "Using a different broker?" banner, or tap "Map Columns Manually" after uploading the file.\n\nNote: OFX/QFX files from US brokers are always auto-detected and never need manual mapping.\n\nThe Column Mapper lets you tell the app which column is which:\n\u2022 Date column + date format (e.g. yyyy-MM-dd)\n\u2022 Quantity column\n\u2022 Transaction type (column or fixed value \u2014 buy/sell/dividend)\n\u2022 Stock identifier: Ticker, ISIN, or Name\n\u2022 Price: per-share or total amount\n\u2022 Currency: column or fixed (e.g. SEK)\n\nA live preview of the first rows helps you verify the mapping is correct.\n\nOnce set up, tap the bookmark icon to save the mapping as a template. Next time you upload a file from the same broker, the template is applied automatically.',B.anu)
-B.ao4=s(["template","save","reuse","auto-match","remember","broker template"],t.s)
-B.brw=new A.bh("Saving & Reusing Import Templates","Save your column mapping once \u2014 it's auto-applied next time.",'After configuring the column mapper for a broker, tap the bookmark icon in the top-right of the mapping screen.\n\nGive the template a name (e.g. "Nordnet SEK" or "DEGIRO EUR") and save.\n\nHow auto-matching works:\n\u2022 When you upload a new file, the app checks if the column headers match any saved template (50% overlap threshold)\n\u2022 If a match is found, the template is applied automatically \u2014 no re-mapping needed\n\u2022 If no match, you are taken to the mapper to configure it again\n\nTemplates are stored locally on your device.',B.ao4)
-B.aip=s(["select","checkbox","deselect","pick","rows","partial import"],t.s)
-B.bqO=new A.bh("Selecting Transactions Before Importing","Review and cherry-pick which rows to import \u2014 not all rows have to be imported.",'After the app parses the file, each transaction is shown as a row with a checkbox.\n\nBy default all rows are selected.\n\nTo deselect: tap a row or its checkbox.\nTo quickly select/deselect all: use the "Select all / Deselect all" button.\n\nThe import button shows exactly how many are selected:\n\u2022 "Import All (21)" \u2014 all rows selected\n\u2022 "Import Selected (7)" \u2014 partial selection\n\u2022 Greyed out \u2014 no rows selected\n\nThis works the same for both auto-detected brokers and the generic mapper.',B.aip)
-B.akj=s(["merge","duplicate","status","owned","sold","net shares","after import"],t.s)
-B.bqH=new A.bh("What Happens After Import","The app merges imported transactions with existing stocks and calculates P&L.","For each imported transaction, the app:\n\n1. Looks for an existing stock matching the ticker, ISIN, or name\n2. If found \u2014 merges the transaction into that stock (skips exact duplicates)\n3. If not found \u2014 creates a new stock automatically\n\nStock status is set automatically based on net shares:\n\u2022 Net shares > 0 \u2192 Owned\n\u2022 Net shares \u2264 0 (all sold) \u2192 Sold\n\u2022 Watching stocks stay Watching unless a buy is imported\n\nDuplicate detection:\nTransactions with the same date, type, quantity, and price are skipped. You can safely re-import the same file \u2014 no doubles will be created.\n\nTransactions are always sorted chronologically to ensure correct average cost calculations.",B.akj)
-B.ap7=s(["ISIN","ticker","resolve","OpenFIGI","symbol","lookup"],t.s)
-B.brM=new A.bh("ISIN Resolution","The app tries to find the ticker symbol for ISIN codes automatically.","Some broker exports use ISIN codes instead of ticker symbols (e.g. SE0000108656 instead of VOLCAR-A.ST).\n\nThe app resolves ISINs in two ways:\n\n1. Built-in table \u2014 30+ common Swedish, Nordic, and US stocks resolved instantly, no internet needed\n2. OpenFIGI API \u2014 free, covers global ISINs; used on mobile and desktop (not on web due to browser security restrictions)\n\nIf an ISIN cannot be resolved:\n\u2022 On mobile/desktop \u2014 a prompt asks you to enter the ticker manually\n\u2022 On web \u2014 falls back to using the company name from the CSV\n\nYou can always edit the stock afterwards to update the ticker symbol.",B.ap7)
-B.apg=s(["date format","yyyy","MM","dd","European","US","date parsing"],t.s)
-B.brE=new A.bh("Supported Date Formats","The app recognises most common date formats used by brokers worldwide.","The mapper tries your selected date format first, then falls back through:\n\n\u2022 yyyy-MM-dd \u2014 ISO 8601 (e.g. 2024-05-12) \u2014 most common modern export\n\u2022 yyyy/MM/dd \u2014 ISO with slashes (e.g. 2024/05/12)\n\u2022 dd.MM.yyyy \u2014 European with dots (e.g. 12.05.2024)\n\u2022 dd/MM/yyyy \u2014 European with slashes (e.g. 12/05/2024)\n\u2022 MM/dd/yyyy \u2014 US format (e.g. 05/12/2024)\n\u2022 d/M/yyyy \u2014 European short (e.g. 5/1/2024)\n\u2022 M/d/yyyy \u2014 US short (e.g. 1/5/2024)\n\nIf none match, the row is skipped with no error.",B.apg)
-B.aox=s(["number format","decimal","comma","dot","European","US","currency symbol"],t.s)
-B.brc=new A.bh("Supported Number Formats","Both European (1.234,56) and US (1,234.56) decimal formats are handled.","The app auto-detects whether commas or dots are used as decimal separators:\n\n\u2022 US format: 1,234.56 (comma = thousands, dot = decimal)\n\u2022 European format: 1.234,56 (dot = thousands, comma = decimal)\n\u2022 Simple decimal: 1234.56 or 1234,56\n\nCurrency symbols (kr, $, \u20ac, \xa3) and extra spaces are stripped automatically.\n\nThe rule: whichever separator (comma or dot) appears last in the number is treated as the decimal separator.",B.aox)
-B.amO=s([B.brd,B.bqY,B.br1,B.brw,B.bqO,B.bqH,B.brM,B.brE,B.brc],t.YG)
-B.bqB=new A.fQ("Importing Transactions",B.nL,B.EC,B.amO)
-B.adx=new A.ao(62318,"MaterialIcons",!1)
-B.anR=s(["export","download","backup","JSON","data","GDPR"],t.s)
-B.bri=new A.bh("Export My Data","Download all your stocks and journal entries as a JSON file.","Go to Settings \u2192 Export My Data.\n\nThe export includes:\n\u2022 All stocks (owned, watching, sold)\n\u2022 All transactions per stock\n\u2022 All journal entries\n\nFormat: JSON (readable by any text editor or spreadsheet app).\n\nUse this to back up your data or migrate to another tool.",B.anR)
-B.aoo=s(["delete","account","remove","GDPR","right to erasure","close account"],t.s)
-B.bs5=new A.bh("Delete Account","Permanently deletes all your data and your account. Cannot be undone.","Go to Settings \u2192 Danger Zone \u2192 Delete My Account.\n\nType DELETE to confirm.\n\nThis permanently removes:\n\u2022 All stocks and transactions\n\u2022 All journal entries\n\u2022 All snapshots\n\u2022 Your login credentials\n\n\u26a0 There is no undo. Export your data first if you want to keep a copy.",B.aoo)
-B.ak3=s(["journal","notes","diary","log","write","record"],t.s)
-B.bra=new A.bh("Journal","Attach notes, thoughts, and records to individual stocks.","Open any stock \u2192 tap the Journal button.\n\nUse the journal to:\n\u2022 Record why you bought or sold\n\u2022 Log news or events affecting the stock\n\u2022 Track your investment thesis over time\n\u2022 Note your emotional state at the time (useful for behaviour analysis)\n\nEntries are stored per stock and included in the data export.",B.ak3)
-B.ajq=s(["share","certificate","social","milestone","image"],t.s)
-B.bs7=new A.bh("Share Certificate","Generate a visual certificate for a stock position to share.","Open a stock detail screen \u2192 tap Share Certificate.\n\nGenerates a stylised image showing:\n\u2022 Stock name and symbol\n\u2022 Number of shares held\n\u2022 Your average purchase price\n\u2022 Current value\n\nUseful for sharing investment milestones on social media.",B.ajq)
-B.alB=s(["accessibility","voiceover","talkback","screen reader","a11y","blind","font size","disability"],t.s)
-B.brl=new A.bh("Accessibility","Portfolio Keeper supports VoiceOver (iOS) and TalkBack (Android) screen readers.",'Portfolio Keeper is built with screen reader support in mind.\n\nScreen reader support:\n\u2022 All buttons have descriptive labels read aloud by VoiceOver (iOS) and TalkBack (Android)\n\u2022 Charts are labelled with their purpose (e.g. "Equity curve chart", "Goal progress chart")\n\u2022 All text fields, lists, and interactive elements are navigable by keyboard or switch access\n\nTo enable a screen reader:\n\u2022 iOS: Settings \u2192 Accessibility \u2192 VoiceOver\n\u2022 Android: Settings \u2192 Accessibility \u2192 TalkBack\n\nFont size:\nThe app respects your system font size setting. Increase it in:\n\u2022 iOS: Settings \u2192 Display & Brightness \u2192 Text Size\n\u2022 Android: Settings \u2192 Accessibility \u2192 Font Size\n\nIf you encounter any accessibility issue, use the Contact form in Settings to report it.',B.alB)
-B.aoy=s([B.bri,B.bs5,B.bra,B.bs7,B.brl],t.YG)
-B.bqt=new A.fQ("Settings & Data",B.adx,B.j,B.aoy)
-B.adc=new A.ao(61345,"MaterialIcons",!1)
-B.El=new A.W(1,0.14901960784313725,0.7764705882352941,0.8549019607843137,B.t)
-B.anw=s(["board","public","feed","sold","trades","share","community"],t.s)
-B.bsj=new A.bh("What is the Board?","A public feed where you can share sold positions and see what other investors closed.","The Board is a community feed of completed trades. When you share a sold position it appears on the Board so other members can see your trade \u2014 symbol, direction, gain/loss, and how long you held it.\n\nThe Board is read-only to everyone: no likes, no comments. It is purely a record of real trades that members chose to make public.\n\nWhere to find it: tap the Board tab in the main navigation.",B.anw)
-B.aoK=s(["share","board","sold","publish","public","post"],t.s)
-B.brG=new A.bh("Sharing a Sold Position to the Board",'Open any sold stock and tap "Share to Board" to publish the trade.','Only sold positions can be shared \u2014 you must have fully closed the position first.\n\nHow to share:\n1. Open a stock that has status "Sold"\n2. Tap the "Share to Board" button in the detail screen\n3. Confirm \u2014 the trade is immediately visible to all users\n\nWhat is shown on the Board:\n\u2022 Stock symbol and name\n\u2022 Whether it was a gain or loss (% return)\n\u2022 Holding period (how long you held it)\n\u2022 The date it was shared\n\nWhat is NOT shown: your exact buy/sell prices, the number of shares, or the total value. The Board shows performance, not position size.',B.aoK)
-B.amV=s(["revoke","remove","board","unshare","delete","take down"],t.s)
-B.brf=new A.bh("Revoking a Board Share","Remove a shared trade from the Board at any time from the stock detail screen.",'You can remove your trade from the Board at any time.\n\nHow to revoke:\n1. Open the sold stock you previously shared\n2. Tap "Remove from Board" (appears where "Share to Board" was)\n3. Confirm \u2014 the trade is removed immediately\n\nRevoking has no effect on your local data \u2014 it only removes the public Board entry. Your transaction history and P&L remain unchanged.',B.amV)
-B.akv=s(["privacy","board","anonymous","public","private","data","exposure"],t.s)
-B.brg=new A.bh("Board Privacy","Only the trade result is public \u2014 your portfolio, prices, and identity are not exposed.",'The Board is designed to be informative without exposing sensitive financial details.\n\nWhat is public:\n\u2022 Stock symbol and name\n\u2022 Return % (gain or loss)\n\u2022 Holding duration\n\nWhat stays private:\n\u2022 Your exact buy and sell prices\n\u2022 Number of shares or total value\n\u2022 Your username or account name (trades are anonymous on the feed)\n\u2022 Your overall portfolio\n\nYou are always in control \u2014 nothing is shared unless you explicitly tap "Share to Board".',B.akv)
-B.anI=s([B.bsj,B.brG,B.brf,B.brg],t.YG)
-B.bqF=new A.fQ("Board",B.adc,B.El,B.anI)
-B.amo=s(["prediction","predict","forecast","call","bullish","bearish","target"],t.s)
-B.brF=new A.bh("What are Predictions?","Make a public price call on any stock \u2014 bullish or bearish \u2014 with a target and deadline.","Predictions let you put your analysis on record. You pick a stock, say whether you think it will go up (Bullish) or down (Bearish), set a target price, and give it a deadline. At the deadline the app checks the outcome automatically.\n\nPredictions are visible to other users, so they encourage thoughtful, evidence-based calls rather than speculation.\n\nWhere to find it: Analysis \u2192 Predictions tab.",B.amo)
-B.ajH=s(["prediction","make","create","bullish","bearish","target","deadline","note"],t.s)
-B.brS=new A.bh("Making a Prediction","Tap + in the Predictions tab, search for a stock, set direction, target price, and deadline.",'How to make a prediction:\n1. Go to Analysis \u2192 Predictions tab\n2. Tap the + button\n3. Search for a stock by name or ticker\n4. Choose direction: Bullish (price goes up) or Bearish (price goes down)\n5. Set a target price\n6. Set a deadline date\n7. Optionally add a note explaining your reasoning\n\nRequirements:\n\u2022 The deadline must be at least 14 days in the future \u2014 short-term guesses do not count as "qualifying hits" for Community access (see below)\n\u2022 You can have multiple active predictions at the same time',B.ajH)
-B.apy=s(["resolved","won","lost","outcome","automatic","check","deadline","verdict"],t.s)
-B.brL=new A.bh("How Predictions Are Resolved","The app checks your target price automatically each day and marks the outcome at deadline.","Each active prediction is checked automatically once per day by a background job.\n\nA prediction is marked Won if:\n\u2022 Bullish: the live price reaches or exceeds your target before the deadline\n\u2022 Bearish: the live price falls to or below your target before the deadline\n\nAt the deadline, any unresolved prediction is marked Lost \u2014 the target was not reached in time.\n\nOnce resolved, the outcome is permanent and visible on your prediction history.",B.apy)
-B.alK=s(["qualifying hit","hits","threshold","14 day","community","access","gate"],t.s)
-B.brn=new A.bh("Qualifying Hits \u2014 What They Are",'A prediction counts as a "qualifying hit" only if it has a 14-day+ timeline and you win it.','Not every correct prediction counts equally. A "qualifying hit" is a prediction that:\n\n\u2022 Has a deadline at least 14 days from when it was made \u2014 this filters out trivial short-term calls\n\u2022 Resolves as Won\n\nQualifying hits matter because they are the key to accessing the Community Portfolio feature. You need at least 3 qualifying hits to participate.\n\nYour qualifying hit count is shown in the Predictions tab. Predictions that are still open do not count yet \u2014 only resolved wins with a 14-day+ timeline count.',B.alK)
-B.aoM=s(["history","stats","win rate","predictions","track record","record"],t.s)
-B.bsc=new A.bh("Prediction History & Stats","Track your win rate, total predictions, and qualifying hit count over time.","The Predictions tab shows:\n\n\u2022 Active predictions \u2014 currently running, with current price vs target\n\u2022 Past predictions \u2014 resolved as Won or Lost, with outcome date\n\u2022 Summary stats: total predictions, wins, losses, win rate %, qualifying hits\n\nStats are public in the sense that other users can see your qualifying hit count (used as vote weight in Community Investing). The full prediction history is only visible to you.",B.aoM)
-B.aka=s([B.brF,B.brS,B.brL,B.brn,B.bsc],t.YG)
-B.bqy=new A.fQ("Predictions",B.fh,B.L,B.aka)
-B.adm=new A.ao(61659,"MaterialIcons",!1)
-B.ak9=s(["community","investing","portfolio","paper","collective","shared","vote"],t.s)
-B.bqV=new A.bh("What is Community Investing?","A shared paper portfolio where members vote on which stocks to hold \u2014 and the portfolio tracks real price movements.","Community Investing is a collective portfolio run entirely by the members.\n\nHere's how it works:\n\u2022 Any qualifying member can propose a stock to add (bullish) or short (bearish)\n\u2022 Members vote on each proposal \u2014 the highest-voted proposals that cross the threshold are approved\n\u2022 Approved proposals become live positions in the Community Portfolio\n\u2022 Each position tracks real price movement until the target, stop, or deadline is reached\n\u2022 When a position closes, it is recorded as a Win or Loss for the Community\n\nThe Community Portfolio is paper-only \u2014 no real money is involved. It is a live arena for testing your market thesis against the crowd.",B.ak9)
-B.amT=s(["membership","gate","qualify","access","unlock","predictions","3 hits","threshold"],t.s)
-B.bsd=new A.bh("How to Join \u2014 The Membership Gate","You need at least 3 qualifying prediction hits (14-day+ timeline) to participate.","Participation in Community Investing is gated on prediction track record. This ensures that only users with a demonstrated ability to make reasoned market calls can influence the Community Portfolio.\n\nTo unlock Community Investing:\n\u2022 Make predictions in the Predictions tab (Analysis \u2192 Predictions)\n\u2022 Use deadlines of at least 14 days\n\u2022 Win at least 3 of them\n\nYour qualifying hit count is shown in the Community tab \u2014 you can watch your progress toward the 3-hit threshold.\n\nOnce you reach 3, the full feature unlocks: proposing, voting, and removal motions.",B.amT)
-B.ama=s(["proposal","propose","suggest","add","bullish","bearish","target","stop","note"],t.s)
-B.brR=new A.bh("Proposals \u2014 Suggesting a Stock","Search for a stock, set direction, target, stop, and deadline to put it to a community vote.","How to submit a proposal:\n1. Go to Community \u2192 Investing \u2192 Proposals tab\n2. Tap the + button\n3. Search for a stock (same search as the main portfolio)\n4. Choose direction: Bullish (buy) or Bearish (short)\n5. Set a target price \u2014 where you expect the price to go\n6. Set a stop price \u2014 the risk level you're comfortable with\n7. Set a deadline date\n8. Optionally add a note explaining your thesis\n\nThe proposal goes live immediately and is visible to all members.\n\nRules:\n\u2022 Only one open proposal per stock at a time\n\u2022 You can retract your own proposal if it has received zero votes",B.ama)
-B.akO=s(["vote","voting","weight","yes","no","approve","proposal","track record","qualifying hits"],t.s)
-B.brO=new A.bh("Voting on Proposals","Vote Yes or No on any open proposal. Your vote weight equals your qualifying hit count (max 25).","Every qualifying member can vote on open proposals.\n\nVote weight:\nYour vote is not equal to everyone else's \u2014 it is weighted by your qualifying hit count. A member with 10 qualifying hits has more influence than one with 3. The maximum weight is capped at 25 to prevent any single user from dominating.\n\nLink to stats:\nWhen voting Yes, you can optionally link the vote to your prediction stats. This publicly shows that you backed the proposal with your track record.\n\nVotes are permanent \u2014 you cannot change your vote after casting it.\n\nOnce approved, the proposal becomes a live position automatically. Proposals that do not reach the threshold before their deadline close without becoming positions.",B.akO)
-B.ap4=s(["position","active","closed","entry price","target","stop","P&L","win","loss"],t.s)
-B.bru=new A.bh("Community Portfolio Positions","Approved proposals become live positions tracked against real market prices.","When a proposal is approved by vote, it becomes an active position in the Community Portfolio.\n\nA position tracks:\n\u2022 Entry price \u2014 the market price at the moment the proposal was approved\n\u2022 Current price \u2014 updated live each time prices are refreshed\n\u2022 Target and Stop prices \u2014 set by the original proposer\n\u2022 P&L % \u2014 how far the price has moved toward or away from target\n\u2022 Deadline \u2014 when the position must close if neither target nor stop is hit\n\nA position closes automatically when:\n\u2022 Target hit \u2192 WIN\n\u2022 Stop hit \u2192 LOSS\n\u2022 Deadline reached \u2192 verdict based on whether price moved toward target\n\u2022 Removal vote passed \u2192 closed early\n\nPositions tab shows all active and closed positions.",B.ap4)
-B.al5=s(["removal","remove","close early","motion","vote","ballot","65%","position"],t.s)
-B.bre=new A.bh("Removal Votes \u2014 Closing a Position Early","Any member can propose to close an active position early. The community votes by weighted ballot.",'Sometimes a position may no longer make sense \u2014 the thesis changed, news broke, or the trade is clearly going wrong. Any qualifying member can start a removal motion.\n\nHow it works:\n1. Tap "Motion to close early" on an active position card\n2. Provide a reason (optional but encouraged)\n3. The motion opens for a 7-day weighted vote\n4. If 65% of weighted votes are "Yes, remove" \u2192 position closes immediately as a Loss\n5. If the motion fails or expires \u2192 position continues as normal\n\nRules:\n\u2022 Only one open removal motion per position at a time\n\u2022 The proposer can retract the motion before any ballots are cast\n\u2022 Your ballot weight is the same as your proposal vote weight',B.al5)
-B.aoE=s(["linked","prediction","link","resolve","yes","vote","stats","community"],t.s)
-B.bs3=new A.bh("Linked Predictions","Voting Yes on a proposal and linking to stats automatically resolves a matching open prediction.","If you have an active prediction for the same stock and direction, you can link your \"Yes\" vote to that prediction.\n\nWhat linking does:\n\u2022 When the community position closes, any linked prediction on the same stock and direction is resolved using the position's outcome \u2014 no need to wait for your prediction's own deadline\n\u2022 A WIN on the community position \u2192 your linked prediction also resolves as Won\n\u2022 A LOSS on the community position \u2192 your linked prediction resolves as Lost\n\nThis is optional. You can vote Yes without linking. Linking is only available on a Yes vote \u2014 a No vote means you do not believe in the trade.",B.aoE)
-B.apw=s(["report","flag","spam","inappropriate","misleading","harassment","moderate","content"],t.s)
-B.brQ=new A.bh("Reporting Content","Use the ... menu on any proposal or removal motion to report spam, misleading content, or harassment.",'Community Investing involves free-text notes on proposals and removal motions. If you see content that violates community standards, you can report it.\n\nHow to report:\n1. Tap the \u2022\u2022\u2022 (more) menu on a proposal card or position card\n2. Tap "Report"\n3. Choose a reason: Spam, Inappropriate, Misleading, Harassment, or Other\n4. Optionally add details (up to 200 characters)\n5. Tap Submit Report\n\nReports are sent directly to the app team for review. You can only report each item once. Reports are anonymous \u2014 other users cannot see that you reported.',B.apw)
-B.akl=s([B.bqV,B.bsd,B.brR,B.brO,B.bru,B.bre,B.bs3,B.brQ],t.YG)
-B.bqz=new A.fQ("Community Investing",B.adm,B.p,B.akl)
-B.HP=s([B.bqu,B.bqw,B.bqv,B.bqq,B.bqr,B.bqA,B.bqp,B.bqE,B.bqD,B.bqo,B.bqC,B.bqx,B.bqs,B.bqB,B.bqt,B.bqF,B.bqy,B.bqz],A.aB("N<fQ>"))
-B.HQ=s(["Portfolio","Sold","Watching","Analysis","Goals","Screener","Board","My Rules","Import","Saving Strategy","Cash Flow"],t.s)
-B.HR=s([84,150,136,88,72,56,210],t.n)
+B.HP=s(["Portfolio","Sold","Watching","Analysis","Goals","Screener","Board","My Rules","Import","Saving Strategy","Cash Flow"],t.s)
+B.HQ=s([84,150,136,88,72,56,210],t.n)
 B.akp=s([B.n8,B.wi,B.wj],A.aB("N<lp>"))
-B.HS=s(["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],t.s)
+B.HR=s(["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],t.s)
 B.BU=new A.fa("1mo","1d",2,"oneMonth")
 B.BV=new A.fa("3mo","1d",3,"threeMonths")
 B.BT=new A.fa("6mo","1d",4,"sixMonths")
@@ -188544,21 +188280,21 @@ B.aiG=s([37,80,68,70],t.Y)
 B.arb=new A.f7("application/pdf",B.aiG,null)
 B.aiH=s([37,81],t.Y)
 B.aro=new A.f7("application/postscript",B.aiH,null)
-B.alo=s([70,79,82,77,0,0,0,0,65,73,70,70],t.Y)
+B.aln=s([70,79,82,77,0,0,0,0,65,73,70,70],t.Y)
 B.yq=s([255,255,255,255,0,0,0,0,255,255,255,255],t.Y)
-B.ari=new A.f7("audio/x-aiff",B.alo,B.yq)
+B.ari=new A.f7("audio/x-aiff",B.aln,B.yq)
 B.aij=s([102,76,97,67],t.Y)
 B.arC=new A.f7("audio/x-flac",B.aij,null)
-B.ala=s([82,73,70,70,0,0,0,0,87,65,86,69],t.Y)
-B.art=new A.f7("audio/x-wav",B.ala,B.yq)
+B.al9=s([82,73,70,70,0,0,0,0,87,65,86,69],t.Y)
+B.art=new A.f7("audio/x-wav",B.al9,B.yq)
 B.aon=s([71,73,70,56,55,97],t.Y)
 B.arw=new A.f7("image/gif",B.aon,null)
-B.aml=s([71,73,70,56,57,97],t.Y)
-B.aru=new A.f7("image/gif",B.aml,null)
+B.amk=s([71,73,70,56,57,97],t.Y)
+B.aru=new A.f7("image/gif",B.amk,null)
 B.ais=s([255,216],t.Y)
 B.arx=new A.f7("image/jpeg",B.ais,null)
-B.aof=s([137,80,78,71,13,10,26,10],t.Y)
-B.arp=new A.f7("image/png",B.aof,null)
+B.aoe=s([137,80,78,71,13,10,26,10],t.Y)
+B.arp=new A.f7("image/png",B.aoe,null)
 B.ajC=s([73,73,42,0],t.Y)
 B.arl=new A.f7("image/tiff",B.ajC,null)
 B.ajD=s([77,77,0,42],t.Y)
@@ -188575,28 +188311,28 @@ B.aiw=s([255,251],t.Y)
 B.ard=new A.f7("audio/mpeg",B.aiw,null)
 B.ajE=s([79,112,117],t.Y)
 B.arr=new A.f7("audio/ogg",B.ajE,null)
-B.alb=s([0,0,0,0,102,116,121,112,51,103,112,53],t.Y)
-B.amQ=s([255,255,255,0,255,255,255,255,255,255,255,255],t.Y)
-B.arB=new A.f7("video/3gpp",B.alb,B.amQ)
+B.ala=s([0,0,0,0,102,116,121,112,51,103,112,53],t.Y)
+B.amP=s([255,255,255,0,255,255,255,255,255,255,255,255],t.Y)
+B.arB=new A.f7("video/3gpp",B.ala,B.amP)
 B.akf=s([0,0,0,0,102,116,121,112,97,118,99,49],t.Y)
 B.iq=s([0,0,0,0,255,255,255,255,255,255,255,255],t.Y)
 B.arf=new A.f7("video/mp4",B.akf,B.iq)
-B.amA=s([0,0,0,0,102,116,121,112,105,115,111,50],t.Y)
-B.arg=new A.f7("video/mp4",B.amA,B.iq)
+B.amz=s([0,0,0,0,102,116,121,112,105,115,111,50],t.Y)
+B.arg=new A.f7("video/mp4",B.amz,B.iq)
 B.aiD=s([0,0,0,0,102,116,121,112,105,115,111,109],t.Y)
 B.ars=new A.f7("video/mp4",B.aiD,B.iq)
-B.anV=s([0,0,0,0,102,116,121,112,109,112,52,49],t.Y)
-B.ark=new A.f7("video/mp4",B.anV,B.iq)
-B.ao0=s([0,0,0,0,102,116,121,112,109,112,52,50],t.Y)
-B.arD=new A.f7("video/mp4",B.ao0,B.iq)
+B.anU=s([0,0,0,0,102,116,121,112,109,112,52,49],t.Y)
+B.ark=new A.f7("video/mp4",B.anU,B.iq)
+B.ao_=s([0,0,0,0,102,116,121,112,109,112,52,50],t.Y)
+B.arD=new A.f7("video/mp4",B.ao_,B.iq)
 B.ajz=s([70,84,108,103],t.Y)
 B.arc=new A.f7("model/gltf-binary",B.ajz,null)
-B.am5=s([82,73,70,70,0,0,0,0,87,69,66,80],t.Y)
-B.arm=new A.f7("image/webp",B.am5,B.yq)
+B.am4=s([82,73,70,70,0,0,0,0,87,69,66,80],t.Y)
+B.arm=new A.f7("image/webp",B.am4,B.yq)
 B.ail=s([119,79,70,50],t.Y)
 B.arq=new A.f7("font/woff2",B.ail,null)
-B.amR=s([0,0,0,0,102,116,121,112,104,101,105,99],t.Y)
-B.arA=new A.f7("image/heic",B.amR,B.iq)
+B.amQ=s([0,0,0,0,102,116,121,112,104,101,105,99],t.Y)
+B.arA=new A.f7("image/heic",B.amQ,B.iq)
 B.aj0=s([0,0,0,0,102,116,121,112,104,101,105,120],t.Y)
 B.arz=new A.f7("image/heic",B.aj0,B.iq)
 B.akr=s([0,0,0,0,102,116,121,112,109,105,102,49],t.Y)
@@ -188626,7 +188362,7 @@ B.b30=new A.yq(2,"userCancelled")
 B.b31=new A.yq(3,"pending")
 B.akU=s([B.b2Z,B.b3_,B.b30,B.b31],A.aB("N<yq>"))
 B.a_Z=new A.n3("",6,"userDeleted")
-B.HT=s([B.hY,B.my,B.he,B.hZ,B.j1,B.CM,B.a_Z,B.CL],A.aB("N<n3>"))
+B.HS=s([B.hY,B.my,B.he,B.hZ,B.j1,B.CM,B.a_Z,B.CL],A.aB("N<n3>"))
 B.bq3=new A.i3("US","\ud83c\uddfa\ud83c\uddf8","")
 B.bpR=new A.i3("Stockholm","\ud83c\uddf8\ud83c\uddea",".ST")
 B.bpW=new A.i3("London","\ud83c\uddec\ud83c\udde7",".L")
@@ -188643,7 +188379,7 @@ B.bpI=new A.i3("Toronto","\ud83c\udde8\ud83c\udde6",".TO")
 B.bq0=new A.i3("Australia","\ud83c\udde6\ud83c\uddfa",".AX")
 B.bpN=new A.i3("Tokyo","\ud83c\uddef\ud83c\uddf5",".T")
 B.bpV=new A.i3("Hong Kong","\ud83c\udded\ud83c\uddf0",".HK")
-B.HU=s([B.bq3,B.bpR,B.bpW,B.bpZ,B.bpU,B.bq4,B.bpY,B.bpD,B.bpK,B.bpQ,B.bpF,B.bpM,B.bpI,B.bq0,B.bpN,B.bpV],A.aB("N<i3>"))
+B.HT=s([B.bq3,B.bpR,B.bpW,B.bpZ,B.bpU,B.bq4,B.bpY,B.bpD,B.bpK,B.bpQ,B.bpF,B.bpM,B.bpI,B.bq0,B.bpN,B.bpV],A.aB("N<i3>"))
 B.al0=s([B.p,B.f7,B.i5,B.T],t.E)
 B.os={ticker:0,label:1,flag:2}
 B.aOn=new A.aL(B.os,["SPY","S&P 500","\ud83c\uddfa\ud83c\uddf8"],t.o)
@@ -188657,7 +188393,7 @@ B.b0W=new A.af("inappropriate","Inappropriate content")
 B.b0x=new A.af("misleading","Misleading / false information")
 B.b1i=new A.af("harassment","Harassment")
 B.b1z=new A.af("other","Other")
-B.HV=s([B.b1F,B.b0W,B.b0x,B.b1i,B.b1z],A.aB("N<+(d,d)>"))
+B.HU=s([B.b1F,B.b0W,B.b0x,B.b1i,B.b1z],A.aB("N<+(d,d)>"))
 B.b2j=new A.qb("spam","Spam",0,"spam")
 B.b2g=new A.qb("inappropriate","Inappropriate content",1,"inappropriate")
 B.b2k=new A.qb("misleading","Misleading / false information",2,"misleading")
@@ -188715,26 +188451,26 @@ B.hb=new A.k7(9,"counter")
 B.hU=new A.k7(10,"container")
 B.al8=s([B.d1,B.dp,B.bZ,B.dE,B.dF,B.dG,B.c6,B.dg,B.fz,B.hb,B.hU],A.aB("N<k7>"))
 B.apJ=new A.uI("en","US")
-B.HW=s([B.apJ],t.ss)
-B.HX=s(["-//w3c//dtd html 4.01 frameset//","-//w3c//dtd html 4.01 transitional//"],t.s)
+B.HV=s([B.apJ],t.ss)
+B.HW=s(["-//w3c//dtd html 4.01 frameset//","-//w3c//dtd html 4.01 transitional//"],t.s)
 B.bpr=new A.w3(0,0)
 B.bpw=new A.w3(1,0.05)
 B.bpu=new A.w3(3,0.08)
 B.bpv=new A.w3(6,0.11)
 B.bpt=new A.w3(8,0.12)
 B.bps=new A.w3(12,0.14)
-B.HY=s([B.bpr,B.bpw,B.bpu,B.bpv,B.bpt,B.bps],A.aB("N<w3>"))
+B.HX=s([B.bpr,B.bpw,B.bpu,B.bpv,B.bpt,B.bps],A.aB("N<w3>"))
 B.aX_={url:0,integrity:1}
 B.aNb=new A.aL(B.aX_,["https://browser.sentry-cdn.com/10.38.0/bundle.tracing.min.js","sha384-COL1vOWQO+0hwStGhZ6r5BKlWlJzd59gOqtCYmcIvfDd0ifnTHrWzzQQYmUNf/Lr"],t.o)
-B.HZ=s([B.aNb],t.SN)
-B.aln=s([B.hx,B.lb,B.lc],A.aB("N<lw>"))
+B.HY=s([B.aNb],t.SN)
+B.alm=s([B.hx,B.lb,B.lc],A.aB("N<lw>"))
 B.bp0=new A.vZ("< 1 month",0,30)
 B.bp1=new A.vZ("1\u20133 months",30,91)
 B.bp3=new A.vZ("3\u20136 months",91,182)
 B.bp_=new A.vZ("6\u201312 months",182,365)
 B.bp2=new A.vZ("1\u20132 years",365,730)
 B.bp4=new A.vZ("> 2 years",730,999999)
-B.I_=s([B.bp0,B.bp1,B.bp3,B.bp_,B.bp2,B.bp4],A.aB("N<vZ>"))
+B.HZ=s([B.bp0,B.bp1,B.bp3,B.bp_,B.bp2,B.bp4],A.aB("N<vZ>"))
 B.ys=s([0.25,0.5,0.75],t.n)
 B.u9=new A.H(!0,B.j,null,null,null,null,11,B.u,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.biw=new A.D("Stock",null,B.u9,null,null,null,null,null,null,null,null,null)
@@ -188746,61 +188482,61 @@ B.b6j=new A.bI(64,null,B.bkY,null)
 B.bht=new A.D("/mo",null,B.u9,null,B.bP,null,null,null,null,null,null,null)
 B.b6l=new A.bI(60,null,B.bht,null)
 B.m4=new A.bI(20,null,null,null)
-B.alq=s([B.abq,B.b6f,B.b6j,B.b6l,B.m4],t.p)
-B.alt=s(["yY","sS","tT","eE","mM"],t.s)
-B.alz=s(["Q1","Q2","Q3","Q4"],t.s)
-B.alD=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
-B.alE=s(["C","D","A","T","A","["],t.s)
+B.alp=s([B.abq,B.b6f,B.b6j,B.b6l,B.m4],t.p)
+B.als=s(["yY","sS","tT","eE","mM"],t.s)
+B.aly=s(["Q1","Q2","Q3","Q4"],t.s)
+B.alC=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
+B.alD=s(["C","D","A","T","A","["],t.s)
 B.a_f=new A.pc(0,"returnVsRisk")
 B.bsM=new A.pc(1,"totalReturn")
 B.bsN=new A.pc(2,"incomeScore")
 B.bsO=new A.pc(3,"valueScore")
 B.bsP=new A.pc(4,"positionWeight")
 B.bsQ=new A.pc(5,"holdQuality")
-B.alG=s([B.a_f,B.bsM,B.bsN,B.bsO,B.bsP,B.bsQ],A.aB("N<pc>"))
+B.alF=s([B.a_f,B.bsM,B.bsN,B.bsO,B.bsP,B.bsQ],A.aB("N<pc>"))
 B.CW=new A.a6p(2,"outer")
 B.Ed=new A.W(0.09803921568627451,0,0,0,B.t)
 B.B=new A.y(0,0)
 B.a1V=new A.co(0.2,B.CW,B.Ed,B.B,11)
-B.alI=s([B.a1V],t.G)
+B.alH=s([B.a1V],t.G)
 B.iT=new A.yT(2,"neutral")
 B.Wk=new A.iw("\u2014",B.iT,"\u2014")
-B.alM=s([B.Wk,B.Wk],t.kB)
-B.alP=s(["positionSize","equityCurve","performanceReturns","comparisonChart","irrBeatMarket","opportunityCost","sellDecision","var","volatilitySharpe","betaRisk","portfolioQuality","portfolioRanking","donutBreakdown"],t.s)
+B.alL=s([B.Wk,B.Wk],t.kB)
+B.alO=s(["positionSize","equityCurve","performanceReturns","comparisonChart","irrBeatMarket","opportunityCost","sellDecision","var","volatilitySharpe","betaRisk","portfolioQuality","portfolioRanking","donutBreakdown"],t.s)
 B.b7b=new A.Wd(0,"left")
 B.b7c=new A.Wd(1,"right")
-B.alT=s([B.b7b,B.b7c],A.aB("N<Wd>"))
+B.alS=s([B.b7b,B.b7c],A.aB("N<Wd>"))
 B.cA=new A.Wz(0,"upstream")
-B.alY=s([B.cA,B.R],A.aB("N<Wz>"))
+B.alX=s([B.cA,B.R],A.aB("N<Wz>"))
 B.cQ=new A.Ev(0,"rtl")
 B.aX=new A.Ev(1,"ltr")
 B.yt=s([B.cQ,B.aX],A.aB("N<Ev>"))
 B.abG=new A.rp(0,"verified")
 B.abH=new A.rp(1,"unverified")
-B.alZ=s([B.abG,B.abH,B.G7],A.aB("N<rp>"))
-B.am2=s(["returnOnEquity","debtToEquity","profitMargin","revenueGrowth","earningsGrowth"],t.s)
-B.am4=s(["Micro","Small","Mid","Large","Mega"],t.s)
-B.I1=s([B.eq,B.ie,B.ig],A.aB("N<jq>"))
-B.I2=s(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],t.s)
+B.alY=s([B.abG,B.abH,B.G7],A.aB("N<rp>"))
+B.am1=s(["returnOnEquity","debtToEquity","profitMargin","revenueGrowth","earningsGrowth"],t.s)
+B.am3=s(["Micro","Small","Mid","Large","Mega"],t.s)
+B.I0=s([B.eq,B.ie,B.ig],A.aB("N<jq>"))
+B.I1=s(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],t.s)
 B.hW=new A.qM(0,"leading")
 B.f1=new A.qM(1,"title")
 B.hX=new A.qM(2,"subtitle")
 B.kr=new A.qM(3,"trailing")
-B.amc=s([B.hW,B.f1,B.hX,B.kr],A.aB("N<qM>"))
+B.amb=s([B.hW,B.f1,B.hX,B.kr],A.aB("N<qM>"))
 B.b3d=new A.ys(0,"introductory")
 B.b3e=new A.ys(1,"promotional")
 B.b3f=new A.ys(2,"winBack")
-B.amd=s([B.b3d,B.b3e,B.b3f],A.aB("N<ys>"))
+B.amc=s([B.b3d,B.b3e,B.b3f],A.aB("N<ys>"))
 B.a4p=new A.Ay(0,"auto")
 B.a4q=new A.Ay(1,"full")
 B.a4r=new A.Ay(2,"chromium")
-B.amf=s([B.a4p,B.a4q,B.a4r,B.kA],A.aB("N<Ay>"))
+B.ame=s([B.a4p,B.a4q,B.a4r,B.kA],A.aB("N<Ay>"))
 B.acX=new A.ao(58736,"MaterialIcons",!1)
 B.acs=new A.ao(57475,"MaterialIcons",!1)
 B.acU=new A.ao(58707,"MaterialIcons",!1)
-B.amg=s([B.xG,B.acX,B.GF,B.acs,B.nG,B.nF,B.dN,B.r0,B.GE,B.acU,B.GC],t.G1)
-B.amh=s(["oO","cC","tT","yY","pP","eE"],t.s)
-B.ami=s([B.jc,B.i7,B.n7,B.jd],A.aB("N<rf>"))
+B.amf=s([B.xG,B.acX,B.GF,B.acs,B.nG,B.nF,B.dN,B.r0,B.GE,B.acU,B.GC],t.G1)
+B.amg=s(["oO","cC","tT","yY","pP","eE"],t.s)
+B.amh=s([B.jc,B.i7,B.n7,B.jd],A.aB("N<rf>"))
 B.aRi=new A.aL(B.ba,[641,"import"],t.M)
 B.aRg=new A.aL(B.ba,[642,"media"],t.M)
 B.aRr=new A.aL(B.ba,[643,"page"],t.M)
@@ -188822,18 +188558,18 @@ B.aRf=new A.aL(B.ba,[658,"-moz-document"],t.M)
 B.aR8=new A.aL(B.ba,[659,"supports"],t.M)
 B.aRm=new A.aL(B.ba,[660,"viewport"],t.M)
 B.aRB=new A.aL(B.ba,[661,"-ms-viewport"],t.M)
-B.amn=s([B.aRi,B.aRg,B.aRr,B.aRj,B.aR7,B.aRC,B.aRF,B.aRl,B.aRs,B.aRt,B.aRE,B.aRu,B.aRe,B.aRd,B.aRn,B.aRq,B.aR5,B.aRf,B.aR8,B.aRm,B.aRB],t.Mq)
+B.amm=s([B.aRi,B.aRg,B.aRr,B.aRj,B.aR7,B.aRC,B.aRF,B.aRl,B.aRs,B.aRt,B.aRE,B.aRu,B.aRe,B.aRd,B.aRn,B.aRq,B.aR5,B.aRf,B.aR8,B.aRm,B.aRB],t.Mq)
 B.bsu=new A.nW(B.er,"Symbol, company name, asset class",null)
 B.bst=new A.nW(B.er,"All buy/sell/dividend transactions (date, price, quantity)",null)
 B.bsy=new A.nW(B.er,"Average buy & sell price, hold period",null)
 B.bsx=new A.nW(B.er,"P/L %, realized gain/loss, dividends received",null)
 B.bsw=new A.nW(B.er,"Market data at time of buy (P/E, mkt cap, beta\u2026)",null)
-B.amq=s([B.bsu,B.bst,B.bsy,B.bsx,B.bsw],t.ud)
+B.amp=s([B.bsu,B.bst,B.bsy,B.bsx,B.bsw],t.ud)
 B.ey=new A.lQ(1,"fuchsia")
-B.amr=s([B.cc,B.ey,B.aW,B.ez,B.db,B.eA],A.aB("N<lQ>"))
-B.ams=s(["yyyy-MM-dd","dd/MM/yyyy","MM/dd/yyyy","dd.MM.yyyy","yyyy/MM/dd","d/M/yyyy","M/d/yyyy","MMM-dd-yyyy"],t.s)
-B.amt=s([0,0.35,0.5,0.65,1],t.n)
-B.amu=s([B.br,B.kC,B.br],t.E)
+B.amq=s([B.cc,B.ey,B.aW,B.ez,B.db,B.eA],A.aB("N<lQ>"))
+B.amr=s(["yyyy-MM-dd","dd/MM/yyyy","MM/dd/yyyy","dd.MM.yyyy","yyyy/MM/dd","d/M/yyyy","M/d/yyyy","MMM-dd-yyyy"],t.s)
+B.ams=s([0,0.35,0.5,0.65,1],t.n)
+B.amt=s([B.br,B.kC,B.br],t.E)
 B.a_5=new A.LG(0,"topLeft")
 B.a_8=new A.LG(3,"bottomRight")
 B.bpl=new A.w2(B.a_5,B.a_8)
@@ -188842,12 +188578,12 @@ B.a_6=new A.LG(1,"topRight")
 B.a_7=new A.LG(2,"bottomLeft")
 B.bpm=new A.w2(B.a_6,B.a_7)
 B.bpn=new A.w2(B.a_7,B.a_6)
-B.amv=s([B.bpl,B.bpo,B.bpm,B.bpn],A.aB("N<w2>"))
+B.amu=s([B.bpl,B.bpo,B.bpm,B.bpn],A.aB("N<w2>"))
 B.yu=s([B.p,B.m,B.T,B.r,B.L],t.E)
 B.a6z=new A.W(1,1,0.27058823529411763,0,B.t)
 B.a5y=new A.W(1,0.19607843137254902,0.803921568627451,0.19607843137254902,B.t)
 B.rs=s([B.f8,B.m,B.T,B.L,B.r,B.eH,B.mZ,B.kD,B.a6z,B.a5y],t.E)
-B.I3=s(["holding_time","scaling_in","loss_handling","rhythm","entry_position","exit_timing","re_entries","money_vs_hit_rate","written_reason"],t.s)
+B.I2=s(["holding_time","scaling_in","loss_handling","rhythm","entry_position","exit_timing","re_entries","money_vs_hit_rate","written_reason"],t.s)
 B.b1o=new A.af(0.01339448,0.05994973)
 B.b1m=new A.af(0.13664115,0.13592082)
 B.b0J=new A.af(0.24545546,0.14099516)
@@ -188862,11 +188598,11 @@ B.b1y=new A.af(0.63903989,0.07759639)
 B.b0n=new A.af(0.66416338,0.0734653)
 B.b0_=new A.af(0.68675338,0.06974996)
 B.b1g=new A.af(0.70678034,0.06529512)
-B.I4=s([B.b1o,B.b1m,B.b0J,B.b15,B.b1j,B.b_X,B.b0p,B.b0O,B.b0k,B.b1e,B.b1y,B.b0n,B.b0_,B.b1g],A.aB("N<+(C,C)>"))
+B.I3=s([B.b1o,B.b1m,B.b0J,B.b15,B.b1j,B.b_X,B.b0p,B.b0O,B.b0k,B.b1e,B.b1y,B.b0n,B.b0_,B.b1g],A.aB("N<+(C,C)>"))
 B.bcI=new A.H(!0,B.j,null,null,null,null,13,B.u,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.BP=new A.D("Portfolio Tags",null,B.bcI,null,null,null,null,null,null,null,null,null)
-B.amx=s([B.y2,B.N,B.BP],t.p)
-B.amz=s(["address","div","p"],t.s)
+B.amw=s([B.y2,B.N,B.BP],t.p)
+B.amy=s(["address","div","p"],t.s)
 B.k9=new A.H(!0,null,null,null,null,null,13,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bmo=new A.D("Fundamental",null,B.k9,null,null,null,null,null,null,null,null,null)
 B.a2A=new A.eT(B.n8,B.bmo,t.QK)
@@ -188874,72 +188610,72 @@ B.biU=new A.D("Technical",null,B.k9,null,null,null,null,null,null,null,null,null
 B.a2v=new A.eT(B.wi,B.biU,t.QK)
 B.bji=new A.D("Mixed",null,B.k9,null,null,null,null,null,null,null,null,null)
 B.a2C=new A.eT(B.wj,B.bji,t.QK)
-B.amD=s([B.a2A,B.a2v,B.a2C],t.Wa)
-B.amF=s(["\x00","\x01","\x02","\x03","\x04","\x05","\x06","\x07","\b","\t","\n","\v","\f","\r","\x0e","\x0f","\x10","\x11","\x12","\x13","\x14","\x15","\x16","\x17","\x18","\x19","\x1a","\x1b","\x1c","\x1d","\x1e","\x1f"," ","!",'"',"#","$","%","&","'","(",")","*","+",",","-",".","/","0","1","2","3","4","5","6","7","8","9",":",";","<","=",">","?","@","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","[","\\","]","^","_","`","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","{","|","}","~","\x7f","\x80","\x81","\x82","\x83","\x84","\x85","\x86","\x87","\x88","\x89","\x8a","\x8b","\x8c","\x8d","\x8e","\x8f","\x90","\x91","\x92","\x93","\x94","\x95","\x96","\x97","\x98","\x99","\x9a","\x9b","\x9c","\x9d","\x9e","\x9f","\xa0","\xa1","\xa2","\xa3","\xa4","\xa5","\xa6","\xa7","\xa8","\xa9","\xaa","\xab","\xac","\xad","\xae","\xaf","\xb0","\xb1","\xb2","\xb3","\xb4","\xb5","\xb6","\xb7","\xb8","\xb9","\xba","\xbb","\xbc","\xbd","\xbe","\xbf","\xc0","\xc1","\xc2","\xc3","\xc4","\xc5","\xc6","\xc7","\xc8","\xc9","\xca","\xcb","\xcc","\xcd","\xce","\xcf","\xd0","\xd1","\xd2","\xd3","\xd4","\xd5","\xd6","\xd7","\xd8","\xd9","\xda","\xdb","\xdc","\xdd","\xde","\xdf","\xe0","\xe1","\xe2","\xe3","\xe4","\xe5","\xe6","\xe7","\xe8","\xe9","\xea","\xeb","\xec","\xed","\xee","\xef","\xf0","\xf1","\xf2","\xf3","\xf4","\xf5","\xf6","\xf7","\xf8","\xf9","\xfa","\xfb","\xfc","\xfd","\xfe","\xff"],t.s)
-B.amG=s(["beta","changePct1d"],t.s)
+B.amC=s([B.a2A,B.a2v,B.a2C],t.Wa)
+B.amE=s(["\x00","\x01","\x02","\x03","\x04","\x05","\x06","\x07","\b","\t","\n","\v","\f","\r","\x0e","\x0f","\x10","\x11","\x12","\x13","\x14","\x15","\x16","\x17","\x18","\x19","\x1a","\x1b","\x1c","\x1d","\x1e","\x1f"," ","!",'"',"#","$","%","&","'","(",")","*","+",",","-",".","/","0","1","2","3","4","5","6","7","8","9",":",";","<","=",">","?","@","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","[","\\","]","^","_","`","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","{","|","}","~","\x7f","\x80","\x81","\x82","\x83","\x84","\x85","\x86","\x87","\x88","\x89","\x8a","\x8b","\x8c","\x8d","\x8e","\x8f","\x90","\x91","\x92","\x93","\x94","\x95","\x96","\x97","\x98","\x99","\x9a","\x9b","\x9c","\x9d","\x9e","\x9f","\xa0","\xa1","\xa2","\xa3","\xa4","\xa5","\xa6","\xa7","\xa8","\xa9","\xaa","\xab","\xac","\xad","\xae","\xaf","\xb0","\xb1","\xb2","\xb3","\xb4","\xb5","\xb6","\xb7","\xb8","\xb9","\xba","\xbb","\xbc","\xbd","\xbe","\xbf","\xc0","\xc1","\xc2","\xc3","\xc4","\xc5","\xc6","\xc7","\xc8","\xc9","\xca","\xcb","\xcc","\xcd","\xce","\xcf","\xd0","\xd1","\xd2","\xd3","\xd4","\xd5","\xd6","\xd7","\xd8","\xd9","\xda","\xdb","\xdc","\xdd","\xde","\xdf","\xe0","\xe1","\xe2","\xe3","\xe4","\xe5","\xe6","\xe7","\xe8","\xe9","\xea","\xeb","\xec","\xed","\xee","\xef","\xf0","\xf1","\xf2","\xf3","\xf4","\xf5","\xf6","\xf7","\xf8","\xf9","\xfa","\xfb","\xfc","\xfd","\xfe","\xff"],t.s)
+B.amF=s(["beta","changePct1d"],t.s)
 B.pX=new A.W(1,0.27058823529411763,0.7176470588235294,0.8196078431372549,B.t)
-B.amI=s([B.f8,B.fH,B.mU,B.i5,B.f7,B.pS,B.f5,B.pX],t.E)
-B.amJ=s(["buy","sell","dividend","skip"],t.s)
-B.amL=s(["Symbol","Name","Score","Below 52w high","3 months","P/E","Nearest win"],t.s)
-B.amN=s(["b","big","blockquote","body","br","center","code","dd","div","dl","dt","em","embed","h1","h2","h3","h4","h5","h6","head","hr","i","img","li","listing","menu","meta","nobr","ol","p","pre","ruby","s","small","span","strike","strong","sub","sup","table","tt","u","ul","var"],t.s)
-B.amP=s(["click","scroll"],t.s)
+B.amH=s([B.f8,B.fH,B.mU,B.i5,B.f7,B.pS,B.f5,B.pX],t.E)
+B.amI=s(["buy","sell","dividend","skip"],t.s)
+B.amK=s(["Symbol","Name","Score","Below 52w high","3 months","P/E","Nearest win"],t.s)
+B.amM=s(["b","big","blockquote","body","br","center","code","dd","div","dl","dt","em","embed","h1","h2","h3","h4","h5","h6","head","hr","i","img","li","listing","menu","meta","nobr","ol","p","pre","ruby","s","small","span","strike","strong","sub","sup","table","tt","u","ul","var"],t.s)
+B.amO=s(["click","scroll"],t.s)
 B.a2L=new A.wD()
 B.oB=new A.afN(1,"page")
 B.tx=new A.jA(B.c7,B.oB)
-B.amS=s([B.a2L,B.tx],A.aB("N<ck>"))
-B.I6=s(["h1","h2","h3","h4","h5","h6"],t.s)
+B.amR=s([B.a2L,B.tx],A.aB("N<ck>"))
+B.I5=s(["h1","h2","h3","h4","h5","h6"],t.s)
 B.lg=s([B.fC,B.pl,B.hc,B.hd,B.v8,B.pm,B.v9,B.va,B.vb],A.aB("N<dY>"))
-B.an8=s([],t.QP)
+B.an7=s([],t.QP)
 B.buZ=s([],t.dt)
-B.anf=s([],t.hn)
-B.ane=s([],t.UA)
-B.anc=s([],A.aB("N<o8>"))
+B.ane=s([],t.hn)
+B.and=s([],t.UA)
+B.anb=s([],A.aB("N<o8>"))
 B.fi=s([],A.aB("N<o9>"))
 B.lh=s([],t.G)
-B.an1=s([],t.Ug)
-B.I7=s([],A.aB("N<cIC>"))
-B.ana=s([],t.on)
-B.an0=s([],t.qe)
-B.an4=s([],t.lX)
+B.an0=s([],t.Ug)
+B.I6=s([],A.aB("N<cIC>"))
+B.an9=s([],t.on)
+B.an_=s([],t.qe)
+B.an3=s([],t.lX)
 B.bv_=s([],t.ij)
-B.Ia=s([],t.c5)
-B.ank=s([],t.fJ)
+B.I9=s([],t.c5)
+B.anj=s([],t.fJ)
 B.bv0=s([],t.kp)
-B.an_=s([],t.ER)
+B.amZ=s([],t.ER)
 B.bv1=s([],t.ss)
 B.li=s([],t.SN)
 B.yx=s([],t.gG)
-B.ang=s([],t.n4)
-B.anq=s([],t.tc)
-B.anb=s([],t.wP)
+B.anf=s([],t.n4)
+B.anp=s([],t.tc)
+B.ana=s([],t.wP)
 B.rt=s([],t.jl)
-B.amX=s([],t.wi)
-B.anr=s([],A.aB("N<cc6<@>>"))
-B.an6=s([],t.Vz)
-B.an7=s([],t.Mr)
-B.an9=s([],t.kN)
+B.amW=s([],t.wi)
+B.anq=s([],A.aB("N<cc6<@>>"))
+B.an5=s([],t.Vz)
+B.an6=s([],t.Mr)
+B.an8=s([],t.kN)
 B.yv=s([],t.AO)
 B.yy=s([],t.NW)
 B.rv=s([],t.fq)
-B.amZ=s([],t.D1)
+B.amY=s([],t.D1)
 B.yw=s([],t.QF)
 B.fj=s([],t.Xv)
 B.lj=s([],t.L_)
-B.Ib=s([],t.xg)
+B.Ia=s([],t.xg)
 B.bv2=s([],t.nk)
-B.and=s([],t.Lx)
-B.anp=s([],t.fm)
+B.anc=s([],t.Lx)
+B.ano=s([],t.fm)
 B.ru=s([],t.p)
-B.an5=s([],A.aB("N<mH>"))
-B.I8=s([],t.ov)
-B.I9=s([],t.eR)
-B.an3=s([],t.lD)
+B.an4=s([],A.aB("N<mH>"))
+B.I7=s([],t.ov)
+B.I8=s([],t.eR)
+B.an2=s([],t.lD)
 B.jA=s([],t.n)
 B.cw=s([],t.Y)
 B.at=s([],t.ee)
-B.an2=s([],t.iG)
-B.amY=s([],t._m)
-B.anh=s([],t.F9)
+B.an1=s([],t.iG)
+B.amX=s([],t._m)
+B.ang=s([],t.F9)
 B.aZy=new A.oM(0,"alternativeBillingOnly")
 B.aZz=new A.oM(1,"billingConfig")
 B.aZA=new A.oM(2,"externalOffer")
@@ -188948,17 +188684,17 @@ B.aZC=new A.oM(4,"priceChangeConfirmation")
 B.aZD=new A.oM(5,"productDetails")
 B.aZE=new A.oM(6,"subscriptions")
 B.aZF=new A.oM(7,"subscriptionsUpdate")
-B.ant=s([B.aZy,B.aZz,B.aZA,B.aZB,B.aZC,B.aZD,B.aZE,B.aZF],A.aB("N<oM>"))
+B.ans=s([B.aZy,B.aZz,B.aZA,B.aZB,B.aZC,B.aZD,B.aZE,B.aZF],A.aB("N<oM>"))
 B.qY=new A.ao(57569,"MaterialIcons",!1)
 B.bsq=new A.nW(B.qY,"Your journal notes or entries",null)
 B.bss=new A.nW(B.qY,"Your portfolio tags",null)
 B.bsv=new A.nW(B.qY,"Your transaction notes",null)
 B.bsr=new A.nW(B.qY,"Any text you have written",null)
-B.any=s([B.bsq,B.bss,B.bsv,B.bsr],t.ud)
+B.anx=s([B.bsq,B.bss,B.bsv,B.bsr],t.ud)
 B.bgp=new A.D("Sector & Competitors",null,B.bo,null,null,null,null,null,null,null,null,null)
 B.abC=new A.cv(1,B.aw,B.bgp,null)
 B.bts=new A.ar0(null)
-B.anz=s([B.abC,B.bts],t.p)
+B.any=s([B.abC,B.bts],t.p)
 B.mg=new A.H(!0,B.j,null,null,null,null,11,B.K,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bjn=new A.D("Symbol",null,B.mg,null,null,null,null,null,null,null,null,null)
 B.a7V=new A.u8(B.bjn,!1)
@@ -188972,11 +188708,11 @@ B.bfO=new A.D("Div %",null,B.mg,null,null,null,null,null,null,null,null,null)
 B.a7W=new A.u8(B.bfO,!0)
 B.bhO=new A.D("Mkt cap",null,B.mg,null,null,null,null,null,null,null,null,null)
 B.a7Y=new A.u8(B.bhO,!0)
-B.Ic=s([B.a7V,B.a7Z,B.a8_,B.a7X,B.a7W,B.a7Y],A.aB("N<u8>"))
+B.Ib=s([B.a7V,B.a7Z,B.a8_,B.a7X,B.a7W,B.a7Y],A.aB("N<u8>"))
 B.yz=s(["S","M","T","W","T","F","S"],t.s)
-B.anC=s(["holding_time","scaling_in","entry_position","exit_timing","loss_handling","re_entries","rhythm","money_vs_hit_rate","written_reason"],t.s)
-B.anE=s(["ul","ol","li","p","br"],t.s)
-B.Id=s(["J","F","M","A","M","J","J","A","S","O","N","D"],t.s)
+B.anB=s(["holding_time","scaling_in","entry_position","exit_timing","loss_handling","re_entries","rhythm","money_vs_hit_rate","written_reason"],t.s)
+B.anD=s(["ul","ol","li","p","br"],t.s)
+B.Ic=s(["J","F","M","A","M","J","J","A","S","O","N","D"],t.s)
 B.p5=new A.H(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bmk=new A.D("Pre-Investment",null,B.p5,null,null,null,null,null,null,null,null,null)
 B.a2u=new A.eT(B.hx,B.bmk,t.vO)
@@ -188984,24 +188720,294 @@ B.bfh=new A.D("Follow-up",null,B.p5,null,null,null,null,null,null,null,null,null
 B.a2n=new A.eT(B.lb,B.bfh,t.vO)
 B.bfJ=new A.D("Reflection",null,B.p5,null,null,null,null,null,null,null,null,null)
 B.a2r=new A.eT(B.lc,B.bfJ,t.vO)
-B.anM=s([B.a2u,B.a2n,B.a2r],t.yR)
+B.anL=s([B.a2u,B.a2n,B.a2r],t.yR)
 B.fk=s(["paperComparison","realizedUnrealized","positionSize","irrBeatMarket","donutBreakdown","equityCurve","opportunityCost","sellDecision","comparisonChart","performanceReturns","betaRisk","assetClassCards","portfolioQuality","portfolioRanking","contribution","var","volatilitySharpe","sectorPeers","weeklyReview"],t.s)
-B.anN=s([B.j2,B.mz,B.CO,B.pn],A.aB("N<r4>"))
+B.anM=s([B.j2,B.mz,B.CO,B.pn],A.aB("N<r4>"))
 B.aZY=new A.y5(0,"finiteRecurring")
 B.aZZ=new A.y5(1,"infiniteRecurring")
 B.b__=new A.y5(2,"nonRecurring")
-B.anP=s([B.aZY,B.aZZ,B.b__],A.aB("N<y5>"))
+B.anO=s([B.aZY,B.aZZ,B.b__],A.aB("N<y5>"))
 B.ot=new A.y(0,2)
 B.a1T=new A.co(0.75,B.aE,B.Ed,B.ot,1.5)
-B.anQ=s([B.a1T],t.G)
+B.anP=s([B.a1T],t.G)
 B.blE=new A.D("Pre-Investment",null,null,null,null,null,null,null,null,null,null,null)
 B.a2s=new A.eT(B.hx,B.blE,t.vO)
 B.bim=new A.D("Follow-up",null,null,null,null,null,null,null,null,null,null,null)
 B.a2m=new A.eT(B.lb,B.bim,t.vO)
 B.bl3=new A.D("Reflection",null,null,null,null,null,null,null,null,null,null,null)
 B.a2q=new A.eT(B.lc,B.bl3,t.vO)
-B.anU=s([B.a2s,B.a2m,B.a2q],t.yR)
-B.ao5=s([47,47,47,47,72,97,122,147],t.Y)
+B.anT=s([B.a2s,B.a2m,B.a2q],t.yR)
+B.a5g=new A.W(1,1,0.9725490196078431,0.8823529411764706,B.t)
+B.a6e=new A.W(1,1,0.9254901960784314,0.7019607843137254,B.t)
+B.a66=new A.W(1,1,0.8784313725490196,0.5098039215686274,B.t)
+B.a65=new A.W(1,1,0.8352941176470589,0.30980392156862746,B.t)
+B.a6y=new A.W(1,1,0.792156862745098,0.1568627450980392,B.t)
+B.a5m=new A.W(1,1,0.7568627450980392,0.027450980392156862,B.t)
+B.a5A=new A.W(1,1,0.6274509803921569,0,B.t)
+B.a6a=new A.W(1,1,0.5607843137254902,0,B.t)
+B.a5C=new A.W(1,1,0.43529411764705883,0,B.t)
+B.aQx=new A.b([50,B.a5g,100,B.a6e,200,B.a66,300,B.a65,400,B.a6y,500,B.a5m,600,B.n0,700,B.a5A,800,B.a6a,900,B.a5C],t.pl)
+B.or=new A.pW(B.aQx,1,1,0.7568627450980392,0.027450980392156862,B.t)
+B.akc=s(["free","free plan","limits","restrictions","what's included","trial"],t.s)
+B.bro=new A.bh("What's included on the Free plan","Get started at no cost \u2014 track your first stocks, watch the market, and keep a journal.","Portfolio Keeper is free to get started. Here's what the Free plan includes:\n\n\ud83d\udcca Portfolio\n\u2022 Track up to 4 owned stock positions\n\u2022 Watch up to 2 stocks on your watchlist\n\u2022 View your last 3 sold positions\n\n\ud83d\udcd3 Journal\n\u2022 Up to 4 manual journal entries\n\n\ud83c\udff7 Tags\n\u2022 Up to 2 portfolio tags (sub-portfolios)\n\n\ud83d\udcc8 Analysis\n\u2022 Full access to all analysis features \u2014 VaR, Beta, IRR, Equity Curve, Sector & Country breakdown, Holding Period analysis, and more\n\n\ud83c\udfaf Goals\n\u2022 Unlimited goal tracking\n\nThe Free plan is a great way to learn the app and see if it fits how you invest. When your portfolio grows, Premium grows with you.",B.akc)
+B.aop=s(["premium","upgrade","subscription","unlimited","price","cost","annual","monthly","2.99","19.99"],t.s)
+B.bqS=new A.bh("Premium \u2014 no limits, full power","Unlimited stocks, watchlist, history, journal entries, and tags. \u20ac2.99/month or \u20ac19.99/year.",'Premium removes every limit so the app grows alongside your portfolio.\n\n\u2705 Unlimited portfolio stocks\nAdd as many positions as you hold \u2014 5, 20, 50+. No cap.\n\n\u2705 Unlimited watchlist\nTrack as many opportunities as you want without committing capital.\n\n\u2705 Full sold history\nEvery position you\'ve ever closed is preserved. Study your full exit history, run Holding Period analysis across all trades, and learn from the complete picture.\n\n\u2705 Unlimited journal entries\nWrite as much as you want \u2014 before every trade, after every exit, whenever the market surprises you.\n\n\u2705 Unlimited portfolio tags\nBuild as many sub-portfolios as your strategy needs. "Growth", "Dividend", "Sweden", "Pension" \u2014 organise your holdings exactly how you think.\n\n\ud83d\udca1 Everything else stays the same\nAll analysis features \u2014 VaR, Beta, IRR, Equity Curve, Beat Market, Drawdown, Goals, Sector & Country breakdown \u2014 are available on both plans.\n\n\ud83d\udcb6 Pricing\n\u2022 Monthly: \u20ac2.99 / month\n\u2022 Annual: \u20ac19.99 / year (save 44% vs monthly)\n\nSubscribe via the Portfolio Keeper app on iOS or Android.\nYour subscription works across all platforms \u2014 pay once, access everywhere.',B.aop)
+B.aoY=s([B.bro,B.bqS],t.YG)
+B.bqu=new A.fQ("Free vs Premium",B.io,B.or,B.aoY)
+B.adq=new A.ao(61901,"MaterialIcons",!1)
+B.akZ=s(["badge","badges","achievement","award","profile","earned","unlock"],t.s)
+B.bqT=new A.bh("What are Badges?","Badges are earned automatically and displayed on your Trader Profile \u2014 they reflect your history, activity, and skill as an investor.",'Badges are awarded based on things you have genuinely done in Portfolio Keeper \u2014 how long you have been a member, whether you subscribed, how consistently you use the app, how many journal entries you have written, and how accurate your predictions have been.\n\nThey are completely automatic \u2014 you never need to claim or apply for a badge. The app checks your data and awards the right badge every time you open it.\n\nWhere to see them:\nGo to Settings \u2192 "My Trader Profile" (or tap your handle anywhere in the app). Your badges appear below your name in the Badges section.',B.akZ)
+B.ak_=s(["founding member","founder","first 1000","early adopter","original","rare"],t.s)
+B.bs9=new A.bh("Founding Member Badge","Awarded to the first 1,000 people who created an account. Permanent \u2014 never lost.",'The Founding Member badge is the rarest badge in Portfolio Keeper. It is given to the first 1,000 users who signed up.\n\nIf you have it, it means you were one of the people who believed in this app before anyone else did \u2014 when it was nothing but an idea and a blank screen. You took a chance on us, and we will never forget that.\n\n\ud83d\ude4f We are forever grateful to every Founding Member. You are the reason this exists.\n\n\u2728 It is permanent \u2014 it can never be lost, removed, or earned later. If you did not receive it when you signed up, it is no longer available.\n\nThe badge appears as a gold heraldic shield with a five-pointed star inside and a subtle animated gold shimmer sweeping across it. "FOUNDING MEMBER" is displayed in gold text straight below the shield.',B.ak_)
+B.akI=s(["member since","tenure","new member","account age","join date"],t.s)
+B.brx=new A.bh("Member Since Badge","Reflects how long you have been a Portfolio Keeper member \u2014 upgrades automatically over time.","This badge tracks your account age automatically. It upgrades as time passes \u2014 you never need to do anything.\n\nTiers:\n\u2022 New Member \u2014 less than 6 months (grey)\n\u2022 Member 6m+ \u2014 6 months or more (green)\n\u2022 Member 1 yr \u2014 1 year or more (blue)\n\u2022 Member 2 yr+ \u2014 2 years or more (gold)\n\nEach tier is shown as a chip with a calendar icon. The colour of the chip and label changes as your tenure grows. Your exact join date is used, so the upgrade happens on your account anniversary.",B.akI)
+B.ajy=s(["premium","subscription","subscriber","premium badge","premium 1 yr","premium 3m"],t.s)
+B.brj=new A.bh("Premium Badge","Shown when you have an active Premium subscription. Upgrades based on how long you have been subscribed.","The Premium badge appears as soon as you subscribe and reflects how long you have been a Premium member.\n\nTiers:\n\u2022 Premium \u2014 less than 3 months (purple chip)\n\u2022 Premium 3m+ \u2014 3 months or more (purple chip)\n\u2022 Premium 1 yr \u2014 1 year or more (gold chip)\n\u2022 Premium 2 yr+ \u2014 2 years or more (gold chip, thicker border)\n\nEach tier is shown as a chip with a premium rosette icon. The badge disappears automatically if your subscription lapses and reappears if you re-subscribe.",B.ajy)
+B.anG=s(["streak","consecutive","days","daily","login","fire","unstoppable"],t.s)
+B.bs1=new A.bh("Streak Badge","Earned by opening the app on consecutive days. The longer your streak, the higher the badge tier.","Your streak counts how many consecutive days you have opened Portfolio Keeper. It is recorded automatically each time you launch the app.\n\nStreak rules:\n\u2022 Open the app today \u2192 streak continues\n\u2022 Miss a day \u2192 streak resets to 1\n\u2022 Already opened today \u2192 streak stays the same (no double-counting)\n\nTiers:\n\u2022 3 days \u2014 pink fire chip\n\u2022 7 days \u2014 pink fire chip\n\u2022 14 days \u2014 pink fire chip\n\u2022 30 days \u2014 pink fire chip (solid icon)\n\u2022 90 days \u2014 gold fire chip (Unstoppable)\n\nNo badge is shown below 3 days. The chip shows your exact day count.\n\nTip: open the app briefly each day \u2014 even a quick price refresh counts toward your streak.",B.anG)
+B.aot=s(["journal","entries","write","apprentice","journaller","chronicler","sage","master chronicler"],t.s)
+B.brT=new A.bh("Journal Keeper Badge","Awarded for writing manual journal entries. The more you write, the higher the tier.","The Journal Keeper badge rewards disciplined record-keeping. Every manual journal entry you write counts toward this badge.\n\nTiers:\n\u2022 Apprentice \u2014 1 or more entries (grey chip)\n\u2022 Journaller \u2014 10 or more entries (blue chip)\n\u2022 Chronicler \u2014 50 or more entries (purple chip)\n\u2022 Sage \u2014 100 or more entries (gold chip)\n\u2022 Master Chronicler \u2014 200 or more entries (gold chip, thicker border)\n\nHow to write journal entries:\nOpen any stock \u2192 tap the Journal button \u2192 Add Entry. Use it to record why you bought, what you expected, how it turned out, and what you learned. The best investors write down their reasoning.\n\nNote: auto-generated entries (import transactions) do not count \u2014 only entries you write manually.",B.aot)
+B.am_=s(["top predictor","predictor","prediction badge","accuracy","percentile","elite","analyst","oracle","rank"],t.s)
+B.bqZ=new A.bh("Top Predictor Badge","Earned by demonstrating consistent, accurate predictions relative to all other users.","The Top Predictor badge is the hardest badge to earn. It is based on your prediction accuracy compared to everyone else who uses the Predictions feature.\n\nWhat matters is consistency, not lucky streaks. A single correct call does not make you a top predictor \u2014 the app weighs your full track record and penalises small sample sizes. The more predictions you resolve, the more your true accuracy shows through.\n\nYou need at least 5 resolved predictions to qualify for a rank.\n\nTiers (ranked against all qualifying users):\n\u2022 Analyst \u2014 top half of all predictors (grey chip)\n\u2022 Sharp \u2014 top 20% (blue chip)\n\u2022 Expert \u2014 top 10% (purple chip)\n\u2022 Elite Predictor \u2014 top 5% (pink chip)\n\u2022 Oracle \u2014 top 1% (gold chip)\n\nYour rank updates automatically as you and others make more predictions. You can rise \u2014 and fall \u2014 over time.",B.am_)
+B.apA=s(["trading style","style badge","buffett","lynch","graham","oneil","o'neil","templeton","compounder","stockpicker","guardian","momentum trader","contrarian","investor style","trading profile","legendary","warren","peter","benjamin","william","john"],t.s)
+B.bsh=new A.bh("Trading Style Badge","Assigned based on how you actually trade \u2014 matched to one of five legendary investors whose style best fits your behaviour.",'The Trading Style badge looks at your real portfolio history \u2014 how long you hold, how often you sell, whether you cut losses quickly or ride them out, how spread out your investments are, and more. It then matches you to the legendary investor whose approach most closely mirrors your own.\n\nIt only appears once you have at least 3 real stocks (owned or sold). Paper portfolio stocks are never included \u2014 this is about your real trading behaviour.\n\nYour style is recalculated every time you open your Trader Profile. As your portfolio evolves, so can your style.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n\ud83c\udfe6  The Compounder \u2014 Warren Buffett\n\nWarren Buffett is arguably the greatest investor of all time. Born in 1930 in Omaha, Nebraska, he began investing at age 11 and built Berkshire Hathaway into one of the largest companies in the world. His philosophy is simple but demanding: find exceptional businesses run by honest people, buy them at a fair price, and then do almost nothing. His favourite holding period, in his own words, is "forever."\n\nWhat it says about you:\nYou are patient. You buy and hold. You are not rattled by short-term noise and you let your positions compound over years, not months. You tend to concentrate your portfolio in a smaller number of companies you genuinely believe in, and you collect dividend income along the way.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n\ud83d\udd0d  The Stockpicker \u2014 Peter Lynch\n\nPeter Lynch ran the Magellan Fund at Fidelity from 1977 to 1990, averaging returns that beat the market every single year. At his peak he held over 1,400 individual stocks \u2014 an almost unheard-of number. His core belief was that ordinary people have an investing edge that Wall Street misses: you notice great businesses in everyday life before analysts catch on. He called this "invest in what you know." He was not afraid to own many things across many sectors at once.\n\nWhat it says about you:\nYou cast a wide net. You hold a diverse range of stocks across different sectors and you are always on the lookout for the next opportunity. You are comfortable managing a larger portfolio and you trust your own observations about the world as much as any analyst report.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n\ud83d\udee1\ufe0f  The Guardian \u2014 Benjamin Graham\n\nBenjamin Graham was the father of value investing and the teacher who shaped Warren Buffett. Writing in the 1930s and 40s \u2014 in the shadow of the Great Depression \u2014 Graham believed that most investors lost money because they were careless with risk. His answer was the concept of a "margin of safety": only buy when the price is meaningfully below what the business is actually worth, so that even if you are wrong about the company, you are protected. He was disciplined about cutting positions that proved him wrong rather than holding on and hoping.\n\nWhat it says about you:\nYou are cautious and principled. You do not chase momentum or overpay for excitement. When a position turns against you, you are willing to exit and accept the loss rather than let it grow. You tend to run a focused portfolio and you value dividend income as a sign of a real, profitable business.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n\u26a1  The Momentum Trader \u2014 William O\'Neil\n\nWilliam O\'Neil founded Investor\'s Business Daily and developed the CAN SLIM system in the 1960s \u2014 one of the most widely studied momentum strategies in history. Where Graham protected against loss by buying cheap, O\'Neil protected against loss by acting fast. His rule was iron: cut every losing position at exactly 7\u20138%, no exceptions, no arguments. Meanwhile, ride your winners hard. He traded actively and concentrated his bets on the strongest stocks at the right moment.\n\nWhat it says about you:\nYou move quickly and decisively. You do not let losses linger \u2014 you take the pain early and move on. Your portfolio turns over more often than most, and you are comfortable making concentrated bets when you have conviction. You are less interested in dividends and more focused on price movement and timing.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n\ud83c\udf0d  The Contrarian \u2014 John Templeton\n\nJohn Templeton was a pioneer of global investing at a time when most Americans never looked beyond their own borders. Born in Tennessee in 1912, he famously bought shares in every company on the New York Stock Exchange trading under $1 in 1939 \u2014 right at the depths of fear during World War II \u2014 and held them for four years, making extraordinary returns. His guiding principle: the best bargains are found at the point of maximum pessimism, often in countries and sectors that others have given up on entirely. He invested across currencies, continents and market cycles with unusual patience.\n\nWhat it says about you:\nYou think globally. Your portfolio spans different currencies and geographies rather than staying close to home. You are a long-term thinker who is not easily spooked \u2014 you hold through uncertainty and prefer to find value where others are not looking. Your instinct is to go where the crowd is not.',B.apA)
+B.ajl=s([B.bqT,B.bs9,B.brx,B.brj,B.bs1,B.brT,B.bqZ,B.bsh],t.YG)
+B.bqw=new A.fQ("Badges",B.adq,B.m,B.ajl)
+B.apc=s(["add","search","ticker","symbol","new stock","buy"],t.s)
+B.brp=new A.bh("Adding a Stock","Search for any ticker and add it to your portfolio, watchlist, or sold positions.","Tap the + button (bottom right) or the search bar at the top of the Portfolio screen.\n\nType a ticker symbol (e.g. AAPL, TSLA, EVO.ST) or a company name. Select the result that matches your stock.\n\nChoose a status:\n\u2022 Owned \u2014 you currently hold shares\n\u2022 Watching \u2014 you are tracking it but haven't bought\n\u2022 Sold \u2014 you previously held it\n\nAfter adding, go to the stock detail screen to log your transactions (buy/sell dates, quantities, prices) so the app can calculate your P&L, IRR, and position size correctly.",B.apc)
+B.aiF=s(["transaction","buy","sell","dividend","entry","log","record","history"],t.s)
+B.br0=new A.bh("Logging Transactions","Record every buy, sell, and dividend so the app can calculate accurate returns.","Open a stock \u2192 tap the pencil (Edit) icon \u2192 Add Entry.\n\nTransaction types:\n\u2022 Buy \u2014 enter date, quantity, and price per share\n\u2022 Sell \u2014 same fields; reduces your share count\n\u2022 Dividend \u2014 enter the total amount received on that date\n\u2022 Split \u2014 enter the ratio (e.g. 4 for a 4:1 split); adjusts share count and avg cost automatically\n\nThe app uses your transaction history to calculate:\n\u2022 Average purchase price (weighted by quantity)\n\u2022 Total invested amount\n\u2022 Personal IRR (accounts for exact timing of each cash flow)\n\u2022 Realised vs unrealised P&L\n\nTip: log dividends as you receive them \u2014 they are included in Total Return % and in the IRR calculation.",B.aiF)
+B.anF=s(["split","stock split","reverse split","ratio","share count","apple split","AVCO","cost basis"],t.s)
+B.bqN=new A.bh("Stock Splits & Reverse Splits","Record a stock split so your share count and average cost stay correct automatically.",'When a company does a stock split (e.g. Apple\'s 4:1 split in 2020), your share count multiplies and the price per share divides \u2014 but your total investment value does not change.\n\nHow to record a split:\n1. Open the stock \u2192 tap the \uff0b FAB button\n2. Tap "Split" (orange, scissors icon)\n3. Enter the split ratio and the split date\n   \u2022 Forward split (4:1) \u2192 enter 4\n   \u2022 Reverse split (1:4) \u2192 enter 0.25\n\nWhat the app adjusts automatically:\n\u2022 Share count multiplied by the ratio\n\u2022 Average purchase price divided by the ratio\n\u2022 All P&L %, IRR, VaR, and position size figures recalculate correctly\n\u2022 Historical buys before the split are adjusted \u2014 you do not need to edit them\n\nExample \u2014 Apple 4:1 split:\nYou bought 10 shares at $400 avg cost. After recording the 4:1 split:\n\u2192 40 shares at $100 avg cost. Total invested unchanged at $4,000.\n\nReverse splits work the same way in reverse:\nYou have 100 shares at $2. After a 1:10 reverse split (enter 0.1):\n\u2192 10 shares at $20. Total invested unchanged at $200.\n\nNote: splits are not taxable events and have no cash flow \u2014 they do not affect your IRR calculation.',B.anF)
+B.alK=s(["fractional","shares","partial","revolut","trading 212","schwab","0.5","decimal"],t.s)
+B.br3=new A.bh("Fractional Shares","Enter partial share quantities (e.g. 0.5 shares) \u2014 fully supported for brokers like Revolut, Trading 212, and Charles Schwab.","Some brokers let you buy a fraction of a share \u2014 for example 0.5 shares of AAPL instead of needing to buy a full share.\n\nPortfolio Keeper supports fractional quantities everywhere:\n\u2022 Enter decimals in the quantity field when logging a buy or sell (e.g. 0.5, 1.25, 0.001)\n\u2022 The comma key and period key both work as the decimal separator\n\u2022 All calculations \u2014 average cost, P&L, IRR, Total Return \u2014 handle fractions correctly\n\u2022 CSV imports from brokers that export fractional quantities preserve them exactly\n\nBrokers known to offer fractional shares:\nRevolut, Trading 212, Charles Schwab, Freetrade, eToro, Interactive Brokers, and many others.\n\nTip: whole-number quantities still work exactly as before \u2014 you do not need to change anything if your broker does not support fractional shares.",B.alK)
+B.akY=s(["tag","filter","sub-portfolio","category","group","segment"],t.s)
+B.br9=new A.bh("Portfolio Tags (Sub-Portfolios)","A portfolio tag turns a holding into a sub-portfolio you can filter the whole app by.",'Portfolio tags let you split your portfolio into separate views \u2014 for example: "Swedish stocks", "Growth", "Pension", "Broker A", or any label you choose.\n\nHow to use portfolio tags:\n1. Open a stock \u2192 Edit \u2192 set its tag in the Portfolio Tags field\n2. A tag chip appears at the top of the Portfolio and Analysis screens\n3. Tap a tag chip to filter every screen to that sub-portfolio only\n\nWhen a portfolio tag is selected:\n\u2022 Portfolio value, P&L, and all charts show only that tag\'s stocks\n\u2022 Cash balance shows only the cash assigned to that tag\n\u2022 VaR uses daily snapshots for that tag only\n\u2022 Beta shows the weighted Beta for that tag\'s stocks only\n\nEach holding has one portfolio tag, so it acts like a true separate portfolio \u2014 you can even hold the same stock under two different tags (e.g. the same share at two brokers), each tracked on its own.\nTap "All" to return to the full portfolio view.',B.akY)
+B.ami=s(["currency","forex","SEK","USD","EUR","convert","display"],t.s)
+B.bsj=new A.bh("Display Currency","Set a single currency for all portfolio totals and charts.","Go to Settings \u2192 Portfolio Display Currency.\n\nAll portfolio-level totals (total value, P&L, cash, VaR dollar amounts) are converted to this currency using live forex rates.\n\nIndividual stock prices stay in their native currency \u2014 a Swedish stock always shows prices in SEK. The conversion only applies to totals.\n\nSupported currencies: USD, EUR, SEK, NOK, DKK, GBP, CHF, JPY, AUD, CAD, HKD, SGD, INR, KRW, BRL, NZD.\n\nForex rates are fetched live each time you refresh prices. If a rate is unavailable, the app skips the snapshot for that day to avoid mixing currencies.",B.ami)
+B.apv=s(["refresh","update","price","live","fetch","cooldown"],t.s)
+B.brz=new A.bh("Refreshing Prices","Tap the refresh button to fetch live prices for all your stocks.","Tap the circular arrow button (top right of Portfolio screen).\n\nWhat happens on refresh:\n\u2022 Live prices fetched from Yahoo Finance via a secure proxy\n\u2022 Charts updated with latest data\n\u2022 A daily portfolio snapshot is recorded (used for the Equity Curve and VaR)\n\u2022 Per-tag daily snapshots recorded (used for tag-level VaR)\n\u2022 Goal snapshots updated\n\nA cooldown chip appears after refresh \u2014 prevents hammering the API. The cooldown resets after a few minutes.\n\nTip: open the app at least once per trading day to build up snapshot history for the Equity Curve and VaR features.",B.apv)
+B.ajG=s(["watch","watchlist","tracking","monitor","considering"],t.s)
+B.bs2=new A.bh("Watchlist","Track stocks you are considering buying without adding them to your portfolio.",'Add a stock and choose status "Watching".\n\nWatched stocks:\n\u2022 Appear in the Watching tab\n\u2022 Are tracked from the day you start watching (watchedPrice and watchedSince are set automatically)\n\u2022 Show up in the Opportunity Cost analysis \u2014 so you can see what return you missed\n\u2022 Can have Price Alerts set just like owned stocks\n\nWhen you decide to buy, edit the stock and change status to Owned, then log your buy transaction.',B.ajG)
+B.alx=s([B.brp,B.br0,B.bqN,B.br3,B.br9,B.bsj,B.brz,B.bs2],t.YG)
+B.bqv=new A.fQ("Getting Started",B.xZ,B.m,B.alx)
+B.alE=s(["value","market value","worth","position size"],t.s)
+B.brC=new A.bh("Current Value","The total market value of your shares at today's price.","Current Value = Total Shares \xd7 Current Price\n\nThis is shown in the stock's native currency on the stock card and detail screen.\n\nAt portfolio level, all values are converted to your display currency using live forex rates and summed together.\n\nNote: stocks with 0 shares (fully sold) show 0 current value.",B.alE)
+B.alu=s(["cost","invested","cost basis","spent","capital","purchase price"],t.s)
+B.brK=new A.bh("Cost Basis / Total Invested","How much money you have put into a stock across all your buy transactions.","Total Invested = \u03a3 (buyQuantity \xd7 buyPrice) for all buy transactions\n\nThis is your true cost basis \u2014 the total cash you have spent buying shares.\n\nIt does NOT subtract sell proceeds (that would be realised P&L). It represents the original capital deployed.\n\nUsed to calculate P&L % and is the denominator in Total Return %.",B.alu)
+B.ak8=s(["average","avg","purchase price","AVCO","break-even","cost per share"],t.s)
+B.brV=new A.bh("Average Purchase Price","The weighted average price you paid per share across all buy transactions.","Calculated as a weighted average \u2014 larger purchases have more weight.\n\nIf you bought 10 shares at 100 kr and 20 shares at 120 kr:\nAverage = (10\xd7100 + 20\xd7120) / 30 = 113.33 kr\n\nThis is what the app uses as your break-even price. If the current price is above this, you are in profit. Below it, you are at a loss.\n\nSell transactions reduce your share count but do not change the average purchase price of remaining shares (AVCO method).",B.ak8)
+B.ajv=s(["profit","loss","return","gain","performance","P&L","percent"],t.s)
+B.bs0=new A.bh("P&L % (Profit & Loss)","How much you have gained or lost on a stock as a percentage.",'P&L % compares the current price to your average purchase price.\n\nExample: bought at 100 kr, now at 125 kr \u2192 P&L = +25%\n\nThis is the unrealised return \u2014 it does not include dividends. See "Total Return %" for a figure that includes dividends.',B.ajv)
+B.aoC=s(["total return","dividend","yield","performance","complete return"],t.s)
+B.brJ=new A.bh("Total Return %","Your complete return including both price gains and dividends received.","Total Return adds dividends to the P&L calculation.\n\nExample: invested 10,000 kr, current value 11,000 kr, received 500 kr dividends:\nTotal Return = (11,000 + 500 \u2212 10,000) / 10,000 = +15%\n\nThis is the most complete measure of your investment performance for a single stock.",B.aoC)
+B.ap9=s(["dividend","yield","income","payout","cash flow"],t.s)
+B.bry=new A.bh("Dividends","Cash payments from companies you invest in, logged manually as transactions.","Log dividends in a stock's transaction history (Edit \u2192 Add Entry \u2192 Dividend).\n\nEnter the total dividend amount received (not per-share).\n\nDividends are included in:\n\u2022 Total Return %\n\u2022 Personal IRR (as a positive cash flow on that date)\n\u2022 Portfolio Quality \u2192 Income section\n\nThe Dividend Yield shown in Financial Highlights is fetched from Yahoo Finance \u2014 it is the annual yield based on the current price, not your personal yield on cost.",B.ap9)
+B.anR=s(["CAGR","annualised","annual return","p.a.","per year","compound","compound annual growth rate","per stock","holding"],t.s)
+B.bqJ=new A.bh("CAGR per Stock (Annualised Return)","The constant yearly return that would produce the same gain over your holding period.",'CAGR stands for Compound Annual Growth Rate. Unlike a simple P&L %, it adjusts for how long you have held the position \u2014 so you can fairly compare a stock you have held 6 months against one you have held 5 years.\n\nWhere to find it:\n\u2022 On the stock card (portfolio list) \u2014 shown as a small "+X.X% p.a." line below the P&L %\n\u2022 In the stock detail screen \u2192 Owned Position section \u2192 "CAGR (annualised)" row\n\u2022 In the stock detail screen \u2192 Sold Position section (uses sell price as exit)\n\nImportant: this is price return only \u2014 dividends are not included. For a return that includes dividends, see the "Total Return %" row above it.\n\nOnly shown when there is at least 1 day of history and a valid average purchase price. Very new positions may not show it yet.',B.anR)
+B.all=s(["realised","unrealised","realized","unrealized","locked in","floating","paper gain","partial sell","P&L split"],t.s)
+B.br5=new A.bh("Realised vs Unrealised P&L","Splits your profit/loss into locked-in gains (realised) and floating paper gains (unrealised).",'When you partially sell a position \u2014 selling some shares while keeping others \u2014 your P&L splits into two parts:\n\n\ud83d\udd12 Locked In (Realised)\nProfit or loss already locked in from the shares you have sold out of this position. This number will not change when the stock price moves \u2014 it is real money realised.\n\n\ud83d\udcc8 Floating (Unrealised)\nCurrent paper gain or loss on the shares you still hold. This number moves with the stock price and is only realised when you sell.\n\nWhere to find it:\n\u2022 Portfolio Summary \u2192 expand the "Portfolio Summary" card \u2192 "Locked In (Realised)" and "Floating (Unrealised)" rows appear when you have at least one partial sell in your portfolio.\n\u2022 Also shown in the individual stock detail screen \u2192 Owned Position section.\n\nNote: the split only appears when relevant \u2014 if you have never partially sold any position, the row is hidden to avoid cluttering the summary.',B.all)
+B.aiJ=s(["average down","averaging down","average up","averaging up","calculator","avg down","new average","break-even","cost basis calculator","buy more"],t.s)
+B.br_=new A.bh("Avg Down / Up Calculator","See instantly how your average cost changes if you buy more shares at a new price.",'The calculator answers: "If I buy X more shares at price Y, what will my new average cost be?"\n\nWhere to find it:\nOpen any owned stock \u2192 Stock Detail screen \u2192 Owned Position section \u2192 "Avg Down / Up Calculator" button.\n\nHow to use:\n1. Enter the price you are considering buying at\n2. Enter how many shares you want to buy\n3. Instantly see your new average cost, how much it changes, total shares after, and total cost basis after\n\nAveraging down = buying below your current average \u2192 lowers your break-even price (shown in green)\nAveraging up = buying above your current average \u2192 raises your break-even price (shown in red)\n\nRead-only: this is a planning tool only \u2014 nothing is saved to your portfolio. Use the + button on the stock to log the actual transaction.',B.aiJ)
+B.apq=s(["cash","liquidity","uninvested","balance","money","set cash"],t.s)
+B.brN=new A.bh("Cash / Liquidity","Track uninvested cash alongside your stock positions.",'Go to Analysis \u2192 Overview \u2192 Position Size & Liquidity \u2192 Set Cash.\n\nYou can assign cash to a specific tag (sub-portfolio) or leave it untagged (shows in the "All" view).\n\nCash is included in:\n\u2022 Total portfolio value (Position Size card)\n\u2022 Portfolio at Risk % calculation (reduces risk since cash has 0 downside)\n\u2022 Goal tracking (if the goal includes the Cash asset class)\n\nCash is stored in your display currency. It does not earn interest in the app.',B.apq)
+B.ajY=s([B.brC,B.brK,B.brV,B.bs0,B.brJ,B.bry,B.bqJ,B.br5,B.br_,B.brN],t.YG)
+B.bqq=new A.fQ("Portfolio & Positions",B.jv,B.p,B.ajY)
+B.ak2=s(["alert","stop loss","stop","target","price alert","notification","trigger"],t.s)
+B.br8=new A.bh("Price Alerts","Set a low (stop) and high (target) price on any stock to see your risk/reward ratio.","Open a stock \u2192 Edit \u2192 set Alert Low Price and/or Alert High Price.\n\nYou can set alerts as:\n\u2022 Fixed price (e.g. stop at 85 kr, target at 140 kr)\n\u2022 Percentage from your average purchase price (e.g. \u221215% stop, +40% target)\n\nThe alerts are used to calculate:\n\u2022 Downside % \u2014 how far the price would fall to hit your stop\n\u2022 Upside % \u2014 how far the price would rise to hit your target\n\u2022 Risk/Reward Ratio \u2014 upside divided by downside\n\u2022 Portfolio at Risk % \u2014 your capital at risk as a fraction of the total portfolio\n\nA banner alert appears on the home screen if a stock's price has crossed above the high alert or below the low alert.",B.ak2)
+B.anJ=s(["downside","stop loss","risk","loss","drop"],t.s)
+B.brP=new A.bh("Downside %","How much the current price could fall before hitting your stop/alert price.","Downside % is calculated from the current price to your Alert Low Price (stop loss).\n\nExample: current price 100 kr, stop at 85 kr \u2192 Downside = 15%\n\nInterpretation: if the stock drops 15% from here, it hits your stop.\n\nShown in the Risk/Reward section of the stock detail screen. Requires an Alert Low Price to be set.",B.anJ)
+B.ap2=s(["upside","target","potential","gain","reward"],t.s)
+B.brh=new A.bh("Upside %","How much the current price could rise before hitting your target price.","Upside % is calculated from the current price to your Alert High Price (target).\n\nExample: current price 100 kr, target at 140 kr \u2192 Upside = 40%\n\nInterpretation: if the stock rises 40% from here, it hits your target.\n\nRequires an Alert High Price to be set.",B.ap2)
+B.anZ=s(["risk reward","ratio","RR","reward","risk","upside downside"],t.s)
+B.brv=new A.bh("Risk/Reward Ratio","Compares potential upside to potential downside. A ratio above 2 is generally considered good.","The ratio tells you: for every 1 unit of risk you take, how many units of reward do you stand to gain?\n\nExamples:\n\u2022 Ratio 1.0 \u2014 equal upside and downside\n\u2022 Ratio 2.0 \u2014 you could gain twice what you risk\n\u2022 Ratio 3.0 \u2014 you could gain three times what you risk (green in the app)\n\nA ratio below 1.0 means you are risking more than you could gain \u2014 shown in red.\n\nRequires both Alert Low (stop) and Alert High (target) prices to be set.",B.anZ)
+B.alN=s(["portfolio risk","position risk","risk percent","stop loss","trade risk","1%","2%"],t.s)
+B.bsm=new A.bh("Portfolio at Risk %","What percentage of your total portfolio you would lose if this stock hit its stop loss.",'This answers: "If this stock drops to my stop, how much of my total portfolio is affected?"\n\nExample:\n\u2022 Stock is 20% of your portfolio\n\u2022 Downside is 15%\n\u2022 Portfolio at Risk = 20% \xd7 15% = 3%\n\nSo a stop trigger would cost you 3% of your total portfolio.\n\nProfessional traders typically risk no more than 1\u20132% per trade.\n\nTag-aware: if a tag is selected, uses only that sub-portfolio\'s value as the denominator.',B.alN)
+B.aoj=s(["drawdown","max drawdown","peak","trough","worst loss","decline","fall"],t.s)
+B.brA=new A.bh("Max Drawdown (per stock)","The largest peak-to-trough price decline since you first bought the stock.","Max Drawdown measures the worst fall the stock experienced from a high point to a subsequent low point \u2014 starting from your first buy date.\n\nExample: stock peaked at 150 kr then fell to 90 kr \u2192 Drawdown = \u221240%\n\nShown in the stock detail chart section. A flag indicates if the chart data covers your full holding period or only part of it.\n\nUseful for understanding historical volatility and whether you could have held through the worst periods.",B.aoj)
+B.akV=s([B.br8,B.brP,B.brh,B.brv,B.bsm,B.brA],t.YG)
+B.bqr=new A.fQ("Risk & Reward",B.r9,B.eH,B.akV)
+B.alv=s(["VaR","value at risk","risk","loss","percentile","confidence","95%","daily","weekly"],t.s)
+B.br6=new A.bh("Value at Risk (VaR)","On a bad day or week (worst 5% of periods), how much could your portfolio lose?","VaR answers a specific question: based on your portfolio's actual past behaviour, what is the worst loss you would expect to see on 5% of days?\n\nMethod: Historical simulation\n1. Collect your daily portfolio values (recorded each time you refresh prices)\n2. Compute the day-to-day % return for each day\n3. Sort all returns from worst to best\n4. Read the 5th percentile \u2014 the point where 95% of days were better\n\nExample: Daily VaR 2.3% means on your worst 5% of days, you lost at least 2.3%.\n\nWeekly VaR is scaled from Daily using the \u221a5 rule (standard industry approximation).\n\n\u26a0 VaR does NOT predict the maximum possible loss. Actual losses on extreme days can exceed VaR. It is a statistical estimate, not a guarantee.\n\nData builds automatically \u2014 the more days you use the app, the more reliable the estimate. 20+ data points (~1 month) are needed for a meaningful result.",B.alv)
+B.aky=s(["VaR","tag","sub-portfolio","filter","daily","snapshot"],t.s)
+B.brq=new A.bh("VaR \u2014 Tag / Sub-Portfolio","VaR also works per tag, using daily snapshots recorded separately for each sub-portfolio.","When a tag is selected, VaR uses daily snapshots from the tag_daily_snapshots table \u2014 recorded automatically each time you open the app with stocks tagged.\n\nThe math is identical to whole-portfolio VaR:\n\u2022 Daily returns from the tag's value history\n\u2022 5th percentile of those returns\n\u2022 Weekly VaR = Daily \xd7 \u221a5\n\nNew tags start accumulating from the day they are created. You need ~20 daily app-opens (~1 month) for a reliable estimate.\n\nImportant: if you rename a tag, old snapshot history is lost for that tag name. Keep tag names stable.",B.aky)
+B.alM=s(["volatility","sigma","standard deviation","risk","swing","fluctuation","annual"],t.s)
+B.brX=new A.bh("Volatility (\u03c3)","How much your portfolio value swings day-to-day, expressed as an annualised percentage.","Volatility measures the standard deviation of your daily portfolio returns \u2014 how consistently or erratically your portfolio value changes.\n\nA higher number means bigger day-to-day swings:\n\ud83d\udfe2 Low (< 10%) \u2014 very stable, similar to a bond fund\n\ud83d\udfe1 Moderate (10\u201320%) \u2014 typical diversified equity portfolio\n\ud83d\udfe0 High (20\u201335%) \u2014 concentrated or growth-heavy portfolio\n\ud83d\udd34 Very High (> 35%) \u2014 highly concentrated or speculative holdings\n\nThe app uses a sample standard deviation (N\u22121 denominator) and scales it to annual using the standard 252 trading-days convention.\n\nDays when you added new stocks (capital inflows causing jumps > 25%) are automatically excluded \u2014 otherwise a large deposit would look like an extreme return and inflate the number.\n\nData builds automatically. 20+ daily data points (~1 month) are needed for a reliable estimate. The card shows a low-confidence warning below that threshold.",B.alM)
+B.amL=s(["sharpe","sharpe ratio","risk adjusted","risk-free","return per risk","reward"],t.s)
+B.brY=new A.bh("Sharpe Ratio","How much return you earn per unit of risk taken, after subtracting a risk-free baseline.","The Sharpe Ratio answers: is the volatility in your portfolio being rewarded with enough return?\n\nIt subtracts a \"risk-free rate\" (what you could earn risk-free, e.g. a government bond) from your return, then divides by your volatility. A higher Sharpe means better risk-adjusted return.\n\nInterpreting your Sharpe:\n\ud83d\udd34 Below 0 \u2014 your return is below the risk-free rate. You are taking risk without reward.\n\ud83d\udfe0 0\u20131 \u2014 return exceeds risk-free rate but volatility isn't fully justified.\n\ud83d\udfe1 1\u20132 \u2014 good risk/reward, broadly in line with a well-run equity portfolio.\n\ud83d\udfe2 Above 2 \u2014 excellent. Strong return relative to the risk taken.\n\nThe risk-free rate defaults to 4.5% (roughly the US T-bill rate). You can change it in the card to match your country's rate \u2014 e.g. Riksbank repo rate for Sweden, ECB deposit rate for the Eurozone.\n\n\u26a0 The Sharpe Ratio assumes normally distributed returns. Real markets have fat tails \u2014 rare extreme events are more common than a normal distribution predicts. Use Sharpe as a guide, not a guarantee.",B.amL)
+B.amo=s(["beta","market risk","sensitivity","S&P","SPY","systematic risk","weighted"],t.s)
+B.bsi=new A.bh("Beta-Weighted Risk","Measures how much your portfolio is expected to move when the overall market moves.","Beta measures a stock's sensitivity to the market (S&P 500 = 1.0).\n\nExamples:\n\u2022 Beta 0.5 \u2014 moves half as much as the market\n\u2022 Beta 1.0 \u2014 moves exactly with the market\n\u2022 Beta 1.5 \u2014 moves 50% more than the market\n\u2022 Beta \u22120.3 \u2014 tends to move opposite the market\n\nPortfolio Beta = the weighted average of all your stocks' Betas, weighted by their value in your portfolio.\n\nThe Market Scenarios table shows expected portfolio moves for S&P 500 drops of 5%, 10%, 20%, and a rise of 10%.\n\n\u26a0 Beta is backward-looking (computed from 5-year weekly price history). Non-US stocks are compared against SPY which may not be their natural benchmark.",B.amo)
+B.apo=s(["beta","defensive","aggressive","volatile","risk level","market like"],t.s)
+B.bqX=new A.bh("Portfolio Beta \u2014 Risk Levels","How to interpret your portfolio Beta number.","The app colour-codes your Portfolio Beta:\n\n\ud83d\udfe2 Defensive (\u03b2 < 0.8)\nLower volatility than the market. Your portfolio tends to fall less in downturns but also rise less in bull markets.\n\n\ud83d\udfe1 Market-like (\u03b2 0.8\u20131.2)\nMoves approximately in line with the market. Expected to track the S&P 500 closely.\n\n\ud83d\udfe0 Aggressive (\u03b2 1.2\u20131.8)\nMore volatile than the market. Higher potential returns, but larger swings.\n\n\ud83d\udd34 High Volatility (\u03b2 > 1.8)\nSignificantly more volatile than the market. Concentrated or growth-heavy portfolio.",B.apo)
+B.am2=s([B.br6,B.brq,B.brX,B.brY,B.bsi,B.bqX],t.YG)
+B.bqB=new A.fQ("Risk Metrics",B.r3,B.o,B.am2)
+B.aoZ=s(["performance","return","1 month","YTD","year to date","1 year","3 year","5 year","period","history"],t.s)
+B.bs_=new A.bh("Performance Returns","Your portfolio return over standard time periods \u2014 1 month, year-to-date, 1Y, 3Y, and 5Y.","The Performance Returns card shows how much your portfolio has grown (or fallen) over each standard time window, based on your actual recorded daily portfolio values.\n\nPeriods shown:\n\u2022 1M \u2014 last 30 days\n\u2022 YTD \u2014 since January 1st of this year\n\u2022 1Y \u2014 last 12 months\n\u2022 3Y \u2014 last 3 years\n\u2022 5Y \u2014 last 5 years\n\nA period shows \"\u2014\" if you don't have a snapshot that far back yet. As you keep using the app and more daily snapshots accumulate, these periods fill in automatically.\n\nWhen a single tag is selected, returns are calculated from that tag's own daily snapshots, showing how just that sub-portfolio performed.\n\n\u26a0 These are simple total return figures \u2014 (current value \u2212 past value) / past value. They do not account for the timing of deposits or withdrawals. For a time-adjusted return that accounts for when you invested, use the Personal IRR card.",B.aoZ)
+B.aoI=s(["IRR","internal rate of return","XIRR","annualised","return","performance","personal"],t.s)
+B.brB=new A.bh("Personal IRR (Internal Rate of Return)","Your true annualised return, adjusted for the exact timing of every transaction.","IRR is the most accurate measure of your personal investment performance.\n\nUnlike simple P&L %, IRR accounts for:\n\u2022 When you invested (earlier investments have more time to compound)\n\u2022 How much you invested at each point\n\u2022 When you received dividends\n\nExample: a 20% IRR means your money grew at an equivalent rate of 20% per year, compounded annually, taking into account all your cash flows.\n\nThe app uses the XIRR method (Excel-compatible) which solves for the discount rate that makes the net present value of all cash flows equal to zero.\n\nRequires at least 2 transactions to calculate.",B.aoI)
+B.alV=s(["benchmark","beat market","SPY","outperform","compare","index","S&P","market"],t.s)
+B.bsb=new A.bh("Beat Market","Compare your IRR against a market benchmark to see if you are outperforming.","The Beat Market card shows your portfolio's annualised IRR vs a benchmark (default: SPY = S&P 500).\n\nAvailable benchmarks:\n\u2022 SPY \u2014 S&P 500 (US large cap)\n\u2022 QQQ \u2014 Nasdaq 100 (US tech)\n\u2022 ACWI \u2014 MSCI All-World\n\u2022 EXSA.DE \u2014 Euro Stoxx 600\n\u2022 EEM \u2014 Emerging Markets\n\u2022 WSML.L \u2014 MSCI World Small Cap\n\u2022 Or type any ticker symbol\n\nThe chart rebases both your portfolio and the benchmark to 0% at your first buy date, so you can see the comparison on equal terms regardless of price levels.\n\nThe benchmark return shown is its actual price return over your holding period \u2014 not adjusted for your cash-flow timing.",B.alV)
+B.amv=s(["equity curve","portfolio value","ATH","all time high","CAGR","drawdown","history","chart"],t.s)
+B.brs=new A.bh("Equity Curve","A chart of your total portfolio value over time, recorded each time you refresh prices.","The Equity Curve shows how your portfolio's total value has changed over time.\n\nKey metrics shown:\n\u2022 Current \u2014 today's total value\n\u2022 ATH \u2014 All-Time High: the highest value ever recorded\n\u2022 P&L vs Cost \u2014 (value + dividends \u2212 cost) / cost\n\u2022 CAGR \u2014 Compound Annual Growth Rate (requires 90+ days of history)\n\nThe chart also shows a Drawdown panel below the main chart \u2014 how far below the all-time high your portfolio was at each point.\n\nData is recorded automatically each time you refresh prices. The more often you refresh, the more detailed the curve.",B.amv)
+B.aoH=s(["CAGR","compound","annual","growth","rate","annualised"],t.s)
+B.brW=new A.bh("CAGR (Compound Annual Growth Rate)","The annualised growth rate of your portfolio from first to latest snapshot.",'CAGR smooths out volatility to give you a single "per year" growth rate.\n\nExample: portfolio grew from 100,000 to 161,051 over 3 years \u2192 CAGR = 17%\n(100,000 \xd7 1.17 \xd7 1.17 \xd7 1.17 \u2248 161,000)\n\nRequirements:\n\u2022 At least 90 days of snapshot history\n\u2022 A starting value > 0\n\nCAGR does not account for the timing of your cash flows \u2014 use IRR for that. CAGR simply measures start-to-end growth of the total portfolio value.',B.aoH)
+B.al_=s(["comparison","chart","benchmark","vs","versus","overlay","return chart"],t.s)
+B.brI=new A.bh("Comparison Chart","Plot your portfolio return alongside any market benchmark on the same chart.","Found in Analysis \u2192 Overview \u2192 Comparison Chart section.\n\nAll lines start at 0% on the left \u2014 showing percentage return from that point.\n\nHow to use:\n\u2022 Select a time range (1W, 1M, 3M, 6M, 1Y, All)\n\u2022 Your portfolio line uses daily snapshot data\n\u2022 Add a benchmark by searching for a ticker in the search box\n\u2022 Multiple benchmarks can be shown simultaneously\n\u2022 Toggle individual lines on/off with the chips\n\nBecause everything is rebased to 0%, you can directly compare performance regardless of price levels.",B.al_)
+B.anu=s(["opportunity","missed","watchlist","regret","should have bought","watched"],t.s)
+B.brH=new A.bh('Opportunity Cost ("Should I Have Bought?")',"See how watched stocks performed since you started watching them vs your portfolio.","For every stock on your watchlist with a watch date recorded, the app calculates the return it achieved since you started watching.\n\nThen it compares that to what your owned portfolio returned over the same period.\n\nTells you:\n\u2022 Best missed opportunity \u2014 the watched stock that performed best\n\u2022 Worst missed opportunity \u2014 the one that underperformed most\n\u2022 Whether sitting on the sidelines cost you or saved you\n\nWatch dates are set automatically when you add a stock as Watching.",B.anu)
+B.alU=s(["sell","sold","regret","held","exit","should have held","decision"],t.s)
+B.brt=new A.bh('Sell Decision ("Should I Have Held?")',"For each sold stock, see what would have happened if you had kept holding.",'The Sell Decision section compares your actual sell price against the current price of each stock you have sold.\n\nIf the stock is higher now than when you sold:\n\u2192 "You left X% on the table"\n\nIf the stock is lower now than when you sold:\n\u2192 "Good exit \u2014 down X% since you sold"\n\nRequires: the sold stock still exists as a "Sold" status entry and Yahoo Finance can still fetch its current price.',B.alU)
+B.alZ=s([B.bs_,B.brB,B.bsb,B.brs,B.brW,B.brI,B.brH,B.brt],t.YG)
+B.bqp=new A.fQ("Performance Analysis",B.fQ,B.r,B.alZ)
+B.apt=s(["sector","technology","healthcare","financials","breakdown","distribution","diversification"],t.s)
+B.bqG=new A.bh("Sector Breakdown","How your portfolio is distributed across market sectors.",'Sectors include: Technology, Healthcare, Financials, Consumer Discretionary, Energy, Industrials, Materials, Real Estate, Utilities, Communication Services, Consumer Staples.\n\nEach slice is weighted by current market value in your display currency.\n\nSector data is fetched from Yahoo Finance when you add or refresh a stock. Stocks without sector data appear as "Unknown".\n\nHigh concentration in one sector increases your exposure to that sector\'s risks (regulation changes, economic cycles, etc.).',B.apt)
+B.alT=s(["country","geographic","geography","location","Sweden","US","diversification"],t.s)
+B.brU=new A.bh("Country Breakdown","Geographic distribution \u2014 which countries your companies are headquartered in.","Each slice represents the total value of stocks from that country, as a percentage of your portfolio.\n\nWeighted by current market value in your display currency.\n\nHelps identify geographic concentration risk \u2014 for example, if 80% of your portfolio is in Swedish companies, you are highly exposed to the Swedish economy and the Swedish kronor.",B.alT)
+B.aoQ=s(["currency","forex","exposure","FX","USD","SEK","EUR","risk"],t.s)
+B.bsl=new A.bh("Currency Exposure","How much of your portfolio is held in each currency.","Even if your display currency is SEK, a stock listed in USD is currency-exposed:\nif USD weakens against SEK, the stock's SEK value drops even if the dollar price stays the same.\n\nThe chart shows what fraction of your portfolio is in each currency.\n\nThis is especially important for international investors who hold stocks across multiple currencies.",B.aoQ)
+B.aml=s(["asset class","ETF","bond","fund","stock","type","classification"],t.s)
+B.bs5=new A.bh("Asset Class Breakdown","Split between Stocks, ETFs, Bonds, Funds, and Other.","Each position is classified into an asset class when you add it (or defaults to Stock).\n\nAsset classes available:\n\u2022 Stock \u2014 individual company shares\n\u2022 ETF \u2014 exchange-traded fund\n\u2022 Fund \u2014 mutual fund or similar\n\u2022 Bond \u2014 fixed income\n\u2022 Other \u2014 anything else\n\nWeighted by current market value in display currency.",B.aml)
+B.ako=s(["position size","weight","concentration","allocation","liquidity","diversify"],t.s)
+B.bsn=new A.bh("Position Size & Liquidity","Shows what percentage of your portfolio each stock represents.",'The Position Size card shows:\n\u2022 A donut chart of portfolio weights by stock\n\u2022 Invested amount, Cash balance, Total value\n\u2022 A ranked list of positions with % of portfolio\n\nA "concentrated" badge appears on positions above 30% \u2014 high concentration in a single stock increases single-stock risk.\n\nProfessional portfolio managers often limit individual positions to 5\u201310% of a portfolio.\n\nCash is included in the total \u2014 it lowers the % weight of each stock position but also lowers Beta and VaR.',B.ako)
+B.akz=s(["quality","fundamental","market cap","P/E","dividend","employees","profitability"],t.s)
+B.bsg=new A.bh("Portfolio Quality","A snapshot of your portfolio's fundamental characteristics.","The Portfolio Quality card summarises key fundamental metrics across your holdings:\n\n\u2022 Company Size \u2014 Mega Cap (>200B), Large Cap (10B\u2013200B), Mid Cap (2B\u201310B), Small Cap (<2B)\n\u2022 Workforce Scale \u2014 employee headcount per stock\n\u2022 Valuation \u2014 average P/E ratio and whether it is in value, fair, or growth territory\n\u2022 Income \u2014 how many stocks pay dividends and the average yield\n\u2022 Profitability \u2014 average profit margin across holdings\n\nThis is a snapshot view \u2014 not a score or recommendation.",B.akz)
+B.amB=s(["ranking","rank","lens","compare","score","beta","CAGR","income","value","P/E","return vs risk","biggest winners","compounding","total return"],t.s)
+B.br4=new A.bh("Portfolio Ranking","Rank your owned stocks side-by-side using six pre-built lenses.",'Found in Analysis \u2192 Overview \u2192 Portfolio Ranking.\n\nChoose a lens from the chip row at the top. Your owned stocks are ranked best-to-worst by that metric. Each row shows the stock\'s score plus the two raw inputs that produced it, so you can see the logic \u2014 not just a magic number.\n\nStocks missing the required data for a lens show "\u2014" and sort to the bottom.\n\nThe six lenses:\n\n\u2022 Return vs Risk \u2014 P/L% \xf7 Beta. Rewards stocks that earn well relative to their volatility. Stocks with no beta data, or negative beta (inverse ETFs), are excluded.\n\n\u2022 Total Return \u2014 (Unrealized P/L + Dividends received) \xf7 Amount invested \xd7 100. True all-in return including both price gains and income received.\n\n\u2022 Income \u2014 Dividends received \xf7 Amount invested \xd7 100. Which positions have generated the most income relative to what you put in.\n\n\u2022 Value Score \u2014 100 \xf7 P/E ratio. Lower P/E = higher score = potentially cheaper relative to earnings. ETFs and loss-making companies (no P/E) are excluded.\n\n\u2022 Biggest Winners \u2014 P/L% \xd7 position weight. Combines return with size \u2014 a large winning position ranks above a small one with the same return percentage. Weight is relative to the stocks currently shown.\n\n\u2022 Compounding \u2014 Annualised return (CAGR). How fast each position compounds per year. Requires at least 90 days of holding history.\n\n\u26a0 This card ranks your existing holdings for comparison purposes only. It is not investment advice and does not account for taxes, liquidity, or future prospects.',B.amB)
+B.ajn=s([B.bqG,B.brU,B.bsl,B.bs5,B.bsn,B.bsg,B.br4],t.YG)
+B.bqE=new A.fQ("Portfolio Breakdown",B.ij,B.T,B.ajn)
+B.apa=s(["holding period","hold time","duration","days","sold","exit"],t.s)
+B.br2=new A.bh("Holding Period Analysis","See how long you typically hold positions and whether that affects your returns.","Found in Analysis \u2192 Holding Period tab.\n\nShows all your sold positions with:\n\u2022 Hold duration in days\n\u2022 Total return achieved during that period\n\u2022 Return per month (normalises for different holding lengths)\n\nThe summary shows your average holding period for winning vs losing positions.",B.apa)
+B.ao1=s(["disposition effect","bias","behaviour","psychology","winner","loser","hold"],t.s)
+B.bqK=new A.bh("Disposition Effect / Win-Loss Bias","Detects if you sell winners too early and hold losers too long.",'The Disposition Effect is a well-documented behavioural bias in investing:\ninvestors tend to sell winning positions too early (to "lock in profits") and hold losing positions too long (hoping for a recovery).\n\nThe app detects this by comparing:\n\u2022 Average holding period of your sold winners\n\u2022 Average holding period of your sold losers\n\nIf you held losers more than 14 days longer than winners on average, the app flags a potential bias.\n\nThis is based on your actual history \u2014 only sold positions are analysed.',B.ao1)
+B.alr=s(["sweet spot","best duration","holding","optimal","time"],t.s)
+B.brb=new A.bh("Sweet Spot","Which holding duration tends to produce the best returns for you.","The Sweet Spot chart groups your sold positions by how long you held them:\n\u2022 < 1 month\n\u2022 1\u20133 months\n\u2022 3\u20136 months\n\u2022 6\u201312 months\n\u2022 1\u20133 years\n\u2022 3+ years\n\nFor each bucket, it shows the average return achieved.\n\nThis reveals your personal sweet spot \u2014 the holding duration at which you tend to make the most money. Based only on completed (sold) positions.",B.alr)
+B.aio=s([B.br2,B.bqK,B.brb],t.YG)
+B.bqD=new A.fQ("Holding Period & Behaviour",B.GO,B.L,B.aio)
+B.akK=s(["P/E","price earnings","valuation","multiple","trailing PE","forward PE","cheap","expensive"],t.s)
+B.bqM=new A.bh("P/E Ratio (Price-to-Earnings)","How much you pay per \xa3/$ of earnings. Lower = cheaper, higher = growth expectations.","The P/E ratio compares the stock's price to its annual earnings per share.\n\n\u2022 Trailing P/E \u2014 uses actual earnings from the last 12 months\n\u2022 Forward P/E \u2014 uses analyst forecasts for the next 12 months\n\nInterpretation:\n\u2022 P/E < 15 \u2014 value territory (cheap relative to earnings)\n\u2022 P/E 15\u201325 \u2014 fair value for most established companies\n\u2022 P/E > 25 \u2014 growth premium (market expects strong future earnings)\n\u2022 P/E > 40 \u2014 speculative / very high growth expectations\n\nP/E only makes sense for profitable companies. Loss-making companies have no meaningful P/E ratio.",B.akK)
+B.amT=s(["EPS","earnings per share","profit","earnings","income"],t.s)
+B.bqI=new A.bh("EPS (Earnings Per Share)","How much profit a company makes for each share outstanding.","EPS is the company's net profit divided by the number of shares.\n\nHigher EPS = more profit per share = generally better.\n\nEPS growth over time indicates the company is becoming more profitable.\n\nNegative EPS means the company is losing money.\n\nFetched from Yahoo Finance (trailing 12 months).",B.amT)
+B.anr=s(["market cap","capitalisation","size","large cap","small cap","mega cap","mid cap"],t.s)
+B.bsa=new A.bh("Market Capitalisation","The total market value of a company's outstanding shares.","Market Cap = Current Price \xd7 Total Shares Outstanding\n\nSize categories:\n\u2022 Mega Cap \u2014 > $200 billion (Apple, Microsoft, etc.)\n\u2022 Large Cap \u2014 $10B\u2013$200B\n\u2022 Mid Cap \u2014 $2B\u2013$10B\n\u2022 Small Cap \u2014 < $2B\n\nSmaller companies generally have higher growth potential but also higher risk. Large caps tend to be more stable but grow more slowly.",B.anr)
+B.alt=s(["dividend","yield","income","payout","yield on cost"],t.s)
+B.brr=new A.bh("Dividend Yield","Annual dividend payment as a percentage of the current stock price.",'Dividend Yield tells you what income you receive relative to what you pay for the stock.\n\nExample: stock price 100 kr, annual dividend 4 kr \u2192 Yield = 4%\n\nNote: the yield shown is based on the CURRENT price (not your purchase price). Your personal "yield on cost" would be: annual dividend / your avg purchase price.\n\nA high yield can signal:\n\u2022 A genuinely generous dividend payer, OR\n\u2022 A falling stock price (yield rises as price falls)\n\nAlways check if the dividend is sustainable (see Payout Ratio).',B.alt)
+B.ain=s(["profit margin","net margin","profitability","margin"],t.s)
+B.bqL=new A.bh("Profit Margin","What percentage of revenue becomes profit.","Profit Margin = Net Income / Revenue\n\nExample: revenue $1B, profit $150M \u2192 Profit Margin = 15%\n\nInterpretation:\n\u2022 > 20% \u2014 high margin (software, pharmaceuticals)\n\u2022 10\u201320% \u2014 solid margin\n\u2022 > 0% \u2014 profitable\n\u2022 Negative \u2014 loss-making\n\nHigh-margin businesses are generally more durable \u2014 a revenue decline is less likely to turn them loss-making.",B.ain)
+B.aim=s(["debt","equity","leverage","D/E","balance sheet","debt ratio"],t.s)
+B.bqR=new A.bh("Debt/Equity (D/E Ratio)","How much debt a company has relative to its equity. Lower is generally safer.","D/E Ratio compares a company's total debt to shareholder equity.\n\n\u2022 D/E < 1 \u2014 more equity than debt (conservative)\n\u2022 D/E 1\u20132 \u2014 moderate leverage\n\u2022 D/E > 2 \u2014 high leverage (more risk, especially if interest rates rise)\n\nSome industries (banks, utilities) naturally carry high D/E. Compare within the same sector for a fair assessment.",B.aim)
+B.apz=s(["ROE","return on equity","efficiency","profitability","Buffett"],t.s)
+B.bsc=new A.bh("Return on Equity (ROE)","How efficiently a company uses shareholders' money to generate profit.","ROE measures the return generated on the money shareholders have invested in the company.\n\n\u2022 ROE > 15% \u2014 generally strong\n\u2022 ROE > 20% \u2014 excellent (Warren Buffett looks for this)\n\u2022 ROE < 0% \u2014 losing money on equity\n\nCaveat: a company can inflate ROE by taking on debt (which reduces equity). Always check D/E alongside ROE.",B.apz)
+B.apj=s(["revenue","earnings","growth","sales","year over year","YoY"],t.s)
+B.bqQ=new A.bh("Revenue Growth & Earnings Growth","Year-over-year growth in sales and profits.","Revenue Growth: how fast the company's sales are growing year-over-year.\nEarnings Growth: how fast the company's profits are growing year-over-year.\n\nHealthy growth signs:\n\u2022 Both revenue and earnings growing \u2192 expanding profitable business\n\u2022 Revenue growing but earnings flat \u2192 margins being squeezed\n\u2022 Earnings growing faster than revenue \u2192 improving efficiency\n\nValues are shown as decimals in data (0.15 = 15% growth).\nFetched from Yahoo Finance (trailing 12 months vs prior year).",B.apj)
+B.alz=s(["risk","risk score","overall risk","ESG","rating"],t.s)
+B.br7=new A.bh("Overall Risk Score","Yahoo Finance's risk rating for a stock on a scale of 1\u201310.","Overall Risk is sourced from Yahoo Finance's ESG/Risk rating system.\n\n\u2022 1\u20133 \u2014 Low risk\n\u2022 4\u20137 \u2014 Medium risk\n\u2022 8\u201310 \u2014 High risk\n\nThis score reflects Yahoo's assessment of governance, accounting, and financial risk \u2014 not market price risk. It is one data point among many.",B.alz)
+B.aoU=s(["company","profile","sector","industry","country","employees","website","summary","description"],t.s)
+B.bs7=new A.bh("Company Profile","Sector, industry, country, headquarters, employees, website, and business summary.","The Company Profile section appears on each stock's detail screen.\n\nData is fetched once from Yahoo Finance when you add a stock and stored locally.\n\nFields shown:\n\u2022 Sector \u2014 broad market sector (e.g. Technology)\n\u2022 Industry \u2014 specific industry (e.g. Software\u2014Application)\n\u2022 Country \u2014 country of incorporation/headquarters\n\u2022 City \u2014 headquarters city\n\u2022 Employees \u2014 full-time employee count\n\u2022 Website \u2014 company website\n\u2022 Business Summary \u2014 plain-English description of what the company does\n\nUsed for Sector and Country breakdown charts.",B.aoU)
+B.alP=s([B.bqM,B.bqI,B.bsa,B.brr,B.bqL,B.bqR,B.bsc,B.bqQ,B.br7,B.bs7],t.YG)
+B.bqo=new A.fQ("Company Fundamentals",B.GH,B.m,B.alP)
+B.anK=s(["screener","scan","find stocks","discover","ideas","search market","browse","stale","old data","age","updated","how fresh","last updated"],t.s)
+B.bqW=new A.bh("What the Screener is","A browsable list of well-known listed companies, so you can find candidates without knowing the ticker first.",'On phone: tap the Extra tab, then Screener.\nOn web: open the Screener tab.\n\nEach row shows the symbol, company name, country flag, sector, size band, the latest price and day change, and whichever figures are known for that company.\n\nTap a row to open a read-only view of the stock. Tap Add to put it on your watchlist or into your portfolio \u2014 that opens the normal Add screen with the symbol filled in.\n\nOne thing worth knowing: the Screener reads a stored copy of the market, not a live quote. The line just above the list says how old that copy is \u2014 "Updated 6h ago", for instance \u2014 and resting on it gives the exact time of the oldest company on screen. Read that line rather than assuming the data is recent: it is measured from the data itself, so it is always the honest answer.\n\nThe refresh button at the top re-reads that stored copy \u2014 it does not go and fetch fresh prices. For an up-to-the-minute price, open the stock or add it to your watchlist.',B.anK)
+B.alQ=s(["filter","filters","narrow","refine","sector","country","industry","size","market cap","p/e","dividend","beta","mega","large","mid","small","micro","currency","yen","krona","too big","unclassified"],t.s)
+B.bs3=new A.bh("Filtering the list","Filters stack \u2014 each one you add narrows the list further. The number on the filter icon tells you how many are on.",'Tap the filter icon (top right) to open the Filters sheet.\n\nFilters are grouped:\n\u2022 Asset Class \u2014 shares, ETFs, funds\n\u2022 Company Size \u2014 Micro through Mega\n\u2022 Country and Sector \u2014 pick as many as you like\n\u2022 Industry \u2014 appears once you have picked a sector\n\u2022 Valuation \u2014 P/E, dividend yield, profitable only\n\u2022 Quality \u2014 return on equity, debt, margins, growth\n\u2022 Risk & Momentum \u2014 beta, 52-week position, today\'s change\n\nEvery filter you switch on is combined with the others, so the list only keeps companies that pass all of them. The count above the list reads "how many of how many", so you can see how much you cut away.\n\nImportant: a company with a blank figure is never removed. If you ask for a P/E under 15 and a company has no P/E on record, it stays in the list rather than being silently dropped. Blank means unknown, not disqualified. Filters on sector, industry, country and asset class work the other way round \u2014 "When a figure is missing", below, explains which does which.\n\nTwo figure filters are exceptions to that. Today\'s change is one: Gainers and Losers both need a change to compare against, so a company with none recorded is left out. Company Size is the other, and it is worth a paragraph of its own.\n\nHere is that paragraph. Micro, Small, Mid, Large and Mega put every company onto one common measure first, so a company priced in yen or krona is judged against the same yardstick as one priced in dollars rather than against a bigger-looking number. The order the list arrives in uses that same common measure, so the companies at the top really are the biggest ones in it.\n\nThe figure printed on each row is a different thing, and it stays in the company\'s own currency \u2014 that is the true number its own market reports, and the one you would see anywhere else. So a row is answering two questions at once: the band is about size, the figure beside it is about what that market says.\n\nWhere a company could not be put on the common measure, its band falls back to the figure exactly as reported. That is uncommon, and it is the older behaviour rather than a worse one \u2014 such a company may simply sit a band high.\n\nAnd a company with no size figure at all is not Micro \u2014 it is unclassified, and it matches no band. Switch on any Company Size filter and those companies leave the list altogether.\n\nReset clears every filter at once.',B.alQ)
+B.akG=s(["missing","blank","no data","unknown","empty","not reported","gaps","why is this here","still in the list","dropped","excluded","how many"],t.s)
+B.bqU=new A.bh("When a figure is missing","A filter on a figure a company does not report keeps that company in the list. A filter on its sector or country drops it. The line under the results says how many.",'Not every company reports every figure, and the two kinds of filter treat a gap in opposite ways. This is the one thing worth understanding before you trust a filtered list.\n\nFilters on a reported figure \u2014 P/E, dividend, beta, return on equity, debt, margins, growth, the 52-week position, profitable only \u2014 KEEP a company that has no such figure on record. Ask for a P/E under 15 and a company with no P/E stays in your list. The Screener will not throw a company out over something it does not know about it.\n\nFilters on a detail every company has \u2014 sector, industry, country, asset class, company size \u2014 DROP a company that is missing it. There is nothing for it to match, so it never reaches the list. Gainers and Losers behave the same way, since both need a change for the day to compare against.\n\nYou do not have to guess how much of the first kind is in front of you. When it applies, a line appears under the result count and says so \u2014 "283 of these have no Dividend figure" \u2014 and resting on it spells out the rest. It is silent when every company on screen has the figure you filtered on, and silent when you have no such filter on, so if you see it, it is telling you something.\n\nOne limit on that number, worth saying plainly: it counts the companies in the list. Companies dropped for a missing sector or country are not in the list, so they are not in the count, and nothing on screen counts those.\n\nWhen the number is large, read the list as "companies that passed, plus companies we could not judge" rather than as a clean answer \u2014 and open the ones you like to see what is actually on record for them.',B.akG)
+B.alk=s(["no data","not working","empty","roe","return on equity","debt","profit margin","revenue growth","earnings growth","beta","profitable","missing"],t.s)
+B.brZ=new A.bh("Which filters have data right now",'A filter with no figures behind it is greyed out, marked "No data", and cannot be switched on. You never have to guess.','The Screener can only filter on figures it actually holds, and it does not hold all of them.\n\nYou do not have to work out which ones. Open the Filters sheet: any control with nothing behind it is greyed out and carries a small "No data" tag, and it cannot be switched on. The sort chips above the list behave the same way. Rest on the tag and it tells you why that one is off \u2014 for most filters, that switching it on would leave the list exactly as it is; for Gainers and Losers, that it would empty the list, since those two need a recorded change to compare.\n\nThis is worked out from the data every time the Screener loads, never from a fixed list, so a control switches itself back on the moment that figure starts arriving. Nothing is broken and nothing is being hidden \u2014 those figures are simply not there yet.\n\nTwo things follow:\n\u2022 You can never arm a filter that would do nothing, because you cannot switch a greyed one on in the first place.\n\u2022 Anything you had already set stays yours to remove. A control holding a value keeps its "No data" tag but stays editable, and it also shows up as a removable chip on the row above the list.\n\nWhen a company looks interesting, open it or add it to your watchlist and judge it there.',B.alk)
+B.ajX=s(["sort","order","ranking","market cap","rank","ascending","descending","largest"],t.s)
+B.bsd=new A.bh("Sorting the results","Tap a sort chip to order the list; tap the same chip again to flip between high-to-low and low-to-high.","The row of chips under the title sets the order: Market Cap, Day Change, P/E, Dividend, ROE, Rev Growth, Beta, Name.\n\nTap a chip to sort by it. Tap the same chip again to reverse the direction \u2014 the little arrow on the chip shows which way you are going.\n\nCompanies with no figure for the chosen sort always sit at the bottom, whichever direction you pick, so an empty value never masquerades as a very low one.\n\nTwo caveats:\n\u2022 A sort chip with no figures behind it is greyed out and cannot be picked \u2014 there would be nothing for it to order by. It comes back on its own once that figure starts arriving.\n\u2022 Market Cap orders companies on one common measure, so a company reporting in yen or krona is placed against the same yardstick as one reporting in dollars rather than jumping ahead on the size of the unit. This is also the order you get before you pick anything, so the companies at the top when you open the Screener are the biggest ones in the list. The figure shown on each row stays in that company's own currency, which is the true number for that listing \u2014 the ordering is what has been put on a common footing, not the figure.",B.ajX)
+B.aof=s([B.bqW,B.bs3,B.bqU,B.brZ,B.bsd],t.YG)
+B.bqA=new A.fQ("Screener",B.nF,B.m,B.aof)
+B.aiB=s(["history","snapshot","weekly","past","historical","archive"],t.s)
+B.brm=new A.bh("History Tab","Browse weekly snapshots of your portfolio going back as far as your history allows.","Found in Analysis \u2192 History tab.\n\nEach weekly snapshot shows:\n\u2022 Portfolio total value and P&L\n\u2022 IRR at that point in time\n\u2022 Best and worst performer that week\n\u2022 Position Size card (what % each stock was)\n\u2022 Sector, Country, Currency, and Asset Class breakdown charts\n\u2022 Portfolio Quality score\n\nUse the arrows to navigate between weeks.\n\nSnapshots are recorded once per ISO week (Monday\u2013Sunday) the first time you open the app that week. They update if you open again in the same week.",B.aiB)
+B.aoT=s(["snapshot","recorded","automatic","daily","weekly","history","data"],t.s)
+B.brk=new A.bh("How Snapshots Are Recorded","Snapshots are saved automatically \u2014 no action needed from you.","The app records several types of snapshots automatically:\n\n1. Daily portfolio snapshot (portfolio_snapshots)\n   \u2192 Recorded each time you refresh prices\n   \u2192 Used for: Equity Curve, VaR (whole portfolio)\n\n2. Daily tag snapshots (tag_daily_snapshots)\n   \u2192 Recorded per tag, same time as portfolio snapshot\n   \u2192 Used for: VaR per tag/sub-portfolio\n\n3. Weekly analysis snapshot (analysis_snapshots)\n   \u2192 Recorded once per week on app open\n   \u2192 Used for: History tab, per-tag breakdowns\n\nThe more consistently you use the app, the richer your historical data becomes.",B.aoT)
+B.ajA=s([B.brm,B.brk],t.YG)
+B.bqx=new A.fQ("History & Snapshots",B.xI,B.f5,B.ajA)
+B.apm=s(["goal","target","retirement","savings","progress","milestone"],t.s)
+B.brD=new A.bh("Setting a Goal","Define a target portfolio value and track your progress over time.",'Go to the Goals tab \u2192 tap the + button.\n\nConfigure:\n\u2022 Goal name (e.g. "Retirement fund")\n\u2022 Target amount and currency\n\u2022 Target date\n\u2022 Asset classes to include (Stocks, Cash, Property)\n\nThe goal tracks your progress each time you refresh prices or update your cash balance.',B.apm)
+B.alb=s(["goal","asset class","property","stocks","cash","net worth"],t.s)
+B.bqP=new A.bh("Goal Asset Classes","Choose which types of assets count toward a goal.",'When creating a goal you select which asset classes to include:\n\n\u2022 Stocks \u2014 all your owned stock positions (in the goal\'s currency)\n\u2022 Cash \u2014 your logged cash/liquidity balance\n\u2022 Property \u2014 a manual property value you enter on the goal\n\nThis lets you create specific goals:\n\u2022 "Investment portfolio" \u2192 Stocks only\n\u2022 "Total net worth" \u2192 Stocks + Cash + Property\n\u2022 "Emergency fund" \u2192 Cash only',B.alb)
+B.ao8=s([B.brD,B.bqP],t.YG)
+B.bqs=new A.fQ("Goals",B.dO,B.p,B.ao8)
+B.EC=new A.W(1,0,0.7372549019607844,0.8313725490196079,B.t)
+B.apk=s(["import","CSV","OFX","QFX","upload","broker","file","transactions","Fidelity","Schwab"],t.s)
+B.brd=new A.bh("How to Import Transactions","Upload a CSV, OFX or QFX file from your broker to import all transactions at once.",'Go to the Portfolio tab \u2192 tap the Import button (upload icon, top right).\n\nSupported file formats:\n\u2022 CSV (.csv, .txt) \u2014 most brokers worldwide\n\u2022 OFX / QFX (.ofx, .qfx) \u2014 US brokers (Fidelity, Schwab, Vanguard, E*Trade, etc.)\n\nSteps:\n1. Tap "Select File" and pick a file from your device\n2. The app detects your broker and file format automatically\n3. A list of found transactions is shown \u2014 review them\n4. Select which transactions to import (all are ticked by default)\n5. Tap "Import All" or "Import Selected (N)"\n\nSupported platforms:\n\u2022 Web browser \u2014 pick a file from your computer\n\u2022 Android / iOS \u2014 pick from Files, Google Drive, iCloud, etc.\n\nFile size limit: 5 MB.',B.apk)
+B.akQ=s(["Avanza","Nordnet","Fidelity","NetBenefits","ESPP","RSU","stock plan","Schwab","Vanguard","E*Trade","OFX","QFX","broker","supported","auto-detect","US broker"],t.s)
+B.bqY=new A.bh("Supported Brokers & File Formats","Avanza, Nordnet, Fidelity Stock Plan (CSV) and all major US brokers via OFX/QFX are auto-detected.",'The app currently auto-detects the following formats:\n\n\ud83c\uddf8\ud83c\uddea Avanza (CSV)\nGo to Transactions \u2192 Export \u2192 Download as CSV\n\n\ud83c\uddf8\ud83c\uddea Nordnet (CSV)\nGo to Transactions and notes (Transaktioner och notor) \u2192 set date range \u2192 Export\n\n\ud83c\uddfa\ud83c\uddf8 Fidelity Stock Plan / NetBenefits (CSV)\nFor ESPP/RSU accounts. Log in to NetBenefits \u2192 stock plan account \u2192 Transaction history \u2192 Download CSV. Buys, sells, reinvestments and dividends are imported; share deposits without a price (e.g. RSU conversions at $0.00) are skipped \u2014 add those manually with their real cost basis. Dividends import gross (withholding tax rows are not deducted).\n\n\ud83c\uddfa\ud83c\uddf8 US brokers \u2014 OFX / QFX format\nWorks with Fidelity brokerage, Schwab, Vanguard, E*Trade, TD Ameritrade and others.\nGo to your broker \u2192 Transaction History \u2192 Download \u2192 choose OFX or QFX.\n\nWhen a supported format is detected:\n\u2022 No column mapping is needed \u2014 it just works\n\u2022 Tickers are read directly from the file (OFX), resolved via ISIN (Avanza, Nordnet), or matched by name search (Fidelity Stock Plan)\n\nFor any other broker that exports CSV, use the Generic Mapper (see "Using a Different Broker").',B.akQ)
+B.ant=s(["generic","mapper","column mapping","manual","custom broker","unknown broker","CSV"],t.s)
+B.br1=new A.bh("Using a Different Broker (Generic CSV Mapper)","Any broker's CSV can be imported by mapping columns manually \u2014 once.",'If your broker exports CSV but isn\'t auto-detected, tap the blue "Using a different broker?" banner, or tap "Map Columns Manually" after uploading the file.\n\nNote: OFX/QFX files from US brokers are always auto-detected and never need manual mapping.\n\nThe Column Mapper lets you tell the app which column is which:\n\u2022 Date column + date format (e.g. yyyy-MM-dd)\n\u2022 Quantity column\n\u2022 Transaction type (column or fixed value \u2014 buy/sell/dividend)\n\u2022 Stock identifier: Ticker, ISIN, or Name\n\u2022 Price: per-share or total amount\n\u2022 Currency: column or fixed (e.g. SEK)\n\nA live preview of the first rows helps you verify the mapping is correct.\n\nOnce set up, tap the bookmark icon to save the mapping as a template. Next time you upload a file from the same broker, the template is applied automatically.',B.ant)
+B.ao3=s(["template","save","reuse","auto-match","remember","broker template"],t.s)
+B.brw=new A.bh("Saving & Reusing Import Templates","Save your column mapping once \u2014 it's auto-applied next time.",'After configuring the column mapper for a broker, tap the bookmark icon in the top-right of the mapping screen.\n\nGive the template a name (e.g. "Nordnet SEK" or "DEGIRO EUR") and save.\n\nHow auto-matching works:\n\u2022 When you upload a new file, the app checks if the column headers match any saved template (50% overlap threshold)\n\u2022 If a match is found, the template is applied automatically \u2014 no re-mapping needed\n\u2022 If no match, you are taken to the mapper to configure it again\n\nTemplates are stored locally on your device.',B.ao3)
+B.aip=s(["select","checkbox","deselect","pick","rows","partial import"],t.s)
+B.bqO=new A.bh("Selecting Transactions Before Importing","Review and cherry-pick which rows to import \u2014 not all rows have to be imported.",'After the app parses the file, each transaction is shown as a row with a checkbox.\n\nBy default all rows are selected.\n\nTo deselect: tap a row or its checkbox.\nTo quickly select/deselect all: use the "Select all / Deselect all" button.\n\nThe import button shows exactly how many are selected:\n\u2022 "Import All (21)" \u2014 all rows selected\n\u2022 "Import Selected (7)" \u2014 partial selection\n\u2022 Greyed out \u2014 no rows selected\n\nThis works the same for both auto-detected brokers and the generic mapper.',B.aip)
+B.akj=s(["merge","duplicate","status","owned","sold","net shares","after import"],t.s)
+B.bqH=new A.bh("What Happens After Import","The app merges imported transactions with existing stocks and calculates P&L.","For each imported transaction, the app:\n\n1. Looks for an existing stock matching the ticker, ISIN, or name\n2. If found \u2014 merges the transaction into that stock (skips exact duplicates)\n3. If not found \u2014 creates a new stock automatically\n\nStock status is set automatically based on net shares:\n\u2022 Net shares > 0 \u2192 Owned\n\u2022 Net shares \u2264 0 (all sold) \u2192 Sold\n\u2022 Watching stocks stay Watching unless a buy is imported\n\nDuplicate detection:\nTransactions with the same date, type, quantity, and price are skipped. You can safely re-import the same file \u2014 no doubles will be created.\n\nTransactions are always sorted chronologically to ensure correct average cost calculations.",B.akj)
+B.ap7=s(["ISIN","ticker","resolve","OpenFIGI","symbol","lookup"],t.s)
+B.brM=new A.bh("ISIN Resolution","The app tries to find the ticker symbol for ISIN codes automatically.","Some broker exports use ISIN codes instead of ticker symbols (e.g. SE0000108656 instead of VOLCAR-A.ST).\n\nThe app resolves ISINs in two ways:\n\n1. Built-in table \u2014 30+ common Swedish, Nordic, and US stocks resolved instantly, no internet needed\n2. OpenFIGI API \u2014 free, covers global ISINs; used on mobile and desktop (not on web due to browser security restrictions)\n\nIf an ISIN cannot be resolved:\n\u2022 On mobile/desktop \u2014 a prompt asks you to enter the ticker manually\n\u2022 On web \u2014 falls back to using the company name from the CSV\n\nYou can always edit the stock afterwards to update the ticker symbol.",B.ap7)
+B.apg=s(["date format","yyyy","MM","dd","European","US","date parsing"],t.s)
+B.brE=new A.bh("Supported Date Formats","The app recognises most common date formats used by brokers worldwide.","The mapper tries your selected date format first, then falls back through:\n\n\u2022 yyyy-MM-dd \u2014 ISO 8601 (e.g. 2024-05-12) \u2014 most common modern export\n\u2022 yyyy/MM/dd \u2014 ISO with slashes (e.g. 2024/05/12)\n\u2022 dd.MM.yyyy \u2014 European with dots (e.g. 12.05.2024)\n\u2022 dd/MM/yyyy \u2014 European with slashes (e.g. 12/05/2024)\n\u2022 MM/dd/yyyy \u2014 US format (e.g. 05/12/2024)\n\u2022 d/M/yyyy \u2014 European short (e.g. 5/1/2024)\n\u2022 M/d/yyyy \u2014 US short (e.g. 1/5/2024)\n\nIf none match, the row is skipped with no error.",B.apg)
+B.aox=s(["number format","decimal","comma","dot","European","US","currency symbol"],t.s)
+B.brc=new A.bh("Supported Number Formats","Both European (1.234,56) and US (1,234.56) decimal formats are handled.","The app auto-detects whether commas or dots are used as decimal separators:\n\n\u2022 US format: 1,234.56 (comma = thousands, dot = decimal)\n\u2022 European format: 1.234,56 (dot = thousands, comma = decimal)\n\u2022 Simple decimal: 1234.56 or 1234,56\n\nCurrency symbols (kr, $, \u20ac, \xa3) and extra spaces are stripped automatically.\n\nThe rule: whichever separator (comma or dot) appears last in the number is treated as the decimal separator.",B.aox)
+B.amN=s([B.brd,B.bqY,B.br1,B.brw,B.bqO,B.bqH,B.brM,B.brE,B.brc],t.YG)
+B.bqC=new A.fQ("Importing Transactions",B.nL,B.EC,B.amN)
+B.adx=new A.ao(62318,"MaterialIcons",!1)
+B.anQ=s(["export","download","backup","JSON","data","GDPR"],t.s)
+B.bri=new A.bh("Export My Data","Download all your stocks and journal entries as a JSON file.","Go to Settings \u2192 Export My Data.\n\nThe export includes:\n\u2022 All stocks (owned, watching, sold)\n\u2022 All transactions per stock\n\u2022 All journal entries\n\nFormat: JSON (readable by any text editor or spreadsheet app).\n\nUse this to back up your data or migrate to another tool.",B.anQ)
+B.aoo=s(["delete","account","remove","GDPR","right to erasure","close account"],t.s)
+B.bs6=new A.bh("Delete Account","Permanently deletes all your data and your account. Cannot be undone.","Go to Settings \u2192 Danger Zone \u2192 Delete My Account.\n\nType DELETE to confirm.\n\nThis permanently removes:\n\u2022 All stocks and transactions\n\u2022 All journal entries\n\u2022 All snapshots\n\u2022 Your login credentials\n\n\u26a0 There is no undo. Export your data first if you want to keep a copy.",B.aoo)
+B.ak3=s(["journal","notes","diary","log","write","record"],t.s)
+B.bra=new A.bh("Journal","Attach notes, thoughts, and records to individual stocks.","Open any stock \u2192 tap the Journal button.\n\nUse the journal to:\n\u2022 Record why you bought or sold\n\u2022 Log news or events affecting the stock\n\u2022 Track your investment thesis over time\n\u2022 Note your emotional state at the time (useful for behaviour analysis)\n\nEntries are stored per stock and included in the data export.",B.ak3)
+B.ajq=s(["share","certificate","social","milestone","image"],t.s)
+B.bs8=new A.bh("Share Certificate","Generate a visual certificate for a stock position to share.","Open a stock detail screen \u2192 tap Share Certificate.\n\nGenerates a stylised image showing:\n\u2022 Stock name and symbol\n\u2022 Number of shares held\n\u2022 Your average purchase price\n\u2022 Current value\n\nUseful for sharing investment milestones on social media.",B.ajq)
+B.alA=s(["accessibility","voiceover","talkback","screen reader","a11y","blind","font size","disability"],t.s)
+B.brl=new A.bh("Accessibility","Portfolio Keeper supports VoiceOver (iOS) and TalkBack (Android) screen readers.",'Portfolio Keeper is built with screen reader support in mind.\n\nScreen reader support:\n\u2022 All buttons have descriptive labels read aloud by VoiceOver (iOS) and TalkBack (Android)\n\u2022 Charts are labelled with their purpose (e.g. "Equity curve chart", "Goal progress chart")\n\u2022 All text fields, lists, and interactive elements are navigable by keyboard or switch access\n\nTo enable a screen reader:\n\u2022 iOS: Settings \u2192 Accessibility \u2192 VoiceOver\n\u2022 Android: Settings \u2192 Accessibility \u2192 TalkBack\n\nFont size:\nThe app respects your system font size setting. Increase it in:\n\u2022 iOS: Settings \u2192 Display & Brightness \u2192 Text Size\n\u2022 Android: Settings \u2192 Accessibility \u2192 Font Size\n\nIf you encounter any accessibility issue, use the Contact form in Settings to report it.',B.alA)
+B.aoy=s([B.bri,B.bs6,B.bra,B.bs8,B.brl],t.YG)
+B.bqt=new A.fQ("Settings & Data",B.adx,B.j,B.aoy)
+B.adc=new A.ao(61345,"MaterialIcons",!1)
+B.El=new A.W(1,0.14901960784313725,0.7764705882352941,0.8549019607843137,B.t)
+B.anv=s(["board","public","feed","sold","trades","share","community"],t.s)
+B.bsk=new A.bh("What is the Board?","A public feed where you can share sold positions and see what other investors closed.","The Board is a community feed of completed trades. When you share a sold position it appears on the Board so other members can see your trade \u2014 symbol, direction, gain/loss, and how long you held it.\n\nThe Board is read-only to everyone: no likes, no comments. It is purely a record of real trades that members chose to make public.\n\nWhere to find it: tap the Board tab in the main navigation.",B.anv)
+B.aoK=s(["share","board","sold","publish","public","post"],t.s)
+B.brG=new A.bh("Sharing a Sold Position to the Board",'Open any sold stock and tap "Share to Board" to publish the trade.','Only sold positions can be shared \u2014 you must have fully closed the position first.\n\nHow to share:\n1. Open a stock that has status "Sold"\n2. Tap the "Share to Board" button in the detail screen\n3. Confirm \u2014 the trade is immediately visible to all users\n\nWhat is shown on the Board:\n\u2022 Stock symbol and name\n\u2022 Whether it was a gain or loss (% return)\n\u2022 Holding period (how long you held it)\n\u2022 The date it was shared\n\nWhat is NOT shown: your exact buy/sell prices, the number of shares, or the total value. The Board shows performance, not position size.',B.aoK)
+B.amU=s(["revoke","remove","board","unshare","delete","take down"],t.s)
+B.brf=new A.bh("Revoking a Board Share","Remove a shared trade from the Board at any time from the stock detail screen.",'You can remove your trade from the Board at any time.\n\nHow to revoke:\n1. Open the sold stock you previously shared\n2. Tap "Remove from Board" (appears where "Share to Board" was)\n3. Confirm \u2014 the trade is removed immediately\n\nRevoking has no effect on your local data \u2014 it only removes the public Board entry. Your transaction history and P&L remain unchanged.',B.amU)
+B.akv=s(["privacy","board","anonymous","public","private","data","exposure"],t.s)
+B.brg=new A.bh("Board Privacy","Only the trade result is public \u2014 your portfolio, prices, and identity are not exposed.",'The Board is designed to be informative without exposing sensitive financial details.\n\nWhat is public:\n\u2022 Stock symbol and name\n\u2022 Return % (gain or loss)\n\u2022 Holding duration\n\nWhat stays private:\n\u2022 Your exact buy and sell prices\n\u2022 Number of shares or total value\n\u2022 Your username or account name (trades are anonymous on the feed)\n\u2022 Your overall portfolio\n\nYou are always in control \u2014 nothing is shared unless you explicitly tap "Share to Board".',B.akv)
+B.anH=s([B.bsk,B.brG,B.brf,B.brg],t.YG)
+B.bqF=new A.fQ("Board",B.adc,B.El,B.anH)
+B.amn=s(["prediction","predict","forecast","call","bullish","bearish","target"],t.s)
+B.brF=new A.bh("What are Predictions?","Make a public price call on any stock \u2014 bullish or bearish \u2014 with a target and deadline.","Predictions let you put your analysis on record. You pick a stock, say whether you think it will go up (Bullish) or down (Bearish), set a target price, and give it a deadline. At the deadline the app checks the outcome automatically.\n\nPredictions are visible to other users, so they encourage thoughtful, evidence-based calls rather than speculation.\n\nWhere to find it: Analysis \u2192 Predictions tab.",B.amn)
+B.ajH=s(["prediction","make","create","bullish","bearish","target","deadline","note"],t.s)
+B.brS=new A.bh("Making a Prediction","Tap + in the Predictions tab, search for a stock, set direction, target price, and deadline.",'How to make a prediction:\n1. Go to Analysis \u2192 Predictions tab\n2. Tap the + button\n3. Search for a stock by name or ticker\n4. Choose direction: Bullish (price goes up) or Bearish (price goes down)\n5. Set a target price\n6. Set a deadline date\n7. Optionally add a note explaining your reasoning\n\nRequirements:\n\u2022 The deadline must be at least 14 days in the future \u2014 short-term guesses do not count as "qualifying hits" for Community access (see below)\n\u2022 You can have multiple active predictions at the same time',B.ajH)
+B.apy=s(["resolved","won","lost","outcome","automatic","check","deadline","verdict"],t.s)
+B.brL=new A.bh("How Predictions Are Resolved","The app checks your target price automatically each day and marks the outcome at deadline.","Each active prediction is checked automatically once per day by a background job.\n\nA prediction is marked Won if:\n\u2022 Bullish: the live price reaches or exceeds your target before the deadline\n\u2022 Bearish: the live price falls to or below your target before the deadline\n\nAt the deadline, any unresolved prediction is marked Lost \u2014 the target was not reached in time.\n\nOnce resolved, the outcome is permanent and visible on your prediction history.",B.apy)
+B.alJ=s(["qualifying hit","hits","threshold","14 day","community","access","gate"],t.s)
+B.brn=new A.bh("Qualifying Hits \u2014 What They Are",'A prediction counts as a "qualifying hit" only if it has a 14-day+ timeline and you win it.','Not every correct prediction counts equally. A "qualifying hit" is a prediction that:\n\n\u2022 Has a deadline at least 14 days from when it was made \u2014 this filters out trivial short-term calls\n\u2022 Resolves as Won\n\nQualifying hits matter because they are the key to accessing the Community Portfolio feature. You need at least 3 qualifying hits to participate.\n\nYour qualifying hit count is shown in the Predictions tab. Predictions that are still open do not count yet \u2014 only resolved wins with a 14-day+ timeline count.',B.alJ)
+B.aoM=s(["history","stats","win rate","predictions","track record","record"],t.s)
+B.bse=new A.bh("Prediction History & Stats","Track your win rate, total predictions, and qualifying hit count over time.","The Predictions tab shows:\n\n\u2022 Active predictions \u2014 currently running, with current price vs target\n\u2022 Past predictions \u2014 resolved as Won or Lost, with outcome date\n\u2022 Summary stats: total predictions, wins, losses, win rate %, qualifying hits\n\nStats are public in the sense that other users can see your qualifying hit count (used as vote weight in Community Investing). The full prediction history is only visible to you.",B.aoM)
+B.aka=s([B.brF,B.brS,B.brL,B.brn,B.bse],t.YG)
+B.bqy=new A.fQ("Predictions",B.fh,B.L,B.aka)
+B.adm=new A.ao(61659,"MaterialIcons",!1)
+B.ak9=s(["community","investing","portfolio","paper","collective","shared","vote"],t.s)
+B.bqV=new A.bh("What is Community Investing?","A shared paper portfolio where members vote on which stocks to hold \u2014 and the portfolio tracks real price movements.","Community Investing is a collective portfolio run entirely by the members.\n\nHere's how it works:\n\u2022 Any qualifying member can propose a stock to add (bullish) or short (bearish)\n\u2022 Members vote on each proposal \u2014 the highest-voted proposals that cross the threshold are approved\n\u2022 Approved proposals become live positions in the Community Portfolio\n\u2022 Each position tracks real price movement until the target, stop, or deadline is reached\n\u2022 When a position closes, it is recorded as a Win or Loss for the Community\n\nThe Community Portfolio is paper-only \u2014 no real money is involved. It is a live arena for testing your market thesis against the crowd.",B.ak9)
+B.amS=s(["membership","gate","qualify","access","unlock","predictions","3 hits","threshold"],t.s)
+B.bsf=new A.bh("How to Join \u2014 The Membership Gate","You need at least 3 qualifying prediction hits (14-day+ timeline) to participate.","Participation in Community Investing is gated on prediction track record. This ensures that only users with a demonstrated ability to make reasoned market calls can influence the Community Portfolio.\n\nTo unlock Community Investing:\n\u2022 Make predictions in the Predictions tab (Analysis \u2192 Predictions)\n\u2022 Use deadlines of at least 14 days\n\u2022 Win at least 3 of them\n\nYour qualifying hit count is shown in the Community tab \u2014 you can watch your progress toward the 3-hit threshold.\n\nOnce you reach 3, the full feature unlocks: proposing, voting, and removal motions.",B.amS)
+B.am9=s(["proposal","propose","suggest","add","bullish","bearish","target","stop","note"],t.s)
+B.brR=new A.bh("Proposals \u2014 Suggesting a Stock","Search for a stock, set direction, target, stop, and deadline to put it to a community vote.","How to submit a proposal:\n1. Go to Community \u2192 Investing \u2192 Proposals tab\n2. Tap the + button\n3. Search for a stock (same search as the main portfolio)\n4. Choose direction: Bullish (buy) or Bearish (short)\n5. Set a target price \u2014 where you expect the price to go\n6. Set a stop price \u2014 the risk level you're comfortable with\n7. Set a deadline date\n8. Optionally add a note explaining your thesis\n\nThe proposal goes live immediately and is visible to all members.\n\nRules:\n\u2022 Only one open proposal per stock at a time\n\u2022 You can retract your own proposal if it has received zero votes",B.am9)
+B.akO=s(["vote","voting","weight","yes","no","approve","proposal","track record","qualifying hits"],t.s)
+B.brO=new A.bh("Voting on Proposals","Vote Yes or No on any open proposal. Your vote weight equals your qualifying hit count (max 25).","Every qualifying member can vote on open proposals.\n\nVote weight:\nYour vote is not equal to everyone else's \u2014 it is weighted by your qualifying hit count. A member with 10 qualifying hits has more influence than one with 3. The maximum weight is capped at 25 to prevent any single user from dominating.\n\nLink to stats:\nWhen voting Yes, you can optionally link the vote to your prediction stats. This publicly shows that you backed the proposal with your track record.\n\nVotes are permanent \u2014 you cannot change your vote after casting it.\n\nOnce approved, the proposal becomes a live position automatically. Proposals that do not reach the threshold before their deadline close without becoming positions.",B.akO)
+B.ap4=s(["position","active","closed","entry price","target","stop","P&L","win","loss"],t.s)
+B.bru=new A.bh("Community Portfolio Positions","Approved proposals become live positions tracked against real market prices.","When a proposal is approved by vote, it becomes an active position in the Community Portfolio.\n\nA position tracks:\n\u2022 Entry price \u2014 the market price at the moment the proposal was approved\n\u2022 Current price \u2014 updated live each time prices are refreshed\n\u2022 Target and Stop prices \u2014 set by the original proposer\n\u2022 P&L % \u2014 how far the price has moved toward or away from target\n\u2022 Deadline \u2014 when the position must close if neither target nor stop is hit\n\nA position closes automatically when:\n\u2022 Target hit \u2192 WIN\n\u2022 Stop hit \u2192 LOSS\n\u2022 Deadline reached \u2192 verdict based on whether price moved toward target\n\u2022 Removal vote passed \u2192 closed early\n\nPositions tab shows all active and closed positions.",B.ap4)
+B.al5=s(["removal","remove","close early","motion","vote","ballot","65%","position"],t.s)
+B.bre=new A.bh("Removal Votes \u2014 Closing a Position Early","Any member can propose to close an active position early. The community votes by weighted ballot.",'Sometimes a position may no longer make sense \u2014 the thesis changed, news broke, or the trade is clearly going wrong. Any qualifying member can start a removal motion.\n\nHow it works:\n1. Tap "Motion to close early" on an active position card\n2. Provide a reason (optional but encouraged)\n3. The motion opens for a 7-day weighted vote\n4. If 65% of weighted votes are "Yes, remove" \u2192 position closes immediately as a Loss\n5. If the motion fails or expires \u2192 position continues as normal\n\nRules:\n\u2022 Only one open removal motion per position at a time\n\u2022 The proposer can retract the motion before any ballots are cast\n\u2022 Your ballot weight is the same as your proposal vote weight',B.al5)
+B.aoE=s(["linked","prediction","link","resolve","yes","vote","stats","community"],t.s)
+B.bs4=new A.bh("Linked Predictions","Voting Yes on a proposal and linking to stats automatically resolves a matching open prediction.","If you have an active prediction for the same stock and direction, you can link your \"Yes\" vote to that prediction.\n\nWhat linking does:\n\u2022 When the community position closes, any linked prediction on the same stock and direction is resolved using the position's outcome \u2014 no need to wait for your prediction's own deadline\n\u2022 A WIN on the community position \u2192 your linked prediction also resolves as Won\n\u2022 A LOSS on the community position \u2192 your linked prediction resolves as Lost\n\nThis is optional. You can vote Yes without linking. Linking is only available on a Yes vote \u2014 a No vote means you do not believe in the trade.",B.aoE)
+B.apw=s(["report","flag","spam","inappropriate","misleading","harassment","moderate","content"],t.s)
+B.brQ=new A.bh("Reporting Content","Use the ... menu on any proposal or removal motion to report spam, misleading content, or harassment.",'Community Investing involves free-text notes on proposals and removal motions. If you see content that violates community standards, you can report it.\n\nHow to report:\n1. Tap the \u2022\u2022\u2022 (more) menu on a proposal card or position card\n2. Tap "Report"\n3. Choose a reason: Spam, Inappropriate, Misleading, Harassment, or Other\n4. Optionally add details (up to 200 characters)\n5. Tap Submit Report\n\nReports are sent directly to the app team for review. You can only report each item once. Reports are anonymous \u2014 other users cannot see that you reported.',B.apw)
+B.akl=s([B.bqV,B.bsf,B.brR,B.brO,B.bru,B.bre,B.bs4,B.brQ],t.YG)
+B.bqz=new A.fQ("Community Investing",B.adm,B.p,B.akl)
+B.Id=s([B.bqu,B.bqw,B.bqv,B.bqq,B.bqr,B.bqB,B.bqp,B.bqE,B.bqD,B.bqo,B.bqA,B.bqx,B.bqs,B.bqC,B.bqt,B.bqF,B.bqy,B.bqz],A.aB("N<fQ>"))
+B.ao4=s([47,47,47,47,72,97,122,147],t.Y)
 B.a5a=new A.W(1,1,0.6274509803921569,0.47843137254901963,B.t)
 B.a61=new A.W(1,0.596078431372549,0.984313725490196,0.596078431372549,B.t)
 B.Ie=s([B.f8,B.fH,B.mU,B.i5,B.f7,B.pS,B.f5,B.pX,B.a5a,B.a61],t.E)
@@ -189013,7 +189019,7 @@ B.aed=new A.aq(B.im,14,B.j,null,null)
 B.akE=s([B.bfV,B.N,B.aed],t.p)
 B.b2J=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.akE,null)
 B.a8D=new A.ff("paper",B.b2J,B.dq,null,t.b7)
-B.aoa=s([B.a8E,B.a8C,B.a8A,B.a8D],t.FG)
+B.ao9=s([B.a8E,B.a8C,B.a8A,B.a8D],t.FG)
 B.adL=new A.ao(62764,"MaterialIcons",!1)
 B.bu0=new A.qR(B.adL,B.m,"Your Portfolio & Watchlist","Three lists, one place:\n\n\u2022 Portfolio \u2014 stocks you currently own\n\u2022 Watching \u2014 stocks on your radar, not yet bought\n\u2022 Sold \u2014 your full history with realised gains\n\nTap + on any tab to add a stock. Tap \u21bb to refresh all prices at once.","assets/screenshots/portfolio.png")
 B.bu_=new A.qR(B.GQ,B.cT,"See your real P&L \u2014 instantly","Enter what you paid per share and the app does the rest.\n\nYour profit or loss, gain in percent, and total return are always up to date with the live price.\n\nBought the same stock multiple times? Each purchase is tracked separately \u2014 your average cost is calculated automatically.\n\nSell a position and the realised gain moves to your Sold tab, permanently preserved.","assets/screenshots/portfolio_summary.png")
@@ -189027,7 +189033,7 @@ B.btW=new A.qR(B.r3,B.T,"Powerful analysis, zero setup","The Analysis tab does t
 B.a6K=new A.W(1,0.8509803921568627,0,0.3686274509803922,B.t)
 B.btY=new A.qR(B.dO,B.a6K,"Goals & Alerts","Two ways to stay on track:\n\nGoals \u2014 set a target portfolio value. The app tracks your progress and shows how close you are over time.\n\nAlert price \u2014 set a price level on any stock and the app flags it the moment the stock crosses that level.\n\nTarget price \u2014 set where you want a stock to go. The app always shows how far away it is as a percentage.","assets/screenshots/analysis_tab_3.png")
 B.btX=new A.qR(B.r6,B.cT,"You're all set!","The full App Guide is always one tap away.\n\nGo to Settings \u2192 Feature Guide & Glossary for a searchable reference covering every metric, formula, and feature \u2014 from P/E ratio to Value at Risk.\n\nYou can also relaunch this guide any time from the bottom of that screen.\n\nWelcome to Portfolio Keeper.",null)
-B.aob=s([B.bu0,B.bu_,B.bu2,B.bu1,B.btZ,B.btW,B.btY,B.btX],A.aB("N<qR>"))
+B.aoa=s([B.bu0,B.bu_,B.bu2,B.bu1,B.btZ,B.btW,B.btY,B.btX],A.aB("N<qR>"))
 B.nX=s([B.j_,B.eh,B.pj,B.pk,B.v4],t.QP)
 B.bpC=new A.i4("US","\ud83c\uddfa\ud83c\uddf8","",null,null)
 B.bpB=new A.i4("Stockholm","\ud83c\uddf8\ud83c\uddea",".ST","SE","sv-SE")
@@ -189046,7 +189052,7 @@ B.bq_=new A.i4("Australia","\ud83c\udde6\ud83c\uddfa",".AX","AU","en-AU")
 B.bpO=new A.i4("Tokyo","\ud83c\uddef\ud83c\uddf5",".T","JP","ja-JP")
 B.bpH=new A.i4("Hong Kong","\ud83c\udded\ud83c\uddf0",".HK","HK","zh-HK")
 B.If=s([B.bpC,B.bpB,B.bpJ,B.bpX,B.bq5,B.bpE,B.bpS,B.bpP,B.bpG,B.bpT,B.bq2,B.bq1,B.bpL,B.bq_,B.bpO,B.bpH],A.aB("N<i4>"))
-B.aod=s(["-//w3c//dtd xhtml 1.0 frameset//","-//w3c//dtd xhtml 1.0 transitional//"],t.s)
+B.aoc=s(["-//w3c//dtd xhtml 1.0 frameset//","-//w3c//dtd xhtml 1.0 transitional//"],t.s)
 B.bpz=new A.LZ(B.xP,"No active positions","Approved proposals become positions here. Vote on proposals to get started.",null)
 B.aoh=s([B.h4,B.bpz],t.p)
 B.aeJ=new A.aq(B.xS,15,B.m,null,null)
@@ -191442,7 +191448,7 @@ B.ak0=s([B.a1Q,B.a22,B.a1L],t.G)
 B.a1K=new A.co(-2,B.aE,B.fG,B.iF,3)
 B.a1N=new A.co(0,B.aE,B.fI,B.iF,4)
 B.a2c=new A.co(0,B.aE,B.f6,B.fq,8)
-B.anT=s([B.a1K,B.a1N,B.a2c],t.G)
+B.anS=s([B.a1K,B.a1N,B.a2c],t.G)
 B.a1P=new A.co(-1,B.aE,B.fG,B.ot,4)
 B.ou=new A.y(0,4)
 B.a1Z=new A.co(0,B.aE,B.fI,B.ou,5)
@@ -191480,8 +191486,8 @@ B.a1O=new A.co(-7,B.aE,B.fG,B.aX3,15)
 B.aX7=new A.y(0,24)
 B.a27=new A.co(3,B.aE,B.fI,B.aX7,38)
 B.a20=new A.co(8,B.aE,B.f6,B.Rz,46)
-B.alH=s([B.a1O,B.a27,B.a20],t.G)
-B.atm=new A.b([0,B.lh,1,B.aog,2,B.ak0,3,B.anT,4,B.aiE,6,B.akw,8,B.aj6,9,B.ajt,12,B.akX,16,B.akW,24,B.alH],A.aB("b<f,S<co>>"))
+B.alG=s([B.a1O,B.a27,B.a20],t.G)
+B.atm=new A.b([0,B.lh,1,B.aog,2,B.ak0,3,B.anS,4,B.aiE,6,B.akw,8,B.aj6,9,B.ajt,12,B.akX,16,B.akW,24,B.alG],A.aB("b<f,S<co>>"))
 B.fS=new A.P(4294968065)
 B.AU=new A.bn(B.fS,!1,!1,!0,!1,B.ag)
 B.AR=new A.bn(B.eQ,!1,!1,!0,!1,B.ag)
@@ -191955,9 +191961,9 @@ B.b3D=new A.jA(B.fD,B.tw)
 B.AA=new A.jA(B.bA,B.oB)
 B.azD=new A.b([B.tM,B.a3Q,B.oH,B.Ds,B.b5k,B.Ds,B.XC,B.Dt,B.XD,B.vv,B.Xq,B.Dz,B.m2,B.b3C,B.m3,B.b3B,B.oN,B.b3E,B.oO,B.b3D,B.oG,B.AA,B.oK,B.tx],t.Fp)
 B.aWf={li:0,dt:1,dd:2}
-B.ao7=s(["li"],t.s)
-B.I5=s(["dt","dd"],t.s)
-B.azL=new A.aL(B.aWf,[B.ao7,B.I5,B.I5],t.AI)
+B.ao6=s(["li"],t.s)
+B.I4=s(["dt","dd"],t.s)
+B.azL=new A.aL(B.aWf,[B.ao6,B.I4,B.I4],t.AI)
 B.aWO={interval:0,range:1}
 B.azO=new A.aL(B.aWO,["1d","1d"],t.o)
 B.aWw={"123":0,"3dml":1,"3ds":2,"3g2":3,"3gp":4,"7z":5,aab:6,aac:7,aam:8,aas:9,abw:10,ac:11,acc:12,ace:13,acu:14,acutc:15,adp:16,aep:17,afm:18,afp:19,ahead:20,ai:21,aif:22,aifc:23,aiff:24,air:25,ait:26,ami:27,apk:28,appcache:29,application:30,apr:31,arc:32,asc:33,asf:34,asm:35,aso:36,asx:37,atc:38,atom:39,atomcat:40,atomsvc:41,atx:42,au:43,avi:44,avif:45,aw:46,azf:47,azs:48,azw:49,bat:50,bcpio:51,bdf:52,bdm:53,bed:54,bh2:55,bin:56,blb:57,blorb:58,bmi:59,bmp:60,book:61,box:62,boz:63,bpk:64,btif:65,bz:66,bz2:67,c:68,c11amc:69,c11amz:70,c4d:71,c4f:72,c4g:73,c4p:74,c4u:75,cab:76,caf:77,cap:78,car:79,cat:80,cb7:81,cba:82,cbr:83,cbt:84,cbz:85,cc:86,cct:87,ccxml:88,cdbcmsg:89,cdf:90,cdkey:91,cdmia:92,cdmic:93,cdmid:94,cdmio:95,cdmiq:96,cdx:97,cdxml:98,cdy:99,cer:100,cfs:101,cgm:102,chat:103,chm:104,chrt:105,cif:106,cii:107,cil:108,cla:109,class:110,clkk:111,clkp:112,clkt:113,clkw:114,clkx:115,clp:116,cmc:117,cmdf:118,cml:119,cmp:120,cmx:121,cod:122,com:123,conf:124,cpio:125,cpp:126,cpt:127,crd:128,crl:129,crt:130,cryptonote:131,csh:132,csml:133,csp:134,css:135,cst:136,csv:137,cu:138,curl:139,cww:140,cxt:141,cxx:142,dae:143,daf:144,dart:145,dataless:146,davmount:147,dbk:148,dcm:149,dcr:150,dcurl:151,dd2:152,ddd:153,deb:154,def:155,deploy:156,der:157,dfac:158,dgc:159,dic:160,dir:161,dis:162,dist:163,distz:164,djv:165,djvu:166,dll:167,dmg:168,dmp:169,dms:170,dna:171,doc:172,docm:173,docx:174,dot:175,dotm:176,dotx:177,dp:178,dpg:179,dra:180,dsc:181,dssc:182,dtb:183,dtd:184,dts:185,dtshd:186,dump:187,dvb:188,dvi:189,dwf:190,dwg:191,dxf:192,dxp:193,dxr:194,ecelp4800:195,ecelp7470:196,ecelp9600:197,ecma:198,edm:199,edx:200,efif:201,ei6:202,elc:203,emf:204,eml:205,emma:206,emz:207,eol:208,eot:209,eps:210,epub:211,es3:212,esa:213,esf:214,et3:215,etx:216,eva:217,evy:218,exe:219,exi:220,ext:221,ez:222,ez2:223,ez3:224,f:225,f4v:226,f77:227,f90:228,fbs:229,fcdt:230,fcs:231,fdf:232,fe_launch:233,fg5:234,fgd:235,fh:236,fh4:237,fh5:238,fh7:239,fhc:240,fig:241,flac:242,fli:243,flo:244,flv:245,flw:246,flx:247,fly:248,fm:249,fnc:250,for:251,fpx:252,frame:253,fsc:254,fst:255,ftc:256,fti:257,fvt:258,fxp:259,fxpl:260,fzs:261,g2w:262,g3:263,g3w:264,gac:265,gam:266,gbr:267,gca:268,gdl:269,geo:270,gex:271,ggb:272,ggt:273,ghf:274,gif:275,gim:276,glb:277,gltf:278,gml:279,gmx:280,gnumeric:281,gph:282,gpx:283,gqf:284,gqs:285,gram:286,gramps:287,gre:288,grv:289,grxml:290,gsf:291,gtar:292,gtm:293,gtw:294,gv:295,gxf:296,gxt:297,h:298,h261:299,h263:300,h264:301,hal:302,hbci:303,hdf:304,heic:305,heif:306,hh:307,hlp:308,hpgl:309,hpid:310,hps:311,hqx:312,htke:313,htm:314,html:315,hvd:316,hvp:317,hvs:318,i2g:319,icc:320,ice:321,icm:322,ico:323,ics:324,ief:325,ifb:326,ifm:327,iges:328,igl:329,igm:330,igs:331,igx:332,iif:333,imp:334,ims:335,in:336,ink:337,inkml:338,install:339,iota:340,ipfix:341,ipk:342,irm:343,irp:344,iso:345,itp:346,ivp:347,ivu:348,jad:349,jam:350,jar:351,java:352,jisp:353,jlt:354,jnlp:355,joda:356,jpe:357,jpeg:358,jpg:359,jpgm:360,jpgv:361,jpm:362,js:363,json:364,jsonml:365,kar:366,karbon:367,kfo:368,kia:369,kml:370,kmz:371,kne:372,knp:373,kon:374,kpr:375,kpt:376,kpxx:377,ksp:378,ktr:379,ktx:380,ktz:381,kwd:382,kwt:383,lasxml:384,latex:385,lbd:386,lbe:387,les:388,lha:389,link66:390,list:391,list3820:392,listafp:393,lnk:394,log:395,lostxml:396,lrf:397,lrm:398,ltf:399,lvp:400,lwp:401,lzh:402,m13:403,m14:404,m1v:405,m21:406,m2a:407,m2v:408,m3a:409,m3u:410,m3u8:411,m4a:412,m4b:413,m4u:414,m4v:415,ma:416,mads:417,mag:418,maker:419,man:420,mar:421,mathml:422,mb:423,mbk:424,mbox:425,mc1:426,mcd:427,mcurl:428,md:429,markdown:430,mdb:431,mdi:432,me:433,mesh:434,meta4:435,metalink:436,mets:437,mfm:438,mft:439,mgp:440,mgz:441,mid:442,midi:443,mie:444,mif:445,mime:446,mj2:447,mjp2:448,mjs:449,mk3d:450,mka:451,mks:452,mkv:453,mlp:454,mmd:455,mmf:456,mmr:457,mng:458,mny:459,mobi:460,mods:461,mov:462,movie:463,mp2:464,mp21:465,mp2a:466,mp3:467,mp4:468,mp4a:469,mp4s:470,mp4v:471,mpc:472,mpe:473,mpeg:474,mpg:475,mpg4:476,mpga:477,mpkg:478,mpm:479,mpn:480,mpp:481,mpt:482,mpy:483,mqy:484,mrc:485,mrcx:486,ms:487,mscml:488,mseed:489,mseq:490,msf:491,msh:492,msi:493,msl:494,msty:495,mts:496,mus:497,musicxml:498,mvb:499,mwf:500,mxf:501,mxl:502,mxml:503,mxs:504,mxu:505,"n-gage":506,n3:507,nb:508,nbp:509,nc:510,ncx:511,nfo:512,ngdat:513,nitf:514,nlu:515,nml:516,nnd:517,nns:518,nnw:519,npx:520,nsc:521,nsf:522,ntf:523,nzb:524,oa2:525,oa3:526,oas:527,obd:528,obj:529,oda:530,odb:531,odc:532,odf:533,odft:534,odg:535,odi:536,odm:537,odp:538,ods:539,odt:540,oga:541,ogg:542,ogv:543,ogx:544,omdoc:545,onepkg:546,onetmp:547,onetoc:548,onetoc2:549,opf:550,opml:551,oprc:552,org:553,osf:554,osfpvg:555,otc:556,otf:557,otg:558,oth:559,oti:560,otp:561,ots:562,ott:563,oxps:564,oxt:565,p:566,p10:567,p12:568,p7b:569,p7c:570,p7m:571,p7r:572,p7s:573,p8:574,pas:575,paw:576,pbd:577,pbm:578,pcap:579,pcf:580,pcl:581,pclxl:582,pct:583,pcurl:584,pcx:585,pdb:586,pdf:587,pfa:588,pfb:589,pfm:590,pfr:591,pfx:592,pgm:593,pgn:594,pgp:595,pic:596,pkg:597,pki:598,pkipath:599,plb:600,plc:601,plf:602,pls:603,pml:604,png:605,pnm:606,portpkg:607,pot:608,potm:609,potx:610,ppam:611,ppd:612,ppm:613,pps:614,ppsm:615,ppsx:616,ppt:617,pptm:618,pptx:619,pqa:620,prc:621,pre:622,prf:623,ps:624,psb:625,psd:626,psf:627,pskcxml:628,ptid:629,pub:630,pvb:631,pwn:632,pya:633,pyv:634,qam:635,qbo:636,qfx:637,qps:638,qt:639,qwd:640,qwt:641,qxb:642,qxd:643,qxl:644,qxt:645,ra:646,ram:647,rar:648,ras:649,rcprofile:650,rdf:651,rdz:652,rep:653,res:654,rgb:655,rif:656,rip:657,ris:658,rl:659,rlc:660,rld:661,rm:662,rmi:663,rmp:664,rms:665,rmvb:666,rnc:667,roa:668,roff:669,rp9:670,rpss:671,rpst:672,rq:673,rs:674,rsd:675,rss:676,rtf:677,rtx:678,s:679,s3m:680,saf:681,sbml:682,sc:683,scd:684,scm:685,scq:686,scs:687,scurl:688,sda:689,sdc:690,sdd:691,sdkd:692,sdkm:693,sdp:694,sdw:695,see:696,seed:697,sema:698,semd:699,semf:700,ser:701,setpay:702,setreg:703,"sfd-hdstx":704,sfs:705,sfv:706,sgi:707,sgl:708,sgm:709,sgml:710,sh:711,shar:712,shf:713,sid:714,sig:715,sil:716,silo:717,sis:718,sisx:719,sit:720,sitx:721,skd:722,skm:723,skp:724,skt:725,sldm:726,sldx:727,slt:728,sm:729,smf:730,smi:731,smil:732,smv:733,smzip:734,snd:735,snf:736,so:737,spc:738,spf:739,spl:740,spot:741,spp:742,spq:743,spx:744,sql:745,src:746,srt:747,sru:748,srx:749,ssdl:750,sse:751,ssf:752,ssml:753,st:754,stc:755,std:756,stf:757,sti:758,stk:759,stl:760,str:761,stw:762,sub:763,sus:764,susp:765,sv4cpio:766,sv4crc:767,svc:768,svd:769,svg:770,svgz:771,swa:772,swf:773,swi:774,sxc:775,sxd:776,sxg:777,sxi:778,sxm:779,sxw:780,t:781,t3:782,taglet:783,tao:784,tar:785,tcap:786,tcl:787,teacher:788,tei:789,teicorpus:790,tex:791,texi:792,texinfo:793,text:794,tfi:795,tfm:796,tga:797,thmx:798,tif:799,tiff:800,tmo:801,toml:802,torrent:803,tpl:804,tpt:805,tr:806,tra:807,trm:808,tsd:809,tsv:810,ttc:811,ttf:812,ttl:813,twd:814,twds:815,txd:816,txf:817,txt:818,u32:819,udeb:820,ufd:821,ufdl:822,ulx:823,umj:824,unityweb:825,uoml:826,uri:827,uris:828,urls:829,ustar:830,utz:831,uu:832,uva:833,uvd:834,uvf:835,uvg:836,uvh:837,uvi:838,uvm:839,uvp:840,uvs:841,uvt:842,uvu:843,uvv:844,uvva:845,uvvd:846,uvvf:847,uvvg:848,uvvh:849,uvvi:850,uvvm:851,uvvp:852,uvvs:853,uvvt:854,uvvu:855,uvvv:856,uvvx:857,uvvz:858,uvx:859,uvz:860,vcard:861,vcd:862,vcf:863,vcg:864,vcs:865,vcx:866,vis:867,viv:868,vob:869,vor:870,vox:871,vrml:872,vsd:873,vsf:874,vss:875,vst:876,vsw:877,vtu:878,vxml:879,w3d:880,wad:881,wasm:882,wav:883,wax:884,wbmp:885,wbs:886,wbxml:887,wcm:888,wdb:889,wdp:890,weba:891,webm:892,webmanifest:893,webp:894,wg:895,wgt:896,wks:897,wm:898,wma:899,wmd:900,wmf:901,wml:902,wmlc:903,wmls:904,wmlsc:905,wmv:906,wmx:907,wmz:908,woff:909,woff2:910,wpd:911,wpl:912,wps:913,wqd:914,wri:915,wrl:916,wsdl:917,wspolicy:918,wtb:919,wvx:920,x32:921,x3d:922,x3db:923,x3dbz:924,x3dv:925,x3dvz:926,x3dz:927,xaml:928,xap:929,xar:930,xbap:931,xbd:932,xbm:933,xdf:934,xdm:935,xdp:936,xdssc:937,xdw:938,xenc:939,xer:940,xfdf:941,xfdl:942,xht:943,xhtml:944,xhvml:945,xif:946,xla:947,xlam:948,xlc:949,xlf:950,xlm:951,xls:952,xlsb:953,xlsm:954,xlsx:955,xlt:956,xltm:957,xltx:958,xlw:959,xm:960,xml:961,xo:962,xop:963,xpi:964,xpl:965,xpm:966,xpr:967,xps:968,xpw:969,xpx:970,xsl:971,xslt:972,xsm:973,xspf:974,xul:975,xvm:976,xvml:977,xwd:978,xyz:979,xz:980,yang:981,yin:982,z1:983,z2:984,z3:985,z4:986,z5:987,z6:988,z7:989,z8:990,zaz:991,zip:992,zir:993,zirz:994,zmm:995}
@@ -192060,57 +192066,57 @@ B.ajf=s([54,null,null,8589935158],t.d)
 B.ajg=s([55,null,null,8589935159],t.d)
 B.aji=s([56,null,null,8589935160],t.d)
 B.ajk=s([57,null,null,8589935161],t.d)
-B.am6=s([8589934852,8589934852,8589934853,null],t.d)
+B.am5=s([8589934852,8589934852,8589934853,null],t.d)
 B.aiO=s([4294967555,null,4294967555,null],t.d)
 B.aiP=s([4294968065,null,null,8589935154],t.d)
 B.aiQ=s([4294968066,null,null,8589935156],t.d)
 B.aiR=s([4294968067,null,null,8589935158],t.d)
 B.aiS=s([4294968068,null,null,8589935160],t.d)
 B.aiX=s([4294968321,null,null,8589935157],t.d)
-B.am7=s([8589934848,8589934848,8589934849,null],t.d)
+B.am6=s([8589934848,8589934848,8589934849,null],t.d)
 B.aiN=s([4294967423,null,null,8589935150],t.d)
 B.aiT=s([4294968069,null,null,8589935153],t.d)
 B.aiM=s([4294967309,null,null,8589935117],t.d)
 B.aiU=s([4294968070,null,null,8589935159],t.d)
 B.aiY=s([4294968327,null,null,8589935152],t.d)
-B.am8=s([8589934854,8589934854,8589934855,null],t.d)
+B.am7=s([8589934854,8589934854,8589934855,null],t.d)
 B.aiV=s([4294968071,null,null,8589935155],t.d)
 B.aiW=s([4294968072,null,null,8589935161],t.d)
-B.am9=s([8589934850,8589934850,8589934851,null],t.d)
-B.PY=new A.b(["*",B.aiZ,"+",B.aj_,"-",B.aj1,".",B.aj2,"/",B.aj3,"0",B.aj4,"1",B.aj5,"2",B.aj9,"3",B.ajb,"4",B.ajd,"5",B.aje,"6",B.ajf,"7",B.ajg,"8",B.aji,"9",B.ajk,"Alt",B.am6,"AltGraph",B.aiO,"ArrowDown",B.aiP,"ArrowLeft",B.aiQ,"ArrowRight",B.aiR,"ArrowUp",B.aiS,"Clear",B.aiX,"Control",B.am7,"Delete",B.aiN,"End",B.aiT,"Enter",B.aiM,"Home",B.aiU,"Insert",B.aiY,"Meta",B.am8,"PageDown",B.aiV,"PageUp",B.aiW,"Shift",B.am9],A.aB("b<d,S<f?>>"))
+B.am8=s([8589934850,8589934850,8589934851,null],t.d)
+B.PY=new A.b(["*",B.aiZ,"+",B.aj_,"-",B.aj1,".",B.aj2,"/",B.aj3,"0",B.aj4,"1",B.aj5,"2",B.aj9,"3",B.ajb,"4",B.ajd,"5",B.aje,"6",B.ajf,"7",B.ajg,"8",B.aji,"9",B.ajk,"Alt",B.am5,"AltGraph",B.aiO,"ArrowDown",B.aiP,"ArrowLeft",B.aiQ,"ArrowRight",B.aiR,"ArrowUp",B.aiS,"Clear",B.aiX,"Control",B.am6,"Delete",B.aiN,"End",B.aiT,"Enter",B.aiM,"Home",B.aiU,"Insert",B.aiY,"Meta",B.am7,"PageDown",B.aiV,"PageUp",B.aiW,"Shift",B.am8],A.aB("b<d,S<f?>>"))
 B.ajj=s([B.Iw,null,null,B.Nc],t.R)
-B.anB=s([B.MZ,null,null,B.Nd],t.R)
+B.anA=s([B.MZ,null,null,B.Nd],t.R)
 B.akT=s([B.N_,null,null,B.Ne],t.R)
-B.amb=s([B.N0,null,null,B.jE],t.R)
+B.ama=s([B.N0,null,null,B.jE],t.R)
 B.aid=s([B.N1,null,null,B.Nf],t.R)
 B.aoD=s([B.N2,null,null,B.yO],t.R)
-B.ao6=s([B.N3,null,null,B.o6],t.R)
+B.ao5=s([B.N3,null,null,B.o6],t.R)
 B.ajx=s([B.N4,null,null,B.jF],t.R)
 B.ap1=s([B.N5,null,null,B.o7],t.R)
-B.ao1=s([B.N6,null,null,B.jG],t.R)
+B.ao0=s([B.N6,null,null,B.jG],t.R)
 B.ajs=s([B.N7,null,null,B.yP],t.R)
 B.aiz=s([B.N8,null,null,B.jH],t.R)
 B.ak6=s([B.N9,null,null,B.o8],t.R)
-B.anD=s([B.Na,null,null,B.jI],t.R)
-B.anJ=s([B.Nb,null,null,B.o9],t.R)
+B.anC=s([B.Na,null,null,B.jI],t.R)
+B.anI=s([B.Nb,null,null,B.o9],t.R)
 B.ajI=s([B.o4,B.o4,B.rC,null],t.R)
 B.aoF=s([B.ry,null,B.ry,null],t.R)
-B.alf=s([B.fS,null,null,B.jF],t.R)
-B.alg=s([B.eQ,null,null,B.jG],t.R)
-B.alh=s([B.eR,null,null,B.jH],t.R)
+B.ale=s([B.fS,null,null,B.jF],t.R)
+B.alf=s([B.eQ,null,null,B.jG],t.R)
+B.alg=s([B.eR,null,null,B.jH],t.R)
 B.aoL=s([B.fT,null,null,B.jI],t.R)
-B.anY=s([B.yH,null,null,B.yP],t.R)
+B.anX=s([B.yH,null,null,B.yP],t.R)
 B.ajJ=s([B.o3,B.o3,B.rB,null],t.R)
-B.amE=s([B.dl,null,null,B.jE],t.R)
-B.ali=s([B.jB,null,null,B.o6],t.R)
+B.amD=s([B.dl,null,null,B.jE],t.R)
+B.alh=s([B.jB,null,null,B.o6],t.R)
 B.ajp=s([B.rx,null,null,B.yN],t.R)
-B.alj=s([B.jC,null,null,B.o8],t.R)
-B.anZ=s([B.yI,null,null,B.yO],t.R)
+B.ali=s([B.jC,null,null,B.o8],t.R)
+B.anY=s([B.yI,null,null,B.yO],t.R)
 B.ajK=s([B.o5,B.o5,B.rD,null],t.R)
-B.alk=s([B.o1,null,null,B.o7],t.R)
-B.amW=s([B.o2,null,null,B.o9],t.R)
+B.alj=s([B.o1,null,null,B.o7],t.R)
+B.amV=s([B.o2,null,null,B.o9],t.R)
 B.ajL=s([B.it,B.it,B.jD,null],t.R)
-B.aLt=new A.b(["*",B.ajj,"+",B.anB,"-",B.akT,".",B.amb,"/",B.aid,"0",B.aoD,"1",B.ao6,"2",B.ajx,"3",B.ap1,"4",B.ao1,"5",B.ajs,"6",B.aiz,"7",B.ak6,"8",B.anD,"9",B.anJ,"Alt",B.ajI,"AltGraph",B.aoF,"ArrowDown",B.alf,"ArrowLeft",B.alg,"ArrowRight",B.alh,"ArrowUp",B.aoL,"Clear",B.anY,"Control",B.ajJ,"Delete",B.amE,"End",B.ali,"Enter",B.ajp,"Home",B.alj,"Insert",B.anZ,"Meta",B.ajK,"PageDown",B.alk,"PageUp",B.amW,"Shift",B.ajL],A.aB("b<d,S<P?>>"))
+B.aLt=new A.b(["*",B.ajj,"+",B.anA,"-",B.akT,".",B.ama,"/",B.aid,"0",B.aoD,"1",B.ao5,"2",B.ajx,"3",B.ap1,"4",B.ao0,"5",B.ajs,"6",B.aiz,"7",B.ak6,"8",B.anC,"9",B.anI,"Alt",B.ajI,"AltGraph",B.aoF,"ArrowDown",B.ale,"ArrowLeft",B.alf,"ArrowRight",B.alg,"ArrowUp",B.aoL,"Clear",B.anX,"Control",B.ajJ,"Delete",B.amD,"End",B.alh,"Enter",B.ajp,"Home",B.ali,"Insert",B.anY,"Meta",B.ajK,"PageDown",B.alj,"PageUp",B.amV,"Shift",B.ajL],A.aB("b<d,S<P?>>"))
 B.aWc={AElig:0,"AElig;":1,AMP:2,"AMP;":3,Aacute:4,"Aacute;":5,"Abreve;":6,Acirc:7,"Acirc;":8,"Acy;":9,"Afr;":10,Agrave:11,"Agrave;":12,"Alpha;":13,"Amacr;":14,"And;":15,"Aogon;":16,"Aopf;":17,"ApplyFunction;":18,Aring:19,"Aring;":20,"Ascr;":21,"Assign;":22,Atilde:23,"Atilde;":24,Auml:25,"Auml;":26,"Backslash;":27,"Barv;":28,"Barwed;":29,"Bcy;":30,"Because;":31,"Bernoullis;":32,"Beta;":33,"Bfr;":34,"Bopf;":35,"Breve;":36,"Bscr;":37,"Bumpeq;":38,"CHcy;":39,COPY:40,"COPY;":41,"Cacute;":42,"Cap;":43,"CapitalDifferentialD;":44,"Cayleys;":45,"Ccaron;":46,Ccedil:47,"Ccedil;":48,"Ccirc;":49,"Cconint;":50,"Cdot;":51,"Cedilla;":52,"CenterDot;":53,"Cfr;":54,"Chi;":55,"CircleDot;":56,"CircleMinus;":57,"CirclePlus;":58,"CircleTimes;":59,"ClockwiseContourIntegral;":60,"CloseCurlyDoubleQuote;":61,"CloseCurlyQuote;":62,"Colon;":63,"Colone;":64,"Congruent;":65,"Conint;":66,"ContourIntegral;":67,"Copf;":68,"Coproduct;":69,"CounterClockwiseContourIntegral;":70,"Cross;":71,"Cscr;":72,"Cup;":73,"CupCap;":74,"DD;":75,"DDotrahd;":76,"DJcy;":77,"DScy;":78,"DZcy;":79,"Dagger;":80,"Darr;":81,"Dashv;":82,"Dcaron;":83,"Dcy;":84,"Del;":85,"Delta;":86,"Dfr;":87,"DiacriticalAcute;":88,"DiacriticalDot;":89,"DiacriticalDoubleAcute;":90,"DiacriticalGrave;":91,"DiacriticalTilde;":92,"Diamond;":93,"DifferentialD;":94,"Dopf;":95,"Dot;":96,"DotDot;":97,"DotEqual;":98,"DoubleContourIntegral;":99,"DoubleDot;":100,"DoubleDownArrow;":101,"DoubleLeftArrow;":102,"DoubleLeftRightArrow;":103,"DoubleLeftTee;":104,"DoubleLongLeftArrow;":105,"DoubleLongLeftRightArrow;":106,"DoubleLongRightArrow;":107,"DoubleRightArrow;":108,"DoubleRightTee;":109,"DoubleUpArrow;":110,"DoubleUpDownArrow;":111,"DoubleVerticalBar;":112,"DownArrow;":113,"DownArrowBar;":114,"DownArrowUpArrow;":115,"DownBreve;":116,"DownLeftRightVector;":117,"DownLeftTeeVector;":118,"DownLeftVector;":119,"DownLeftVectorBar;":120,"DownRightTeeVector;":121,"DownRightVector;":122,"DownRightVectorBar;":123,"DownTee;":124,"DownTeeArrow;":125,"Downarrow;":126,"Dscr;":127,"Dstrok;":128,"ENG;":129,ETH:130,"ETH;":131,Eacute:132,"Eacute;":133,"Ecaron;":134,Ecirc:135,"Ecirc;":136,"Ecy;":137,"Edot;":138,"Efr;":139,Egrave:140,"Egrave;":141,"Element;":142,"Emacr;":143,"EmptySmallSquare;":144,"EmptyVerySmallSquare;":145,"Eogon;":146,"Eopf;":147,"Epsilon;":148,"Equal;":149,"EqualTilde;":150,"Equilibrium;":151,"Escr;":152,"Esim;":153,"Eta;":154,Euml:155,"Euml;":156,"Exists;":157,"ExponentialE;":158,"Fcy;":159,"Ffr;":160,"FilledSmallSquare;":161,"FilledVerySmallSquare;":162,"Fopf;":163,"ForAll;":164,"Fouriertrf;":165,"Fscr;":166,"GJcy;":167,GT:168,"GT;":169,"Gamma;":170,"Gammad;":171,"Gbreve;":172,"Gcedil;":173,"Gcirc;":174,"Gcy;":175,"Gdot;":176,"Gfr;":177,"Gg;":178,"Gopf;":179,"GreaterEqual;":180,"GreaterEqualLess;":181,"GreaterFullEqual;":182,"GreaterGreater;":183,"GreaterLess;":184,"GreaterSlantEqual;":185,"GreaterTilde;":186,"Gscr;":187,"Gt;":188,"HARDcy;":189,"Hacek;":190,"Hat;":191,"Hcirc;":192,"Hfr;":193,"HilbertSpace;":194,"Hopf;":195,"HorizontalLine;":196,"Hscr;":197,"Hstrok;":198,"HumpDownHump;":199,"HumpEqual;":200,"IEcy;":201,"IJlig;":202,"IOcy;":203,Iacute:204,"Iacute;":205,Icirc:206,"Icirc;":207,"Icy;":208,"Idot;":209,"Ifr;":210,Igrave:211,"Igrave;":212,"Im;":213,"Imacr;":214,"ImaginaryI;":215,"Implies;":216,"Int;":217,"Integral;":218,"Intersection;":219,"InvisibleComma;":220,"InvisibleTimes;":221,"Iogon;":222,"Iopf;":223,"Iota;":224,"Iscr;":225,"Itilde;":226,"Iukcy;":227,Iuml:228,"Iuml;":229,"Jcirc;":230,"Jcy;":231,"Jfr;":232,"Jopf;":233,"Jscr;":234,"Jsercy;":235,"Jukcy;":236,"KHcy;":237,"KJcy;":238,"Kappa;":239,"Kcedil;":240,"Kcy;":241,"Kfr;":242,"Kopf;":243,"Kscr;":244,"LJcy;":245,LT:246,"LT;":247,"Lacute;":248,"Lambda;":249,"Lang;":250,"Laplacetrf;":251,"Larr;":252,"Lcaron;":253,"Lcedil;":254,"Lcy;":255,"LeftAngleBracket;":256,"LeftArrow;":257,"LeftArrowBar;":258,"LeftArrowRightArrow;":259,"LeftCeiling;":260,"LeftDoubleBracket;":261,"LeftDownTeeVector;":262,"LeftDownVector;":263,"LeftDownVectorBar;":264,"LeftFloor;":265,"LeftRightArrow;":266,"LeftRightVector;":267,"LeftTee;":268,"LeftTeeArrow;":269,"LeftTeeVector;":270,"LeftTriangle;":271,"LeftTriangleBar;":272,"LeftTriangleEqual;":273,"LeftUpDownVector;":274,"LeftUpTeeVector;":275,"LeftUpVector;":276,"LeftUpVectorBar;":277,"LeftVector;":278,"LeftVectorBar;":279,"Leftarrow;":280,"Leftrightarrow;":281,"LessEqualGreater;":282,"LessFullEqual;":283,"LessGreater;":284,"LessLess;":285,"LessSlantEqual;":286,"LessTilde;":287,"Lfr;":288,"Ll;":289,"Lleftarrow;":290,"Lmidot;":291,"LongLeftArrow;":292,"LongLeftRightArrow;":293,"LongRightArrow;":294,"Longleftarrow;":295,"Longleftrightarrow;":296,"Longrightarrow;":297,"Lopf;":298,"LowerLeftArrow;":299,"LowerRightArrow;":300,"Lscr;":301,"Lsh;":302,"Lstrok;":303,"Lt;":304,"Map;":305,"Mcy;":306,"MediumSpace;":307,"Mellintrf;":308,"Mfr;":309,"MinusPlus;":310,"Mopf;":311,"Mscr;":312,"Mu;":313,"NJcy;":314,"Nacute;":315,"Ncaron;":316,"Ncedil;":317,"Ncy;":318,"NegativeMediumSpace;":319,"NegativeThickSpace;":320,"NegativeThinSpace;":321,"NegativeVeryThinSpace;":322,"NestedGreaterGreater;":323,"NestedLessLess;":324,"NewLine;":325,"Nfr;":326,"NoBreak;":327,"NonBreakingSpace;":328,"Nopf;":329,"Not;":330,"NotCongruent;":331,"NotCupCap;":332,"NotDoubleVerticalBar;":333,"NotElement;":334,"NotEqual;":335,"NotEqualTilde;":336,"NotExists;":337,"NotGreater;":338,"NotGreaterEqual;":339,"NotGreaterFullEqual;":340,"NotGreaterGreater;":341,"NotGreaterLess;":342,"NotGreaterSlantEqual;":343,"NotGreaterTilde;":344,"NotHumpDownHump;":345,"NotHumpEqual;":346,"NotLeftTriangle;":347,"NotLeftTriangleBar;":348,"NotLeftTriangleEqual;":349,"NotLess;":350,"NotLessEqual;":351,"NotLessGreater;":352,"NotLessLess;":353,"NotLessSlantEqual;":354,"NotLessTilde;":355,"NotNestedGreaterGreater;":356,"NotNestedLessLess;":357,"NotPrecedes;":358,"NotPrecedesEqual;":359,"NotPrecedesSlantEqual;":360,"NotReverseElement;":361,"NotRightTriangle;":362,"NotRightTriangleBar;":363,"NotRightTriangleEqual;":364,"NotSquareSubset;":365,"NotSquareSubsetEqual;":366,"NotSquareSuperset;":367,"NotSquareSupersetEqual;":368,"NotSubset;":369,"NotSubsetEqual;":370,"NotSucceeds;":371,"NotSucceedsEqual;":372,"NotSucceedsSlantEqual;":373,"NotSucceedsTilde;":374,"NotSuperset;":375,"NotSupersetEqual;":376,"NotTilde;":377,"NotTildeEqual;":378,"NotTildeFullEqual;":379,"NotTildeTilde;":380,"NotVerticalBar;":381,"Nscr;":382,Ntilde:383,"Ntilde;":384,"Nu;":385,"OElig;":386,Oacute:387,"Oacute;":388,Ocirc:389,"Ocirc;":390,"Ocy;":391,"Odblac;":392,"Ofr;":393,Ograve:394,"Ograve;":395,"Omacr;":396,"Omega;":397,"Omicron;":398,"Oopf;":399,"OpenCurlyDoubleQuote;":400,"OpenCurlyQuote;":401,"Or;":402,"Oscr;":403,Oslash:404,"Oslash;":405,Otilde:406,"Otilde;":407,"Otimes;":408,Ouml:409,"Ouml;":410,"OverBar;":411,"OverBrace;":412,"OverBracket;":413,"OverParenthesis;":414,"PartialD;":415,"Pcy;":416,"Pfr;":417,"Phi;":418,"Pi;":419,"PlusMinus;":420,"Poincareplane;":421,"Popf;":422,"Pr;":423,"Precedes;":424,"PrecedesEqual;":425,"PrecedesSlantEqual;":426,"PrecedesTilde;":427,"Prime;":428,"Product;":429,"Proportion;":430,"Proportional;":431,"Pscr;":432,"Psi;":433,QUOT:434,"QUOT;":435,"Qfr;":436,"Qopf;":437,"Qscr;":438,"RBarr;":439,REG:440,"REG;":441,"Racute;":442,"Rang;":443,"Rarr;":444,"Rarrtl;":445,"Rcaron;":446,"Rcedil;":447,"Rcy;":448,"Re;":449,"ReverseElement;":450,"ReverseEquilibrium;":451,"ReverseUpEquilibrium;":452,"Rfr;":453,"Rho;":454,"RightAngleBracket;":455,"RightArrow;":456,"RightArrowBar;":457,"RightArrowLeftArrow;":458,"RightCeiling;":459,"RightDoubleBracket;":460,"RightDownTeeVector;":461,"RightDownVector;":462,"RightDownVectorBar;":463,"RightFloor;":464,"RightTee;":465,"RightTeeArrow;":466,"RightTeeVector;":467,"RightTriangle;":468,"RightTriangleBar;":469,"RightTriangleEqual;":470,"RightUpDownVector;":471,"RightUpTeeVector;":472,"RightUpVector;":473,"RightUpVectorBar;":474,"RightVector;":475,"RightVectorBar;":476,"Rightarrow;":477,"Ropf;":478,"RoundImplies;":479,"Rrightarrow;":480,"Rscr;":481,"Rsh;":482,"RuleDelayed;":483,"SHCHcy;":484,"SHcy;":485,"SOFTcy;":486,"Sacute;":487,"Sc;":488,"Scaron;":489,"Scedil;":490,"Scirc;":491,"Scy;":492,"Sfr;":493,"ShortDownArrow;":494,"ShortLeftArrow;":495,"ShortRightArrow;":496,"ShortUpArrow;":497,"Sigma;":498,"SmallCircle;":499,"Sopf;":500,"Sqrt;":501,"Square;":502,"SquareIntersection;":503,"SquareSubset;":504,"SquareSubsetEqual;":505,"SquareSuperset;":506,"SquareSupersetEqual;":507,"SquareUnion;":508,"Sscr;":509,"Star;":510,"Sub;":511,"Subset;":512,"SubsetEqual;":513,"Succeeds;":514,"SucceedsEqual;":515,"SucceedsSlantEqual;":516,"SucceedsTilde;":517,"SuchThat;":518,"Sum;":519,"Sup;":520,"Superset;":521,"SupersetEqual;":522,"Supset;":523,THORN:524,"THORN;":525,"TRADE;":526,"TSHcy;":527,"TScy;":528,"Tab;":529,"Tau;":530,"Tcaron;":531,"Tcedil;":532,"Tcy;":533,"Tfr;":534,"Therefore;":535,"Theta;":536,"ThickSpace;":537,"ThinSpace;":538,"Tilde;":539,"TildeEqual;":540,"TildeFullEqual;":541,"TildeTilde;":542,"Topf;":543,"TripleDot;":544,"Tscr;":545,"Tstrok;":546,Uacute:547,"Uacute;":548,"Uarr;":549,"Uarrocir;":550,"Ubrcy;":551,"Ubreve;":552,Ucirc:553,"Ucirc;":554,"Ucy;":555,"Udblac;":556,"Ufr;":557,Ugrave:558,"Ugrave;":559,"Umacr;":560,"UnderBar;":561,"UnderBrace;":562,"UnderBracket;":563,"UnderParenthesis;":564,"Union;":565,"UnionPlus;":566,"Uogon;":567,"Uopf;":568,"UpArrow;":569,"UpArrowBar;":570,"UpArrowDownArrow;":571,"UpDownArrow;":572,"UpEquilibrium;":573,"UpTee;":574,"UpTeeArrow;":575,"Uparrow;":576,"Updownarrow;":577,"UpperLeftArrow;":578,"UpperRightArrow;":579,"Upsi;":580,"Upsilon;":581,"Uring;":582,"Uscr;":583,"Utilde;":584,Uuml:585,"Uuml;":586,"VDash;":587,"Vbar;":588,"Vcy;":589,"Vdash;":590,"Vdashl;":591,"Vee;":592,"Verbar;":593,"Vert;":594,"VerticalBar;":595,"VerticalLine;":596,"VerticalSeparator;":597,"VerticalTilde;":598,"VeryThinSpace;":599,"Vfr;":600,"Vopf;":601,"Vscr;":602,"Vvdash;":603,"Wcirc;":604,"Wedge;":605,"Wfr;":606,"Wopf;":607,"Wscr;":608,"Xfr;":609,"Xi;":610,"Xopf;":611,"Xscr;":612,"YAcy;":613,"YIcy;":614,"YUcy;":615,Yacute:616,"Yacute;":617,"Ycirc;":618,"Ycy;":619,"Yfr;":620,"Yopf;":621,"Yscr;":622,"Yuml;":623,"ZHcy;":624,"Zacute;":625,"Zcaron;":626,"Zcy;":627,"Zdot;":628,"ZeroWidthSpace;":629,"Zeta;":630,"Zfr;":631,"Zopf;":632,"Zscr;":633,aacute:634,"aacute;":635,"abreve;":636,"ac;":637,"acE;":638,"acd;":639,acirc:640,"acirc;":641,acute:642,"acute;":643,"acy;":644,aelig:645,"aelig;":646,"af;":647,"afr;":648,agrave:649,"agrave;":650,"alefsym;":651,"aleph;":652,"alpha;":653,"amacr;":654,"amalg;":655,amp:656,"amp;":657,"and;":658,"andand;":659,"andd;":660,"andslope;":661,"andv;":662,"ang;":663,"ange;":664,"angle;":665,"angmsd;":666,"angmsdaa;":667,"angmsdab;":668,"angmsdac;":669,"angmsdad;":670,"angmsdae;":671,"angmsdaf;":672,"angmsdag;":673,"angmsdah;":674,"angrt;":675,"angrtvb;":676,"angrtvbd;":677,"angsph;":678,"angst;":679,"angzarr;":680,"aogon;":681,"aopf;":682,"ap;":683,"apE;":684,"apacir;":685,"ape;":686,"apid;":687,"apos;":688,"approx;":689,"approxeq;":690,aring:691,"aring;":692,"ascr;":693,"ast;":694,"asymp;":695,"asympeq;":696,atilde:697,"atilde;":698,auml:699,"auml;":700,"awconint;":701,"awint;":702,"bNot;":703,"backcong;":704,"backepsilon;":705,"backprime;":706,"backsim;":707,"backsimeq;":708,"barvee;":709,"barwed;":710,"barwedge;":711,"bbrk;":712,"bbrktbrk;":713,"bcong;":714,"bcy;":715,"bdquo;":716,"becaus;":717,"because;":718,"bemptyv;":719,"bepsi;":720,"bernou;":721,"beta;":722,"beth;":723,"between;":724,"bfr;":725,"bigcap;":726,"bigcirc;":727,"bigcup;":728,"bigodot;":729,"bigoplus;":730,"bigotimes;":731,"bigsqcup;":732,"bigstar;":733,"bigtriangledown;":734,"bigtriangleup;":735,"biguplus;":736,"bigvee;":737,"bigwedge;":738,"bkarow;":739,"blacklozenge;":740,"blacksquare;":741,"blacktriangle;":742,"blacktriangledown;":743,"blacktriangleleft;":744,"blacktriangleright;":745,"blank;":746,"blk12;":747,"blk14;":748,"blk34;":749,"block;":750,"bne;":751,"bnequiv;":752,"bnot;":753,"bopf;":754,"bot;":755,"bottom;":756,"bowtie;":757,"boxDL;":758,"boxDR;":759,"boxDl;":760,"boxDr;":761,"boxH;":762,"boxHD;":763,"boxHU;":764,"boxHd;":765,"boxHu;":766,"boxUL;":767,"boxUR;":768,"boxUl;":769,"boxUr;":770,"boxV;":771,"boxVH;":772,"boxVL;":773,"boxVR;":774,"boxVh;":775,"boxVl;":776,"boxVr;":777,"boxbox;":778,"boxdL;":779,"boxdR;":780,"boxdl;":781,"boxdr;":782,"boxh;":783,"boxhD;":784,"boxhU;":785,"boxhd;":786,"boxhu;":787,"boxminus;":788,"boxplus;":789,"boxtimes;":790,"boxuL;":791,"boxuR;":792,"boxul;":793,"boxur;":794,"boxv;":795,"boxvH;":796,"boxvL;":797,"boxvR;":798,"boxvh;":799,"boxvl;":800,"boxvr;":801,"bprime;":802,"breve;":803,brvbar:804,"brvbar;":805,"bscr;":806,"bsemi;":807,"bsim;":808,"bsime;":809,"bsol;":810,"bsolb;":811,"bsolhsub;":812,"bull;":813,"bullet;":814,"bump;":815,"bumpE;":816,"bumpe;":817,"bumpeq;":818,"cacute;":819,"cap;":820,"capand;":821,"capbrcup;":822,"capcap;":823,"capcup;":824,"capdot;":825,"caps;":826,"caret;":827,"caron;":828,"ccaps;":829,"ccaron;":830,ccedil:831,"ccedil;":832,"ccirc;":833,"ccups;":834,"ccupssm;":835,"cdot;":836,cedil:837,"cedil;":838,"cemptyv;":839,cent:840,"cent;":841,"centerdot;":842,"cfr;":843,"chcy;":844,"check;":845,"checkmark;":846,"chi;":847,"cir;":848,"cirE;":849,"circ;":850,"circeq;":851,"circlearrowleft;":852,"circlearrowright;":853,"circledR;":854,"circledS;":855,"circledast;":856,"circledcirc;":857,"circleddash;":858,"cire;":859,"cirfnint;":860,"cirmid;":861,"cirscir;":862,"clubs;":863,"clubsuit;":864,"colon;":865,"colone;":866,"coloneq;":867,"comma;":868,"commat;":869,"comp;":870,"compfn;":871,"complement;":872,"complexes;":873,"cong;":874,"congdot;":875,"conint;":876,"copf;":877,"coprod;":878,copy:879,"copy;":880,"copysr;":881,"crarr;":882,"cross;":883,"cscr;":884,"csub;":885,"csube;":886,"csup;":887,"csupe;":888,"ctdot;":889,"cudarrl;":890,"cudarrr;":891,"cuepr;":892,"cuesc;":893,"cularr;":894,"cularrp;":895,"cup;":896,"cupbrcap;":897,"cupcap;":898,"cupcup;":899,"cupdot;":900,"cupor;":901,"cups;":902,"curarr;":903,"curarrm;":904,"curlyeqprec;":905,"curlyeqsucc;":906,"curlyvee;":907,"curlywedge;":908,curren:909,"curren;":910,"curvearrowleft;":911,"curvearrowright;":912,"cuvee;":913,"cuwed;":914,"cwconint;":915,"cwint;":916,"cylcty;":917,"dArr;":918,"dHar;":919,"dagger;":920,"daleth;":921,"darr;":922,"dash;":923,"dashv;":924,"dbkarow;":925,"dblac;":926,"dcaron;":927,"dcy;":928,"dd;":929,"ddagger;":930,"ddarr;":931,"ddotseq;":932,deg:933,"deg;":934,"delta;":935,"demptyv;":936,"dfisht;":937,"dfr;":938,"dharl;":939,"dharr;":940,"diam;":941,"diamond;":942,"diamondsuit;":943,"diams;":944,"die;":945,"digamma;":946,"disin;":947,"div;":948,divide:949,"divide;":950,"divideontimes;":951,"divonx;":952,"djcy;":953,"dlcorn;":954,"dlcrop;":955,"dollar;":956,"dopf;":957,"dot;":958,"doteq;":959,"doteqdot;":960,"dotminus;":961,"dotplus;":962,"dotsquare;":963,"doublebarwedge;":964,"downarrow;":965,"downdownarrows;":966,"downharpoonleft;":967,"downharpoonright;":968,"drbkarow;":969,"drcorn;":970,"drcrop;":971,"dscr;":972,"dscy;":973,"dsol;":974,"dstrok;":975,"dtdot;":976,"dtri;":977,"dtrif;":978,"duarr;":979,"duhar;":980,"dwangle;":981,"dzcy;":982,"dzigrarr;":983,"eDDot;":984,"eDot;":985,eacute:986,"eacute;":987,"easter;":988,"ecaron;":989,"ecir;":990,ecirc:991,"ecirc;":992,"ecolon;":993,"ecy;":994,"edot;":995,"ee;":996,"efDot;":997,"efr;":998,"eg;":999,egrave:1000,"egrave;":1001,"egs;":1002,"egsdot;":1003,"el;":1004,"elinters;":1005,"ell;":1006,"els;":1007,"elsdot;":1008,"emacr;":1009,"empty;":1010,"emptyset;":1011,"emptyv;":1012,"emsp13;":1013,"emsp14;":1014,"emsp;":1015,"eng;":1016,"ensp;":1017,"eogon;":1018,"eopf;":1019,"epar;":1020,"eparsl;":1021,"eplus;":1022,"epsi;":1023,"epsilon;":1024,"epsiv;":1025,"eqcirc;":1026,"eqcolon;":1027,"eqsim;":1028,"eqslantgtr;":1029,"eqslantless;":1030,"equals;":1031,"equest;":1032,"equiv;":1033,"equivDD;":1034,"eqvparsl;":1035,"erDot;":1036,"erarr;":1037,"escr;":1038,"esdot;":1039,"esim;":1040,"eta;":1041,eth:1042,"eth;":1043,euml:1044,"euml;":1045,"euro;":1046,"excl;":1047,"exist;":1048,"expectation;":1049,"exponentiale;":1050,"fallingdotseq;":1051,"fcy;":1052,"female;":1053,"ffilig;":1054,"fflig;":1055,"ffllig;":1056,"ffr;":1057,"filig;":1058,"fjlig;":1059,"flat;":1060,"fllig;":1061,"fltns;":1062,"fnof;":1063,"fopf;":1064,"forall;":1065,"fork;":1066,"forkv;":1067,"fpartint;":1068,frac12:1069,"frac12;":1070,"frac13;":1071,frac14:1072,"frac14;":1073,"frac15;":1074,"frac16;":1075,"frac18;":1076,"frac23;":1077,"frac25;":1078,frac34:1079,"frac34;":1080,"frac35;":1081,"frac38;":1082,"frac45;":1083,"frac56;":1084,"frac58;":1085,"frac78;":1086,"frasl;":1087,"frown;":1088,"fscr;":1089,"gE;":1090,"gEl;":1091,"gacute;":1092,"gamma;":1093,"gammad;":1094,"gap;":1095,"gbreve;":1096,"gcirc;":1097,"gcy;":1098,"gdot;":1099,"ge;":1100,"gel;":1101,"geq;":1102,"geqq;":1103,"geqslant;":1104,"ges;":1105,"gescc;":1106,"gesdot;":1107,"gesdoto;":1108,"gesdotol;":1109,"gesl;":1110,"gesles;":1111,"gfr;":1112,"gg;":1113,"ggg;":1114,"gimel;":1115,"gjcy;":1116,"gl;":1117,"glE;":1118,"gla;":1119,"glj;":1120,"gnE;":1121,"gnap;":1122,"gnapprox;":1123,"gne;":1124,"gneq;":1125,"gneqq;":1126,"gnsim;":1127,"gopf;":1128,"grave;":1129,"gscr;":1130,"gsim;":1131,"gsime;":1132,"gsiml;":1133,gt:1134,"gt;":1135,"gtcc;":1136,"gtcir;":1137,"gtdot;":1138,"gtlPar;":1139,"gtquest;":1140,"gtrapprox;":1141,"gtrarr;":1142,"gtrdot;":1143,"gtreqless;":1144,"gtreqqless;":1145,"gtrless;":1146,"gtrsim;":1147,"gvertneqq;":1148,"gvnE;":1149,"hArr;":1150,"hairsp;":1151,"half;":1152,"hamilt;":1153,"hardcy;":1154,"harr;":1155,"harrcir;":1156,"harrw;":1157,"hbar;":1158,"hcirc;":1159,"hearts;":1160,"heartsuit;":1161,"hellip;":1162,"hercon;":1163,"hfr;":1164,"hksearow;":1165,"hkswarow;":1166,"hoarr;":1167,"homtht;":1168,"hookleftarrow;":1169,"hookrightarrow;":1170,"hopf;":1171,"horbar;":1172,"hscr;":1173,"hslash;":1174,"hstrok;":1175,"hybull;":1176,"hyphen;":1177,iacute:1178,"iacute;":1179,"ic;":1180,icirc:1181,"icirc;":1182,"icy;":1183,"iecy;":1184,iexcl:1185,"iexcl;":1186,"iff;":1187,"ifr;":1188,igrave:1189,"igrave;":1190,"ii;":1191,"iiiint;":1192,"iiint;":1193,"iinfin;":1194,"iiota;":1195,"ijlig;":1196,"imacr;":1197,"image;":1198,"imagline;":1199,"imagpart;":1200,"imath;":1201,"imof;":1202,"imped;":1203,"in;":1204,"incare;":1205,"infin;":1206,"infintie;":1207,"inodot;":1208,"int;":1209,"intcal;":1210,"integers;":1211,"intercal;":1212,"intlarhk;":1213,"intprod;":1214,"iocy;":1215,"iogon;":1216,"iopf;":1217,"iota;":1218,"iprod;":1219,iquest:1220,"iquest;":1221,"iscr;":1222,"isin;":1223,"isinE;":1224,"isindot;":1225,"isins;":1226,"isinsv;":1227,"isinv;":1228,"it;":1229,"itilde;":1230,"iukcy;":1231,iuml:1232,"iuml;":1233,"jcirc;":1234,"jcy;":1235,"jfr;":1236,"jmath;":1237,"jopf;":1238,"jscr;":1239,"jsercy;":1240,"jukcy;":1241,"kappa;":1242,"kappav;":1243,"kcedil;":1244,"kcy;":1245,"kfr;":1246,"kgreen;":1247,"khcy;":1248,"kjcy;":1249,"kopf;":1250,"kscr;":1251,"lAarr;":1252,"lArr;":1253,"lAtail;":1254,"lBarr;":1255,"lE;":1256,"lEg;":1257,"lHar;":1258,"lacute;":1259,"laemptyv;":1260,"lagran;":1261,"lambda;":1262,"lang;":1263,"langd;":1264,"langle;":1265,"lap;":1266,laquo:1267,"laquo;":1268,"larr;":1269,"larrb;":1270,"larrbfs;":1271,"larrfs;":1272,"larrhk;":1273,"larrlp;":1274,"larrpl;":1275,"larrsim;":1276,"larrtl;":1277,"lat;":1278,"latail;":1279,"late;":1280,"lates;":1281,"lbarr;":1282,"lbbrk;":1283,"lbrace;":1284,"lbrack;":1285,"lbrke;":1286,"lbrksld;":1287,"lbrkslu;":1288,"lcaron;":1289,"lcedil;":1290,"lceil;":1291,"lcub;":1292,"lcy;":1293,"ldca;":1294,"ldquo;":1295,"ldquor;":1296,"ldrdhar;":1297,"ldrushar;":1298,"ldsh;":1299,"le;":1300,"leftarrow;":1301,"leftarrowtail;":1302,"leftharpoondown;":1303,"leftharpoonup;":1304,"leftleftarrows;":1305,"leftrightarrow;":1306,"leftrightarrows;":1307,"leftrightharpoons;":1308,"leftrightsquigarrow;":1309,"leftthreetimes;":1310,"leg;":1311,"leq;":1312,"leqq;":1313,"leqslant;":1314,"les;":1315,"lescc;":1316,"lesdot;":1317,"lesdoto;":1318,"lesdotor;":1319,"lesg;":1320,"lesges;":1321,"lessapprox;":1322,"lessdot;":1323,"lesseqgtr;":1324,"lesseqqgtr;":1325,"lessgtr;":1326,"lesssim;":1327,"lfisht;":1328,"lfloor;":1329,"lfr;":1330,"lg;":1331,"lgE;":1332,"lhard;":1333,"lharu;":1334,"lharul;":1335,"lhblk;":1336,"ljcy;":1337,"ll;":1338,"llarr;":1339,"llcorner;":1340,"llhard;":1341,"lltri;":1342,"lmidot;":1343,"lmoust;":1344,"lmoustache;":1345,"lnE;":1346,"lnap;":1347,"lnapprox;":1348,"lne;":1349,"lneq;":1350,"lneqq;":1351,"lnsim;":1352,"loang;":1353,"loarr;":1354,"lobrk;":1355,"longleftarrow;":1356,"longleftrightarrow;":1357,"longmapsto;":1358,"longrightarrow;":1359,"looparrowleft;":1360,"looparrowright;":1361,"lopar;":1362,"lopf;":1363,"loplus;":1364,"lotimes;":1365,"lowast;":1366,"lowbar;":1367,"loz;":1368,"lozenge;":1369,"lozf;":1370,"lpar;":1371,"lparlt;":1372,"lrarr;":1373,"lrcorner;":1374,"lrhar;":1375,"lrhard;":1376,"lrm;":1377,"lrtri;":1378,"lsaquo;":1379,"lscr;":1380,"lsh;":1381,"lsim;":1382,"lsime;":1383,"lsimg;":1384,"lsqb;":1385,"lsquo;":1386,"lsquor;":1387,"lstrok;":1388,lt:1389,"lt;":1390,"ltcc;":1391,"ltcir;":1392,"ltdot;":1393,"lthree;":1394,"ltimes;":1395,"ltlarr;":1396,"ltquest;":1397,"ltrPar;":1398,"ltri;":1399,"ltrie;":1400,"ltrif;":1401,"lurdshar;":1402,"luruhar;":1403,"lvertneqq;":1404,"lvnE;":1405,"mDDot;":1406,macr:1407,"macr;":1408,"male;":1409,"malt;":1410,"maltese;":1411,"map;":1412,"mapsto;":1413,"mapstodown;":1414,"mapstoleft;":1415,"mapstoup;":1416,"marker;":1417,"mcomma;":1418,"mcy;":1419,"mdash;":1420,"measuredangle;":1421,"mfr;":1422,"mho;":1423,micro:1424,"micro;":1425,"mid;":1426,"midast;":1427,"midcir;":1428,middot:1429,"middot;":1430,"minus;":1431,"minusb;":1432,"minusd;":1433,"minusdu;":1434,"mlcp;":1435,"mldr;":1436,"mnplus;":1437,"models;":1438,"mopf;":1439,"mp;":1440,"mscr;":1441,"mstpos;":1442,"mu;":1443,"multimap;":1444,"mumap;":1445,"nGg;":1446,"nGt;":1447,"nGtv;":1448,"nLeftarrow;":1449,"nLeftrightarrow;":1450,"nLl;":1451,"nLt;":1452,"nLtv;":1453,"nRightarrow;":1454,"nVDash;":1455,"nVdash;":1456,"nabla;":1457,"nacute;":1458,"nang;":1459,"nap;":1460,"napE;":1461,"napid;":1462,"napos;":1463,"napprox;":1464,"natur;":1465,"natural;":1466,"naturals;":1467,nbsp:1468,"nbsp;":1469,"nbump;":1470,"nbumpe;":1471,"ncap;":1472,"ncaron;":1473,"ncedil;":1474,"ncong;":1475,"ncongdot;":1476,"ncup;":1477,"ncy;":1478,"ndash;":1479,"ne;":1480,"neArr;":1481,"nearhk;":1482,"nearr;":1483,"nearrow;":1484,"nedot;":1485,"nequiv;":1486,"nesear;":1487,"nesim;":1488,"nexist;":1489,"nexists;":1490,"nfr;":1491,"ngE;":1492,"nge;":1493,"ngeq;":1494,"ngeqq;":1495,"ngeqslant;":1496,"nges;":1497,"ngsim;":1498,"ngt;":1499,"ngtr;":1500,"nhArr;":1501,"nharr;":1502,"nhpar;":1503,"ni;":1504,"nis;":1505,"nisd;":1506,"niv;":1507,"njcy;":1508,"nlArr;":1509,"nlE;":1510,"nlarr;":1511,"nldr;":1512,"nle;":1513,"nleftarrow;":1514,"nleftrightarrow;":1515,"nleq;":1516,"nleqq;":1517,"nleqslant;":1518,"nles;":1519,"nless;":1520,"nlsim;":1521,"nlt;":1522,"nltri;":1523,"nltrie;":1524,"nmid;":1525,"nopf;":1526,not:1527,"not;":1528,"notin;":1529,"notinE;":1530,"notindot;":1531,"notinva;":1532,"notinvb;":1533,"notinvc;":1534,"notni;":1535,"notniva;":1536,"notnivb;":1537,"notnivc;":1538,"npar;":1539,"nparallel;":1540,"nparsl;":1541,"npart;":1542,"npolint;":1543,"npr;":1544,"nprcue;":1545,"npre;":1546,"nprec;":1547,"npreceq;":1548,"nrArr;":1549,"nrarr;":1550,"nrarrc;":1551,"nrarrw;":1552,"nrightarrow;":1553,"nrtri;":1554,"nrtrie;":1555,"nsc;":1556,"nsccue;":1557,"nsce;":1558,"nscr;":1559,"nshortmid;":1560,"nshortparallel;":1561,"nsim;":1562,"nsime;":1563,"nsimeq;":1564,"nsmid;":1565,"nspar;":1566,"nsqsube;":1567,"nsqsupe;":1568,"nsub;":1569,"nsubE;":1570,"nsube;":1571,"nsubset;":1572,"nsubseteq;":1573,"nsubseteqq;":1574,"nsucc;":1575,"nsucceq;":1576,"nsup;":1577,"nsupE;":1578,"nsupe;":1579,"nsupset;":1580,"nsupseteq;":1581,"nsupseteqq;":1582,"ntgl;":1583,ntilde:1584,"ntilde;":1585,"ntlg;":1586,"ntriangleleft;":1587,"ntrianglelefteq;":1588,"ntriangleright;":1589,"ntrianglerighteq;":1590,"nu;":1591,"num;":1592,"numero;":1593,"numsp;":1594,"nvDash;":1595,"nvHarr;":1596,"nvap;":1597,"nvdash;":1598,"nvge;":1599,"nvgt;":1600,"nvinfin;":1601,"nvlArr;":1602,"nvle;":1603,"nvlt;":1604,"nvltrie;":1605,"nvrArr;":1606,"nvrtrie;":1607,"nvsim;":1608,"nwArr;":1609,"nwarhk;":1610,"nwarr;":1611,"nwarrow;":1612,"nwnear;":1613,"oS;":1614,oacute:1615,"oacute;":1616,"oast;":1617,"ocir;":1618,ocirc:1619,"ocirc;":1620,"ocy;":1621,"odash;":1622,"odblac;":1623,"odiv;":1624,"odot;":1625,"odsold;":1626,"oelig;":1627,"ofcir;":1628,"ofr;":1629,"ogon;":1630,ograve:1631,"ograve;":1632,"ogt;":1633,"ohbar;":1634,"ohm;":1635,"oint;":1636,"olarr;":1637,"olcir;":1638,"olcross;":1639,"oline;":1640,"olt;":1641,"omacr;":1642,"omega;":1643,"omicron;":1644,"omid;":1645,"ominus;":1646,"oopf;":1647,"opar;":1648,"operp;":1649,"oplus;":1650,"or;":1651,"orarr;":1652,"ord;":1653,"order;":1654,"orderof;":1655,ordf:1656,"ordf;":1657,ordm:1658,"ordm;":1659,"origof;":1660,"oror;":1661,"orslope;":1662,"orv;":1663,"oscr;":1664,oslash:1665,"oslash;":1666,"osol;":1667,otilde:1668,"otilde;":1669,"otimes;":1670,"otimesas;":1671,ouml:1672,"ouml;":1673,"ovbar;":1674,"par;":1675,para:1676,"para;":1677,"parallel;":1678,"parsim;":1679,"parsl;":1680,"part;":1681,"pcy;":1682,"percnt;":1683,"period;":1684,"permil;":1685,"perp;":1686,"pertenk;":1687,"pfr;":1688,"phi;":1689,"phiv;":1690,"phmmat;":1691,"phone;":1692,"pi;":1693,"pitchfork;":1694,"piv;":1695,"planck;":1696,"planckh;":1697,"plankv;":1698,"plus;":1699,"plusacir;":1700,"plusb;":1701,"pluscir;":1702,"plusdo;":1703,"plusdu;":1704,"pluse;":1705,plusmn:1706,"plusmn;":1707,"plussim;":1708,"plustwo;":1709,"pm;":1710,"pointint;":1711,"popf;":1712,pound:1713,"pound;":1714,"pr;":1715,"prE;":1716,"prap;":1717,"prcue;":1718,"pre;":1719,"prec;":1720,"precapprox;":1721,"preccurlyeq;":1722,"preceq;":1723,"precnapprox;":1724,"precneqq;":1725,"precnsim;":1726,"precsim;":1727,"prime;":1728,"primes;":1729,"prnE;":1730,"prnap;":1731,"prnsim;":1732,"prod;":1733,"profalar;":1734,"profline;":1735,"profsurf;":1736,"prop;":1737,"propto;":1738,"prsim;":1739,"prurel;":1740,"pscr;":1741,"psi;":1742,"puncsp;":1743,"qfr;":1744,"qint;":1745,"qopf;":1746,"qprime;":1747,"qscr;":1748,"quaternions;":1749,"quatint;":1750,"quest;":1751,"questeq;":1752,quot:1753,"quot;":1754,"rAarr;":1755,"rArr;":1756,"rAtail;":1757,"rBarr;":1758,"rHar;":1759,"race;":1760,"racute;":1761,"radic;":1762,"raemptyv;":1763,"rang;":1764,"rangd;":1765,"range;":1766,"rangle;":1767,raquo:1768,"raquo;":1769,"rarr;":1770,"rarrap;":1771,"rarrb;":1772,"rarrbfs;":1773,"rarrc;":1774,"rarrfs;":1775,"rarrhk;":1776,"rarrlp;":1777,"rarrpl;":1778,"rarrsim;":1779,"rarrtl;":1780,"rarrw;":1781,"ratail;":1782,"ratio;":1783,"rationals;":1784,"rbarr;":1785,"rbbrk;":1786,"rbrace;":1787,"rbrack;":1788,"rbrke;":1789,"rbrksld;":1790,"rbrkslu;":1791,"rcaron;":1792,"rcedil;":1793,"rceil;":1794,"rcub;":1795,"rcy;":1796,"rdca;":1797,"rdldhar;":1798,"rdquo;":1799,"rdquor;":1800,"rdsh;":1801,"real;":1802,"realine;":1803,"realpart;":1804,"reals;":1805,"rect;":1806,reg:1807,"reg;":1808,"rfisht;":1809,"rfloor;":1810,"rfr;":1811,"rhard;":1812,"rharu;":1813,"rharul;":1814,"rho;":1815,"rhov;":1816,"rightarrow;":1817,"rightarrowtail;":1818,"rightharpoondown;":1819,"rightharpoonup;":1820,"rightleftarrows;":1821,"rightleftharpoons;":1822,"rightrightarrows;":1823,"rightsquigarrow;":1824,"rightthreetimes;":1825,"ring;":1826,"risingdotseq;":1827,"rlarr;":1828,"rlhar;":1829,"rlm;":1830,"rmoust;":1831,"rmoustache;":1832,"rnmid;":1833,"roang;":1834,"roarr;":1835,"robrk;":1836,"ropar;":1837,"ropf;":1838,"roplus;":1839,"rotimes;":1840,"rpar;":1841,"rpargt;":1842,"rppolint;":1843,"rrarr;":1844,"rsaquo;":1845,"rscr;":1846,"rsh;":1847,"rsqb;":1848,"rsquo;":1849,"rsquor;":1850,"rthree;":1851,"rtimes;":1852,"rtri;":1853,"rtrie;":1854,"rtrif;":1855,"rtriltri;":1856,"ruluhar;":1857,"rx;":1858,"sacute;":1859,"sbquo;":1860,"sc;":1861,"scE;":1862,"scap;":1863,"scaron;":1864,"sccue;":1865,"sce;":1866,"scedil;":1867,"scirc;":1868,"scnE;":1869,"scnap;":1870,"scnsim;":1871,"scpolint;":1872,"scsim;":1873,"scy;":1874,"sdot;":1875,"sdotb;":1876,"sdote;":1877,"seArr;":1878,"searhk;":1879,"searr;":1880,"searrow;":1881,sect:1882,"sect;":1883,"semi;":1884,"seswar;":1885,"setminus;":1886,"setmn;":1887,"sext;":1888,"sfr;":1889,"sfrown;":1890,"sharp;":1891,"shchcy;":1892,"shcy;":1893,"shortmid;":1894,"shortparallel;":1895,shy:1896,"shy;":1897,"sigma;":1898,"sigmaf;":1899,"sigmav;":1900,"sim;":1901,"simdot;":1902,"sime;":1903,"simeq;":1904,"simg;":1905,"simgE;":1906,"siml;":1907,"simlE;":1908,"simne;":1909,"simplus;":1910,"simrarr;":1911,"slarr;":1912,"smallsetminus;":1913,"smashp;":1914,"smeparsl;":1915,"smid;":1916,"smile;":1917,"smt;":1918,"smte;":1919,"smtes;":1920,"softcy;":1921,"sol;":1922,"solb;":1923,"solbar;":1924,"sopf;":1925,"spades;":1926,"spadesuit;":1927,"spar;":1928,"sqcap;":1929,"sqcaps;":1930,"sqcup;":1931,"sqcups;":1932,"sqsub;":1933,"sqsube;":1934,"sqsubset;":1935,"sqsubseteq;":1936,"sqsup;":1937,"sqsupe;":1938,"sqsupset;":1939,"sqsupseteq;":1940,"squ;":1941,"square;":1942,"squarf;":1943,"squf;":1944,"srarr;":1945,"sscr;":1946,"ssetmn;":1947,"ssmile;":1948,"sstarf;":1949,"star;":1950,"starf;":1951,"straightepsilon;":1952,"straightphi;":1953,"strns;":1954,"sub;":1955,"subE;":1956,"subdot;":1957,"sube;":1958,"subedot;":1959,"submult;":1960,"subnE;":1961,"subne;":1962,"subplus;":1963,"subrarr;":1964,"subset;":1965,"subseteq;":1966,"subseteqq;":1967,"subsetneq;":1968,"subsetneqq;":1969,"subsim;":1970,"subsub;":1971,"subsup;":1972,"succ;":1973,"succapprox;":1974,"succcurlyeq;":1975,"succeq;":1976,"succnapprox;":1977,"succneqq;":1978,"succnsim;":1979,"succsim;":1980,"sum;":1981,"sung;":1982,sup1:1983,"sup1;":1984,sup2:1985,"sup2;":1986,sup3:1987,"sup3;":1988,"sup;":1989,"supE;":1990,"supdot;":1991,"supdsub;":1992,"supe;":1993,"supedot;":1994,"suphsol;":1995,"suphsub;":1996,"suplarr;":1997,"supmult;":1998,"supnE;":1999,"supne;":2000,"supplus;":2001,"supset;":2002,"supseteq;":2003,"supseteqq;":2004,"supsetneq;":2005,"supsetneqq;":2006,"supsim;":2007,"supsub;":2008,"supsup;":2009,"swArr;":2010,"swarhk;":2011,"swarr;":2012,"swarrow;":2013,"swnwar;":2014,szlig:2015,"szlig;":2016,"target;":2017,"tau;":2018,"tbrk;":2019,"tcaron;":2020,"tcedil;":2021,"tcy;":2022,"tdot;":2023,"telrec;":2024,"tfr;":2025,"there4;":2026,"therefore;":2027,"theta;":2028,"thetasym;":2029,"thetav;":2030,"thickapprox;":2031,"thicksim;":2032,"thinsp;":2033,"thkap;":2034,"thksim;":2035,thorn:2036,"thorn;":2037,"tilde;":2038,times:2039,"times;":2040,"timesb;":2041,"timesbar;":2042,"timesd;":2043,"tint;":2044,"toea;":2045,"top;":2046,"topbot;":2047,"topcir;":2048,"topf;":2049,"topfork;":2050,"tosa;":2051,"tprime;":2052,"trade;":2053,"triangle;":2054,"triangledown;":2055,"triangleleft;":2056,"trianglelefteq;":2057,"triangleq;":2058,"triangleright;":2059,"trianglerighteq;":2060,"tridot;":2061,"trie;":2062,"triminus;":2063,"triplus;":2064,"trisb;":2065,"tritime;":2066,"trpezium;":2067,"tscr;":2068,"tscy;":2069,"tshcy;":2070,"tstrok;":2071,"twixt;":2072,"twoheadleftarrow;":2073,"twoheadrightarrow;":2074,"uArr;":2075,"uHar;":2076,uacute:2077,"uacute;":2078,"uarr;":2079,"ubrcy;":2080,"ubreve;":2081,ucirc:2082,"ucirc;":2083,"ucy;":2084,"udarr;":2085,"udblac;":2086,"udhar;":2087,"ufisht;":2088,"ufr;":2089,ugrave:2090,"ugrave;":2091,"uharl;":2092,"uharr;":2093,"uhblk;":2094,"ulcorn;":2095,"ulcorner;":2096,"ulcrop;":2097,"ultri;":2098,"umacr;":2099,uml:2100,"uml;":2101,"uogon;":2102,"uopf;":2103,"uparrow;":2104,"updownarrow;":2105,"upharpoonleft;":2106,"upharpoonright;":2107,"uplus;":2108,"upsi;":2109,"upsih;":2110,"upsilon;":2111,"upuparrows;":2112,"urcorn;":2113,"urcorner;":2114,"urcrop;":2115,"uring;":2116,"urtri;":2117,"uscr;":2118,"utdot;":2119,"utilde;":2120,"utri;":2121,"utrif;":2122,"uuarr;":2123,uuml:2124,"uuml;":2125,"uwangle;":2126,"vArr;":2127,"vBar;":2128,"vBarv;":2129,"vDash;":2130,"vangrt;":2131,"varepsilon;":2132,"varkappa;":2133,"varnothing;":2134,"varphi;":2135,"varpi;":2136,"varpropto;":2137,"varr;":2138,"varrho;":2139,"varsigma;":2140,"varsubsetneq;":2141,"varsubsetneqq;":2142,"varsupsetneq;":2143,"varsupsetneqq;":2144,"vartheta;":2145,"vartriangleleft;":2146,"vartriangleright;":2147,"vcy;":2148,"vdash;":2149,"vee;":2150,"veebar;":2151,"veeeq;":2152,"vellip;":2153,"verbar;":2154,"vert;":2155,"vfr;":2156,"vltri;":2157,"vnsub;":2158,"vnsup;":2159,"vopf;":2160,"vprop;":2161,"vrtri;":2162,"vscr;":2163,"vsubnE;":2164,"vsubne;":2165,"vsupnE;":2166,"vsupne;":2167,"vzigzag;":2168,"wcirc;":2169,"wedbar;":2170,"wedge;":2171,"wedgeq;":2172,"weierp;":2173,"wfr;":2174,"wopf;":2175,"wp;":2176,"wr;":2177,"wreath;":2178,"wscr;":2179,"xcap;":2180,"xcirc;":2181,"xcup;":2182,"xdtri;":2183,"xfr;":2184,"xhArr;":2185,"xharr;":2186,"xi;":2187,"xlArr;":2188,"xlarr;":2189,"xmap;":2190,"xnis;":2191,"xodot;":2192,"xopf;":2193,"xoplus;":2194,"xotime;":2195,"xrArr;":2196,"xrarr;":2197,"xscr;":2198,"xsqcup;":2199,"xuplus;":2200,"xutri;":2201,"xvee;":2202,"xwedge;":2203,yacute:2204,"yacute;":2205,"yacy;":2206,"ycirc;":2207,"ycy;":2208,yen:2209,"yen;":2210,"yfr;":2211,"yicy;":2212,"yopf;":2213,"yscr;":2214,"yucy;":2215,yuml:2216,"yuml;":2217,"zacute;":2218,"zcaron;":2219,"zcy;":2220,"zdot;":2221,"zeetrf;":2222,"zeta;":2223,"zfr;":2224,"zhcy;":2225,"zigrarr;":2226,"zopf;":2227,"zscr;":2228,"zwj;":2229,"zwnj;":2230}
 B.PZ=new A.aL(B.aWc,["\xc6","\xc6","&","&","\xc1","\xc1","\u0102","\xc2","\xc2","\u0410","\ud835\udd04","\xc0","\xc0","\u0391","\u0100","\u2a53","\u0104","\ud835\udd38","\u2061","\xc5","\xc5","\ud835\udc9c","\u2254","\xc3","\xc3","\xc4","\xc4","\u2216","\u2ae7","\u2306","\u0411","\u2235","\u212c","\u0392","\ud835\udd05","\ud835\udd39","\u02d8","\u212c","\u224e","\u0427","\xa9","\xa9","\u0106","\u22d2","\u2145","\u212d","\u010c","\xc7","\xc7","\u0108","\u2230","\u010a","\xb8","\xb7","\u212d","\u03a7","\u2299","\u2296","\u2295","\u2297","\u2232","\u201d","\u2019","\u2237","\u2a74","\u2261","\u222f","\u222e","\u2102","\u2210","\u2233","\u2a2f","\ud835\udc9e","\u22d3","\u224d","\u2145","\u2911","\u0402","\u0405","\u040f","\u2021","\u21a1","\u2ae4","\u010e","\u0414","\u2207","\u0394","\ud835\udd07","\xb4","\u02d9","\u02dd","`","\u02dc","\u22c4","\u2146","\ud835\udd3b","\xa8","\u20dc","\u2250","\u222f","\xa8","\u21d3","\u21d0","\u21d4","\u2ae4","\u27f8","\u27fa","\u27f9","\u21d2","\u22a8","\u21d1","\u21d5","\u2225","\u2193","\u2913","\u21f5","\u0311","\u2950","\u295e","\u21bd","\u2956","\u295f","\u21c1","\u2957","\u22a4","\u21a7","\u21d3","\ud835\udc9f","\u0110","\u014a","\xd0","\xd0","\xc9","\xc9","\u011a","\xca","\xca","\u042d","\u0116","\ud835\udd08","\xc8","\xc8","\u2208","\u0112","\u25fb","\u25ab","\u0118","\ud835\udd3c","\u0395","\u2a75","\u2242","\u21cc","\u2130","\u2a73","\u0397","\xcb","\xcb","\u2203","\u2147","\u0424","\ud835\udd09","\u25fc","\u25aa","\ud835\udd3d","\u2200","\u2131","\u2131","\u0403",">",">","\u0393","\u03dc","\u011e","\u0122","\u011c","\u0413","\u0120","\ud835\udd0a","\u22d9","\ud835\udd3e","\u2265","\u22db","\u2267","\u2aa2","\u2277","\u2a7e","\u2273","\ud835\udca2","\u226b","\u042a","\u02c7","^","\u0124","\u210c","\u210b","\u210d","\u2500","\u210b","\u0126","\u224e","\u224f","\u0415","\u0132","\u0401","\xcd","\xcd","\xce","\xce","\u0418","\u0130","\u2111","\xcc","\xcc","\u2111","\u012a","\u2148","\u21d2","\u222c","\u222b","\u22c2","\u2063","\u2062","\u012e","\ud835\udd40","\u0399","\u2110","\u0128","\u0406","\xcf","\xcf","\u0134","\u0419","\ud835\udd0d","\ud835\udd41","\ud835\udca5","\u0408","\u0404","\u0425","\u040c","\u039a","\u0136","\u041a","\ud835\udd0e","\ud835\udd42","\ud835\udca6","\u0409","<","<","\u0139","\u039b","\u27ea","\u2112","\u219e","\u013d","\u013b","\u041b","\u27e8","\u2190","\u21e4","\u21c6","\u2308","\u27e6","\u2961","\u21c3","\u2959","\u230a","\u2194","\u294e","\u22a3","\u21a4","\u295a","\u22b2","\u29cf","\u22b4","\u2951","\u2960","\u21bf","\u2958","\u21bc","\u2952","\u21d0","\u21d4","\u22da","\u2266","\u2276","\u2aa1","\u2a7d","\u2272","\ud835\udd0f","\u22d8","\u21da","\u013f","\u27f5","\u27f7","\u27f6","\u27f8","\u27fa","\u27f9","\ud835\udd43","\u2199","\u2198","\u2112","\u21b0","\u0141","\u226a","\u2905","\u041c","\u205f","\u2133","\ud835\udd10","\u2213","\ud835\udd44","\u2133","\u039c","\u040a","\u0143","\u0147","\u0145","\u041d","\u200b","\u200b","\u200b","\u200b","\u226b","\u226a","\n","\ud835\udd11","\u2060","\xa0","\u2115","\u2aec","\u2262","\u226d","\u2226","\u2209","\u2260","\u2242\u0338","\u2204","\u226f","\u2271","\u2267\u0338","\u226b\u0338","\u2279","\u2a7e\u0338","\u2275","\u224e\u0338","\u224f\u0338","\u22ea","\u29cf\u0338","\u22ec","\u226e","\u2270","\u2278","\u226a\u0338","\u2a7d\u0338","\u2274","\u2aa2\u0338","\u2aa1\u0338","\u2280","\u2aaf\u0338","\u22e0","\u220c","\u22eb","\u29d0\u0338","\u22ed","\u228f\u0338","\u22e2","\u2290\u0338","\u22e3","\u2282\u20d2","\u2288","\u2281","\u2ab0\u0338","\u22e1","\u227f\u0338","\u2283\u20d2","\u2289","\u2241","\u2244","\u2247","\u2249","\u2224","\ud835\udca9","\xd1","\xd1","\u039d","\u0152","\xd3","\xd3","\xd4","\xd4","\u041e","\u0150","\ud835\udd12","\xd2","\xd2","\u014c","\u03a9","\u039f","\ud835\udd46","\u201c","\u2018","\u2a54","\ud835\udcaa","\xd8","\xd8","\xd5","\xd5","\u2a37","\xd6","\xd6","\u203e","\u23de","\u23b4","\u23dc","\u2202","\u041f","\ud835\udd13","\u03a6","\u03a0","\xb1","\u210c","\u2119","\u2abb","\u227a","\u2aaf","\u227c","\u227e","\u2033","\u220f","\u2237","\u221d","\ud835\udcab","\u03a8",'"','"',"\ud835\udd14","\u211a","\ud835\udcac","\u2910","\xae","\xae","\u0154","\u27eb","\u21a0","\u2916","\u0158","\u0156","\u0420","\u211c","\u220b","\u21cb","\u296f","\u211c","\u03a1","\u27e9","\u2192","\u21e5","\u21c4","\u2309","\u27e7","\u295d","\u21c2","\u2955","\u230b","\u22a2","\u21a6","\u295b","\u22b3","\u29d0","\u22b5","\u294f","\u295c","\u21be","\u2954","\u21c0","\u2953","\u21d2","\u211d","\u2970","\u21db","\u211b","\u21b1","\u29f4","\u0429","\u0428","\u042c","\u015a","\u2abc","\u0160","\u015e","\u015c","\u0421","\ud835\udd16","\u2193","\u2190","\u2192","\u2191","\u03a3","\u2218","\ud835\udd4a","\u221a","\u25a1","\u2293","\u228f","\u2291","\u2290","\u2292","\u2294","\ud835\udcae","\u22c6","\u22d0","\u22d0","\u2286","\u227b","\u2ab0","\u227d","\u227f","\u220b","\u2211","\u22d1","\u2283","\u2287","\u22d1","\xde","\xde","\u2122","\u040b","\u0426","\t","\u03a4","\u0164","\u0162","\u0422","\ud835\udd17","\u2234","\u0398","\u205f\u200a","\u2009","\u223c","\u2243","\u2245","\u2248","\ud835\udd4b","\u20db","\ud835\udcaf","\u0166","\xda","\xda","\u219f","\u2949","\u040e","\u016c","\xdb","\xdb","\u0423","\u0170","\ud835\udd18","\xd9","\xd9","\u016a","_","\u23df","\u23b5","\u23dd","\u22c3","\u228e","\u0172","\ud835\udd4c","\u2191","\u2912","\u21c5","\u2195","\u296e","\u22a5","\u21a5","\u21d1","\u21d5","\u2196","\u2197","\u03d2","\u03a5","\u016e","\ud835\udcb0","\u0168","\xdc","\xdc","\u22ab","\u2aeb","\u0412","\u22a9","\u2ae6","\u22c1","\u2016","\u2016","\u2223","|","\u2758","\u2240","\u200a","\ud835\udd19","\ud835\udd4d","\ud835\udcb1","\u22aa","\u0174","\u22c0","\ud835\udd1a","\ud835\udd4e","\ud835\udcb2","\ud835\udd1b","\u039e","\ud835\udd4f","\ud835\udcb3","\u042f","\u0407","\u042e","\xdd","\xdd","\u0176","\u042b","\ud835\udd1c","\ud835\udd50","\ud835\udcb4","\u0178","\u0416","\u0179","\u017d","\u0417","\u017b","\u200b","\u0396","\u2128","\u2124","\ud835\udcb5","\xe1","\xe1","\u0103","\u223e","\u223e\u0333","\u223f","\xe2","\xe2","\xb4","\xb4","\u0430","\xe6","\xe6","\u2061","\ud835\udd1e","\xe0","\xe0","\u2135","\u2135","\u03b1","\u0101","\u2a3f","&","&","\u2227","\u2a55","\u2a5c","\u2a58","\u2a5a","\u2220","\u29a4","\u2220","\u2221","\u29a8","\u29a9","\u29aa","\u29ab","\u29ac","\u29ad","\u29ae","\u29af","\u221f","\u22be","\u299d","\u2222","\xc5","\u237c","\u0105","\ud835\udd52","\u2248","\u2a70","\u2a6f","\u224a","\u224b","'","\u2248","\u224a","\xe5","\xe5","\ud835\udcb6","*","\u2248","\u224d","\xe3","\xe3","\xe4","\xe4","\u2233","\u2a11","\u2aed","\u224c","\u03f6","\u2035","\u223d","\u22cd","\u22bd","\u2305","\u2305","\u23b5","\u23b6","\u224c","\u0431","\u201e","\u2235","\u2235","\u29b0","\u03f6","\u212c","\u03b2","\u2136","\u226c","\ud835\udd1f","\u22c2","\u25ef","\u22c3","\u2a00","\u2a01","\u2a02","\u2a06","\u2605","\u25bd","\u25b3","\u2a04","\u22c1","\u22c0","\u290d","\u29eb","\u25aa","\u25b4","\u25be","\u25c2","\u25b8","\u2423","\u2592","\u2591","\u2593","\u2588","=\u20e5","\u2261\u20e5","\u2310","\ud835\udd53","\u22a5","\u22a5","\u22c8","\u2557","\u2554","\u2556","\u2553","\u2550","\u2566","\u2569","\u2564","\u2567","\u255d","\u255a","\u255c","\u2559","\u2551","\u256c","\u2563","\u2560","\u256b","\u2562","\u255f","\u29c9","\u2555","\u2552","\u2510","\u250c","\u2500","\u2565","\u2568","\u252c","\u2534","\u229f","\u229e","\u22a0","\u255b","\u2558","\u2518","\u2514","\u2502","\u256a","\u2561","\u255e","\u253c","\u2524","\u251c","\u2035","\u02d8","\xa6","\xa6","\ud835\udcb7","\u204f","\u223d","\u22cd","\\","\u29c5","\u27c8","\u2022","\u2022","\u224e","\u2aae","\u224f","\u224f","\u0107","\u2229","\u2a44","\u2a49","\u2a4b","\u2a47","\u2a40","\u2229\ufe00","\u2041","\u02c7","\u2a4d","\u010d","\xe7","\xe7","\u0109","\u2a4c","\u2a50","\u010b","\xb8","\xb8","\u29b2","\xa2","\xa2","\xb7","\ud835\udd20","\u0447","\u2713","\u2713","\u03c7","\u25cb","\u29c3","\u02c6","\u2257","\u21ba","\u21bb","\xae","\u24c8","\u229b","\u229a","\u229d","\u2257","\u2a10","\u2aef","\u29c2","\u2663","\u2663",":","\u2254","\u2254",",","@","\u2201","\u2218","\u2201","\u2102","\u2245","\u2a6d","\u222e","\ud835\udd54","\u2210","\xa9","\xa9","\u2117","\u21b5","\u2717","\ud835\udcb8","\u2acf","\u2ad1","\u2ad0","\u2ad2","\u22ef","\u2938","\u2935","\u22de","\u22df","\u21b6","\u293d","\u222a","\u2a48","\u2a46","\u2a4a","\u228d","\u2a45","\u222a\ufe00","\u21b7","\u293c","\u22de","\u22df","\u22ce","\u22cf","\xa4","\xa4","\u21b6","\u21b7","\u22ce","\u22cf","\u2232","\u2231","\u232d","\u21d3","\u2965","\u2020","\u2138","\u2193","\u2010","\u22a3","\u290f","\u02dd","\u010f","\u0434","\u2146","\u2021","\u21ca","\u2a77","\xb0","\xb0","\u03b4","\u29b1","\u297f","\ud835\udd21","\u21c3","\u21c2","\u22c4","\u22c4","\u2666","\u2666","\xa8","\u03dd","\u22f2","\xf7","\xf7","\xf7","\u22c7","\u22c7","\u0452","\u231e","\u230d","$","\ud835\udd55","\u02d9","\u2250","\u2251","\u2238","\u2214","\u22a1","\u2306","\u2193","\u21ca","\u21c3","\u21c2","\u2910","\u231f","\u230c","\ud835\udcb9","\u0455","\u29f6","\u0111","\u22f1","\u25bf","\u25be","\u21f5","\u296f","\u29a6","\u045f","\u27ff","\u2a77","\u2251","\xe9","\xe9","\u2a6e","\u011b","\u2256","\xea","\xea","\u2255","\u044d","\u0117","\u2147","\u2252","\ud835\udd22","\u2a9a","\xe8","\xe8","\u2a96","\u2a98","\u2a99","\u23e7","\u2113","\u2a95","\u2a97","\u0113","\u2205","\u2205","\u2205","\u2004","\u2005","\u2003","\u014b","\u2002","\u0119","\ud835\udd56","\u22d5","\u29e3","\u2a71","\u03b5","\u03b5","\u03f5","\u2256","\u2255","\u2242","\u2a96","\u2a95","=","\u225f","\u2261","\u2a78","\u29e5","\u2253","\u2971","\u212f","\u2250","\u2242","\u03b7","\xf0","\xf0","\xeb","\xeb","\u20ac","!","\u2203","\u2130","\u2147","\u2252","\u0444","\u2640","\ufb03","\ufb00","\ufb04","\ud835\udd23","\ufb01","fj","\u266d","\ufb02","\u25b1","\u0192","\ud835\udd57","\u2200","\u22d4","\u2ad9","\u2a0d","\xbd","\xbd","\u2153","\xbc","\xbc","\u2155","\u2159","\u215b","\u2154","\u2156","\xbe","\xbe","\u2157","\u215c","\u2158","\u215a","\u215d","\u215e","\u2044","\u2322","\ud835\udcbb","\u2267","\u2a8c","\u01f5","\u03b3","\u03dd","\u2a86","\u011f","\u011d","\u0433","\u0121","\u2265","\u22db","\u2265","\u2267","\u2a7e","\u2a7e","\u2aa9","\u2a80","\u2a82","\u2a84","\u22db\ufe00","\u2a94","\ud835\udd24","\u226b","\u22d9","\u2137","\u0453","\u2277","\u2a92","\u2aa5","\u2aa4","\u2269","\u2a8a","\u2a8a","\u2a88","\u2a88","\u2269","\u22e7","\ud835\udd58","`","\u210a","\u2273","\u2a8e","\u2a90",">",">","\u2aa7","\u2a7a","\u22d7","\u2995","\u2a7c","\u2a86","\u2978","\u22d7","\u22db","\u2a8c","\u2277","\u2273","\u2269\ufe00","\u2269\ufe00","\u21d4","\u200a","\xbd","\u210b","\u044a","\u2194","\u2948","\u21ad","\u210f","\u0125","\u2665","\u2665","\u2026","\u22b9","\ud835\udd25","\u2925","\u2926","\u21ff","\u223b","\u21a9","\u21aa","\ud835\udd59","\u2015","\ud835\udcbd","\u210f","\u0127","\u2043","\u2010","\xed","\xed","\u2063","\xee","\xee","\u0438","\u0435","\xa1","\xa1","\u21d4","\ud835\udd26","\xec","\xec","\u2148","\u2a0c","\u222d","\u29dc","\u2129","\u0133","\u012b","\u2111","\u2110","\u2111","\u0131","\u22b7","\u01b5","\u2208","\u2105","\u221e","\u29dd","\u0131","\u222b","\u22ba","\u2124","\u22ba","\u2a17","\u2a3c","\u0451","\u012f","\ud835\udd5a","\u03b9","\u2a3c","\xbf","\xbf","\ud835\udcbe","\u2208","\u22f9","\u22f5","\u22f4","\u22f3","\u2208","\u2062","\u0129","\u0456","\xef","\xef","\u0135","\u0439","\ud835\udd27","\u0237","\ud835\udd5b","\ud835\udcbf","\u0458","\u0454","\u03ba","\u03f0","\u0137","\u043a","\ud835\udd28","\u0138","\u0445","\u045c","\ud835\udd5c","\ud835\udcc0","\u21da","\u21d0","\u291b","\u290e","\u2266","\u2a8b","\u2962","\u013a","\u29b4","\u2112","\u03bb","\u27e8","\u2991","\u27e8","\u2a85","\xab","\xab","\u2190","\u21e4","\u291f","\u291d","\u21a9","\u21ab","\u2939","\u2973","\u21a2","\u2aab","\u2919","\u2aad","\u2aad\ufe00","\u290c","\u2772","{","[","\u298b","\u298f","\u298d","\u013e","\u013c","\u2308","{","\u043b","\u2936","\u201c","\u201e","\u2967","\u294b","\u21b2","\u2264","\u2190","\u21a2","\u21bd","\u21bc","\u21c7","\u2194","\u21c6","\u21cb","\u21ad","\u22cb","\u22da","\u2264","\u2266","\u2a7d","\u2a7d","\u2aa8","\u2a7f","\u2a81","\u2a83","\u22da\ufe00","\u2a93","\u2a85","\u22d6","\u22da","\u2a8b","\u2276","\u2272","\u297c","\u230a","\ud835\udd29","\u2276","\u2a91","\u21bd","\u21bc","\u296a","\u2584","\u0459","\u226a","\u21c7","\u231e","\u296b","\u25fa","\u0140","\u23b0","\u23b0","\u2268","\u2a89","\u2a89","\u2a87","\u2a87","\u2268","\u22e6","\u27ec","\u21fd","\u27e6","\u27f5","\u27f7","\u27fc","\u27f6","\u21ab","\u21ac","\u2985","\ud835\udd5d","\u2a2d","\u2a34","\u2217","_","\u25ca","\u25ca","\u29eb","(","\u2993","\u21c6","\u231f","\u21cb","\u296d","\u200e","\u22bf","\u2039","\ud835\udcc1","\u21b0","\u2272","\u2a8d","\u2a8f","[","\u2018","\u201a","\u0142","<","<","\u2aa6","\u2a79","\u22d6","\u22cb","\u22c9","\u2976","\u2a7b","\u2996","\u25c3","\u22b4","\u25c2","\u294a","\u2966","\u2268\ufe00","\u2268\ufe00","\u223a","\xaf","\xaf","\u2642","\u2720","\u2720","\u21a6","\u21a6","\u21a7","\u21a4","\u21a5","\u25ae","\u2a29","\u043c","\u2014","\u2221","\ud835\udd2a","\u2127","\xb5","\xb5","\u2223","*","\u2af0","\xb7","\xb7","\u2212","\u229f","\u2238","\u2a2a","\u2adb","\u2026","\u2213","\u22a7","\ud835\udd5e","\u2213","\ud835\udcc2","\u223e","\u03bc","\u22b8","\u22b8","\u22d9\u0338","\u226b\u20d2","\u226b\u0338","\u21cd","\u21ce","\u22d8\u0338","\u226a\u20d2","\u226a\u0338","\u21cf","\u22af","\u22ae","\u2207","\u0144","\u2220\u20d2","\u2249","\u2a70\u0338","\u224b\u0338","\u0149","\u2249","\u266e","\u266e","\u2115","\xa0","\xa0","\u224e\u0338","\u224f\u0338","\u2a43","\u0148","\u0146","\u2247","\u2a6d\u0338","\u2a42","\u043d","\u2013","\u2260","\u21d7","\u2924","\u2197","\u2197","\u2250\u0338","\u2262","\u2928","\u2242\u0338","\u2204","\u2204","\ud835\udd2b","\u2267\u0338","\u2271","\u2271","\u2267\u0338","\u2a7e\u0338","\u2a7e\u0338","\u2275","\u226f","\u226f","\u21ce","\u21ae","\u2af2","\u220b","\u22fc","\u22fa","\u220b","\u045a","\u21cd","\u2266\u0338","\u219a","\u2025","\u2270","\u219a","\u21ae","\u2270","\u2266\u0338","\u2a7d\u0338","\u2a7d\u0338","\u226e","\u2274","\u226e","\u22ea","\u22ec","\u2224","\ud835\udd5f","\xac","\xac","\u2209","\u22f9\u0338","\u22f5\u0338","\u2209","\u22f7","\u22f6","\u220c","\u220c","\u22fe","\u22fd","\u2226","\u2226","\u2afd\u20e5","\u2202\u0338","\u2a14","\u2280","\u22e0","\u2aaf\u0338","\u2280","\u2aaf\u0338","\u21cf","\u219b","\u2933\u0338","\u219d\u0338","\u219b","\u22eb","\u22ed","\u2281","\u22e1","\u2ab0\u0338","\ud835\udcc3","\u2224","\u2226","\u2241","\u2244","\u2244","\u2224","\u2226","\u22e2","\u22e3","\u2284","\u2ac5\u0338","\u2288","\u2282\u20d2","\u2288","\u2ac5\u0338","\u2281","\u2ab0\u0338","\u2285","\u2ac6\u0338","\u2289","\u2283\u20d2","\u2289","\u2ac6\u0338","\u2279","\xf1","\xf1","\u2278","\u22ea","\u22ec","\u22eb","\u22ed","\u03bd","#","\u2116","\u2007","\u22ad","\u2904","\u224d\u20d2","\u22ac","\u2265\u20d2",">\u20d2","\u29de","\u2902","\u2264\u20d2","<\u20d2","\u22b4\u20d2","\u2903","\u22b5\u20d2","\u223c\u20d2","\u21d6","\u2923","\u2196","\u2196","\u2927","\u24c8","\xf3","\xf3","\u229b","\u229a","\xf4","\xf4","\u043e","\u229d","\u0151","\u2a38","\u2299","\u29bc","\u0153","\u29bf","\ud835\udd2c","\u02db","\xf2","\xf2","\u29c1","\u29b5","\u03a9","\u222e","\u21ba","\u29be","\u29bb","\u203e","\u29c0","\u014d","\u03c9","\u03bf","\u29b6","\u2296","\ud835\udd60","\u29b7","\u29b9","\u2295","\u2228","\u21bb","\u2a5d","\u2134","\u2134","\xaa","\xaa","\xba","\xba","\u22b6","\u2a56","\u2a57","\u2a5b","\u2134","\xf8","\xf8","\u2298","\xf5","\xf5","\u2297","\u2a36","\xf6","\xf6","\u233d","\u2225","\xb6","\xb6","\u2225","\u2af3","\u2afd","\u2202","\u043f","%",".","\u2030","\u22a5","\u2031","\ud835\udd2d","\u03c6","\u03d5","\u2133","\u260e","\u03c0","\u22d4","\u03d6","\u210f","\u210e","\u210f","+","\u2a23","\u229e","\u2a22","\u2214","\u2a25","\u2a72","\xb1","\xb1","\u2a26","\u2a27","\xb1","\u2a15","\ud835\udd61","\xa3","\xa3","\u227a","\u2ab3","\u2ab7","\u227c","\u2aaf","\u227a","\u2ab7","\u227c","\u2aaf","\u2ab9","\u2ab5","\u22e8","\u227e","\u2032","\u2119","\u2ab5","\u2ab9","\u22e8","\u220f","\u232e","\u2312","\u2313","\u221d","\u221d","\u227e","\u22b0","\ud835\udcc5","\u03c8","\u2008","\ud835\udd2e","\u2a0c","\ud835\udd62","\u2057","\ud835\udcc6","\u210d","\u2a16","?","\u225f",'"','"',"\u21db","\u21d2","\u291c","\u290f","\u2964","\u223d\u0331","\u0155","\u221a","\u29b3","\u27e9","\u2992","\u29a5","\u27e9","\xbb","\xbb","\u2192","\u2975","\u21e5","\u2920","\u2933","\u291e","\u21aa","\u21ac","\u2945","\u2974","\u21a3","\u219d","\u291a","\u2236","\u211a","\u290d","\u2773","}","]","\u298c","\u298e","\u2990","\u0159","\u0157","\u2309","}","\u0440","\u2937","\u2969","\u201d","\u201d","\u21b3","\u211c","\u211b","\u211c","\u211d","\u25ad","\xae","\xae","\u297d","\u230b","\ud835\udd2f","\u21c1","\u21c0","\u296c","\u03c1","\u03f1","\u2192","\u21a3","\u21c1","\u21c0","\u21c4","\u21cc","\u21c9","\u219d","\u22cc","\u02da","\u2253","\u21c4","\u21cc","\u200f","\u23b1","\u23b1","\u2aee","\u27ed","\u21fe","\u27e7","\u2986","\ud835\udd63","\u2a2e","\u2a35",")","\u2994","\u2a12","\u21c9","\u203a","\ud835\udcc7","\u21b1","]","\u2019","\u2019","\u22cc","\u22ca","\u25b9","\u22b5","\u25b8","\u29ce","\u2968","\u211e","\u015b","\u201a","\u227b","\u2ab4","\u2ab8","\u0161","\u227d","\u2ab0","\u015f","\u015d","\u2ab6","\u2aba","\u22e9","\u2a13","\u227f","\u0441","\u22c5","\u22a1","\u2a66","\u21d8","\u2925","\u2198","\u2198","\xa7","\xa7",";","\u2929","\u2216","\u2216","\u2736","\ud835\udd30","\u2322","\u266f","\u0449","\u0448","\u2223","\u2225","\xad","\xad","\u03c3","\u03c2","\u03c2","\u223c","\u2a6a","\u2243","\u2243","\u2a9e","\u2aa0","\u2a9d","\u2a9f","\u2246","\u2a24","\u2972","\u2190","\u2216","\u2a33","\u29e4","\u2223","\u2323","\u2aaa","\u2aac","\u2aac\ufe00","\u044c","/","\u29c4","\u233f","\ud835\udd64","\u2660","\u2660","\u2225","\u2293","\u2293\ufe00","\u2294","\u2294\ufe00","\u228f","\u2291","\u228f","\u2291","\u2290","\u2292","\u2290","\u2292","\u25a1","\u25a1","\u25aa","\u25aa","\u2192","\ud835\udcc8","\u2216","\u2323","\u22c6","\u2606","\u2605","\u03f5","\u03d5","\xaf","\u2282","\u2ac5","\u2abd","\u2286","\u2ac3","\u2ac1","\u2acb","\u228a","\u2abf","\u2979","\u2282","\u2286","\u2ac5","\u228a","\u2acb","\u2ac7","\u2ad5","\u2ad3","\u227b","\u2ab8","\u227d","\u2ab0","\u2aba","\u2ab6","\u22e9","\u227f","\u2211","\u266a","\xb9","\xb9","\xb2","\xb2","\xb3","\xb3","\u2283","\u2ac6","\u2abe","\u2ad8","\u2287","\u2ac4","\u27c9","\u2ad7","\u297b","\u2ac2","\u2acc","\u228b","\u2ac0","\u2283","\u2287","\u2ac6","\u228b","\u2acc","\u2ac8","\u2ad4","\u2ad6","\u21d9","\u2926","\u2199","\u2199","\u292a","\xdf","\xdf","\u2316","\u03c4","\u23b4","\u0165","\u0163","\u0442","\u20db","\u2315","\ud835\udd31","\u2234","\u2234","\u03b8","\u03d1","\u03d1","\u2248","\u223c","\u2009","\u2248","\u223c","\xfe","\xfe","\u02dc","\xd7","\xd7","\u22a0","\u2a31","\u2a30","\u222d","\u2928","\u22a4","\u2336","\u2af1","\ud835\udd65","\u2ada","\u2929","\u2034","\u2122","\u25b5","\u25bf","\u25c3","\u22b4","\u225c","\u25b9","\u22b5","\u25ec","\u225c","\u2a3a","\u2a39","\u29cd","\u2a3b","\u23e2","\ud835\udcc9","\u0446","\u045b","\u0167","\u226c","\u219e","\u21a0","\u21d1","\u2963","\xfa","\xfa","\u2191","\u045e","\u016d","\xfb","\xfb","\u0443","\u21c5","\u0171","\u296e","\u297e","\ud835\udd32","\xf9","\xf9","\u21bf","\u21be","\u2580","\u231c","\u231c","\u230f","\u25f8","\u016b","\xa8","\xa8","\u0173","\ud835\udd66","\u2191","\u2195","\u21bf","\u21be","\u228e","\u03c5","\u03d2","\u03c5","\u21c8","\u231d","\u231d","\u230e","\u016f","\u25f9","\ud835\udcca","\u22f0","\u0169","\u25b5","\u25b4","\u21c8","\xfc","\xfc","\u29a7","\u21d5","\u2ae8","\u2ae9","\u22a8","\u299c","\u03f5","\u03f0","\u2205","\u03d5","\u03d6","\u221d","\u2195","\u03f1","\u03c2","\u228a\ufe00","\u2acb\ufe00","\u228b\ufe00","\u2acc\ufe00","\u03d1","\u22b2","\u22b3","\u0432","\u22a2","\u2228","\u22bb","\u225a","\u22ee","|","|","\ud835\udd33","\u22b2","\u2282\u20d2","\u2283\u20d2","\ud835\udd67","\u221d","\u22b3","\ud835\udccb","\u2acb\ufe00","\u228a\ufe00","\u2acc\ufe00","\u228b\ufe00","\u299a","\u0175","\u2a5f","\u2227","\u2259","\u2118","\ud835\udd34","\ud835\udd68","\u2118","\u2240","\u2240","\ud835\udccc","\u22c2","\u25ef","\u22c3","\u25bd","\ud835\udd35","\u27fa","\u27f7","\u03be","\u27f8","\u27f5","\u27fc","\u22fb","\u2a00","\ud835\udd69","\u2a01","\u2a02","\u27f9","\u27f6","\ud835\udccd","\u2a06","\u2a04","\u25b3","\u22c1","\u22c0","\xfd","\xfd","\u044f","\u0177","\u044b","\xa5","\xa5","\ud835\udd36","\u0457","\ud835\udd6a","\ud835\udcce","\u044e","\xff","\xff","\u017a","\u017e","\u0437","\u017c","\u2128","\u03b6","\ud835\udd37","\u0436","\u21dd","\ud835\udd6b","\ud835\udccf","\u200d","\u200c"],t.o)
 B.aW1={NMS:0,NYQ:1,NGM:2,PCX:3,ASE:4}
@@ -192636,8 +192642,8 @@ B.bkU=new A.D("Beta-Weighted Risk",null,B.d0,null,null,null,null,null,null,null,
 B.aol=s([B.ip,B.F,B.bkU],t.p)
 B.b2Q=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.aol,null)
 B.bjW=new A.D("Beta measures how much a stock moves relative to the market (S&P 500 = 1.0).\n\nPortfolio Beta is the weighted average of all your stocks' Betas, weighted by their value in your portfolio.\n\nExample: Portfolio Beta 1.2 means if the S&P 500 drops 10%, your portfolio is expected to drop ~12%.\n\n\u26a0 Beta is backward-looking (3\u20135 year average) and uses the S&P 500 as benchmark. Stocks listed on non-US exchanges (e.g. Stockholm OMX) may show less meaningful Beta values since they move more with their local index.",null,B.dd,null,null,null,null,null,null,null,null,null)
-B.amB=s([B.b2Q,B.O,B.bjW],t.p)
-B.a77=new A.et(B.X,B.d,B.C,B.n,null,B.aA,null,0,B.amB,null)
+B.amA=s([B.b2Q,B.O,B.bjW],t.p)
+B.a77=new A.et(B.X,B.d,B.C,B.n,null,B.aA,null,0,B.amA,null)
 B.aYn=new A.B(B.dK,B.a77,null)
 B.aaH=new A.a3(4,0,0,0)
 B.afC=new A.aq(B.l7,22,B.j,null,null)
@@ -192649,8 +192655,8 @@ B.aYq=new A.B(B.bm,B.BR,null)
 B.bi7=new A.D("Weekly review & profile",null,B.bo,null,null,null,null,null,null,null,null,null)
 B.abg=new A.cv(1,B.aw,B.bi7,null)
 B.btC=new A.atA(null)
-B.ao8=s([B.abg,B.btC],t.p)
-B.b2S=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.ao8,null)
+B.ao7=s([B.abg,B.btC],t.p)
+B.b2S=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.ao7,null)
 B.aYr=new A.B(B.eK,B.b2S,null)
 B.aap=new A.a3(20,20,20,8)
 B.bmq=new A.D("Map transaction types",null,B.bo,null,null,null,null,null,null,null,null,null)
@@ -192665,8 +192671,8 @@ B.aeA=new A.aq(B.fP,15,B.j,null,null)
 B.aYu=new A.B(B.e2,B.aeA,null)
 B.b6g=new A.bI(14,14,B.j9,null)
 B.bfe=new A.D("Searching\u2026",null,B.P,null,null,null,null,null,null,null,null,null)
-B.anW=s([B.b6g,B.ai,B.bfe],t.p)
-B.b2z=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.anW,null)
+B.anV=s([B.b6g,B.ai,B.bfe],t.p)
+B.b2z=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.anV,null)
 B.aYv=new A.B(B.bm,B.b2z,null)
 B.bfn=new A.D("Add holdings to compare them against their sector colleagues.",null,B.ak,null,null,null,null,null,null,null,null,null)
 B.aYw=new A.B(B.FD,B.bfn,null)
@@ -192760,8 +192766,8 @@ B.b_d=new A.q4("report",B.b2U,null,t.wI)
 B.acL=new A.ao(58291,"MaterialIcons",!1)
 B.afp=new A.aq(B.acL,null,null,null,null)
 B.p7=new A.D("Sign Out",null,null,null,null,null,null,null,null,null,null,null)
-B.anx=s([B.afp,B.F,B.p7],t.p)
-B.b2s=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.anx,null)
+B.anw=s([B.afp,B.F,B.p7],t.p)
+B.b2s=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.anw,null)
 B.Vm=new A.q4("logout",B.b2s,null,t.wI)
 B.agp=new A.aq(B.l9,null,null,null,null)
 B.bic=new A.D("My Trader Profile",null,null,null,null,null,null,null,null,null,null,null)
@@ -192830,9 +192836,9 @@ B.VX=new A.bp(1,1)
 B.b_K=new A.bp(-1/0,-1/0)
 B.W_=new A.bp(1.5,1.5)
 B.b_L=new A.bp(1/0,1/0)
-B.anl=s([],A.aB("N<ou>"))
-B.anm=s([],A.aB("N<p5>"))
-B.eY=new A.TX(B.anl,B.anm)
+B.ank=s([],A.aB("N<ou>"))
+B.anl=s([],A.aB("N<p5>"))
+B.eY=new A.TX(B.ank,B.anl)
 B.b_M=new A.Dr(0,"sent")
 B.b_N=new A.Dr(1,"ok")
 B.b_O=new A.Dr(2,"error")
@@ -192898,8 +192904,8 @@ B.Cc=new A.hd('"',1,"DOUBLE_QUOTE")
 B.b1R=new A.af("",B.Cc)
 B.b1U=new A.af(0.1,"+10%")
 B.b1W=new A.fc(B.nK,B.m,"DIV")
-B.aoc=s(["money_vs_hit_rate"],t.s)
-B.b1Y=new A.fc("Reading","reading",B.aoc)
+B.aob=s(["money_vs_hit_rate"],t.s)
+B.b1Y=new A.fc("Reading","reading",B.aob)
 B.b2_=new A.fc(B.dO,B.p,"START")
 B.b21=new A.fc(B.Gz,B.o,"SELL")
 B.b23=new A.fc(B.nu,B.r,"BUY")
@@ -192950,8 +192956,8 @@ B.lZ=new A.JD(1,"doNotPop")
 B.Wq=new A.JD(2,"bubble")
 B.m_=new A.qe(null,null)
 B.bgb=new A.D("Value at Risk (VaR) \u2014 95% Confidence",null,B.d0,null,null,null,null,null,null,null,null,null)
-B.alx=s([B.ip,B.F,B.bgb],t.p)
-B.b2r=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.alx,null)
+B.alw=s([B.ip,B.F,B.bgb],t.p)
+B.b2r=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.alw,null)
 B.aeg=new A.aq(B.dM,13,B.p,null,null)
 B.h3=new A.bI(3,null,null,null)
 B.Z4=new A.H(!0,B.p,null,null,null,null,12,B.u,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -192986,8 +192992,8 @@ B.aeZ=new A.aq(B.rc,15,B.b5,null,null)
 B.b9A=new A.H(!0,B.b5,null,null,null,null,11,null,null,null,null,null,1.4,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bhH=new A.D("No currency set \u2014 transactions will default to USD. Set a fixed currency above if your broker uses a different currency.",null,B.b9A,null,null,null,null,null,null,null,null,null)
 B.abw=new A.cv(1,B.aw,B.bhH,null)
-B.ald=s([B.aeZ,B.F,B.abw],t.p)
-B.b2D=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.ald,null)
+B.alc=s([B.aeZ,B.F,B.abw],t.p)
+B.b2D=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.alc,null)
 B.afX=new A.aq(B.bQ,14,B.b5,null,null)
 B.bfs=new A.D("Enter the split ratio. E.g. for a 4:1 split enter 4. For a 1:4 reverse split enter 0.25. Your share count and average cost will adjust automatically.",null,B.mc,null,null,null,null,null,null,null,null,null)
 B.abb=new A.cv(1,B.aw,B.bfs,null)
@@ -193006,8 +193012,8 @@ B.aef=new A.aq(B.nH,16,B.m,null,null)
 B.be2=new A.H(!0,B.m,null,null,null,null,12,null,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.blU=new A.D("This is a read-only calculator \u2014 nothing is saved. Log the actual transaction using the + button to update your portfolio.",null,B.be2,null,null,null,null,null,null,null,null,null)
 B.ab5=new A.cv(1,B.aw,B.blU,null)
-B.alJ=s([B.aef,B.F,B.ab5],t.p)
-B.b2M=new A.dM(B.a5,B.d,B.f,B.n,null,B.aA,null,0,B.alJ,null)
+B.alI=s([B.aef,B.F,B.ab5],t.p)
+B.b2M=new A.dM(B.a5,B.d,B.f,B.n,null,B.aA,null,0,B.alI,null)
 B.a_E=new A.j3(B.z,t.ZU)
 B.a4P=new A.hq(2,null,null,null,null,null,B.a_E,null,null,null)
 B.XU=new A.bI(20,20,B.a4P,null)
@@ -193023,11 +193029,11 @@ B.aiK=s([B.ag8,B.F,B.aba],t.p)
 B.b2O=new A.dM(B.a5,B.d,B.f,B.n,null,B.aA,null,0,B.aiK,null)
 B.aeL=new A.aq(B.r8,12,B.j,null,null)
 B.bhJ=new A.D("On Board",null,B.a1,null,null,null,null,null,null,null,null,null)
-B.alr=s([B.a_,B.aeL,B.ah,B.bhJ],t.p)
-B.b2P=new A.dM(B.a5,B.d,B.C,B.h,null,B.aA,null,0,B.alr,null)
+B.alq=s([B.a_,B.aeL,B.ah,B.bhJ],t.p)
+B.b2P=new A.dM(B.a5,B.d,B.C,B.h,null,B.aA,null,0,B.alq,null)
 B.bgn=new A.D("Report Post",null,B.dC,null,null,null,null,null,null,null,null,null)
-B.alp=s([B.y6,B.F,B.bgn],t.p)
-B.b2R=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.alp,null)
+B.alo=s([B.y6,B.F,B.bgn],t.p)
+B.b2R=new A.dM(B.a5,B.d,B.f,B.h,null,B.aA,null,0,B.alo,null)
 B.bl6=new A.D("Premium members with 3+ qualifying predictions can vote",null,B.P,null,null,null,null,null,null,null,null,null)
 B.abT=new A.e7(1,B.bi,B.bl6,null)
 B.ajV=s([B.y0,B.F,B.abT],t.p)
@@ -193069,8 +193075,8 @@ B.b3o=new A.DN(1,"watching")
 B.b3p=new A.DN(2,"paper")
 B.b3q=new A.DN(3,"sold")
 B.b3r=new A.yv(0,0,0,0)
-B.ann=s([],t.mt)
-B.b3s=new A.afD(B.ann,0)
+B.anm=s([],t.mt)
+B.b3s=new A.afD(B.anm,0)
 B.Wu=new A.DO(null)
 B.Ww=new A.b2h(0,"englishLike")
 B.k1=new A.V3(0,"idle")
@@ -193359,9 +193365,9 @@ B.Xd=new A.eg([B.a4],t.El)
 B.da=new A.vu(B.M,B.B,0)
 B.a6t=new A.W(0.23529411764705882,0,0,0,B.t)
 B.a2d=new A.co(0.5,B.aE,B.a6t,B.ou,10)
-B.amK=s([B.a2d],t.G)
+B.amJ=s([B.a2d],t.G)
 B.b2q=new A.t0(B.vo,B.D)
-B.b4J=new A.jZ(null,null,null,B.amK,B.b2q)
+B.b4J=new A.jZ(null,null,null,B.amJ,B.b2q)
 B.b4K=new A.Ea(null)
 B.b4L=new A.VD(0,"success")
 B.Xe=new A.VD(1,"dismissed")
@@ -194841,8 +194847,8 @@ B.boY=new A.l8('The "You" row uses the "Total return (money-weighted)" lens.\n\n
 B.boZ=new A.l8('This card uses the "Return on cost" lens.\n\nReturn on cost = your profit \xf7 the cost of what you currently hold. It answers: "how far up are my holdings right now?"\n\nThat is why it can differ from the "Total return" shown in the "Do I Beat the Market?" card. Both are correct \u2014 they just divide by different things:\n\n\u2022 Return on cost (here) \u2192 divides by the cost of your current holdings.\n\u2022 Total return (money-weighted) \u2192 divides by every dollar you ever invested, and adds back the cash from sells and dividends.\n\nIRR is the same profit expressed as an annual rate, adjusted for when you invested.',null)
 B.cF=new A.Ln(0,"forward")
 B.uB=new A.Ln(1,"reverse")
-B.ano=s([],t.t5)
-B.ZZ=new A.Y2(0,0,B.ano,0,0,!0,!1)
+B.ann=s([],t.t5)
+B.ZZ=new A.Y2(0,0,B.ann,0,0,!0,!1)
 B.ko=new A.zd(0,"trades")
 B.mp=new A.zd(1,"predictions")
 B.mq=new A.zd(2,"portfolios")
@@ -195263,7 +195269,7 @@ return q})
 r($,"cOt","cmn",()=>A.i8().ganT()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
 r($,"cNn","c7X",()=>A.cAj(A.NO(A.NO(A.pq(),"window"),"FinalizationRegistry"),A.jh(new A.bXD())))
 r($,"cPR","c8l",()=>new A.aUH())
-s($,"cND","clK",()=>A.ctn(B.alD))
+s($,"cND","clK",()=>A.ctn(B.alC))
 s($,"cNC","c1M",()=>A.aQz(A.coW($.clK())))
 s($,"cN4","clq",()=>A.cdq(A.ar(A.br(),"ParagraphBuilder")))
 s($,"cQ_","cn9",()=>{var q=t.N,p=A.aB("+breaks,graphemes,words(KX,KX,KX)"),o=A.c3I(1e5,q,p),n=A.c3I(1e4,q,p)
@@ -195694,7 +195700,7 @@ s($,"cQ9","cnd",()=>A.aC("(?:"+$.cma().a+")*",!0,!1,!1,!1))
 s($,"cJq","c7r",()=>new A.a4())
 r($,"cPA","c8h",()=>new A.aNJ(B.c.gbs("")?".":""))
 s($,"cL6","ck9",()=>new A.b1m())
-s($,"cPt","cmZ",()=>new A.a7X("en_US",B.akg,B.app,B.Id,B.Id,B.lf,B.lf,B.bF,B.bF,B.HO,B.HO,B.HS,B.HS,B.yz,B.yz,B.alz,B.aoV,B.ak5))
+s($,"cPt","cmZ",()=>new A.a7X("en_US",B.akg,B.app,B.Ic,B.Ic,B.lf,B.lf,B.bF,B.bF,B.HO,B.HO,B.HR,B.HR,B.yz,B.yz,B.aly,B.aoV,B.ak5))
 r($,"cPU","c8m",()=>{var q=",",p="\xa0",o="%",n="0",m="+",l="-",k="E",j="\u2030",i="\u221e",h="NaN",g="#,##0.###",f="#E0",e="#,##0%",d="\xa4#,##0.00",c=".",b="\u200e+",a="\u200e-",a0="\u0644\u064a\u0633\xa0\u0631\u0642\u0645\u064b\u0627",a1="\u200f#,##0.00\xa0\xa4;\u200f-#,##0.00\xa0\xa4",a2="#,##,##0.###",a3="#,##,##0%",a4="\xa4\xa0#,##,##0.00",a5="INR",a6="#,##0.00\xa0\xa4",a7="#,##0\xa0%",a8="EUR",a9="USD",b0="\xa4\xa0#,##0.00",b1="\xa4\xa0#,##0.00;\xa4-#,##0.00",b2="CHF",b3="\xa4#,##,##0.00",b4="\u2212",b5="\xd710^",b6="[#E0]",b7="\u200f#,##0.00\xa0\u200f\xa4;\u200f-#,##0.00\xa0\u200f\xa4",b8="#,##0.00\xa0\xa4;-#,##0.00\xa0\xa4"
 return A.V(["af",A.bg(d,g,q,"ZAR",k,p,i,l,"af",h,o,e,j,m,f,n),"am",A.bg(d,g,c,"ETB",k,q,i,l,"am",h,o,e,j,m,f,n),"ar",A.bg(a1,g,c,"EGP",k,q,i,a,"ar",a0,"\u200e%\u200e",e,j,b,f,n),"ar_DZ",A.bg(a1,g,q,"DZD",k,c,i,a,"ar_DZ",a0,"\u200e%\u200e",e,j,b,f,n),"ar_EG",A.bg("\u200f#,##0.00\xa0\xa4",g,"\u066b","EGP","\u0623\u0633","\u066c",i,"\u061c-","ar_EG","\u0644\u064a\u0633\xa0\u0631\u0642\u0645","\u066a\u061c",e,"\u0609","\u061c+",f,"\u0660"),"as",A.bg(a4,a2,c,a5,k,q,i,l,"as",h,o,a3,j,m,f,"\u09e6"),"az",A.bg(a6,g,q,"AZN",k,c,i,l,"az",h,o,e,j,m,f,n),"be",A.bg(a6,g,q,"BYN",k,p,i,l,"be",h,o,a7,j,m,f,n),"bg",A.bg(a6,g,q,"BGN",k,p,i,l,"bg",h,o,e,j,m,f,n),"bm",A.bg(d,g,c,"XOF",k,q,i,l,"bm",h,o,e,j,m,f,n),"bn",A.bg("#,##,##0.00\xa4",a2,c,"BDT",k,q,i,l,"bn",h,o,e,j,m,f,"\u09e6"),"br",A.bg(a6,g,q,a8,k,p,i,l,"br",h,o,a7,j,m,f,n),"bs",A.bg(a6,g,q,"BAM",k,c,i,l,"bs",h,o,e,j,m,f,n),"ca",A.bg(a6,g,q,a8,k,c,i,l,"ca",h,o,a7,j,m,f,n),"chr",A.bg(d,g,c,a9,k,q,i,l,"chr",h,o,e,j,m,f,n),"cs",A.bg(a6,g,q,"CZK",k,p,i,l,"cs",h,o,a7,j,m,f,n),"cy",A.bg(d,g,c,"GBP",k,q,i,l,"cy",h,o,e,j,m,f,n),"da",A.bg(a6,g,q,"DKK",k,c,i,l,"da",h,o,a7,j,m,f,n),"de",A.bg(a6,g,q,a8,k,c,i,l,"de",h,o,a7,j,m,f,n),"de_AT",A.bg(b0,g,q,a8,k,p,i,l,"de_AT",h,o,a7,j,m,f,n),"de_CH",A.bg(b1,g,c,b2,k,"\u2019",i,l,"de_CH",h,o,e,j,m,f,n),"el",A.bg(a6,g,q,a8,"e",c,i,l,"el",h,o,e,j,m,f,n),"en",A.bg(d,g,c,a9,k,q,i,l,"en",h,o,e,j,m,f,n),"en_AU",A.bg(d,g,c,"AUD","e",q,i,l,"en_AU",h,o,e,j,m,f,n),"en_CA",A.bg(d,g,c,"CAD",k,q,i,l,"en_CA",h,o,e,j,m,f,n),"en_GB",A.bg(d,g,c,"GBP",k,q,i,l,"en_GB",h,o,e,j,m,f,n),"en_IE",A.bg(d,g,c,a8,k,q,i,l,"en_IE",h,o,e,j,m,f,n),"en_IN",A.bg(b3,a2,c,a5,k,q,i,l,"en_IN",h,o,a3,j,m,f,n),"en_MY",A.bg(d,g,c,"MYR",k,q,i,l,"en_MY",h,o,e,j,m,f,n),"en_NZ",A.bg(d,g,c,"NZD",k,q,i,l,"en_NZ",h,o,e,j,m,f,n),"en_SG",A.bg(d,g,c,"SGD",k,q,i,l,"en_SG",h,o,e,j,m,f,n),"en_US",A.bg(d,g,c,a9,k,q,i,l,"en_US",h,o,e,j,m,f,n),"en_ZA",A.bg(d,g,c,"ZAR",k,q,i,l,"en_ZA",h,o,e,j,m,f,n),"es",A.bg(a6,g,q,a8,k,c,i,l,"es",h,o,a7,j,m,f,n),"es_419",A.bg(d,g,c,"MXN",k,q,i,l,"es_419",h,o,e,j,m,f,n),"es_ES",A.bg(a6,g,q,a8,k,c,i,l,"es_ES",h,o,a7,j,m,f,n),"es_MX",A.bg(d,g,c,"MXN",k,q,i,l,"es_MX",h,o,e,j,m,f,n),"es_US",A.bg(d,g,c,a9,k,q,i,l,"es_US",h,o,e,j,m,f,n),"et",A.bg(a6,g,q,a8,b5,p,i,b4,"et",h,o,e,j,m,f,n),"eu",A.bg(a6,g,q,a8,k,c,i,b4,"eu",h,o,"%\xa0#,##0",j,m,f,n),"fa",A.bg("\u200e\xa4#,##0.00",g,"\u066b","IRR","\xd7\u06f1\u06f0^","\u066c",i,"\u200e\u2212","fa","\u0646\u0627\u0639\u062f\u062f","\u066a",e,"\u0609",b,f,"\u06f0"),"fi",A.bg(a6,g,q,a8,k,p,i,b4,"fi","ep\xe4luku",o,a7,j,m,f,n),"fil",A.bg(d,g,c,"PHP",k,q,i,l,"fil",h,o,e,j,m,f,n),"fr",A.bg(a6,g,q,a8,k,"\u202f",i,l,"fr",h,o,a7,j,m,f,n),"fr_CA",A.bg(a6,g,q,"CAD",k,p,i,l,"fr_CA",h,o,a7,j,m,f,n),"fr_CH",A.bg(a6,g,q,b2,k,"\u202f",i,l,"fr_CH",h,o,e,j,m,f,n),"fur",A.bg(b0,g,q,a8,k,c,i,l,"fur",h,o,e,j,m,f,n),"ga",A.bg(d,g,c,a8,k,q,i,l,"ga","Nuimh",o,e,j,m,f,n),"gl",A.bg(a6,g,q,a8,k,c,i,l,"gl",h,o,a7,j,m,f,n),"gsw",A.bg(a6,g,c,b2,k,"\u2019",i,b4,"gsw",h,o,a7,j,m,f,n),"gu",A.bg(b3,a2,c,a5,k,q,i,l,"gu",h,o,a3,j,m,b6,n),"haw",A.bg(d,g,c,a9,k,q,i,l,"haw",h,o,e,j,m,f,n),"he",A.bg(b7,g,c,"ILS",k,q,i,a,"he",h,o,e,j,b,f,n),"hi",A.bg(b3,a2,c,a5,k,q,i,l,"hi",h,o,a3,j,m,b6,n),"hr",A.bg(a6,g,q,a8,k,c,i,b4,"hr",h,o,a7,j,m,f,n),"hu",A.bg(a6,g,q,"HUF",k,p,i,l,"hu",h,o,e,j,m,f,n),"hy",A.bg(a6,g,q,"AMD",k,p,i,l,"hy","\u0548\u0579\u0539",o,e,j,m,f,n),"id",A.bg(d,g,q,"IDR",k,c,i,l,"id",h,o,e,j,m,f,n),"in",A.bg(d,g,q,"IDR",k,c,i,l,"in",h,o,e,j,m,f,n),"is",A.bg(a6,g,q,"ISK",k,c,i,l,"is",h,o,e,j,m,f,n),"it",A.bg(a6,g,q,a8,k,c,i,l,"it",h,o,e,j,m,f,n),"it_CH",A.bg(b1,g,c,b2,k,"\u2019",i,l,"it_CH",h,o,e,j,m,f,n),"iw",A.bg(b7,g,c,"ILS",k,q,i,a,"iw",h,o,e,j,b,f,n),"ja",A.bg(d,g,c,"JPY",k,q,i,l,"ja",h,o,e,j,m,f,n),"ka",A.bg(a6,g,q,"GEL",k,p,i,l,"ka","\u10d0\u10e0\xa0\u10d0\u10e0\u10d8\u10e1\xa0\u10e0\u10d8\u10ea\u10ee\u10d5\u10d8",o,e,j,m,f,n),"kk",A.bg(a6,g,q,"KZT",k,p,i,l,"kk","\u0441\u0430\u043d\xa0\u0435\u043c\u0435\u0441",o,e,j,m,f,n),"km",A.bg("#,##0.00\xa4",g,c,"KHR",k,q,i,l,"km",h,o,e,j,m,f,n),"kn",A.bg(d,g,c,a5,k,q,i,l,"kn",h,o,e,j,m,f,n),"ko",A.bg(d,g,c,"KRW",k,q,i,l,"ko",h,o,e,j,m,f,n),"ky",A.bg(a6,g,q,"KGS",k,p,i,l,"ky","\u0441\u0430\u043d\xa0\u044d\u043c\u0435\u0441",o,e,j,m,f,n),"ln",A.bg(a6,g,q,"CDF",k,c,i,l,"ln",h,o,e,j,m,f,n),"lo",A.bg("\xa4#,##0.00;\xa4-#,##0.00",g,q,"LAK",k,c,i,l,"lo","\u0e9a\u0ecd\u0ec8\u200b\u0ec1\u0ea1\u0ec8\u0e99\u200b\u0ec2\u0e95\u200b\u0ec0\u0ea5\u0e81",o,e,j,m,"#",n),"lt",A.bg(a6,g,q,a8,b5,p,i,b4,"lt",h,o,a7,j,m,f,n),"lv",A.bg(a6,g,q,a8,k,p,i,l,"lv","NS",o,e,j,m,f,n),"mg",A.bg(d,g,c,"MGA",k,q,i,l,"mg",h,o,e,j,m,f,n),"mk",A.bg(a6,g,q,"MKD",k,c,i,l,"mk",h,o,a7,j,m,f,n),"ml",A.bg(d,a2,c,a5,k,q,i,l,"ml",h,o,e,j,m,f,n),"mn",A.bg(b0,g,c,"MNT",k,q,i,l,"mn",h,o,e,j,m,f,n),"mr",A.bg(d,a2,c,a5,k,q,i,l,"mr",h,o,e,j,m,b6,"\u0966"),"ms",A.bg(d,g,c,"MYR",k,q,i,l,"ms",h,o,e,j,m,f,n),"mt",A.bg(d,g,c,a8,k,q,i,l,"mt",h,o,e,j,m,f,n),"my",A.bg(a6,g,c,"MMK",k,q,i,l,"my","\u1002\u100f\u1014\u103a\u1038\u1019\u101f\u102f\u1010\u103a\u101e\u1031\u102c",o,e,j,m,f,"\u1040"),"nb",A.bg(b8,g,q,"NOK",k,p,i,b4,"nb",h,o,a7,j,m,f,n),"ne",A.bg(a4,a2,c,"NPR",k,q,i,l,"ne",h,o,a3,j,m,f,"\u0966"),"nl",A.bg("\xa4\xa0#,##0.00;\xa4\xa0-#,##0.00",g,q,a8,k,c,i,l,"nl",h,o,e,j,m,f,n),"no",A.bg(b8,g,q,"NOK",k,p,i,b4,"no",h,o,a7,j,m,f,n),"no_NO",A.bg(b8,g,q,"NOK",k,p,i,b4,"no_NO",h,o,a7,j,m,f,n),"nyn",A.bg(d,g,c,"UGX",k,q,i,l,"nyn",h,o,e,j,m,f,n),"or",A.bg(d,a2,c,a5,k,q,i,l,"or",h,o,e,j,m,f,n),"pa",A.bg(b3,a2,c,a5,k,q,i,l,"pa",h,o,a3,j,m,b6,n),"pl",A.bg(a6,g,q,"PLN",k,p,i,l,"pl",h,o,e,j,m,f,n),"ps",A.bg("\xa4#,##0.00;(\xa4#,##0.00)",g,"\u066b","AFN","\xd7\u06f1\u06f0^","\u066c",i,"\u200e-\u200e","ps",h,"\u066a",e,"\u0609","\u200e+\u200e",f,"\u06f0"),"pt",A.bg(b0,g,q,"BRL",k,c,i,l,"pt",h,o,e,j,m,f,n),"pt_BR",A.bg(b0,g,q,"BRL",k,c,i,l,"pt_BR",h,o,e,j,m,f,n),"pt_PT",A.bg(a6,g,q,a8,k,p,i,l,"pt_PT",h,o,e,j,m,f,n),"ro",A.bg(a6,g,q,"RON",k,c,i,l,"ro",h,o,a7,j,m,f,n),"ru",A.bg(a6,g,q,"RUB",k,p,i,l,"ru","\u043d\u0435\xa0\u0447\u0438\u0441\u043b\u043e",o,a7,j,m,f,n),"si",A.bg(d,g,c,"LKR",k,q,i,l,"si",h,o,e,j,m,"#",n),"sk",A.bg(a6,g,q,a8,"e",p,i,l,"sk",h,o,a7,j,m,f,n),"sl",A.bg(a6,g,q,a8,"e",c,i,b4,"sl",h,o,a7,j,m,f,n),"sq",A.bg(a6,g,q,"ALL",k,p,i,l,"sq",h,o,e,j,m,f,n),"sr",A.bg(a6,g,q,"RSD",k,c,i,l,"sr",h,o,e,j,m,f,n),"sr_Latn",A.bg(a6,g,q,"RSD",k,c,i,l,"sr_Latn",h,o,e,j,m,f,n),"sv",A.bg(a6,g,q,"SEK",b5,p,i,b4,"sv",h,o,a7,j,m,f,n),"sw",A.bg(b0,g,c,"TZS",k,q,i,l,"sw",h,o,e,j,m,f,n),"ta",A.bg(b3,a2,c,a5,k,q,i,l,"ta",h,o,a3,j,m,f,n),"te",A.bg(b3,a2,c,a5,k,q,i,l,"te",h,o,e,j,m,f,n),"th",A.bg(d,g,c,"THB",k,q,i,l,"th",h,o,e,j,m,f,n),"tl",A.bg(d,g,c,"PHP",k,q,i,l,"tl",h,o,e,j,m,f,n),"tr",A.bg(d,g,q,"TRY",k,c,i,l,"tr",h,o,"%#,##0",j,m,f,n),"uk",A.bg(a6,g,q,"UAH","\u0415",p,i,l,"uk",h,o,e,j,m,f,n),"ur",A.bg(d,g,c,"PKR",k,q,i,a,"ur",h,o,e,j,b,f,n),"uz",A.bg(a6,g,q,"UZS",k,p,i,l,"uz","son\xa0emas",o,e,j,m,f,n),"vi",A.bg(a6,g,q,"VND",k,c,i,l,"vi",h,o,e,j,m,f,n),"zh",A.bg(d,g,c,"CNY",k,q,i,l,"zh",h,o,e,j,m,f,n),"zh_CN",A.bg(d,g,c,"CNY",k,q,i,l,"zh_CN",h,o,e,j,m,f,n),"zh_HK",A.bg(d,g,c,"HKD",k,q,i,l,"zh_HK","\u975e\u6578\u503c",o,e,j,m,f,n),"zh_TW",A.bg(d,g,c,"TWD",k,q,i,l,"zh_TW","\u975e\u6578\u503c",o,e,j,m,f,n),"zu",A.bg(d,g,c,"ZAR",k,q,i,l,"zu",h,o,e,j,m,f,n)],t.N,t.zr)})
 r($,"cN9","c1J",()=>A.cep("initializeDateFormatting(<locale>)",$.cmZ(),A.aB("a7X")))
