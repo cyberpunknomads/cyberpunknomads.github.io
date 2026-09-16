@@ -161414,7 +161414,7 @@ if(B.c.m(f3,".")){l=A.a(f3.split("."),c2)
 k=J.I(l,0)
 j=J.I(l,1)
 c2=t.N
-i=A.W(["ST","STO","L","LON","PA","EPA","DE","FRA","F","FRA","AS","AMS","BR","EBR","LS","ELI","MI","BIT","MC","BME","SW","SWX","VX","SWX","CO","CPH","OL","OSL","HE","HEL","IC","ICE","VI","VIE","PR","PRA","WA","WSE","AT","ATH","IS","IST","TO","TRT","V","CVE","SA","BVMF","MX","MEX","BA","BCBA","SN","SNT","HK","HKG","SS","SHA","SZ","SHE","T","TYO","KS","KRX","KQ","KOSDAQ","TW","TPE","SI","SGX","AX","ASX","NZ","NZE","BK","SET","JK","IDX","KL","KLSE","BO","BOM","NS","NSE","TA","TLV","SR","SAU","CA","CASE","JO","JSE"],c2,c2)
+i=A.W(["ST","STO","L","LON","PA","EPA","DE","FRA","F","FRA","AS","AMS","BR","EBR","LS","ELI","MI","BIT","MC","BME","SW","SWX","VX","SWX","CO","CPH","OL","OSL","HE","HEL","IC","ICE","VI","VIE","PR","PRA","WA","WSE","AT","ATH","IS","IST","TO","TSE","V","CVE","SA","BVMF","MX","BMV","BA","BCBA","SN","SNT","HK","HKG","SS","SHA","SZ","SHE","T","TYO","KS","KRX","KQ","KOSDAQ","TW","TPE","SI","SGX","AX","ASX","NZ","NZE","BK","BKK","JK","IDX","KL","KLSE","BO","BOM","NS","NSE","TA","TLV","SR","TADAWUL","CA","CASE","JO","JSE"],c2,c2)
 h=J.I(i,j)
 if(h!=null)J.dh(m,A.t(k)+":"+h)
 J.dh(m,f3)}else for(c2=["NASDAQ","NYSE","NYSEAMERICAN","BATS"],c3=f3+":",c4=0;c4<4;++c4){g=c2[c4]
