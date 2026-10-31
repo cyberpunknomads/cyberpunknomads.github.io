@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music | CyberPunkNomads</title>
+    <meta name="description" content="Music by Archér: every release, one click from streaming.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: black;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            position: relative;
+            padding: 70px 20px 40px;
+        }
+
+        .binary-counter {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 1.2rem;
+            color: #00ff00;
+            text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+        }
+
+        .page {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        .back {
+            display: inline-block;
+            color: #00ff00;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 8px 14px;
+            border: 1px solid #00ff00;
+            border-radius: 5px;
+            transition: 0.3s;
+            letter-spacing: 1px;
+            margin-bottom: 70px;
+        }
+
+        .back:hover,
+        .back:focus-visible {
+            color: #33ff33;
+            background-color: rgba(0, 255, 0, 0.2);
+            box-shadow: 0 0 10px #00ff00;
+            outline: none;
+        }
+
+        .container {
+            max-width: 640px;
+            margin: 0 auto 40px;
+            border: 2px solid #00ff00;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 10px #00ff00;
+            position: relative;
+        }
+
+        .gizmo {
+            position: absolute;
+            top: -58px;
+            left: 10px;
+            width: 60px;
+            height: 60px;
+            background-image: url('/images/Gizmo.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
+            animation: neonGlow 1.5s ease-in-out infinite alternate;
+        }
+
+        .container p {
+            font-size: 1rem;
+            margin-top: 10px;
+            text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+        }
+
+        .tracks {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 20px;
+        }
+
+        .track {
+            display: block;
+            height: 100%;
+            color: #00ff00;
+            text-decoration: none;
+            border: 1px solid #00ff00;
+            border-radius: 5px;
+            background: rgba(0, 0, 0, 0.8);
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        .track:hover,
+        .track:focus-visible {
+            color: #33ff33;
+            background-color: rgba(0, 255, 0, 0.2);
+            box-shadow: 0 0 10px #00ff00;
+            transform: scale(1.05);
+            outline: none;
+        }
+
+        /* The cover is shown whole; a blurred copy of it fills the rest of the square */
+        .cover {
+            position: relative;
+            aspect-ratio: 1 / 1;
+            overflow: hidden;
+            border-bottom: 1px solid #00ff00;
+        }
+
+        .cover::before {
+            content: '';
+            position: absolute;
+            inset: -20px;
+            background: var(--art) center / cover;
+            filter: blur(14px) brightness(0.35);
+        }
+
+        .cover img {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            filter: saturate(0.75) brightness(0.85);
+            transition: 0.3s;
+        }
+
+        /* CRT scanlines that clear when a track is picked */
+        .cover::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: repeating-linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0 1px, transparent 1px 3px);
+            pointer-events: none;
+            transition: 0.3s;
+        }
+
+        .track:hover .cover img,
+        .track:focus-visible .cover img {
+            filter: none;
+        }
+
+        .track:hover .cover::after,
+        .track:focus-visible .cover::after {
+            opacity: 0;
+        }
+
+        .title {
+            display: block;
+            padding: 10px 8px 2px;
+            font-size: 1rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-shadow: 0 0 5px #00ff00;
+        }
+
+        .date {
+            display: block;
+            padding: 0 8px 10px;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            opacity: 0.75;
+        }
+
+        @keyframes neonGlow {
+            0% {
+                text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
+            }
+            100% {
+                text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            h1 {
+                animation: none;
+            }
+
+            .track,
+            .back {
+                transition: none;
+            }
+
+            .track:hover,
+            .track:focus-visible {
+                transform: none;
+            }
+        }
+
+        /* Media Queries for Smaller Screens */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .binary-counter {
+                font-size: 1rem;
+            }
+
+            .gizmo {
+                width: 50px;
+                height: 50px;
+                top: -48px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 60px 16px 30px;
+            }
+
+            .container {
+                padding: 15px 10px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .container p {
+                font-size: 0.9rem;
+            }
+
+            .tracks {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+
+            .title {
+                font-size: 0.85rem;
+            }
+
+            .date {
+                font-size: 0.7rem;
+            }
+
+            .binary-counter {
+                font-size: 0.9rem;
+            }
+
+            .gizmo {
+                width: 40px;
+                height: 40px;
+                top: -38px;
+            }
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const binaryCounter = document.getElementById("binary-counter");
+            const text = "CyberPunkNomads Was Here!";
+            const binaryArray = text.split('').map(char => char.charCodeAt(0).toString(2).padStart(8, '0'));
+            let index = 0;
+
+            function updateBinaryCounter() {
+                binaryCounter.textContent = binaryArray[index];
+                index = (index + 1) % binaryArray.length;
+                setTimeout(updateBinaryCounter, 1000);
+            }
+
+            updateBinaryCounter();
+        });
+    </script>
+</head>
+<body>
+    <div class="binary-counter" id="binary-counter"></div>
+    <main class="page">
+        <a class="back" href="/">&lt; back</a>
+
+        <header class="container">
+            <div class="gizmo"></div>
+            <h1>Music</h1>
+            <p>Archér &middot; 18 releases</p>
+        </header>
+
+        <!-- Newest first. To add a release: copy one <li>, change the link, cover, title and date, and save its cover in /music/covers/ -->
+        <ul class="tracks">
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/interstellar" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/interstellar.jpg')"><img src="/music/covers/interstellar.jpg" alt="Interstellar cover art" loading="lazy"></div>
+                    <span class="title">Interstellar</span>
+                    <span class="date">May 2023</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/groundhog-day" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/groundhog-day.jpg')"><img src="/music/covers/groundhog-day.jpg" alt="Groundhog Day cover art" loading="lazy"></div>
+                    <span class="title">Groundhog Day</span>
+                    <span class="date">Dec 2022</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/dust-in-the-wind" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/dust-in-the-wind.jpg')"><img src="/music/covers/dust-in-the-wind.jpg" alt="Dust in the Wind cover art" loading="lazy"></div>
+                    <span class="title">Dust in the Wind</span>
+                    <span class="date">Apr 2022</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/the-one" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/the-one.jpg')"><img src="/music/covers/the-one.jpg" alt="The One cover art" loading="lazy"></div>
+                    <span class="title">The One</span>
+                    <span class="date">Aug 2021</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/tenebrous" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/tenebrous.jpg')"><img src="/music/covers/tenebrous.jpg" alt="Tenebrous cover art" loading="lazy"></div>
+                    <span class="title">Tenebrous</span>
+                    <span class="date">Mar 2021</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/carnival" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/carnival.jpg')"><img src="/music/covers/carnival.jpg" alt="Carnival cover art" loading="lazy"></div>
+                    <span class="title">Carnival</span>
+                    <span class="date">Feb 2021</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/the-homecoming" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/the-homecoming.jpg')"><img src="/music/covers/the-homecoming.jpg" alt="The Homecoming cover art" loading="lazy"></div>
+                    <span class="title">The Homecoming</span>
+                    <span class="date">Nov 2020</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/the-warriors-code" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/the-warriors-code.jpg')"><img src="/music/covers/the-warriors-code.jpg" alt="The Warrior's Code cover art" loading="lazy"></div>
+                    <span class="title">The Warrior's Code</span>
+                    <span class="date">Sep 2020</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/one-man-party" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/one-man-party.jpg')"><img src="/music/covers/one-man-party.jpg" alt="One Man Party cover art" loading="lazy"></div>
+                    <span class="title">One Man Party</span>
+                    <span class="date">Jul 2020</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/dragon" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/dragon.jpg')"><img src="/music/covers/dragon.jpg" alt="Dragon cover art" loading="lazy"></div>
+                    <span class="title">Dragon</span>
+                    <span class="date">Jun 2020</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/peaceof" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/peaceof.jpg')"><img src="/music/covers/peaceof.jpg" alt="PeaceOf cover art" loading="lazy"></div>
+                    <span class="title">PeaceOf</span>
+                    <span class="date">May 2020</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/banjo" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/banjo.jpg')"><img src="/music/covers/banjo.jpg" alt="Banjo cover art" loading="lazy"></div>
+                    <span class="title">Banjo</span>
+                    <span class="date">Mar 2020</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/never-let-me-go" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/never-let-me-go.jpg')"><img src="/music/covers/never-let-me-go.jpg" alt="Never Let Me Go cover art" loading="lazy"></div>
+                    <span class="title">Never Let Me Go</span>
+                    <span class="date">Mar 2020</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/heavy" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/heavy.jpg')"><img src="/music/covers/heavy.jpg" alt="Heavy cover art" loading="lazy"></div>
+                    <span class="title">Heavy</span>
+                    <span class="date">Jan 2020</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/serenata" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/serenata.jpg')"><img src="/music/covers/serenata.jpg" alt="Serenata cover art" loading="lazy"></div>
+                    <span class="title">Serenata</span>
+                    <span class="date">Dec 2019</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/1980" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/1980.jpg')"><img src="/music/covers/1980.jpg" alt="1980 cover art" loading="lazy"></div>
+                    <span class="title">1980</span>
+                    <span class="date">Jul 2019</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/hello" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/hello.jpg')"><img src="/music/covers/hello.jpg" alt="Hello cover art" loading="lazy"></div>
+                    <span class="title">Hello</span>
+                    <span class="date">Jun 2019</span>
+                </a>
+            </li>
+            <li>
+                <a class="track" href="https://distrokid.com/hyperfollow/archr1/splice-it-2" target="_blank" rel="noopener">
+                    <div class="cover" style="--art: url('/music/covers/splice-it-2.jpg')"><img src="/music/covers/splice-it-2.jpg" alt="Splice It cover art" loading="lazy"></div>
+                    <span class="title">Splice It</span>
+                    <span class="date">May 2019</span>
+                </a>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
